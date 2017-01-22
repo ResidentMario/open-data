@@ -1,0 +1,3 @@
+auth/*
+notebooks/.ipynb_checkpoints
+.idea/

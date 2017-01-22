@@ -1,0 +1,12 @@
+name: urban-data-concordance
+dependencies:
+  - python=3.5
+  - numpy
+  - pandas
+  - jupyter
+  - requests
+  - matplotlib
+  - seaborn
+  - pip:
+    - sodapy
+    - pysocrata
