@@ -1,0 +1,1041 @@
+[
+  {
+    "endpoint": "79me-a7rs",
+    "resources": ["https://www.nycgovparks.org/bigapps/DPR_Parks_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Parks_001.txt"]
+  },
+  {
+    "endpoint": "fx7a-24mf",
+    "resources": ["https://www.nycgovparks.org/bigapps/DPR_Pools_outdoor_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Pools_outdoor_001.txt"]
+  },
+  {
+    "endpoint": "psde-rqze",
+    "resources": ["*|http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip"],
+    "external data dictionary": ["^|http://www.nyc.gov/html/dot/downloads/pdf/street-potholes-metadata.pdf"]
+  },
+  {
+    "endpoint": "dte3-kvx7",
+    "resources": ["*|http://www.nyc.gov/html/dot/downloads/misc/adopt-a-highway-datafeeds.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "9p9k-tusd",
+    "resources": ["http://www.nyc.gov/html/dot/downloads/excel/segallboro.xls"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "hfa3-euj3",
+    "resources": ["http://www.nyc.gov/html/dot/downloads/excel/intallboro.xls"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "pnij-y7y6",
+    "resources": ["http://www.nyc.gov/html/dot/downloads/excel/seg_active.xls"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "yupw-u2ax",
+    "resources": ["http://www.nyc.gov/html/dot/downloads/excel/int_active.xls"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "9dux-uz3w",
+    "resources": ["*|http://www.nyc.gov/html/dot/downloads/misc/bridge-ratings-datafeeds.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "d9fg-z42k",
+    "resources": [
+      "*|http://www.nyc.gov/html/dot/downloads/misc/bikes-midtown-datafeeds.zip",
+      "*|http://www.nyc.gov/html/dot/downloads/misc/bikes-east-river-bridges-datafeeds.zip"
+    ],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "c5dk-m6ea",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "qk6i-zcht",
+    "resources": [
+      "*|http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip"
+    ],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "tnru-abg2",
+    "resources": ["*%|http://maps.nyc.gov/download/3dmodel/DA_WISE_Multipatch.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "ware-id4f",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_taxicab_metershops.xls"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "v7f4-yzyg",
+    "resources": [
+      "g|http://www.nyc.gov/html/dot/downloads/misc/injury_yearly.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/injury_all_monthly.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/fatality_yearly.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/fatality_all_monthly.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/arterial_slow_zones.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/leading_pedestrian_interval_signals.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/left_turn_traffic_calming.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/neighborhood_slow_zones.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/safe_streets_for_seniors.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/speed_humps.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/street_improvement_projects_intersections.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/street_improvement_projects_corridors.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/vz_priority_corridors.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/vz_priority_intersections.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/vz_priority_zones.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/signal_timing.json",
+      "*|http://www.nyc.gov/html/dot/downloads/misc/speed_limit_shapefile.zip",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/speed_limit_bronx.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/speed_limit_brooklyn.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/speed_limit_manhattan.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/speed_limit_queens.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/speed_limit_statenisland.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/hands_on_safety_demos.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/outreach_schools.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/senior_centers.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/street_team_flyers.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/taxi_and_car_service_trainings.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/town_hall_locations.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/workshops.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/summary_city_council_districts.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/summary_community_districts.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/summary_police_precincts.json",
+      "g|http://www.nyc.gov/html/dot/downloads/misc/summary_borough_boundaries.json"
+    ],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "dnjp-mkjx",
+    "resources": ["*|http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/reasonable_suspicion_stops_data_tables_2011-2012.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "j8nm-zs7q",
+    "resources": ["#|http://www.nyc.gov/html/nypd/downloads/excel/analysis_and_planning/c_summons_cw_2007_ytd_2015.xlsx"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "ezds-sqp6",
+    "resources": ["#|http://www.nyc.gov/html/nypd/downloads/excel/omap/nyc_park_crime_stats_q4_2014.xlsx"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "qiwj-i2jk",
+    "resources": ["http://www.nycgovparks.org/bigapps/DPR_CapitalProjectTracker_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_CapitalProjectTracker_001.txt"]
+  },
+  {
+    "endpoint": "xswq-wnv9",
+    "resources": [
+      "http://a841-dotweb01.nyc.gov/datafeeds/ParkingReg/signs.CSV",
+      "http://a841-dotweb01.nyc.gov/datafeeds/ParkingReg/locations.CSV",
+      "*|http://a841-dotweb01.nyc.gov/datafeeds/ParkingReg/Parking_Regulation_Shapefile.zip"
+    ],
+    "external data dictionary": ["http://a841-dotweb01.nyc.gov/datafeeds/ParkingReg/File%20description.pdf"]
+  },
+  {
+    "endpoint": "wha9-m3tq",
+    "resources": ["*|http://www.nyc.gov/html/dot/downloads/misc/local_truck_routes_nyc.zip"],
+    "external data dictionary": ["http://www.nyc.gov/html/dot/downloads/pdf/truck_route_nyc_metadata.pdf"]
+  },
+  {
+    "endpoint": "qf28-yqqv",
+    "resources": ["*|http://www.nyc.gov/html/dot/downloads/misc/through_truck_routes_nyc.zip"],
+    "external data dictionary": ["http://www.nyc.gov/html/dot/downloads/pdf/truck_route_nyc_metadata.pdf"]
+  },
+  {
+    "endpoint": "spax-mybh",
+    "resources": ["*|http://www.nyc.gov/html/dot/downloads/misc/all_truck_routes_nyc.zip"],
+    "external data dictionary": ["http://www.nyc.gov/html/dot/downloads/pdf/truck_route_nyc_metadata.pdf"]
+  },
+  {
+    "endpoint": "8d5p-rji6",
+    "resources": [
+      "*|http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+      "*|http://www.nyc.gov/html/dot/downloads/misc/2016-citybench.zip"
+    ],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "pnru-8qsf",
+    "resources": ["http://www.nyc.gov/html/dot/downloads/misc/bike_shelters.kml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "bqbs-iwyn",
+    "resources": ["#|http://www.nyc.gov/html/ops/downloads/pdf/temporary_housing_report.pdf"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "f7ta-5e24",
+    "resources": ["#oi|https://a816-healthpsi.nyc.gov/DispensingSiteLocator/mainView.do"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "824w-7c8u",
+    "resources": ["o|http://www.nyc.gov/html/mocs/html/research/local_law_63_plan.shtml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "2p3a-y7d4",
+    "resources": ["o|http://www.nyc.gov/html/mocs/html/research/human_services.shtml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "krxp-x4za",
+    "resources": ["o|https://data.cityofnewyork.us/City-Government/LL-1-Plan/krxp-x4za"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "64vf-hxyb",
+    "resources": ["o|http://www.nyc.gov/html/mocs/html/research/pipeline.shtml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "rn6h-i66u",
+    "resources": ["http://www.nyc.gov/html/dot/downloads/misc/lowbridges_citywide_data_71309.kml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "umu5-zyd3",
+    "resources": ["*|http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "pf9y-ef2p",
+    "resources": ["o|http://www.nyc.gov/html/ops/html/data/data.shtml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "hxay-3qcw",
+    "resources": ["http://www.nycgovparks.org/bigapps/DPR_Kayak_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Kayak_001.txt"]
+  },
+  {
+    "endpoint": "9p99-55bh",
+    "resources": ["*|http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "pr5n-ucgi",
+    "resources": ["*|http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "pr5n-ucgi",
+    "resources": ["i|https://votinginfoproject.org/feeds"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "ivb7-t7a7",
+    "resources": ["o|https://www.dropbox.com/s/6y39y4e718gem47/BigApps.TFA.SchoolNames.xlsx"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "pqb7-6q2k",
+    "resources": ["e|https://data.ny.gov/Energy-Environment/Typical-Utility-Bill-Information-Electric-Beginnin/87qg-62za"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "n7nh-rhic",
+    "resources": ["o|http://www.p12.nysed.gov/irs/schoolDirectory/"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "s65f-sqe8",
+    "resources": ["e|https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs-Map/s8uq-s4wq/"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "8k4a-z83b",
+    "resources": ["e|https://nycopendata.socrata.com/Government/Office-Energy-Intensity/bmet-43b8"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "nx9f-wn3a",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "eweh-h793",
+    "resources": ["o|http://www.nyc.gov/html/dof/downloads/pdf/12pdf/2012_nonresidential_properties.xls"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "m7f5-x3k4",
+    "resources": ["e|https://data.ny.gov/Energy-Environment/Wind-Energy-Projects-Beginning-2004/jmxa-iz8m"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "s8jv-f44n",
+    "resources": ["o|http://www.epa.gov/cleanenergy/energy-resources/egrid/index.html"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "ie6s-t87j",
+    "resources": ["o|http://developer.nrel.gov/doc/api/pvwatts/v4"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "vdkk-sqws",
+    "resources": ["e|https://data.ny.gov/Energy-Environment/Energy-Prices-Per-Physical-Unit-By-Sector-Beginnin/cxu4-yemb"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "aumr-wgtk",
+    "resources": ["o|http://en.openei.org/datasets/node/41"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "egch-abu9",
+    "resources": ["e|https://data.ny.gov/Energy-Environment/Electricity-Sales-By-Sector-GWh-Beginning-1980/pv7j-5nz8"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "5crx-5ivw",
+    "resources": ["i|https://financere.nrel.gov/finance/content/crest-cost-energy-models"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "ud5r-z5ws",
+    "resources": ["i|http://schools.nyc.gov/Accountability/tools/report/default.htm#Citywide"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "tpe4-3w5y",
+    "resources": ["i|http://developer.genability.com/documentation/api-reference/tariff-api/"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "4v4n-gnh2",
+    "resources": ["e|https://data.ny.gov/Energy-Environment/Energy-Efficiency-Programs-and-Estimated-Energy-Sa/vqmi-95p7"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "p84r-8kqf",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "3gx8-vrcy",
+    "resources": ["e|https://data.ny.gov/Energy-Environment/New-York-Power-Authority-Net-Generation-MWh-Produc/isux-jnrn"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "hz79-96hi",
+    "resources": ["e|https://data.ny.gov/Energy-Environment/Energy-Efficiency-Completed-Projects-Beginning-198/erjw-j2zx"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "sngu-yqq8",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "xi5z-cgq7",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "t22b-cmty",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "p94q-8hxh",
+    "resources": ["http://citibikenyc.com/stations/json"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "mpmk-b5ed",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "quix-kfbk",
+    "resources": ["*|http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "9jqw-r2a4",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "sah3-jw2y",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "epfh-qbp5",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "hc9t-g6wa",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "vghm-gmwr",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "fbqm-ihfd",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "sn25-9xqk",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "2mvc-qg9q",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "xz57-5ygp",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "vijr-8gr7",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "szbc-ua9b",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "3g65-5ni7",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "w3g3-3ai7",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "65z6-rsii",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "r2ig-3im3",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "y4xu-dcu3",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "w2sw-2dqb",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "agx7-ib66",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "tbvn-fzud",
+    "resources": ["o|http://www.nyc.gov/html/dcp/html/bytes/archive_pluto_mappluto.shtml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "dpc8-z3jc",
+    "resources": ["https://sa-static-customer-assets-us-east-1-fedramp-prod.s3.amazonaws.com/data.cityofnewyork.us/NYC_DEM_1ft.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "f888-ni5f",
+    "resources": [
+      "*|http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/bx_mappluto_16v2.zip",
+      "*|http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/bk_mappluto_16v2.zip",
+      "*|http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/mn_mappluto_16v2.zip",
+      "*|http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/qn_mappluto_16v2.zip",
+      "*|http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/si_mappluto_16v2.zip"
+    ],
+    "external data dictionary": ["http://www1.nyc.gov/assets/planning/download/pdf/data-maps/open-data/meta_mappluto.pdf?v=16v2"]
+  },
+  {
+    "endpoint": "xuk2-nczf",
+    "resources": ["*|http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyc_pluto_16v2%20.zip"],
+    "external data dictionary": ["^|http://www1.nyc.gov/assets/planning/download/pdf/data-maps/open-data/pluto_datadictionary.pdf?v=16v2"]
+  },
+  {
+    "endpoint": "mxwn-eh3b",
+    "resources": ["i|http://www.checkbooknyc.com/data-feeds"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "mwxp-krtu",
+    "resources": ["*|http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "u6fv-5dqe",
+    "resources": ["o|http://schools.nyc.gov/AboutUs/data/stats/arreports.htm"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "kwk4-6u9e",
+    "resources": ["i|http://schools.nyc.gov/Accountability/tools/survey/default.htm"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "3bkj-34v2",
+    "resources": ["i|http://schools.nyc.gov/Offices/EnterpriseOperations/DIIT/OOD/default.htm"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "r7rr-2vqh",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "ftxv-d5ix",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "hqhv-9zeg",
+    "resources": ["*|http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/citywide_historical_crime_data_archive.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "xdsd-mmyu",
+    "resources": ["o|http://www.nyc.gov/html/nycmg/nyctvod/html/home/xml/nyctv_vod_app.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "88da-cha7",
+    "resources": ["o|http://www.nyc.gov/html/nycmg/nyctvod/html/home/xml/nyctv_vod.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "sp9a-cd2a",
+    "resources": ["o*|http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_paws_db_001.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "xsat-x5sa",
+    "resources": [
+      "http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt",
+      "http://dotsignals.org/nyc-links-cams/TrafficSpeed.php"
+    ],
+    "external data dictionary": ["http://a841-dotweb01.nyc.gov/datafeeds/TrafficSpeed/metadata_trafficspeeds.pdf"]
+  },
+  {
+    "endpoint": "bymk-vktx",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/StreetChanges/StreetNetworkChanges.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "xmzf-uf2w",
+    "resources": ["http://misc.brooklynpubliclibrary.org/BigApps/BPL_branch_001.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "b7t4-zm44",
+    "resources": ["o|http://misc.brooklynpubliclibrary.org/BigApps/BPL_electronicResources_001.xls"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "udt3-taj7",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/SIParking.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "qfxy-c6k3",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/QueensParking.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "i8d5-5ciu",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/ManhattanParking.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "evdj-a5z2",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/BrooklynParking.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "7xqy-uv7r",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/BronxParking.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "qpbf-g2yx",
+    "resources": ["*|http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "4bg6-ub7f",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/Citywide%20Arterials%20Milling%20Paving%20Schedule.xml"],
+    "external data dictionary": []
+  },
+  {
+    "endpoint": "4bg6-ub7f",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/Citywide%20Arterials%20Milling%20Paving%20Schedule.xml"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "9ned-hmak",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_RunningTracks_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_RunningTracks_001.txt"]
+  },
+  {
+    "endpoint": "ydj7-rk56",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_RecreationCenter_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_RecreationCenter_001.txt"]
+  },
+  {
+    "endpoint": "hr2s-xdcw",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_PublicComputerResourceCenter_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_PublicComputerResourceCenter_001.txt"]
+  },
+
+  {
+    "endpoint": "59gn-q4ai",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_Playgrounds_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Playgrounds_001.txt"]
+  },
+
+  {
+    "endpoint": "fupk-24im",
+    "resources": ["#|http://schools.nyc.gov/NR/rdonlyres/3C9B6404-D3C3-49D7-8FA8-36AC191BC328/26549/surveyaccess_1011092.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "bj76-nbjg",
+    "resources": ["*|http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "i762-rk6i",
+    "resources": ["*|http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "ksfe-nc8x",
+    "resources": ["*|http://schools.nyc.gov/NR/rdonlyres/623678D2-94D6-45FC-B970-BF1DC1660940/0/2009SurveyData.zip"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "42p9-q6fd",
+    "resources": ["*|http://schools.nyc.gov/NR/rdonlyres/4C258C57-05CC-4A69-8E99-C3EA4A5E61D9/0/2010SurveyData.zip"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "mnz3-dyi8",
+    "resources": ["*|http://schools.nyc.gov/NR/rdonlyres/11FE72CE-1313-4C82-88B1-C9FA53BE6842/0/2011datafilesonline.zip"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "nmqv-xfsc",
+    "resources": ["o|http://schools.nyc.gov/NR/rdonlyres/6E2A4A43-173F-462B-8CAC-B7D5E818546D/0/CitywideGraduationRateTotals_coh2006.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "nzvw-cjc2",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "b2m2-7ih3",
+    "resources": ["i|http://ddcftp.nyc.gov/rfpweb/rfp_rss.aspx?q=closed"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "tmtb-gcc6",
+    "resources": ["i|http://ddcftp.nyc.gov/rfpweb/rfp_rss.aspx?q=open"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "fndu-yzn3",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/for_hire_vehicles_open_summonses.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "p7p7-wvdw",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/fhv_drivers_open_summonses.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "z42n-hfkv",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_unaffiliated_vehicles.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "sqyt-f78v",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_group_ride_bases.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "keny-zprk",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_group_ride_vehicles.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "ijxg-g6qy",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_group_ride_drivers.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "5j86-5vbn",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_taxicab_brokers.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "sx4q-k6ay",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_taxicab_metershops.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "x9ia-3cjh",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_agents.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "g8fi-we5z",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_medallions.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "ucrw-jk24",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_drivers_ad_complete.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "brrx-dg4s",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_drivers.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "tvy2-e7mm",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_vehicles.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "5q5r-bu4w",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_driver.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "3j9j-3cga",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_bases.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "niuh-hrin",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_commuter_vans.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "rqzz-2ajy",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_commuter_van_drivers.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "ecem-8bdx",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_luxury_limousine_vehicles.xlsl"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "pr6u-akpp",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_luxury_limousine_bases.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "3nx4-m5h6",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_community_car_service_vehicles.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "ijaw-4yr5",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_community_car_service_bases.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "8f3b-vtv6",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_black_car_vehicles.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "y8c3-mmbu",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_black_car_bases.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "c8wu-fxqw",
+    "resources": ["http://www.nyc.gov/html/tlc/downloads/excel/current_fhv_drivers.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "yitc-zzrc",
+    "resources": ["http://www.nycgovparks.org/bigapps/DPR_Cricket_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Cricket_001.txt"]
+  },
+
+  {
+    "endpoint": "qjqq-8zh3",
+    "resources": ["https://www.nycgovparks.org/bigapps/desc/DPR_Bocce_001.txt"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "t9jy-gfev",
+    "resources": ["http://www.nycgovparks.org/bigapps/DPR_Inspection_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Inspection_001.txt"]
+  },
+
+  {
+    "endpoint": "ac9y-je94",
+    "resources": ["http://www.nycgovparks.org/bigapps/DPR_Concessions_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Concessions_001.txt"]
+  },
+
+  {
+    "endpoint": "wm9y-vrt8",
+    "resources": ["*|http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_ldgma_001.zip"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "bvc7-nbpp",
+    "resources": ["*|http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_coastalboundary_001.zip"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "mmu8-8w8b",
+    "resources": ["&"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "y8tr-23bj",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_PressReleases_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_PressReleases_001.txt"]
+  },
+
+  {
+    "endpoint": "efsz-uj8v",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_ParkClosure_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_ParkClosure_001.txt"]
+  },
+
+  {
+    "endpoint": "xdkk-pvdv",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_HistoricalSigns_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_HistoricalSigns_001.txt"]
+  },
+
+  {
+    "endpoint": "zhrf-jnt6",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_PublicArt_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_PublicArt_001.txt"]
+  },
+
+  {
+    "endpoint": "8792-ebcp",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_PublicArt_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_PublicArt_001.txt"]
+  },
+
+  {
+    "endpoint": "dhu2-kitw",
+    "resources": ["o|http://ddcftp.nyc.gov/recruit_newddc/rss.aspx"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "7yhi-h8kc",
+    "resources": [
+      "https://www.nycgovparks.org/bigapps/DPR_NaturePreserves_001.xml",
+      "http://www.nyc.gov/html/dpr/nycbigapps/DPR_naturepreserves_001.csv"
+    ],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_NaturePreserves_001.txt"]
+  },
+
+  {
+    "endpoint": "gzk5-mux8",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_Zoos_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Zoos_001.txt"]
+  },
+
+  {
+    "endpoint": "dies-sqgi",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_Tennis_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Tennis_001.txt"]
+  },
+
+  {
+    "endpoint": "x57r-az25",
+    "resources": ["https://www.nycgovparks.org/bigapps/DPR_Pools_indoor_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Pools_indoor_001.txt"]
+  },
+
+  {
+    "endpoint": "2hr8-czpv",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_NatureCenters_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_NatureCenters_001.txt"]
+  },
+
+  {
+    "endpoint": "sage-tgxd",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_IceSkating_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_IceSkating_001.txt"]
+  },
+
+  {
+    "endpoint": "sxe3-hucm",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_Horseback_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Horseback_001.txt"]
+  },
+
+  {
+    "endpoint": "un72-4nix",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_HistoricHouses_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_HistoricHouses_001.txt"]
+  },
+
+  {
+    "endpoint": "i8f4-bu5r",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_Hiking_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Hiking_001.txt"]
+  },
+
+  {
+    "endpoint": "aviq-jvfs",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_Handball_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Handball_001.txt"]
+  },
+
+  {
+    "endpoint": "ipbu-mtcs",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_DogRuns_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_DogRuns_001.txt"]
+  },
+
+  {
+    "endpoint": "nn83-afrt",
+    "resources": ["http://nyc.gov/html/dpr/nycbigapps/DPR_marinas_001.xml"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "zyf6-z3xt",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_Beaches_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Beaches_001.txt"]
+  },
+
+  {
+    "endpoint": "b937-zdky",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_Basketball_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Basketball_001.txt"]
+  },
+
+  {
+    "endpoint": "v3zf-nci8",
+    "resources": ["http://nycgovparks.org/bigapps/DPR_Barbecue_001.xml"],
+    "external data dictionary": ["https://www.nycgovparks.org/bigapps/desc/DPR_Barbecue_001.txt"]
+  },
+
+  {
+    "endpoint": "w3wp-dpdi",
+    "resources": ["http://www.nycgovparks.org/xml/events_300_rss.xml"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "ghse-r5nk",
+    "resources": ["*|http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_nyc-hanes_001.zip"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "kvuc-fg9b",
+    "resources": ["o|http://nyc.gov/html/dcp/download/biggapps/DCP_acs_cd_puma_001.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "cu9u-3r5e",
+    "resources": ["o|http://nyc.gov/html/dcp/download/biggapps/DCP_acs_nyc_boros_001.xls"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "t4s6-khpm",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/SpecialAlerts.xml"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "qhen-5rve",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds//WeekendTraff.xml"],
+    "external data dictionary": []
+  },
+
+  {
+    "endpoint": "vihk-m25f",
+    "resources": ["http://a841-dotweb01.nyc.gov/datafeeds/WeeklyTraf.xml"],
+    "external data dictionary": []
+  }
+]
