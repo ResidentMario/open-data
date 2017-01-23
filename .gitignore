@@ -1,3 +1,4 @@
 auth/*
 notebooks/.ipynb_checkpoints
 .idea/
+src/readfile/__pycache__/

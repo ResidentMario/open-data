@@ -1,0 +1,5662 @@
+[
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mqdy-gu73/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mqdy-gu73"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mdcw-n682/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mdcw-n682"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i296-73x5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i296-73x5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nyis-y4yr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nyis-y4yr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/eabe-havv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "eabe-havv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ipu4-2q9a/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ipu4-2q9a"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/iz2q-9x8d/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "iz2q-9x8d"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vwpc-kje2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vwpc-kje2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8vv7-7wx3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8vv7-7wx3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tvpp-9vvx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tvpp-9vvx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yhuu-4pt3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yhuu-4pt3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dg7a-jiz2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dg7a-jiz2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xjfq-wh2d/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xjfq-wh2d"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8wbx-tsch/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8wbx-tsch"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jb3k-j3gp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jb3k-j3gp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5tub-eh45/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5tub-eh45"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jgtb-hmpg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jgtb-hmpg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rhe8-mgbb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rhe8-mgbb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/f4rp-2kvy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "f4rp-2kvy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9cw8-7heb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9cw8-7heb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9k82-ys7w/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9k82-ys7w"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7btz-mnc8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7btz-mnc8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j8gx-kc43/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j8gx-kc43"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/td5q-ry6d/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "td5q-ry6d"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xubg-57si/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xubg-57si"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/madj-gkhr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "madj-gkhr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/szkz-syh6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "szkz-syh6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/krwf-eng6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "krwf-eng6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6j6t-3ixh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6j6t-3ixh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b9km-gdpy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b9km-gdpy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3qty-g4aq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3qty-g4aq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2r9r-m6j4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2r9r-m6j4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jb7j-dtam/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jb7j-dtam"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/69wu-b929/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "69wu-b929"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gezn-7mgk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gezn-7mgk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8fj8-3sgg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8fj8-3sgg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/did2-qzw3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "did2-qzw3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vx8i-nprf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vx8i-nprf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a9md-ynri/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a9md-ynri"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s4kf-3yrf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s4kf-3yrf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hg8x-zxpr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hg8x-zxpr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hq68-rnsi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hq68-rnsi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5uug-f49n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5uug-f49n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/33c5-b922/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "33c5-b922"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/y43c-5n92/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "y43c-5n92"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kpav-sd4t/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kpav-sd4t"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fgq8-am2v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fgq8-am2v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bkwf-xfky/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bkwf-xfky"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j2iz-mwzu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j2iz-mwzu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5c9e-33xj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5c9e-33xj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/94g4-w6xz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "94g4-w6xz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q9kp-jvxv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q9kp-jvxv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7isb-wh4c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7isb-wh4c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/v6j6-k9uc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "v6j6-k9uc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pq5i-thsu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pq5i-thsu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bjuu-44hx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bjuu-44hx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vr8p-8shw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vr8p-8shw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6m3u-8rbh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6m3u-8rbh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gzvm-na49/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gzvm-na49"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gpwd-npar/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gpwd-npar"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ebb7-mvp5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ebb7-mvp5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ht4t-wzcm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ht4t-wzcm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6246-94tp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6246-94tp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/n4tc-j6kh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "n4tc-j6kh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/59kj-x8nc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "59kj-x8nc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sbnd-xujn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sbnd-xujn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mdbu-nrqn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mdbu-nrqn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/emrz-5p35/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "emrz-5p35"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cp6j-7bjj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cp6j-7bjj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kj4p-ruqc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kj4p-ruqc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/feu5-w2e2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "feu5-w2e2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tesw-yqqr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tesw-yqqr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/94ri-3ium/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "94ri-3ium"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6teu-xtgp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6teu-xtgp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qu8g-sxqf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qu8g-sxqf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sn5i-xuny/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sn5i-xuny"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ayeb-p4mv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ayeb-p4mv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wzur-rhz9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wzur-rhz9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/auuc-fqzi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "auuc-fqzi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2n4x-d97d/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2n4x-d97d"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dvaj-b7yx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dvaj-b7yx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jr3e-jwne/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jr3e-jwne"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gi8d-wdg5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gi8d-wdg5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/eccv-9dzr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "eccv-9dzr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2v9c-2k7f/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2v9c-2k7f"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d5zb-ragj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d5zb-ragj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yini-w76t/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yini-w76t"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2np7-5jsg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2np7-5jsg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hvrh-b6nb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hvrh-b6nb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7ewi-9cdf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7ewi-9cdf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/svqu-rx2s/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "svqu-rx2s"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vf4p-p8ui/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vf4p-p8ui"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sqmu-2ixd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sqmu-2ixd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2t2c-qih9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2t2c-qih9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4vf7-wwbk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4vf7-wwbk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hii3-dcun/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hii3-dcun"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8fnh-fcum/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8fnh-fcum"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vgvh-9wbf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vgvh-9wbf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/am45-6syq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "am45-6syq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kzk6-y58k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kzk6-y58k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w9ei-idxz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w9ei-idxz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vk9f-gvzq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vk9f-gvzq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/c49b-3kmd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "c49b-3kmd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sefr-5pmx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sefr-5pmx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wha7-46h5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wha7-46h5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kkwv-djnk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kkwv-djnk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/y3gq-zv28/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "y3gq-zv28"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k72f-2ytm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k72f-2ytm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/u6p4-fsey/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "u6p4-fsey"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xp25-gxux/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xp25-gxux"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qgea-i56i/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qgea-i56i"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5uac-w243/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5uac-w243"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/idfb-y78n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "idfb-y78n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fdkv-4t4z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fdkv-4t4z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/p39r-nm7f/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "p39r-nm7f"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hb7y-b986/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hb7y-b986"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/thqd-deec/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "thqd-deec"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xjur-zbxw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xjur-zbxw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5c4s-jwtq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5c4s-jwtq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j7wp-ax4x/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j7wp-ax4x"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ect6-rj3p/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ect6-rj3p"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hjnm-89hx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hjnm-89hx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/33db-aeds/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "33db-aeds"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9jbx-hna8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9jbx-hna8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nstm-kb7u/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nstm-kb7u"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ye3c-m4ga/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ye3c-m4ga"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ju3b-rwpy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ju3b-rwpy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uvpi-gqnh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uvpi-gqnh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/c87b-2j3i/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "c87b-2j3i"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7m8q-jgtg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7m8q-jgtg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gk9u-c3tv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gk9u-c3tv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/arhf-esqb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "arhf-esqb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i3a3-qxkf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i3a3-qxkf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mifw-tguq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mifw-tguq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k46n-sa2m/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k46n-sa2m"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nre2-6m2s/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nre2-6m2s"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yjub-udmw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yjub-udmw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ph7v-u5f3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ph7v-u5f3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i8ua-bnkj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i8ua-bnkj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8m42-w767/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8m42-w767"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/76xm-jjuj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "76xm-jjuj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w7w3-xahh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w7w3-xahh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bty7-2jhb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bty7-2jhb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gepv-dxc2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gepv-dxc2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8jfz-tjny/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8jfz-tjny"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5c95-uqu5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5c95-uqu5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pkn6-z4bf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pkn6-z4bf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vdem-2i66/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vdem-2i66"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a5ru-ygsr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a5ru-ygsr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tyjc-nqc2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tyjc-nqc2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fwt3-keqw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fwt3-keqw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ay9k-vznm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ay9k-vznm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6rrm-vxj9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6rrm-vxj9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mzy5-smmw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mzy5-smmw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gi3h-3i8t/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gi3h-3i8t"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xdqu-utzq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xdqu-utzq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3mji-gpg5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3mji-gpg5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ff9v-9yzg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ff9v-9yzg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cxcv-mgtn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cxcv-mgtn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4epu-t832/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4epu-t832"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fve3-eee8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fve3-eee8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9sys-2i9y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9sys-2i9y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4fsz-s7id/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4fsz-s7id"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vvym-pu7g/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vvym-pu7g"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4e8h-wu86/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4e8h-wu86"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8dxm-n5ha/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8dxm-n5ha"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/37fm-7uaa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "37fm-7uaa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5r5y-pvs3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5r5y-pvs3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/evjd-dqpz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "evjd-dqpz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d4iy-9uh7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d4iy-9uh7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dsg6-ifza/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dsg6-ifza"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mfmf-gtvc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mfmf-gtvc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qfs9-xn8t/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qfs9-xn8t"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9rz4-mjek/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9rz4-mjek"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ig6g-qauv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ig6g-qauv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/r9vq-bark/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "r9vq-bark"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ph76-k6qa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ph76-k6qa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k397-673e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k397-673e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4e2n-s75z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4e2n-s75z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g63j-swsd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g63j-swsd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/aa5e-digs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "aa5e-digs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ka27-qx5k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ka27-qx5k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7iqz-npua/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7iqz-npua"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jr24-e7cr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jr24-e7cr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s3k6-pzi2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s3k6-pzi2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/66be-66yr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "66be-66yr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bhwu-wuzu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bhwu-wuzu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/smdw-73pj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "smdw-73pj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/it56-eyq4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "it56-eyq4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/avhb-5jhc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "avhb-5jhc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8k4x-9mp5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8k4x-9mp5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/p32s-yqxq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "p32s-yqxq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/aht6-vxai/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "aht6-vxai"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8r6c-ydwk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8r6c-ydwk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mqd6-mvf7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mqd6-mvf7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hyur-qpyf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hyur-qpyf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h4jn-x3ty/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h4jn-x3ty"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tm6d-hbzd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tm6d-hbzd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pvqr-7yc4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pvqr-7yc4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8fei-z6rz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8fei-z6rz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tbgj-tdd6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tbgj-tdd6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kiv2-tbus/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kiv2-tbus"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mwzb-yiwb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mwzb-yiwb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/eivx-q94q/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "eivx-q94q"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qcdj-rwhu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qcdj-rwhu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5pbr-mxtd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5pbr-mxtd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/azp6-hepu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "azp6-hepu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d6ee-k2sh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d6ee-k2sh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nj5b-z2hw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nj5b-z2hw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pasr-j7fb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pasr-j7fb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2xir-kwzz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2xir-kwzz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/e4p3-6ecr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "e4p3-6ecr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/39g5-gbp3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "39g5-gbp3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ugzk-a6x4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ugzk-a6x4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tsak-vtv3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tsak-vtv3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/avwh-jmzt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "avwh-jmzt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rukc-mmqu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rukc-mmqu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g9ub-hrve/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g9ub-hrve"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/esmb-8zkm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "esmb-8zkm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tzwr-vksx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tzwr-vksx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ujdf-5byz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ujdf-5byz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/24nr-gahi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "24nr-gahi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kydh-ijhc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kydh-ijhc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/29bw-z7pj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "29bw-z7pj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bjmk-35w5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bjmk-35w5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a94k-kjys/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a94k-kjys"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tesz-9suw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tesz-9suw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cwqt-nvfg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cwqt-nvfg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yiqb-mq9h/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yiqb-mq9h"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7xjx-2mhj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7xjx-2mhj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rbx6-tga4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rbx6-tga4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w9ak-ipjd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w9ak-ipjd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nja7-3m37/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nja7-3m37"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/myn9-hwsy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "myn9-hwsy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6ayi-u3p7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6ayi-u3p7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/56bx-u7iw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "56bx-u7iw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qtrj-g3nm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qtrj-g3nm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nc67-uf89/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nc67-uf89"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/afsf-hz68/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "afsf-hz68"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dpec-ucu7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dpec-ucu7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/x5tk-fa54/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "x5tk-fa54"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tiex-dv5v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tiex-dv5v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8wau-idzf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8wau-idzf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kjgh-ywbx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kjgh-ywbx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8yac-vygm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8yac-vygm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hg3c-2jsy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hg3c-2jsy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fgqh-vfzz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fgqh-vfzz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4tqt-y424/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4tqt-y424"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/28rh-vpvr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "28rh-vpvr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ez4e-fazm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ez4e-fazm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fi7q-iynu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fi7q-iynu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ic2k-etms/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ic2k-etms"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nvqd-aa32/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nvqd-aa32"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gysw-j2f3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gysw-j2f3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k2ye-5mmh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k2ye-5mmh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/65js-fhgz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "65js-fhgz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qnwe-j5my/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qnwe-j5my"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7ree-jtaa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7ree-jtaa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fsis-j6x5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fsis-j6x5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tgqn-na2n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tgqn-na2n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qf92-qkjm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qf92-qkjm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vbgf-ket3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vbgf-ket3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/f2cz-q2ik/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "f2cz-q2ik"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/az65-9z36/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "az65-9z36"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k659-gwja/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k659-gwja"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jmr8-fdbz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jmr8-fdbz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ph29-5mxy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ph29-5mxy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rbvx-jqnh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rbvx-jqnh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7kc8-z939/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7kc8-z939"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/iwdd-99mu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "iwdd-99mu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3ups-txji/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3ups-txji"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tg4x-b46p/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tg4x-b46p"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/72mk-a8z7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "72mk-a8z7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2sps-j9st/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2sps-j9st"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vc9y-jf25/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vc9y-jf25"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9m35-jch2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9m35-jch2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8vgb-zm6e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8vgb-zm6e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/r4c5-ndkx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "r4c5-ndkx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7479-ugqb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7479-ugqb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gakf-suji/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gakf-suji"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k548-32d3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k548-32d3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/f64t-5yiv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "f64t-5yiv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7hi3-kaps/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7hi3-kaps"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/eddp-3v5g/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "eddp-3v5g"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/erra-pzy8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "erra-pzy8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/43nn-pn8j/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "43nn-pn8j"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4nft-bihw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4nft-bihw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xw3c-8982/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xw3c-8982"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/icps-nwdu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "icps-nwdu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rtws-c2ai/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rtws-c2ai"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gcvr-n8qw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gcvr-n8qw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jk35-yh5p/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jk35-yh5p"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/72ss-25qh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "72ss-25qh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/r75y-8qe7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "r75y-8qe7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/26kp-bgdh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "26kp-bgdh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qk7d-gecv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qk7d-gecv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hrsu-3w2q/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hrsu-3w2q"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2pmj-y4p4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2pmj-y4p4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jzhd-m6uv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jzhd-m6uv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5fn4-dr26/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5fn4-dr26"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s2zm-f47y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s2zm-f47y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qt67-786k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qt67-786k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fzk8-3ynb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fzk8-3ynb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dn64-92ub/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dn64-92ub"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4se9-u6dw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4se9-u6dw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a9es-3fcm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a9es-3fcm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vpb3-uf7s/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vpb3-uf7s"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9ht6-44eh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9ht6-44eh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/r69u-62nw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "r69u-62nw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jz4z-kudi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jz4z-kudi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/u35m-9t32/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "u35m-9t32"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gzdv-qiga/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gzdv-qiga"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/y6fv-k6p7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "y6fv-k6p7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qybk-bjjc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qybk-bjjc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kzmz-ivhb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kzmz-ivhb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dt2z-amuf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dt2z-amuf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2xh6-psuq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2xh6-psuq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ptev-4hud/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ptev-4hud"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ixu8-reym/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ixu8-reym"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7ceq-6nwu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7ceq-6nwu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q5za-zqz7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q5za-zqz7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gkne-dk5s/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gkne-dk5s"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8gpu-s594/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8gpu-s594"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gk83-aa6y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gk83-aa6y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b2gb-nkrq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b2gb-nkrq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ymvu-4x4s/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ymvu-4x4s"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kiyv-ks3f/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kiyv-ks3f"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kdqv-qs7p/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kdqv-qs7p"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/56u5-n9sa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "56u5-n9sa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ubdi-jgw2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ubdi-jgw2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7zb8-7bpk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7zb8-7bpk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jt9i-9gxr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jt9i-9gxr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/p2q7-at72/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "p2q7-at72"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qt4e-9a97/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qt4e-9a97"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5jwd-xj5z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5jwd-xj5z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2rd2-9uwy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2rd2-9uwy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/es7t-6u8y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "es7t-6u8y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hpid-63r5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hpid-63r5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jzst-u7j8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jzst-u7j8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6pwv-zmgh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6pwv-zmgh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/56e3-rp8d/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "56e3-rp8d"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/p937-wjvj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "p937-wjvj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fxdy-q85h/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fxdy-q85h"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/erts-eyf6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "erts-eyf6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3h2n-5cm9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3h2n-5cm9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6bgk-3dad/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6bgk-3dad"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ntcm-2w4k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ntcm-2w4k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/y52e-hp89/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "y52e-hp89"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ven4-h25u/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ven4-h25u"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nbgq-j9jt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nbgq-j9jt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wr4r-bue7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wr4r-bue7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ghpb-fpea/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ghpb-fpea"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ge8j-uqbf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ge8j-uqbf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xn73-3kak/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xn73-3kak"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3f5y-5web/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3f5y-5web"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3av7-txd8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3av7-txd8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9ev8-8rz6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9ev8-8rz6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6r8r-c474/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6r8r-c474"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q7ra-ebu4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q7ra-ebu4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rgfe-8y2z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rgfe-8y2z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qpm9-j523/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qpm9-j523"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ci93-uc8s/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ci93-uc8s"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kf2b-aeh5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kf2b-aeh5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9b9u-8989/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9b9u-8989"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/c284-tqph/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "c284-tqph"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pba9-2xiu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pba9-2xiu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kyad-zm4j/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kyad-zm4j"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/erm2-nwe9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "erm2-nwe9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dg92-zbpx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dg92-zbpx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qvir-knu3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qvir-knu3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7crd-d9xh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7crd-d9xh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tjuw-mfat/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tjuw-mfat"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/de8q-estm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "de8q-estm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/97zg-4p9t/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "97zg-4p9t"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4fvw-nn9c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4fvw-nn9c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wavz-fkw8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wavz-fkw8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8b9a-pywy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8b9a-pywy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gkd7-3vk7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gkd7-3vk7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q9xk-w9iv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q9xk-w9iv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hq56-zhrp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hq56-zhrp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vvj6-d5qx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vvj6-d5qx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wvxf-dwi5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wvxf-dwi5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uwyv-629c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uwyv-629c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ck4n-5h6x/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ck4n-5h6x"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gshi-yqza/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gshi-yqza"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3spy-rjpw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3spy-rjpw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ruce-cnp6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ruce-cnp6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/p8e4-uwuv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "p8e4-uwuv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6ctv-n46c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6ctv-n46c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uvw5-9znb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uvw5-9znb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/m48u-yjt8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "m48u-yjt8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rnsn-acs2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rnsn-acs2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8ius-dhrr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8ius-dhrr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qwub-fkfe/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qwub-fkfe"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/e98g-f8hy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "e98g-f8hy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8a4n-zmpj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8a4n-zmpj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bzjf-rmtp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bzjf-rmtp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/68rr-d3jr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "68rr-d3jr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ws4c-4g69/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ws4c-4g69"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/by6m-6zpb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "by6m-6zpb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xahu-rkwn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xahu-rkwn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/n3p6-zve2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "n3p6-zve2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bj6m-ydtj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bj6m-ydtj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/c3uy-2p5r/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "c3uy-2p5r"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a9f5-j694/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a9f5-j694"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ewmy-2fww/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ewmy-2fww"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nd82-bi9f/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nd82-bi9f"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7r8u-zrb7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7r8u-zrb7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/78sp-6jhj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "78sp-6jhj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/r528-jcks/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "r528-jcks"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cu8c-kkz7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cu8c-kkz7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nuxu-5fjs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nuxu-5fjs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/psmp-cmuu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "psmp-cmuu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9gzt-8w5q/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9gzt-8w5q"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7299-2etw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7299-2etw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5jat-czce/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5jat-czce"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kpjg-ubxi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kpjg-ubxi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8isn-pgv3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8isn-pgv3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a2nx-4u46/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a2nx-4u46"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/v3mc-68jm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "v3mc-68jm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xkye-5k68/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xkye-5k68"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/42et-jh9v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "42et-jh9v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i9pf-sj7c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i9pf-sj7c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/u553-m549/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "u553-m549"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h9gi-nx95/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h9gi-nx95"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dhri-72kk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dhri-72kk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hujx-6z5u/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hujx-6z5u"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wig2-3fvs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wig2-3fvs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/azxq-2skx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "azxq-2skx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/unw7-yyit/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "unw7-yyit"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qnuk-aubm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qnuk-aubm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ae5u-upr6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ae5u-upr6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wng2-85mv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wng2-85mv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/p424-amsu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "p424-amsu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a6nj-cfbz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a6nj-cfbz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cfzn-4iza/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cfzn-4iza"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/37it-gmcp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "37it-gmcp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/v475-8jcj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "v475-8jcj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/t9nw-j73k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "t9nw-j73k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tfbb-gszk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tfbb-gszk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hkud-vzzj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hkud-vzzj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xywu-7bv9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xywu-7bv9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xgse-vmv6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xgse-vmv6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xxf6-krb6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xxf6-krb6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/z4hj-p6bi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "z4hj-p6bi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/97pn-acdf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "97pn-acdf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ph5g-sr3v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ph5g-sr3v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a2rn-4ju4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a2rn-4ju4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3gkd-ddzn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3gkd-ddzn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rsnd-bbih/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rsnd-bbih"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9umc-3b2y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9umc-3b2y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/x4ud-jhxu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "x4ud-jhxu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rqhp-hivt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rqhp-hivt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kjxa-7ccf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kjxa-7ccf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/btfj-je3i/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "btfj-je3i"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rvyk-uci3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rvyk-uci3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6wve-ubwx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6wve-ubwx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/p26e-k6k9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "p26e-k6k9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nwet-nc6h/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nwet-nc6h"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3vvi-fwjs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3vvi-fwjs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gffu-ps8j/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gffu-ps8j"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ipc3-2nbm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ipc3-2nbm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4fif-5bmt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4fif-5bmt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/muaz-gc29/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "muaz-gc29"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/iftc-eqzb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "iftc-eqzb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5e35-afph/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5e35-afph"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/473p-afgy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "473p-afgy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ppzj-4i42/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ppzj-4i42"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/x2s6-6d2j/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "x2s6-6d2j"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5i9t-mvdt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5i9t-mvdt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6ggx-itps/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6ggx-itps"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hukm-snmq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hukm-snmq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fu34-wamz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fu34-wamz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ypbd-r4kg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ypbd-r4kg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hdnu-nbrh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hdnu-nbrh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uaj7-9szf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uaj7-9szf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cwjy-rrh3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cwjy-rrh3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7zhs-43jt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7zhs-43jt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ujzq-562i/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ujzq-562i"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fged-sxa8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fged-sxa8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hpqs-rwfp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hpqs-rwfp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wt5z-2wyg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wt5z-2wyg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hc6m-qm6w/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hc6m-qm6w"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vuae-w6cg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vuae-w6cg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ic3t-wcy2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ic3t-wcy2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/f4yq-wry5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "f4yq-wry5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/25th-nujf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "25th-nujf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/e649-r223/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "e649-r223"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q39e-7gbs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q39e-7gbs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5gde-fmj3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5gde-fmj3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sjfe-fppp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sjfe-fppp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pa5t-ktd3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pa5t-ktd3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d6ph-dqj8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d6ph-dqj8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nxvh-fkda/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nxvh-fkda"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/n7ta-pz8k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "n7ta-pz8k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rqx9-kktd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rqx9-kktd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3mim-bd27/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3mim-bd27"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3cn8-i54i/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3cn8-i54i"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/my4g-bvvs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "my4g-bvvs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6xp4-c9qp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6xp4-c9qp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jt7v-77mi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jt7v-77mi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/n776-dsqy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "n776-dsqy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xszr-btpb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xszr-btpb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/77d2-9ebr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "77d2-9ebr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uv67-wxba/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uv67-wxba"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8bqd-u9ta/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8bqd-u9ta"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q44u-339y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q44u-339y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2t32-hbca/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2t32-hbca"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/z4kf-gt4n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "z4kf-gt4n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/scwj-eyn6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "scwj-eyn6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/v39y-4v3t/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "v39y-4v3t"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jdb4-d3j9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jdb4-d3j9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/r247-45ub/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "r247-45ub"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/e4ej-j6hn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "e4ej-j6hn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yggg-xf4b/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yggg-xf4b"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/urvc-2kdr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "urvc-2kdr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4fnu-iufz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4fnu-iufz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j34j-vqvt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j34j-vqvt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/432v-a7hc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "432v-a7hc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w9du-8cu6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w9du-8cu6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/swpk-hqdp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "swpk-hqdp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6u6h-px7z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6u6h-px7z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/37cg-gxjd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "37cg-gxjd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vr2i-c3qq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vr2i-c3qq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xi7c-iiu2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xi7c-iiu2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9mhd-na2n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9mhd-na2n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8qru-nyj8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8qru-nyj8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/whux-iuiu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "whux-iuiu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pwva-zn2w/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pwva-zn2w"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/miqs-rvtb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "miqs-rvtb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hm7r-w4y9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hm7r-w4y9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jqy3-ybjq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jqy3-ybjq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mq6n-s45c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mq6n-s45c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/26ze-s5bx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "26ze-s5bx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d4uz-6jaw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d4uz-6jaw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hve5-8z68/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hve5-8z68"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6bic-qvek/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6bic-qvek"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8hkx-uppz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8hkx-uppz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kku6-nxdu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q8fg-j5sk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q8fg-j5sk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/59t5-r7nb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "59t5-r7nb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sv6e-j8t9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sv6e-j8t9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/m6yw-2k8k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "m6yw-2k8k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ye26-g8nx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ye26-g8nx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3miu-myq2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3miu-myq2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/97iw-vtbx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "97iw-vtbx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/en2c-j6tw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "en2c-j6tw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bawj-6bgn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bawj-6bgn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9sfa-4geq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9sfa-4geq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/r4s5-tb2g/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "r4s5-tb2g"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/m59i-mqex/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "m59i-mqex"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sjpy-4cc9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sjpy-4cc9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ugc2-6t2g/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ugc2-6t2g"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cyfw-hfqk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cyfw-hfqk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/n2s5-fumm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "n2s5-fumm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wv4q-e75v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wv4q-e75v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rmv8-86p4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rmv8-86p4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hdu7-ujt4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hdu7-ujt4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jxyc-rxiv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jxyc-rxiv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ykx2-pdw8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ykx2-pdw8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/niy5-4j7q/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "niy5-4j7q"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2zbg-i8fx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2zbg-i8fx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h4jy-7dv7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h4jy-7dv7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3btx-p4av/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3btx-p4av"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/irhv-jqz7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "irhv-jqz7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tkdy-59zg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tkdy-59zg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b37b-brfu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b37b-brfu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5mw2-hzqx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5mw2-hzqx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/thrx-b6bc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "thrx-b6bc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rp8m-vm93/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rp8m-vm93"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j7yn-nvq9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j7yn-nvq9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a5qt-5jpu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a5qt-5jpu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/956m-xy24/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "956m-xy24"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nbun-a9vi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nbun-a9vi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s3zn-tf7c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s3zn-tf7c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qbce-2kcu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qbce-2kcu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7s3q-rztu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7s3q-rztu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5yay-3jd5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5yay-3jd5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/62mr-ukqs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "62mr-ukqs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/crbs-vur7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "crbs-vur7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bss9-579f/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bss9-579f"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ad4c-mphb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ad4c-mphb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/m56g-jpua/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "m56g-jpua"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jcih-dj9q/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jcih-dj9q"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dvzp-h4k9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dvzp-h4k9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q2ni-ztsb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q2ni-ztsb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/m3fi-rt3k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "m3fi-rt3k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cwg5-cqkm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cwg5-cqkm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/f42p-xqaa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "f42p-xqaa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gahm-hu5h/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gahm-hu5h"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hcv4-fhfs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hcv4-fhfs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ntbr-wib6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ntbr-wib6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tyfh-9h2y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tyfh-9h2y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/948r-3ads/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "948r-3ads"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/aa5u-mys6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "aa5u-mys6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w4v6-3sdt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w4v6-3sdt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yrf7-4wry/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yrf7-4wry"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3qfc-4tta/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3qfc-4tta"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5ps9-yuef/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5ps9-yuef"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7fnf-kyf4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7fnf-kyf4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6v9u-ndjg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6v9u-ndjg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ikqj-pyhc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ikqj-pyhc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dftr-3bf5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dftr-3bf5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w449-f4d7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w449-f4d7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fdx7-6jsr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fdx7-6jsr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j2ba-mvyy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j2ba-mvyy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g8fu-uwr2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g8fu-uwr2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cn3i-u7s4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cn3i-u7s4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ebjh-qsyx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ebjh-qsyx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/x35w-68ij/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "x35w-68ij"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/97i8-t9j6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "97i8-t9j6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3d3q-ijy5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3d3q-ijy5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/47j6-38m5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "47j6-38m5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/n246-cev5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "n246-cev5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8586-3zfm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8586-3zfm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/u3bu-v2bf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "u3bu-v2bf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jfzu-yy6n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jfzu-yy6n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/n5mv-nfpy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "n5mv-nfpy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nkn9-ge6x/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nkn9-ge6x"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2pkz-byyb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2pkz-byyb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2eq2-trdu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2eq2-trdu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9gmp-f9x2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9gmp-f9x2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j7gw-gcxi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j7gw-gcxi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2ei9-vg68/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2ei9-vg68"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xzy8-qqgf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xzy8-qqgf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k2zs-b24z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k2zs-b24z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/39pe-uzy3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "39pe-uzy3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i7jz-e2db/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i7jz-e2db"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fbsa-93dh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fbsa-93dh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6qzy-b4x8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6qzy-b4x8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fmzx-suji/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fmzx-suji"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mgjt-zuui/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mgjt-zuui"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tgvi-w9ww/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tgvi-w9ww"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7cqi-bt79/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7cqi-bt79"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9n2n-hkug/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9n2n-hkug"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j6ik-kjbs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j6ik-kjbs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ssk8-4egt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ssk8-4egt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hjae-yuav/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hjae-yuav"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/99wq-x9cr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "99wq-x9cr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i447-i5u3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i447-i5u3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/75e9-fg2t/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "75e9-fg2t"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/48pb-zy2g/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "48pb-zy2g"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b2y5-dstf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b2y5-dstf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9z9b-6hvk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9z9b-6hvk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bvna-6j7v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bvna-6j7v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5b3a-rs48/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5b3a-rs48"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wibz-uqui/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wibz-uqui"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pfys-fabf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pfys-fabf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3nja-bsch/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3nja-bsch"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ne9z-skhf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ne9z-skhf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ei8e-zggc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ei8e-zggc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gysc-yn4h/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gysc-yn4h"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ym2h-u9dt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ym2h-u9dt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kh3d-xhq7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kh3d-xhq7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2enn-s52j/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2enn-s52j"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6dn9-qgma/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6dn9-qgma"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ibs4-k445/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ibs4-k445"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/f46j-m4iq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "f46j-m4iq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8n8g-m3vw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8n8g-m3vw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g7ir-4pf8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g7ir-4pf8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s7vy-wmm7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s7vy-wmm7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d84z-5kap/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d84z-5kap"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/t9tf-aegg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "t9tf-aegg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4se9-mk53/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4se9-mk53"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j8uz-fizu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j8uz-fizu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bfiu-cc7d/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bfiu-cc7d"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/69w5-fdhb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "69w5-fdhb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/x2zj-69gq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "x2zj-69gq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pf7i-ims3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pf7i-ims3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sd9s-b3hd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sd9s-b3hd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cj5g-iwxb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cj5g-iwxb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/su6u-afcg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "su6u-afcg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yk6f-pa7p/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yk6f-pa7p"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/t6g4-rw7k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "t6g4-rw7k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tngj-drbu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tngj-drbu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wkaa-8g8b/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wkaa-8g8b"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rbrz-iagc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rbrz-iagc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7ujc-hpzg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7ujc-hpzg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ngf9-zejg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ngf9-zejg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7iqe-jary/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7iqe-jary"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8dhd-zvi6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8dhd-zvi6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/js82-9nvz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "js82-9nvz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9i2s-e6hd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9i2s-e6hd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kewa-q4dq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kewa-q4dq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b2sp-asbg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b2sp-asbg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mvhn-ypfv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mvhn-ypfv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ns22-2dcm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ns22-2dcm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jign-uhe6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jign-uhe6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vyxt-abab/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vyxt-abab"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/m6nh-ye6v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "m6nh-ye6v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nsu8-kyp7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nsu8-kyp7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rnf5-jwk6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rnf5-jwk6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fbaw-uq4e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fbaw-uq4e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pi4j-9c8t/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pi4j-9c8t"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wwsa-q2dq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wwsa-q2dq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3h6b-pt5u/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3h6b-pt5u"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ms66-xjfq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ms66-xjfq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9mjx-v8ip/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9mjx-v8ip"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xx2p-4jnq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xx2p-4jnq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/64gx-bycn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "64gx-bycn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/easq-ubfe/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "easq-ubfe"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xfyi-uyt5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xfyi-uyt5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/svyi-maaj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "svyi-maaj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k3cd-yu9d/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k3cd-yu9d"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s79c-jgrm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s79c-jgrm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kwmq-dbub/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kwmq-dbub"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/735p-zed8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "735p-zed8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vg63-xw6u/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vg63-xw6u"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bbs3-q5us/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bbs3-q5us"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w3c6-35wg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w3c6-35wg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/n8p9-7jxp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "n8p9-7jxp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a9yv-r6p4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a9yv-r6p4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yti5-bbws/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yti5-bbws"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/27vb-augk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "27vb-augk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ijru-c88e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ijru-c88e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/45i5-r9tu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "45i5-r9tu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/m64p-r9hk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "m64p-r9hk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3nm4-g97k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3nm4-g97k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xnje-s6zf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xnje-s6zf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8qgy-ka3v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8qgy-ka3v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xqzj-nd8g/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xqzj-nd8g"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9akp-irxz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9akp-irxz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b79y-xcs9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b79y-xcs9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rubn-abch/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rubn-abch"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ia2d-e54m/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ia2d-e54m"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nckr-g5w7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nckr-g5w7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5mnh-r9st/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5mnh-r9st"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9vgt-yx2p/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9vgt-yx2p"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6r4h-c2y6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6r4h-c2y6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rmmq-46n5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rmmq-46n5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rh4g-pmh8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rh4g-pmh8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qiku-f5v3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qiku-f5v3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/35cc-g4mc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "35cc-g4mc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/zkky-n5j3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "zkky-n5j3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ajxm-kzmj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ajxm-kzmj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sxx4-xhzg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sxx4-xhzg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2pmt-skyq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2pmt-skyq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h3qk-ybvt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h3qk-ybvt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uuxn-wzxe/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uuxn-wzxe"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gaq9-z3hz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gaq9-z3hz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uedp-fegm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uedp-fegm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yczb-msz7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yczb-msz7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rb2h-bgai/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rb2h-bgai"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j8p3-8ufc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j8p3-8ufc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rskq-5bfv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rskq-5bfv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/799n-b76v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "799n-b76v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/733r-da8r/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "733r-da8r"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9hyh-zkx9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9hyh-zkx9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/esw6-z4id/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "esw6-z4id"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yqkf-i7a4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yqkf-i7a4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dhs7-q59e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dhs7-q59e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9f5k-vxxv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9f5k-vxxv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fqcv-e9sg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fqcv-e9sg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/zmut-au2w/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "zmut-au2w"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ujsc-un6m/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ujsc-un6m"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bquu-z2ht/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bquu-z2ht"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/e266-vpg7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "e266-vpg7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9d9t-bmk7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9d9t-bmk7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5e24-x4wa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5e24-x4wa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5t7n-dizh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5t7n-dizh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ne9f-g6k4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ne9f-g6k4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/35f6-8qd2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "35f6-8qd2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/x84u-rirx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "x84u-rirx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h5nh-eqde/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h5nh-eqde"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8gqz-6v9v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8gqz-6v9v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jvce-szsb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jvce-szsb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tphb-2tdm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tphb-2tdm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sapz-4gsi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sapz-4gsi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k26i-s5bd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k26i-s5bd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/656a-faqy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "656a-faqy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/v8qe-fx6p/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "v8qe-fx6p"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/p6bh-gqsg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "p6bh-gqsg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vi6e-zw9u/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vi6e-zw9u"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kh2m-kcyz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kh2m-kcyz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cw88-qpsr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cw88-qpsr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b7kx-qikm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b7kx-qikm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nzjr-3966/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nzjr-3966"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ivix-m77e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ivix-m77e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jxdc-hnze/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jxdc-hnze"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/grbs-nm2g/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "grbs-nm2g"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qj9s-yv6v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qj9s-yv6v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mpqk-skis/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mpqk-skis"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/m4pf-wpkz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "m4pf-wpkz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s22f-jsd4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s22f-jsd4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7su9-xgtn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7su9-xgtn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yizy-365y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yizy-365y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/crns-fw6u/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "crns-fw6u"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/an6v-iuem/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "an6v-iuem"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dfad-fpwf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dfad-fpwf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tbf6-u8ea/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tbf6-u8ea"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rafb-6xry/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rafb-6xry"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cr93-x2xf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cr93-x2xf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g993-cbry/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g993-cbry"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w8dz-xpjh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w8dz-xpjh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h922-jiy6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h922-jiy6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xggi-kgx9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xggi-kgx9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vp38-q6cf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vp38-q6cf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yj3u-pw36/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yj3u-pw36"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yc6c-pk2a/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yc6c-pk2a"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pc34-d3sx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pc34-d3sx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/22b5-sytd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "22b5-sytd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pd5h-92mc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pd5h-92mc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tc6u-8rnp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tc6u-8rnp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tsy7-gcm8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tsy7-gcm8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vspn-8tzq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vspn-8tzq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pfn4-vjwr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pfn4-vjwr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h7mf-hrsw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h7mf-hrsw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/366m-74zg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "366m-74zg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5fkx-9rt5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5fkx-9rt5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3v48-95hb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3v48-95hb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a6x3-4y2a/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a6x3-4y2a"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5fsg-d8c9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5fsg-d8c9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/piri-jns7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "piri-jns7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ihfw-zy9j/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ihfw-zy9j"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/upwt-zvh3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "upwt-zvh3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4n2j-ut8i/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4n2j-ut8i"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vrn4-2abs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vrn4-2abs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yayv-apxh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yayv-apxh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/weg5-33pj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "weg5-33pj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/f9bf-2cp4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "f9bf-2cp4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i99z-ad8n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i99z-ad8n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b9uf-7skp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b9uf-7skp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3tfu-x2qk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3tfu-x2qk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/y8bm-tzs3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "y8bm-tzs3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3mrr-8h5c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3mrr-8h5c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ducj-28wv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ducj-28wv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qphc-zrtc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qphc-zrtc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/usap-qc7e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "usap-qc7e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/siju-6isf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "siju-6isf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7yig-nj52/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7yig-nj52"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ufu7-zp25/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ufu7-zp25"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2bh6-qmgg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2bh6-qmgg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vve2-26rs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vve2-26rs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ngbi-cq85/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ngbi-cq85"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fxwm-3t4n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fxwm-3t4n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/43qc-8vv8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "43qc-8vv8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7vy4-ats6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7vy4-ats6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q9mx-gjyn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q9mx-gjyn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ihup-vdhf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ihup-vdhf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5c5x-3qz9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5c5x-3qz9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jphp-xt7k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jphp-xt7k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i37z-2ty9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i37z-2ty9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cma4-zi8m/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cma4-zi8m"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/avsi-2fp7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "avsi-2fp7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/khqi-x3p3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "khqi-x3p3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6jad-5sav/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6jad-5sav"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i6as-kc83/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i6as-kc83"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5gxs-yzxw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5gxs-yzxw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qrz6-23fw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qrz6-23fw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5fn2-n363/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5fn2-n363"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s9xf-ztqu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s9xf-ztqu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ubv8-6n5w/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ubv8-6n5w"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jkiz-wt49/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jkiz-wt49"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rn5p-vhac/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rn5p-vhac"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mbym-vp3s/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mbym-vp3s"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/38ib-pjw5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "38ib-pjw5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/di8r-g5w9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "di8r-g5w9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hnf2-ds4u/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hnf2-ds4u"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sqb7-p8nz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sqb7-p8nz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/x2hp-8ukt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "x2hp-8ukt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qs5h-jhhg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qs5h-jhhg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/phth-xf25/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "phth-xf25"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yuzm-c784/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yuzm-c784"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tn5h-i3e8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tn5h-i3e8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/thxi-frp3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "thxi-frp3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wrhz-w8mn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wrhz-w8mn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rq2f-42ua/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rq2f-42ua"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/49kg-8sce/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "49kg-8sce"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vqix-8bak/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vqix-8bak"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/tbvj-mbps/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "tbvj-mbps"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yhfh-vyns/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yhfh-vyns"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d72n-ivax/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d72n-ivax"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cs9m-cz6f/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cs9m-cz6f"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/p5w7-g72z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "p5w7-g72z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/72db-huua/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "72db-huua"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/89di-hi4s/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "89di-hi4s"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d68p-5js9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d68p-5js9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vfk9-3uwk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vfk9-3uwk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w5y2-8cs3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w5y2-8cs3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s5q4-7ezf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s5q4-7ezf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h3zm-ta5h/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h3zm-ta5h"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k5ws-xbkn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k5ws-xbkn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9ct9-prf9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9ct9-prf9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b3qc-c6fh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b3qc-c6fh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/azyf-k3d6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "azyf-k3d6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/996g-i4kh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "996g-i4kh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hfac-j85r/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hfac-j85r"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kjmq-hfaa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kjmq-hfaa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qg7h-jiy8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qg7h-jiy8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/n5xc-7jfa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "n5xc-7jfa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/32y8-s55c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "32y8-s55c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g84i-fugu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g84i-fugu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2ghx-qqsj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2ghx-qqsj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6dgq-4h88/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6dgq-4h88"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5vsp-htwz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5vsp-htwz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/isrj-349k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "isrj-349k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sci4-yqgk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sci4-yqgk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/y7z5-rhh5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "y7z5-rhh5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jhn3-4vdj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jhn3-4vdj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5t4n-d72c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5t4n-d72c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/483x-fy9e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "483x-fy9e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ivbu-e2q7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ivbu-e2q7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8kiv-2ukd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8kiv-2ukd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/x56h-7iwp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "x56h-7iwp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bmxf-3rd4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bmxf-3rd4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cete-9g3v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cete-9g3v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/msp3-x6rs/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "msp3-x6rs"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/y6ih-4ijb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "y6ih-4ijb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2cvx-33uz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2cvx-33uz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ncbg-6agr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ncbg-6agr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jhjm-vsp8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jhjm-vsp8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/avwq-z233/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "avwq-z233"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/u6gg-xejf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "u6gg-xejf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j86k-5i43/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j86k-5i43"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6bzx-emuu/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6bzx-emuu"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wjtn-s4z7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wjtn-s4z7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k8hv-56d7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k8hv-56d7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vh2h-md7a/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vh2h-md7a"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/avir-tzek/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "avir-tzek"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3rfa-3xsf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3rfa-3xsf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uzcy-9puk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uzcy-9puk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/aiww-p3af/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "aiww-p3af"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hy4q-igkk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hy4q-igkk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sxmw-f24h/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sxmw-f24h"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/82rt-zc4y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "82rt-zc4y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sqcr-6mww/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sqcr-6mww"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nurr-mhyi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nurr-mhyi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/abgn-8q46/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "abgn-8q46"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4s7y-vm5x/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4s7y-vm5x"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7yds-6i8e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7yds-6i8e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xefy-6ent/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xefy-6ent"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d3ge-anaz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d3ge-anaz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6wcu-cfa3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6wcu-cfa3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/i8ys-e4pm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "i8ys-e4pm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w49k-mmkh/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w49k-mmkh"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4g4r-7dfb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4g4r-7dfb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/weaz-wxw9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "weaz-wxw9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nwrb-z58j/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nwrb-z58j"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qfk7-6ens/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qfk7-6ens"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/urz7-pzb3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "urz7-pzb3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7z8d-msnt/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7z8d-msnt"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mu2n-2qpd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mu2n-2qpd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/iux8-53rc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "iux8-53rc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fuvx-wqd7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fuvx-wqd7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vz8c-29aj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vz8c-29aj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g3vh-kbnw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g3vh-kbnw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s7yj-m732/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s7yj-m732"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pqg4-dm6b/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pqg4-dm6b"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a34j-ihvy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a34j-ihvy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rfpq-hs49/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rfpq-hs49"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rwa3-b3wr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rwa3-b3wr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fzv4-jan3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fzv4-jan3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dj4e-3xrn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dj4e-3xrn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cgz5-877h/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cgz5-877h"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ffnc-f3aa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ffnc-f3aa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yig9-9zum/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yig9-9zum"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/itfs-ms3e/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "itfs-ms3e"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/zt9s-n5aj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "zt9s-n5aj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ty7c-8rmq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ty7c-8rmq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pxfd-dpcz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pxfd-dpcz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vdbc-pyc9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vdbc-pyc9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sibt-hnvk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sibt-hnvk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jufi-gzgp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jufi-gzgp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pgrs-2cjd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pgrs-2cjd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vza7-n6vi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vza7-n6vi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yz7z-iupz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yz7z-iupz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h2mm-eazk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h2mm-eazk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gyaz-82xj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gyaz-82xj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ypm7-drwf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ypm7-drwf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dtfq-bfpc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dtfq-bfpc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rhtj-vttz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rhtj-vttz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/zpd4-gad8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "zpd4-gad8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a2nf-cvfm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a2nf-cvfm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/825b-niea/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "825b-niea"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/c5sh-m8tb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "c5sh-m8tb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hv77-qnda/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hv77-qnda"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j2sr-pm3b/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j2sr-pm3b"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g8e6-y4ax/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g8e6-y4ax"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/c72z-kzbi/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "c72z-kzbi"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/zs4w-c9cd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "zs4w-c9cd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/f3u3-q8ea/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "f3u3-q8ea"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yu9n-iqyk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yu9n-iqyk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cz36-mpdq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cz36-mpdq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/htkc-b6ea/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "htkc-b6ea"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b9e9-2we4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b9e9-2we4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/87y3-sqsx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "87y3-sqsx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/85ty-ti6v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "85ty-ti6v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xjcm-e5uy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xjcm-e5uy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ny8v-zzzb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ny8v-zzzb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hcf7-jp2y/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hcf7-jp2y"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/vn2t-jh2b/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "vn2t-jh2b"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4kse-vfnd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4kse-vfnd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3kcn-nsb5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3kcn-nsb5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/j7wr-gf2w/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "j7wr-gf2w"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pcgw-s47c/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pcgw-s47c"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yjsf-89ae/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yjsf-89ae"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9bmk-bbj5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9bmk-bbj5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/au2v-djg4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "au2v-djg4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/y4yc-78a4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "y4yc-78a4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/dgg9-jkx8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "dgg9-jkx8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3955-c36a/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3955-c36a"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/32yu-maz2/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "32yu-maz2"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/f7b6-v6v3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "f7b6-v6v3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hi3x-y76v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hi3x-y76v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/h8eh-b25q/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "h8eh-b25q"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/89j6-bdde/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "89j6-bdde"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pc4g-yqvf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pc4g-yqvf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/u4uz-edhr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "u4uz-edhr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k4u8-p5ux/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k4u8-p5ux"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/axmw-6kmf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "axmw-6kmf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/46vt-ugs9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "46vt-ugs9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fics-ewaq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fics-ewaq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bn89-icuy/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bn89-icuy"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yanz-4hj5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yanz-4hj5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wqr5-zmgj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wqr5-zmgj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jp7y-czvr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jp7y-czvr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bbvw-ivc8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bbvw-ivc8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ita7-8em7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ita7-8em7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pzqy-pk76/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pzqy-pk76"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4vsa-fhnm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4vsa-fhnm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6wkw-kjx4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6wkw-kjx4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mnqg-rcee/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mnqg-rcee"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/x8rc-3utf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "x8rc-3utf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pfbw-d97h/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pfbw-d97h"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fr6n-f337/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fr6n-f337"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/88ds-ti7k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "88ds-ti7k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ihvw-cp8d/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ihvw-cp8d"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/94ka-ussk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "94ka-ussk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ffgt-jimk/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ffgt-jimk"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jhq9-vaec/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jhq9-vaec"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/664m-n5th/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "664m-n5th"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/3bpc-wa5v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "3bpc-wa5v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yjbz-vif8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yjbz-vif8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/us5j-esyf/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "us5j-esyf"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w6yt-hctp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w6yt-hctp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ccab-jb4k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ccab-jb4k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8g9r-zz89/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8g9r-zz89"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/99ez-fwvc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "99ez-fwvc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g7ee-832z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g7ee-832z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mkxg-y5uc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mkxg-y5uc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xah7-gu5w/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xah7-gu5w"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sxxc-x9gg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sxxc-x9gg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/s5ne-bpvg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "s5ne-bpvg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/sxh6-h6ph/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "sxh6-h6ph"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qwi9-6tzj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qwi9-6tzj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nufv-bxfc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nufv-bxfc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qc6h-hbw3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qc6h-hbw3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mai7-g3fm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mai7-g3fm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/9tth-ctyd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "9tth-ctyd"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/isn9-aw8z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "isn9-aw8z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rbwv-5abg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rbwv-5abg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ii73-cgb4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ii73-cgb4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/5ur4-dnsq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "5ur4-dnsq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xnpc-vebg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xnpc-vebg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cwjt-kigp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cwjt-kigp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kcgr-4dqx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kcgr-4dqx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yid9-y2bb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yid9-y2bb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2iia-33q9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2iia-33q9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/b3wh-m425/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "b3wh-m425"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qf2v-7dbv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qf2v-7dbv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mtfg-8ayp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mtfg-8ayp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/v3f6-2e7z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "v3f6-2e7z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/83kr-sbhe/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "83kr-sbhe"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jabk-zf7i/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jabk-zf7i"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/niyd-ckq3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "niyd-ckq3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bws2-q2sb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bws2-q2sb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7ub6-8ecn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7ub6-8ecn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rgqc-ddc4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rgqc-ddc4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/72n5-tp5u/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "72n5-tp5u"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/35fd-ehz6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "35fd-ehz6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/v3a6-muuw/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "v3a6-muuw"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cqhy-d5cj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cqhy-d5cj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fgb7-3q7d/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fgb7-3q7d"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rfu3-4gsz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rfu3-4gsz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/egiq-kmr5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "egiq-kmr5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/d8cz-kh5x/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "d8cz-kh5x"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/8wpj-vk59/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "8wpj-vk59"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/64px-8x4k/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "64px-8x4k"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/4px5-vncp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "4px5-vncp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xpcf-tg2m/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xpcf-tg2m"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/c5mf-k73g/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "c5mf-k73g"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/zwt9-6u9n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "zwt9-6u9n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/m7m9-uyrn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "m7m9-uyrn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/wudr-qbgm/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "wudr-qbgm"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/bexe-qnej/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "bexe-qnej"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6m56-5mfb/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6m56-5mfb"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rv3z-jq34/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rv3z-jq34"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ka3k-93z7/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ka3k-93z7"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/zcqs-4wtn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "zcqs-4wtn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/gd6m-k9v9/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "gd6m-k9v9"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/c2v8-zzjq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "c2v8-zzjq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6ryg-d2jg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6ryg-d2jg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/kq8c-w9ag/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "kq8c-w9ag"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/23rb-xz43/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "23rb-xz43"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nthg-fsts/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nthg-fsts"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uiz5-pwzg/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uiz5-pwzg"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/scqk-i7ht/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "scqk-i7ht"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/2ij3-wj64/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "2ij3-wj64"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jdmi-whyn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jdmi-whyn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xt3u-h44z/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xt3u-h44z"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uggy-myiz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uggy-myiz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/xj6i-rnxp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "xj6i-rnxp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/22zm-qrtq/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "22zm-qrtq"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/jgjk-h2bn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "jgjk-h2bn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/7atn-adw6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "7atn-adw6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/g8v5-qeu5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "g8v5-qeu5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/c4pu-cif5/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "c4pu-cif5"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/chv4-k4fa/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "chv4-k4fa"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/k3qa-jvkc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "k3qa-jvkc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ia9u-k3t3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ia9u-k3t3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/a8rp-fpnn/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "a8rp-fpnn"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/w9cy-nnma/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "w9cy-nnma"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mrxb-9w9v/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mrxb-9w9v"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/36hn-wea6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "36hn-wea6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/56u9-ryj4/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "56u9-ryj4"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/73bd-vkmx/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "73bd-vkmx"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/q5x3-7piv/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "q5x3-7piv"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/99br-frp6/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "99br-frp6"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/ut9y-2ptp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "ut9y-2ptp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/6rg9-pfbz/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "6rg9-pfbz"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/fijd-wye8/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "fijd-wye8"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/pyif-r8qe/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "pyif-r8qe"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/35sw-rdxj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "35sw-rdxj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/uvks-tn5n/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "uvks-tn5n"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mbd7-jfnc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mbd7-jfnc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/rtc6-e7ff/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "rtc6-e7ff"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/mf6v-bdzr/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "mf6v-bdzr"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/cw8b-zbc3/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "cw8b-zbc3"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/qahe-qhzp/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "qahe-qhzp"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/nadh-kjkc/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "nadh-kjkc"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/yksz-5xaj/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "yksz-5xaj"
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/views/hc8x-tcnd/rows.csv?accessType=DOWNLOAD",
+        "dataset": ".",
+        "endpoint": "hc8x-tcnd"
+    }
+]
