@@ -12,4 +12,4 @@ dependencies:
     - sodapy
     - pysocrata
     - bs4
-    - redis
+    - pebble
