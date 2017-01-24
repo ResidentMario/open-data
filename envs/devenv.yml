@@ -7,7 +7,7 @@ dependencies:
   - requests
   - matplotlib
   - seaborn
-  - celery
+  - geopandas
   - pip:
     - sodapy
     - pysocrata

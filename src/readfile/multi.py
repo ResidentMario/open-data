@@ -1,10 +1,9 @@
 import pandas as pd
 from pandas.parser import CParserError
-from pebble import concurrent, ProcessPool
+from pebble import ProcessPool
 from concurrent.futures import TimeoutError
 
 
-@concurrent.process(timeout=5)
 def get_resource(filepath):
     try:
         return pd.read_csv(filepath)
