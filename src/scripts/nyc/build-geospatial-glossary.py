@@ -102,7 +102,7 @@ try:
     # Run our processing jobs asynchronously.
     with ProcessPool(max_workers=4) as pool:
         # Use tqdm manual counting for keeping track of progress.
-        with tqdm(total=5) as pbar:
+        with tqdm(total=len(process_tuples)) as pbar:
             iterator = pool.map(get_data, process_tuples, timeout=60)  # cap data downloads at 60 seconds apiece.
 
             while True:
