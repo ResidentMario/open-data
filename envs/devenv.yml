@@ -13,3 +13,6 @@ dependencies:
     - pysocrata
     - bs4
     - pebble
+    - requests-file
+    - selenium
+    - tqdm
