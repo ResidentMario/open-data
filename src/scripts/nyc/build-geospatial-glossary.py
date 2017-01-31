@@ -93,8 +93,19 @@ def get_data(tup):
     assert len(ret) == 1  # should be true; otherwise this is a ZIP of some kind.
     data, data_type = ret[0]
 
-    # return a (<gpd.GeoDataFrame object>, "geojson", <endpoint string>, index) tuple
-    return data, data_type, endpoint, i
+    # Fetch the size statistics that we need.
+    columns = len(data.columns)
+    rows = len(data)
+    filesize = int(data.memory_usage().sum())  # must cast to int because json will not serialize np.int64
+
+    # Assign those statistics to the data.
+    ep = datasets[i]
+    ep['rows'] = rows
+    ep['columns'] = columns
+    ep['filesize'] = filesize
+
+    # Return.
+    return
 
 
 # Whether we succeeded or got caught on a fatal error, in either case save the output to file before exiting.
@@ -109,13 +120,6 @@ try:
                 try:
                     data, data_type, endpoint, i = next(iterator)
                     pbar.update(1)
-                    columns = len(data.columns)
-                    rows = len(data)
-                    filesize = int(data.memory_usage().sum())  # must cast to int because json will not serialize np.int64
-                    ep = datasets[i]
-                    ep['rows'] = rows
-                    ep['columns'] = columns
-                    ep['filesize'] = filesize
                 except TimeoutError as error:
                     print("Function took longer than %d seconds. Skipping responsible endpoint..." % error.args[1])
                     pbar.update(1)

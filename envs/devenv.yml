@@ -1,4 +1,4 @@
-name: urban-data-concordance
+name: urban-physiology
 dependencies:
   - python=3.5
   - numpy
