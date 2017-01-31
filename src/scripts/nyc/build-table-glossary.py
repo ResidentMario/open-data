@@ -73,21 +73,21 @@ with open("../../../data/" + FILE_SLUG + "/glossaries/tables.json", "r") as fp:
 # Gather additional data by scraping from Socrata whenever needed.
 try:
     for dataset in tqdm(nyc_table_datasets):
-            if (dataset['rows'] == "?") or (dataset['columns'] == "?"):
+        if (dataset['rows'] == "?") or (dataset['columns'] == "?"):
 
-                # Catch an error where the dataset has been deleted, warn but continue.
-                try:
-                    rowcol = pager.page_socrata(DOMAIN, dataset['endpoint'], timeout=10)
-                except pager.DeletedEndpointException:
-                    print("WARNING: the '{0}' endpoint appears to have been removed.".format(dataset['endpoint']))
-                    dataset['flags'] = 'removed'
-                    continue
-
-                # If no repairable errors were caught, write in the information.
-                # (if a non-repairable error was caught the data gets sent to the outer finally block)
-                dataset['rows'], dataset['columns'] = rowcol['Rows'], rowcol['Columns']
-            else:
+            # Catch an error where the dataset has been deleted, warn but continue.
+            try:
+                rowcol = pager.page_socrata(DOMAIN, dataset['endpoint'], timeout=10)
+            except pager.DeletedEndpointException:
+                print("WARNING: the '{0}' endpoint appears to have been removed.".format(dataset['endpoint']))
+                dataset['flags'] = 'removed'
                 continue
+
+            # If no repairable errors were caught, write in the information.
+            # (if a non-repairable error was caught the data gets sent to the outer finally block)
+            dataset['rows'], dataset['columns'] = rowcol['Rows'], rowcol['Columns']
+        else:
+            continue
 finally:
     # Whether we succeeded or got caught on a fatal error, in either case save the output to file before exiting.
     with open("../../../data/" + FILE_SLUG + "/glossaries/tables.json", "w") as fp:
