@@ -2,7 +2,6 @@ import os
 import json
 import pysocrata
 import numpy as np
-from tqdm import tqdm
 
 from pebble import ProcessPool
 from concurrent.futures import TimeoutError
@@ -175,11 +174,12 @@ def get_data(tup):
     return ep['rows'], ep['columns'], ep['filesize'], i
 
 
+# pi5s-9p35 is a long-running endpoint, good for testing.
 # Whether we succeeded or got caught on a fatal error, in either case save the output to file before exiting.
 try:
     # Run our processing jobs asynchronously.
     with ProcessPool(max_workers=4) as pool:
-        iterator = pool.map(get_data, process_tuples[:1], timeout=60)  # cap data downloads at 60 seconds apiece.
+        iterator = pool.map(get_data, process_tuples[3:6], timeout=10)  # cap data downloads at 60 seconds apiece.
 
         while True:
             try:
@@ -188,10 +188,19 @@ try:
                 datasets[i]['columns'] = cols
                 datasets[i]['filesize'] = filesize
             except TimeoutError as error:
+                # Unfortunately the error that gets thrown is a generic TimeoutError, so it's not possible to trace
+                # the responsible endpoint inside of the log. You can inspect the output file afterwards to determine
+                # this FWIW. It might be possible to add this feature by monkey-patching pebble, but it's probably more
+                # effort than it's worth.
                 print("Function took longer than %d seconds. Skipping responsible endpoint..." % error.args[1])
+                rows, cols, filesize, i = next(iterator)
+                datasets[i]['rows'] = rows
+                datasets[i]['columns'] = cols
+                datasets[i]['filesize'] = filesize
             except StopIteration:
                 break
 finally:
+    import pdb; pdb.set_trace()
     # Whether we succeeded or got caught on a fatal error, in either case save the output to file before exiting.
     with open("../../../data/" + FILE_SLUG + "/glossaries/geospatial.json", "w") as fp:
         json.dump(datasets, fp, indent=4)
