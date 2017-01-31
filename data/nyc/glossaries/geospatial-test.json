@@ -1,0 +1,62 @@
+[
+    {
+        "columns": "?",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/u6su-4fpt?method=export&format=GeoJSON",
+        "rows": "?",
+        "endpoint": "u6su-4fpt",
+        "dataset": ".",
+        "type": "geojson",
+        "filesize": 2768,
+        "flags": ""
+    },
+    {
+        "columns": "?",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/fw3w-apxs?method=export&format=GeoJSON",
+        "rows": "?",
+        "endpoint": "fw3w-apxs",
+        "dataset": ".",
+        "type": "geojson",
+        "filesize": 1216,
+        "flags": ""
+    },
+    {
+        "columns": 2,
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xiyt-f6tz?method=export&format=GeoJSON",
+        "rows": "?",
+        "endpoint": "xiyt-f6tz",
+        "dataset": ".",
+        "type": "geojson",
+        "filesize": 320,
+        "flags": ""
+    },
+    {
+        "columns": 2,
+        "resource": "https://data.cityofnewyork.us/api/geospatial/bpt7-i8t8?method=export&format=GeoJSON",
+        "rows": "?",
+        "endpoint": "bpt7-i8t8",
+        "dataset": ".",
+        "type": "geojson",
+        "filesize": 704,
+        "flags": ""
+    },
+    {
+        "columns": 2,
+        "resource": "https://data.cityofnewyork.us/api/geospatial/58k2-kgtb?method=export&format=GeoJSON",
+        "rows": "?",
+        "endpoint": "58k2-kgtb",
+        "dataset": ".",
+        "type": "geojson",
+        "filesize": 2928,
+        "flags": ""
+    },
+    {
+        "columns": 2,
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7b32-6xny?method=export&format=GeoJSON",
+        "rows": "?",
+        "endpoint": "7b32-6xny",
+        "dataset": ".",
+        "type": "geojson",
+        "filesize": 5248,
+        "flags": ""
+    }
+]
