@@ -70,6 +70,69 @@ if not preexisting:
 # Begin by loading in the data that we have.
 with open("../../../data/" + FILE_SLUG + "/glossaries/geospatial.json", "r") as fp:
     datasets = json.loads(fp.read())
+# datasets = [
+#     {
+#         "dataset": ".",
+#         "rows": "?",
+#         "columns": "?",
+#         "flags": "",
+#         "resource": "https://data.cityofnewyork.us/api/geospatial/u6su-4fpt?method=export&format=GeoJSON",
+#         "type": "geojson",
+#         "endpoint": "u6su-4fpt",
+#         "filesize": 2768
+#     },
+#     {
+#         "dataset": ".",
+#         "rows": "?",
+#         "columns": "?",
+#         "flags": "",
+#         "resource": "https://data.cityofnewyork.us/api/geospatial/fw3w-apxs?method=export&format=GeoJSON",
+#         "type": "geojson",
+#         "endpoint": "fw3w-apxs",
+#         "filesize": 1216
+#     },
+#     {
+#         "dataset": ".",
+#         "rows": "?",
+#         "columns": 2,
+#         "flags": "",
+#         "resource": "https://data.cityofnewyork.us/api/geospatial/xiyt-f6tz?method=export&format=GeoJSON",
+#         "type": "geojson",
+#         "endpoint": "xiyt-f6tz",
+#         "filesize": 320
+#     },
+#     {
+#         "dataset": ".",
+#         "rows": "?",
+#         "columns": 2,
+#         "flags": "",
+#         "resource": "https://data.cityofnewyork.us/api/geospatial/bpt7-i8t8?method=export&format=GeoJSON",
+#         "type": "geojson",
+#         "endpoint": "bpt7-i8t8",
+#         "filesize": 704
+#     },
+#     {
+#         "dataset": ".",
+#         "rows": "?",
+#         "columns": 2,
+#         "flags": "",
+#         "resource": "https://data.cityofnewyork.us/api/geospatial/58k2-kgtb?method=export&format=GeoJSON",
+#         "type": "geojson",
+#         "endpoint": "58k2-kgtb",
+#         "filesize": 2928
+#     },
+#     {
+#         "dataset": ".",
+#         "rows": "?",
+#         "columns": 2,
+#         "flags": "",
+#         "resource": "https://data.cityofnewyork.us/api/geospatial/7b32-6xny?method=export&format=GeoJSON",
+#         "type": "geojson",
+#         "endpoint": "7b32-6xny",
+#         "filesize": 5248
+#     }
+# ]
+
 
 # Build a tuple out of the URI, endpoint, and positional index of each entry.
 # We'll use each of these later on, either as input to datify.get or to find where to store what we find.
@@ -88,6 +151,8 @@ def get_data(tup):
     # Extract the data from the input tuple (couldn't seem to pass data through the map otherwise?)
     uri, endpoint, i = tup[0], tup[1], tup[2]
 
+    print("Fetching {0}...".format(endpoint))
+
     # Get the data points.
     ret = datafy.get(uri)
     assert len(ret) == 1  # should be true; otherwise this is a ZIP of some kind.
@@ -104,27 +169,28 @@ def get_data(tup):
     ep['columns'] = columns
     ep['filesize'] = filesize
 
+    print("Done with {0}!".format(endpoint))
+
     # Return.
-    return
+    return ep['rows'], ep['columns'], ep['filesize'], i
 
 
 # Whether we succeeded or got caught on a fatal error, in either case save the output to file before exiting.
 try:
     # Run our processing jobs asynchronously.
     with ProcessPool(max_workers=4) as pool:
-        # Use tqdm manual counting for keeping track of progress.
-        with tqdm(total=len(process_tuples)) as pbar:
-            iterator = pool.map(get_data, process_tuples, timeout=60)  # cap data downloads at 60 seconds apiece.
+        iterator = pool.map(get_data, process_tuples[:1], timeout=60)  # cap data downloads at 60 seconds apiece.
 
-            while True:
-                try:
-                    data, data_type, endpoint, i = next(iterator)
-                    pbar.update(1)
-                except TimeoutError as error:
-                    print("Function took longer than %d seconds. Skipping responsible endpoint..." % error.args[1])
-                    pbar.update(1)
-                except StopIteration:
-                    break
+        while True:
+            try:
+                rows, cols, filesize, i = next(iterator)
+                datasets[i]['rows'] = rows
+                datasets[i]['columns'] = cols
+                datasets[i]['filesize'] = filesize
+            except TimeoutError as error:
+                print("Function took longer than %d seconds. Skipping responsible endpoint..." % error.args[1])
+            except StopIteration:
+                break
 finally:
     # Whether we succeeded or got caught on a fatal error, in either case save the output to file before exiting.
     with open("../../../data/" + FILE_SLUG + "/glossaries/geospatial.json", "w") as fp:
