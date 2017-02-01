@@ -2,3 +2,5 @@ auth/*
 notebooks/.ipynb_checkpoints
 .idea/
 src/readfile/__pycache__/
+src/limited-requests/__pycache__/
+src/endpoint-pager/__pycache__/

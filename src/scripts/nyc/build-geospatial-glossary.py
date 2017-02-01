@@ -71,68 +71,6 @@ if not preexisting:
 # Begin by loading in the data that we have.
 with open("../../../data/" + FILE_SLUG + "/glossaries/geospatial.json", "r") as fp:
     datasets = json.loads(fp.read())
-# datasets = [
-#     {
-#         "dataset": ".",
-#         "rows": "?",
-#         "columns": "?",
-#         "flags": "",
-#         "resource": "https://data.cityofnewyork.us/api/geospatial/u6su-4fpt?method=export&format=GeoJSON",
-#         "type": "geojson",
-#         "endpoint": "u6su-4fpt",
-#         "filesize": 2768
-#     },
-#     {
-#         "dataset": ".",
-#         "rows": "?",
-#         "columns": "?",
-#         "flags": "",
-#         "resource": "https://data.cityofnewyork.us/api/geospatial/fw3w-apxs?method=export&format=GeoJSON",
-#         "type": "geojson",
-#         "endpoint": "fw3w-apxs",
-#         "filesize": 1216
-#     },
-#     {
-#         "dataset": ".",
-#         "rows": "?",
-#         "columns": 2,
-#         "flags": "",
-#         "resource": "https://data.cityofnewyork.us/api/geospatial/xiyt-f6tz?method=export&format=GeoJSON",
-#         "type": "geojson",
-#         "endpoint": "xiyt-f6tz",
-#         "filesize": 320
-#     },
-#     {
-#         "dataset": ".",
-#         "rows": "?",
-#         "columns": 2,
-#         "flags": "",
-#         "resource": "https://data.cityofnewyork.us/api/geospatial/bpt7-i8t8?method=export&format=GeoJSON",
-#         "type": "geojson",
-#         "endpoint": "bpt7-i8t8",
-#         "filesize": 704
-#     },
-#     {
-#         "dataset": ".",
-#         "rows": "?",
-#         "columns": 2,
-#         "flags": "",
-#         "resource": "https://data.cityofnewyork.us/api/geospatial/58k2-kgtb?method=export&format=GeoJSON",
-#         "type": "geojson",
-#         "endpoint": "58k2-kgtb",
-#         "filesize": 2928
-#     },
-#     {
-#         "dataset": ".",
-#         "rows": "?",
-#         "columns": 2,
-#         "flags": "",
-#         "resource": "https://data.cityofnewyork.us/api/geospatial/7b32-6xny?method=export&format=GeoJSON",
-#         "type": "geojson",
-#         "endpoint": "7b32-6xny",
-#         "filesize": 5248
-#     }
-# ]
 
 
 # Get the datasets we need to extract things from.

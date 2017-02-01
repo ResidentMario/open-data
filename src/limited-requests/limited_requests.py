@@ -75,13 +75,6 @@ def limited_get(uri, q, reducer=_size_up, timeout=60, sizeout=None):
     Returns
     -------
     Whatever you get by reducing the URI, assuming the job completes. None, if the job doesn't complete.
-
-    :param uri:
-    :param q:
-    :param reducer:
-    :param timeout:
-    :param sizeout:
-    :return:
     """
     p = mp.Process(target=_fetch, args=(uri, q), kwargs={'reducer': reducer, 'sizeout': sizeout})
     p.start()
