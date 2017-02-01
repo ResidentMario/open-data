@@ -80,11 +80,11 @@ def page_socrata(domain, endpoint, timeout=10):
         for m in metadata_pairs:
             key = m.find_element_by_class_name('metadata-pair-key').text
             value = m.find_element_by_class_name('metadata-pair-value').text
-            rowcol.update({key: value})
+            rowcol.update({key.lower(): value})
 
         # Convert to a machine format. 342K -> 342000, 1M -> 1000000
-        rowcol['Columns'] = int(rowcol['Columns'])
-        r = rowcol['Rows']
+        rowcol['columns'] = int(rowcol['columns'])
+        r = rowcol['rows']
         r = r.replace(",", "")
         if "M" in r:
             r = int(float(r[:-1])  * 1000000)
@@ -92,7 +92,7 @@ def page_socrata(domain, endpoint, timeout=10):
             r = int(float(r[:-1])  * 1000)
         else:
             r = int(r)
-        rowcol['Rows'] = r
+        rowcol['rows'] = r
 
         return rowcol
     except TimeoutException:

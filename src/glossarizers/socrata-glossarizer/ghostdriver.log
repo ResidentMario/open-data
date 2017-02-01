@@ -1,0 +1,2380 @@
+[INFO  - 2017-02-01T21:37:36.525Z] GhostDriver - Main - running on port 48019
+[INFO  - 2017-02-01T21:37:37.431Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-01T21:37:37.436Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.customHeaders:  - {}
+[INFO  - 2017-02-01T21:37:37.436Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-01T21:37:37.436Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a665d900-e8c6-11e6-96fa-9705f0c85bc5
+[ERROR - 2017-02-01T21:37:46.108Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:46.108Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:47.455Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:47.456Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:48.822Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:48.822Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:50.283Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:50.283Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:51.901Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:51.901Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:53.363Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:53.363Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:54.752Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:54.752Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:56.216Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:56.216Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:57.764Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:57.764Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:59.270Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:37:59.270Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:00.904Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:00.904Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:03.770Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:03.771Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:05.165Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:05.165Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:08.563Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:08.563Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:09.792Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:09.792Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:11.287Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:11.288Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:12.711Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:12.713Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:14.190Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:14.191Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:15.535Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:15.535Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:16.798Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:16.798Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:18.505Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:18.505Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:55.385Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:55.386Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:58.713Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:58.713Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:59.952Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:38:59.953Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:01.616Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:01.616Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:02.789Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:02.789Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:04.234Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:04.235Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:05.943Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:05.944Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:07.094Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:07.094Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:08.526Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:08.526Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:09.821Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:09.821Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:12.493Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:12.493Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:15.277Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:15.277Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:17.087Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:17.087Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:18.164Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:18.164Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:19.710Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:19.711Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:21.144Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:21.144Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:22.467Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:22.467Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:23.690Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:23.690Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:24.880Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:24.880Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:26.451Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:26.451Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:27.717Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:27.717Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:29.186Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:29.186Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:30.697Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:30.697Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:31.997Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:31.997Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:33.349Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:33.350Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:35.131Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:35.132Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:36.368Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:36.369Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:37.797Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:37.798Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:39.076Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:39.077Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:40.255Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:40.255Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:41.588Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:41.589Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:42.914Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:42.914Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:44.610Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:44.610Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:46.143Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:46.144Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:47.665Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:47.665Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:48.887Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:48.888Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:50.031Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:50.031Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:51.516Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:51.517Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:52.800Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:52.801Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:54.249Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:54.250Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:55.682Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:55.683Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:56.929Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:56.929Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:58.262Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:58.262Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:59.871Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:39:59.871Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:01.294Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:01.294Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:02.842Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:02.842Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:04.451Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:04.452Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:06.558Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:06.558Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:08.074Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:08.074Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:09.587Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:09.588Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:11.002Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:11.002Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:12.322Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:12.322Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:15.337Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:15.338Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:16.587Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:16.587Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:17.836Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:17.836Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:19.217Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:19.218Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:20.742Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:20.742Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:23.074Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:23.075Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:24.738Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:24.739Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:27.022Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:27.022Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:28.545Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:28.545Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:29.979Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:29.979Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:33.383Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:33.384Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:34.771Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:34.771Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:36.276Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:36.276Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:41.916Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:41.916Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:43.445Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:43.445Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:45.092Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:45.092Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:46.547Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:46.547Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:48.243Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:48.244Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:49.548Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:49.548Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:50.779Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:50.780Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:54.340Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:54.341Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:56.990Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:56.990Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:58.575Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:58.575Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:59.978Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:40:59.978Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:02.335Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:02.335Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:03.648Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:03.651Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:04.960Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:04.961Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:08.816Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:08.816Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:13.288Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:13.288Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:16.424Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:16.425Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:17.950Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:17.951Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:19.262Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:19.262Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:22.260Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:22.260Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:27.294Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:27.294Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:29.380Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:29.380Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:31.319Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:31.320Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:32.901Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:32.902Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:35.128Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:35.128Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:38.096Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:38.096Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:39.436Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:39.436Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:41.134Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:41.134Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:42.389Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:42.389Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:43.873Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:43.873Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:45.292Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:45.293Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:46.785Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:46.785Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:48.363Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:48.364Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:49.728Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:49.728Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:52.602Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:52.602Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:53.846Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:53.846Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:57.119Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:57.120Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:58.451Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:58.451Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:59.801Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:41:59.802Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:01.442Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:01.443Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:09.741Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:09.741Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:11.223Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:11.223Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:12.630Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:12.630Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:14.117Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:14.117Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:15.550Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:15.550Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:16.935Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:16.935Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:18.229Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:18.229Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:20.935Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:20.935Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:22.220Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:22.220Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:23.551Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:23.552Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:25.122Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:25.123Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:26.338Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:26.338Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:27.528Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:27.528Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:28.855Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:28.856Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:30.400Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:30.401Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:31.734Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:31.734Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:33.172Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:33.173Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:34.405Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:34.405Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:35.622Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:35.622Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-02-01T21:42:36.525Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2017-02-01T21:42:38.416Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:38.416Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:40.971Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:40.972Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:42.722Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:42.722Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:44.138Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:44.138Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:45.481Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:45.481Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:46.965Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:46.965Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:48.351Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:48.351Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:49.867Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:49.867Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:51.038Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:51.039Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:52.599Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:52.599Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:53.865Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:53.865Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:55.089Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:55.090Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:56.864Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:56.864Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:58.727Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:42:58.727Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:00.049Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:00.049Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:01.464Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:01.465Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:02.810Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:02.810Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:08.297Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:08.297Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:10.091Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:10.091Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:11.549Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:11.550Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:13.079Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:13.079Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:14.531Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:14.531Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:16.135Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:16.136Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:17.993Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:17.994Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:21.239Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:21.240Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:22.626Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:22.626Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:24.081Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:24.082Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:25.852Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:25.852Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:31.923Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:31.926Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:34.660Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:34.662Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:36.407Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:43:36.410Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:04.127Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:04.128Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:06.409Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:06.410Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:08.272Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:08.278Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:10.176Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:10.176Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:13.171Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:13.171Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:28.809Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:28.810Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:30.819Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:30.820Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:32.486Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:32.486Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:34.428Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:34.428Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:36.387Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:36.388Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:37.792Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:37.793Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:39.463Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:39.463Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:40.872Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:40.873Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:42.316Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:42.316Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:43.698Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:43.699Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:44.918Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:44.918Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:46.108Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:46.109Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:47.247Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:47.247Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:49.084Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:49.085Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:50.294Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:50.295Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:51.684Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:51.684Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:52.890Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:52.890Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:54.234Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:54.235Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:55.536Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:55.536Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:56.998Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:56.998Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:58.204Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:58.204Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:59.569Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:44:59.569Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:00.852Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:00.852Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:02.290Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:02.290Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:04.112Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:04.112Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:05.628Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:05.628Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:10.327Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:10.327Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:11.605Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:11.606Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:13.252Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:13.252Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:14.816Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:14.816Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:16.096Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:16.096Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:18.684Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:18.685Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:20.082Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:20.082Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:21.229Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:21.230Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:22.688Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:22.688Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:24.183Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:24.184Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:25.506Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:25.506Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:28.455Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:28.456Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:29.785Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:29.786Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:31.181Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:31.181Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:32.310Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:32.310Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:33.606Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:33.606Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:34.856Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:34.856Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:36.069Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:36.069Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:38.643Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:38.644Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:41.542Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:41.543Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:42.778Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:42.778Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:45.552Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:45.552Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:46.873Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:46.873Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:48.698Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:48.698Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:50.082Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:50.083Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:51.680Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:51.680Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:52.920Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:52.920Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:54.848Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:54.849Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:56.550Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:45:56.551Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:00.628Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:00.628Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:02.065Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:02.066Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:03.484Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:03.484Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:05.178Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:05.178Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:06.560Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:06.560Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:07.899Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:07.899Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:17.050Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:17.050Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:18.324Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:18.324Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:21.934Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:21.934Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:23.279Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:23.280Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:24.539Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:24.540Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:25.849Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:25.849Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:28.601Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:28.601Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:30.476Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:30.476Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:31.919Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:31.920Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:33.447Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:33.447Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:34.597Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:34.598Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:35.961Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:35.962Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:37.722Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:37.722Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:39.144Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:39.144Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:40.931Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:40.932Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:43.936Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:43.937Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:45.228Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:45.228Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:46.628Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:46.628Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:47.903Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:47.903Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:49.271Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:49.272Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:50.513Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:50.513Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:51.934Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:51.934Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:53.368Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:53.368Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:54.928Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:54.929Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:56.554Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:56.554Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:57.905Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:46:57.905Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:00.815Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:00.815Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:02.097Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:02.097Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:03.478Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:03.478Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:04.913Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:04.913Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:06.497Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:06.498Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:08.441Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:08.441Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:10.206Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:10.206Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:11.474Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:11.474Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:12.752Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:12.752Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-02-01T21:47:36.525Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2017-02-01T21:47:47.500Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:47.500Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:49.055Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:49.055Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:50.193Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:50.193Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:51.648Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:51.648Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:54.930Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:54.930Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:56.264Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:56.265Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:58.176Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:58.176Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:59.328Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:47:59.329Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:00.809Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:00.810Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:02.084Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:02.085Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:03.482Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:03.482Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:05.014Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:05.014Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:06.389Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:06.390Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:08.125Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:08.125Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:10.535Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:10.536Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:12.126Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:12.126Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:14.766Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:14.766Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:16.290Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:16.291Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:17.679Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:17.679Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:21.107Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:21.110Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:23.330Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:23.334Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:25.181Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:25.181Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:28.711Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:28.712Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:32.547Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:32.550Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:34.360Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:34.360Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:36.229Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:36.229Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:37.852Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:37.852Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:39.855Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:39.856Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:42.842Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:42.842Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:47.724Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:47.726Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:50.508Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:50.510Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:57.683Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:57.686Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:59.628Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:48:59.628Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:01.210Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:01.211Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:11.341Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:11.342Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:12.545Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:12.546Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:16.124Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:16.125Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:20.631Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:20.631Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:22.416Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:22.417Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:23.727Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:23.728Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:25.030Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:25.030Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:26.585Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:26.585Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:27.956Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:27.956Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:29.731Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:29.731Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:31.044Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:31.045Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:32.634Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:32.635Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:34.130Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:34.130Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:35.554Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:35.554Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:43.945Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:43.950Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:48.134Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:48.134Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:50.937Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:50.937Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:52.474Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:52.474Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:53.940Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:53.940Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:55.085Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:55.086Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:56.480Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:56.481Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:57.672Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:57.673Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:59.688Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:49:59.688Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:01.143Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:01.143Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:02.509Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:02.509Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:05.748Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:05.748Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:07.032Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:07.033Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:08.467Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-01T21:50:08.468Z] Session [a665d900-e8c6-11e6-96fa-9705f0c85bc5] - page.onError - stack:
+  (anonymous function) (https://data.cityofnewyork.us/javascripts/build/dataset-landing-page/main.js?bc87cf326de5a6e9b89aecf4c1cbe998e02cd62f.171.1484074405:42)
+
+  phantomjs://platform/console++.js:263 in error
