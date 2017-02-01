@@ -150,14 +150,14 @@ timeout = 60
 
 
 # Run the process.
-import pdb; pdb.set_trace()
 try:
     for dataset, i, uri in tqdm(zip(datasets_needing_extraction, indices, uris)):
         sizing = limited_requests.limited_get(uri, q, timeout=timeout)
         if sizing:  # If successful.
-            datasets[i]['rows'] = sizing['rows']
-            datasets[i]['columns'] = sizing['columns']
-            datasets[i]['filesize'] = sizing['filesize']
+            assert len(sizing) == 1  # the geospatial datasets should be returned as singular objects
+            datasets[i]['rows'] = int(sizing[0]['rows'])
+            datasets[i]['columns'] = int(sizing[0]['columns'])
+            datasets[i]['filesize'] = int(sizing[0]['filesize'])
         else:  # If not successful.
             datasets[i]['filesize'] = ">{0}s".format(timeout)
 except Exception as e:
