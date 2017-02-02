@@ -8,6 +8,7 @@ dependencies:
   - matplotlib
   - seaborn
   - geopandas
+  - xlrd
   - pip:
     - sodapy
     - pysocrata
@@ -17,4 +18,3 @@ dependencies:
     - selenium
     - tqdm
     - python-magic
-    - git+git://github.com/ResidentMario/datafy

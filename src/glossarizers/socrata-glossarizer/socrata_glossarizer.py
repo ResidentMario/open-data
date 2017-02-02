@@ -197,7 +197,6 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
             for i, resource in tqdm(list(enumerate(resource_list))):
 
                 # Get the sizing information.
-                import pdb; pdb.set_trace()
                 sizings = limited_requests.limited_get(resource['resource'], q, timeout=timeout)
 
                 # If successful, append the result to the glossary.
