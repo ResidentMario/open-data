@@ -1,487 +1,489 @@
 [
     {
         "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
-        "endpoint": "gua4-p9wg",
-        "flags": []
+        "flags": [
+            "processed"
+        ],
+        "endpoint": "gua4-p9wg"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/ft4n-yqee/application%2Fzip",
-        "endpoint": "ft4n-yqee",
-        "flags": []
+        "flags": [],
+        "endpoint": "ft4n-yqee"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/mxbm-493w/application%2Fzip",
-        "endpoint": "mxbm-493w",
-        "flags": []
+        "flags": [],
+        "endpoint": "mxbm-493w"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/as38-8eb5/application%2Fzip",
-        "endpoint": "as38-8eb5",
-        "flags": []
+        "flags": [],
+        "endpoint": "as38-8eb5"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/vtzg-7562/application%2Fzip",
-        "endpoint": "vtzg-7562",
-        "flags": []
+        "flags": [],
+        "endpoint": "vtzg-7562"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/hybb-af8n/application%2Fzip",
-        "endpoint": "hybb-af8n",
-        "flags": []
+        "flags": [],
+        "endpoint": "hybb-af8n"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/57g5-etyj/application%2Fzip",
-        "endpoint": "57g5-etyj",
-        "flags": []
+        "flags": [],
+        "endpoint": "57g5-etyj"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/fpz8-jqf4/application%2Fzip",
-        "endpoint": "fpz8-jqf4",
-        "flags": []
+        "flags": [],
+        "endpoint": "fpz8-jqf4"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/c2g8-ercv/application%2Fzip",
-        "endpoint": "c2g8-ercv",
-        "flags": []
+        "flags": [],
+        "endpoint": "c2g8-ercv"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/q663-gvx6/application%2Fzip",
-        "endpoint": "q663-gvx6",
-        "flags": []
+        "flags": [],
+        "endpoint": "q663-gvx6"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/a2ju-qb9a/application%2Fzip",
-        "endpoint": "a2ju-qb9a",
-        "flags": []
+        "flags": [],
+        "endpoint": "a2ju-qb9a"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/xd8h-7j2h/application%2Fzip",
-        "endpoint": "xd8h-7j2h",
-        "flags": []
+        "flags": [],
+        "endpoint": "xd8h-7j2h"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/49mj-4gmb/application%2Fzip",
-        "endpoint": "49mj-4gmb",
-        "flags": []
+        "flags": [],
+        "endpoint": "49mj-4gmb"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/dja4-zgtf/application%2Fzip",
-        "endpoint": "dja4-zgtf",
-        "flags": []
+        "flags": [],
+        "endpoint": "dja4-zgtf"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/3nr6-bnks/application%2Fzip",
-        "endpoint": "3nr6-bnks",
-        "flags": []
+        "flags": [],
+        "endpoint": "3nr6-bnks"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/vrfr-9k4d/application%2Fzip",
-        "endpoint": "vrfr-9k4d",
-        "flags": []
+        "flags": [],
+        "endpoint": "vrfr-9k4d"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/vy67-bzq3/application%2Fzip",
-        "endpoint": "vy67-bzq3",
-        "flags": []
+        "flags": [],
+        "endpoint": "vy67-bzq3"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/wt4d-p43d/application%2Fzip",
-        "endpoint": "wt4d-p43d",
-        "flags": []
+        "flags": [],
+        "endpoint": "wt4d-p43d"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/abgy-h8ag/application%2Fzip",
-        "endpoint": "abgy-h8ag",
-        "flags": []
+        "flags": [],
+        "endpoint": "abgy-h8ag"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/gx5n-2nma/application%2Fzip",
-        "endpoint": "gx5n-2nma",
-        "flags": []
+        "flags": [],
+        "endpoint": "gx5n-2nma"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/n5e5-z493/application%2Fzip",
-        "endpoint": "n5e5-z493",
-        "flags": []
+        "flags": [],
+        "endpoint": "n5e5-z493"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/qiwn-t99b/application%2Fzip",
-        "endpoint": "qiwn-t99b",
-        "flags": []
+        "flags": [],
+        "endpoint": "qiwn-t99b"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/u2m4-wh3s/application%2Fzip",
-        "endpoint": "u2m4-wh3s",
-        "flags": []
+        "flags": [],
+        "endpoint": "u2m4-wh3s"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/2jnq-tef6/application%2Fzip",
-        "endpoint": "2jnq-tef6",
-        "flags": []
+        "flags": [],
+        "endpoint": "2jnq-tef6"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/kkjw-ny95/application%2Fzip",
-        "endpoint": "kkjw-ny95",
-        "flags": []
+        "flags": [],
+        "endpoint": "kkjw-ny95"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/bhs9-p657/application%2Fzip",
-        "endpoint": "bhs9-p657",
-        "flags": []
+        "flags": [],
+        "endpoint": "bhs9-p657"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/vdgp-ddvg/application%2Fzip",
-        "endpoint": "vdgp-ddvg",
-        "flags": []
+        "flags": [],
+        "endpoint": "vdgp-ddvg"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/dgm3-gggb/application%2Fzip",
-        "endpoint": "dgm3-gggb",
-        "flags": []
+        "flags": [],
+        "endpoint": "dgm3-gggb"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/qs4p-vs2w/application%2Fzip",
-        "endpoint": "qs4p-vs2w",
-        "flags": []
+        "flags": [],
+        "endpoint": "qs4p-vs2w"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/igkv-8cju/application%2Fzip",
-        "endpoint": "igkv-8cju",
-        "flags": []
+        "flags": [],
+        "endpoint": "igkv-8cju"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/w4v2-rv6b/application%2Fzip",
-        "endpoint": "w4v2-rv6b",
-        "flags": []
+        "flags": [],
+        "endpoint": "w4v2-rv6b"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/bc8t-ecyu/application%2Fzip",
-        "endpoint": "bc8t-ecyu",
-        "flags": []
+        "flags": [],
+        "endpoint": "bc8t-ecyu"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/s5c9-5mja/application%2Fzip",
-        "endpoint": "s5c9-5mja",
-        "flags": []
+        "flags": [],
+        "endpoint": "s5c9-5mja"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/29i8-bmct/application%2Fzip",
-        "endpoint": "29i8-bmct",
-        "flags": []
+        "flags": [],
+        "endpoint": "29i8-bmct"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/hgue-hj96/application%2Fzip",
-        "endpoint": "hgue-hj96",
-        "flags": []
+        "flags": [],
+        "endpoint": "hgue-hj96"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/cbn4-bn4p/application%2Fzip",
-        "endpoint": "cbn4-bn4p",
-        "flags": []
+        "flags": [],
+        "endpoint": "cbn4-bn4p"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/hyuz-tij8/application%2Fzip",
-        "endpoint": "hyuz-tij8",
-        "flags": []
+        "flags": [],
+        "endpoint": "hyuz-tij8"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/5unr-w4sc/application%2Fzip",
-        "endpoint": "5unr-w4sc",
-        "flags": []
+        "flags": [],
+        "endpoint": "5unr-w4sc"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/ye4r-qpmp/application%2Fzip",
-        "endpoint": "ye4r-qpmp",
-        "flags": []
+        "flags": [],
+        "endpoint": "ye4r-qpmp"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/sf3b-xntp/application%2Fzip",
-        "endpoint": "sf3b-xntp",
-        "flags": []
+        "flags": [],
+        "endpoint": "sf3b-xntp"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/3m2q-9maw/application%2Fzip",
-        "endpoint": "3m2q-9maw",
-        "flags": []
+        "flags": [],
+        "endpoint": "3m2q-9maw"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/s7k9-vr5b/application%2Fzip",
-        "endpoint": "s7k9-vr5b",
-        "flags": []
+        "flags": [],
+        "endpoint": "s7k9-vr5b"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/yjw6-uibq/application%2Fzip",
-        "endpoint": "yjw6-uibq",
-        "flags": []
+        "flags": [],
+        "endpoint": "yjw6-uibq"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/twim-r7xp/application%2Fzip",
-        "endpoint": "twim-r7xp",
-        "flags": []
+        "flags": [],
+        "endpoint": "twim-r7xp"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/294z-97kb/application%2Fzip",
-        "endpoint": "294z-97kb",
-        "flags": []
+        "flags": [],
+        "endpoint": "294z-97kb"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/5rx8-ct65/application%2Fzip",
-        "endpoint": "5rx8-ct65",
-        "flags": []
+        "flags": [],
+        "endpoint": "5rx8-ct65"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/nzih-r6xb/application%2Fzip",
-        "endpoint": "nzih-r6xb",
-        "flags": []
+        "flags": [],
+        "endpoint": "nzih-r6xb"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/39yy-hdfd/application%2Fzip",
-        "endpoint": "39yy-hdfd",
-        "flags": []
+        "flags": [],
+        "endpoint": "39yy-hdfd"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/3cdm-p29e/application%2Fzip",
-        "endpoint": "3cdm-p29e",
-        "flags": []
+        "flags": [],
+        "endpoint": "3cdm-p29e"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/q6p5-m7xb/application%2Fzip",
-        "endpoint": "q6p5-m7xb",
-        "flags": []
+        "flags": [],
+        "endpoint": "q6p5-m7xb"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/xg3x-h3g7/application%2Fzip",
-        "endpoint": "xg3x-h3g7",
-        "flags": []
+        "flags": [],
+        "endpoint": "xg3x-h3g7"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/rnjn-x48k/application%2Fzip",
-        "endpoint": "rnjn-x48k",
-        "flags": []
+        "flags": [],
+        "endpoint": "rnjn-x48k"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/aprw-p4ws/application%2Fzip",
-        "endpoint": "aprw-p4ws",
-        "flags": []
+        "flags": [],
+        "endpoint": "aprw-p4ws"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/sntb-k5vj/application%2Fzip",
-        "endpoint": "sntb-k5vj",
-        "flags": []
+        "flags": [],
+        "endpoint": "sntb-k5vj"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/cxyq-uhvk/application%2Fzip",
-        "endpoint": "cxyq-uhvk",
-        "flags": []
+        "flags": [],
+        "endpoint": "cxyq-uhvk"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/ks56-wyey/application%2Fzip",
-        "endpoint": "ks56-wyey",
-        "flags": []
+        "flags": [],
+        "endpoint": "ks56-wyey"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/cxzk-qz9w/application%2Fzip",
-        "endpoint": "cxzk-qz9w",
-        "flags": []
+        "flags": [],
+        "endpoint": "cxzk-qz9w"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/kjk4-7tzy/application%2Fzip",
-        "endpoint": "kjk4-7tzy",
-        "flags": []
+        "flags": [],
+        "endpoint": "kjk4-7tzy"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/i8iw-xf4u/application%2Fzip",
-        "endpoint": "i8iw-xf4u",
-        "flags": []
+        "flags": [],
+        "endpoint": "i8iw-xf4u"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/mm69-vrje/application%2Fzip",
-        "endpoint": "mm69-vrje",
-        "flags": []
+        "flags": [],
+        "endpoint": "mm69-vrje"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/mran-v46w/application%2Fzip",
-        "endpoint": "mran-v46w",
-        "flags": []
+        "flags": [],
+        "endpoint": "mran-v46w"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/2v4z-66xt/application%2Fzip",
-        "endpoint": "2v4z-66xt",
-        "flags": []
+        "flags": [],
+        "endpoint": "2v4z-66xt"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/smk3-tmxj/application%2Fzip",
-        "endpoint": "smk3-tmxj",
-        "flags": []
+        "flags": [],
+        "endpoint": "smk3-tmxj"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/4szu-rxzq/application%2Fzip",
-        "endpoint": "4szu-rxzq",
-        "flags": []
+        "flags": [],
+        "endpoint": "4szu-rxzq"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/vnwz-ihnf/application%2Fzip",
-        "endpoint": "vnwz-ihnf",
-        "flags": []
+        "flags": [],
+        "endpoint": "vnwz-ihnf"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/fmhd-mfkw/application%2Fzip",
-        "endpoint": "fmhd-mfkw",
-        "flags": []
+        "flags": [],
+        "endpoint": "fmhd-mfkw"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/496p-fwvq/application%2Fzip",
-        "endpoint": "496p-fwvq",
-        "flags": []
+        "flags": [],
+        "endpoint": "496p-fwvq"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/hnxz-kkn5/application%2Fzip",
-        "endpoint": "hnxz-kkn5",
-        "flags": []
+        "flags": [],
+        "endpoint": "hnxz-kkn5"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/9auy-76zt/application%2Fzip",
-        "endpoint": "9auy-76zt",
-        "flags": []
+        "flags": [],
+        "endpoint": "9auy-76zt"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/p23h-ci72/application%2Fzip",
-        "endpoint": "p23h-ci72",
-        "flags": []
+        "flags": [],
+        "endpoint": "p23h-ci72"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/sg2s-hjt6/application%2Fzip",
-        "endpoint": "sg2s-hjt6",
-        "flags": []
+        "flags": [],
+        "endpoint": "sg2s-hjt6"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/my58-k6an/application%2Fzip",
-        "endpoint": "my58-k6an",
-        "flags": []
+        "flags": [],
+        "endpoint": "my58-k6an"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/djj3-qxwf/application%2Fzip",
-        "endpoint": "djj3-qxwf",
-        "flags": []
+        "flags": [],
+        "endpoint": "djj3-qxwf"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/na8n-6f5f/application%2Fzip",
-        "endpoint": "na8n-6f5f",
-        "flags": []
+        "flags": [],
+        "endpoint": "na8n-6f5f"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/je66-se2r/application%2Fzip",
-        "endpoint": "je66-se2r",
-        "flags": []
+        "flags": [],
+        "endpoint": "je66-se2r"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/eznj-hdma/application%2Fzip",
-        "endpoint": "eznj-hdma",
-        "flags": []
+        "flags": [],
+        "endpoint": "eznj-hdma"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/yh7h-cx7a/application%2Fzip",
-        "endpoint": "yh7h-cx7a",
-        "flags": []
+        "flags": [],
+        "endpoint": "yh7h-cx7a"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/uzf5-f8n2/application%2Fzip",
-        "endpoint": "uzf5-f8n2",
-        "flags": []
+        "flags": [],
+        "endpoint": "uzf5-f8n2"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/dv6z-emb2/application%2Fzip",
-        "endpoint": "dv6z-emb2",
-        "flags": []
+        "flags": [],
+        "endpoint": "dv6z-emb2"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/w7es-2nrk/application%2Fzip",
-        "endpoint": "w7es-2nrk",
-        "flags": []
+        "flags": [],
+        "endpoint": "w7es-2nrk"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/bevq-88e4/application%2Fzip",
-        "endpoint": "bevq-88e4",
-        "flags": []
+        "flags": [],
+        "endpoint": "bevq-88e4"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/wchz-a6hh/application%2Fzip",
-        "endpoint": "wchz-a6hh",
-        "flags": []
+        "flags": [],
+        "endpoint": "wchz-a6hh"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/ige5-v6sk/application%2Fzip",
-        "endpoint": "ige5-v6sk",
-        "flags": []
+        "flags": [],
+        "endpoint": "ige5-v6sk"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/fum3-ejky/application%2Fzip",
-        "endpoint": "fum3-ejky",
-        "flags": []
+        "flags": [],
+        "endpoint": "fum3-ejky"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/94qw-aaee/application%2Fzip",
-        "endpoint": "94qw-aaee",
-        "flags": []
+        "flags": [],
+        "endpoint": "94qw-aaee"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/ibjs-7vdf/application%2Fzip",
-        "endpoint": "ibjs-7vdf",
-        "flags": []
+        "flags": [],
+        "endpoint": "ibjs-7vdf"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/gs56-euca/application%2Fzip",
-        "endpoint": "gs56-euca",
-        "flags": []
+        "flags": [],
+        "endpoint": "gs56-euca"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/dqkt-8x6u/application%2Fzip",
-        "endpoint": "dqkt-8x6u",
-        "flags": []
+        "flags": [],
+        "endpoint": "dqkt-8x6u"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/jfju-ynrr/application%2Fzip",
-        "endpoint": "jfju-ynrr",
-        "flags": []
+        "flags": [],
+        "endpoint": "jfju-ynrr"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/cqds-77ys/application%2Fzip",
-        "endpoint": "cqds-77ys",
-        "flags": []
+        "flags": [],
+        "endpoint": "cqds-77ys"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/qpsp-bm9z/application%2Fzip",
-        "endpoint": "qpsp-bm9z",
-        "flags": []
+        "flags": [],
+        "endpoint": "qpsp-bm9z"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/rgy2-tti8/application%2Fzip",
-        "endpoint": "rgy2-tti8",
-        "flags": []
+        "flags": [],
+        "endpoint": "rgy2-tti8"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/9ixa-eggw/application%2Fzip",
-        "endpoint": "9ixa-eggw",
-        "flags": []
+        "flags": [],
+        "endpoint": "9ixa-eggw"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/qirg-qbv8/application%2Fzip",
-        "endpoint": "qirg-qbv8",
-        "flags": []
+        "flags": [],
+        "endpoint": "qirg-qbv8"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/ens7-ac7e/application%2Fzip",
-        "endpoint": "ens7-ac7e",
-        "flags": []
+        "flags": [],
+        "endpoint": "ens7-ac7e"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/qb3k-n8mm/application%2Fzip",
-        "endpoint": "qb3k-n8mm",
-        "flags": []
+        "flags": [],
+        "endpoint": "qb3k-n8mm"
     },
     {
         "resource": "https://data.cityofnewyork.us/download/kcrm-j9hh/application%2Fzip",
-        "endpoint": "kcrm-j9hh",
-        "flags": []
+        "flags": [],
+        "endpoint": "kcrm-j9hh"
     }
 ]

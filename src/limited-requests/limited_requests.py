@@ -9,6 +9,8 @@ import requests
 import multiprocessing as mp
 import sys
 
+
+sys.path.append("../../")
 import datafy
 
 
@@ -52,7 +54,7 @@ def _size_up(dataset_tuples):
             })
 
         # Otherwise, do a basic sizing and print the type to console (WIP).
-        except:
+        except (AttributeError, ValueError):
             dataset_representations.append({
                 'columns': -1,  # -1 is a signal value, used because it gets converted to an int upstream
                 'rows': -1,

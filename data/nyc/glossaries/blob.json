@@ -1,0 +1,90 @@
+[
+    {
+        "dataset": "/904877/04 April 2016 Cyclist Numbers for Web.xlsx",
+        "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
+        "flags": [
+            "processed"
+        ],
+        "columns": -1,
+        "rows": -1,
+        "filesize": 122,
+        "endpoint": "gua4-p9wg"
+    },
+    {
+        "dataset": "/904877/05 May 2016 Cyclist Numbers for Web.xlsx",
+        "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
+        "flags": [
+            "processed"
+        ],
+        "columns": -1,
+        "rows": -1,
+        "filesize": 120,
+        "endpoint": "gua4-p9wg"
+    },
+    {
+        "dataset": "/904877/06 June 2016 Cyclist Numbers for Web.xlsx",
+        "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
+        "flags": [
+            "processed"
+        ],
+        "columns": -1,
+        "rows": -1,
+        "filesize": 121,
+        "endpoint": "gua4-p9wg"
+    },
+    {
+        "dataset": "/904877/07 July 2016 Cyclist Numbers for Web.xlsx",
+        "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
+        "flags": [
+            "processed"
+        ],
+        "columns": -1,
+        "rows": -1,
+        "filesize": 121,
+        "endpoint": "gua4-p9wg"
+    },
+    {
+        "dataset": "/904877/08 August 2016 Cyclist Numbers for Web.xlsx",
+        "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
+        "flags": [
+            "processed"
+        ],
+        "columns": -1,
+        "rows": -1,
+        "filesize": 123,
+        "endpoint": "gua4-p9wg"
+    },
+    {
+        "dataset": "/904877/09 September 2016 Cyclist Numbers for Web.xlsx",
+        "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
+        "flags": [
+            "processed"
+        ],
+        "columns": -1,
+        "rows": -1,
+        "filesize": 126,
+        "endpoint": "gua4-p9wg"
+    },
+    {
+        "dataset": "/904877/Bicycle Counts for East River Bridges Metadata.docx",
+        "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
+        "flags": [
+            "processed"
+        ],
+        "columns": -1,
+        "rows": -1,
+        "filesize": 16,
+        "endpoint": "gua4-p9wg"
+    },
+    {
+        "dataset": "/904877/10 October 2016 Cyclist Numbers for Web.xlsx",
+        "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
+        "flags": [
+            "processed"
+        ],
+        "columns": -1,
+        "rows": -1,
+        "filesize": 124,
+        "endpoint": "gua4-p9wg"
+    }
+]
