@@ -1,0 +1,1087 @@
+[
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pi5s-9p35?method=export&format=GeoJSON",
+        "endpoint": "pi5s-9p35",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2cd9-59fr?method=export&format=GeoJSON",
+        "endpoint": "2cd9-59fr",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ye4j-rp7z?method=export&format=GeoJSON",
+        "endpoint": "ye4j-rp7z",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/nqwf-w8eh?method=export&format=GeoJSON",
+        "endpoint": "nqwf-w8eh",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ux7j-iww6?method=export&format=GeoJSON",
+        "endpoint": "ux7j-iww6",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/8ztn-rmii?method=export&format=GeoJSON",
+        "endpoint": "8ztn-rmii",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/s5zg-yzea?method=export&format=GeoJSON",
+        "endpoint": "s5zg-yzea",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/miz8-534t?method=export&format=GeoJSON",
+        "endpoint": "miz8-534t",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uvgd-xsc8?method=export&format=GeoJSON",
+        "endpoint": "uvgd-xsc8",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/27b5-th78?method=export&format=GeoJSON",
+        "endpoint": "27b5-th78",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/szwg-xci6?method=export&format=GeoJSON",
+        "endpoint": "szwg-xci6",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ikvd-dex8?method=export&format=GeoJSON",
+        "endpoint": "ikvd-dex8",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/j7ww-5ipv?method=export&format=GeoJSON",
+        "endpoint": "j7ww-5ipv",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/a9xv-vek9?method=export&format=GeoJSON",
+        "endpoint": "a9xv-vek9",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/m4mp-ji5y?method=export&format=GeoJSON",
+        "endpoint": "m4mp-ji5y",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7acq-q3tq?method=export&format=GeoJSON",
+        "endpoint": "7acq-q3tq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/6jek-z9ge?method=export&format=GeoJSON",
+        "endpoint": "6jek-z9ge",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uhb2-uqfs?method=export&format=GeoJSON",
+        "endpoint": "uhb2-uqfs",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tpix-uwie?method=export&format=GeoJSON",
+        "endpoint": "tpix-uwie",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7vu2-3skk?method=export&format=GeoJSON",
+        "endpoint": "7vu2-3skk",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2jj7-gj6x?method=export&format=GeoJSON",
+        "endpoint": "2jj7-gj6x",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pask-bcmz?method=export&format=GeoJSON",
+        "endpoint": "pask-bcmz",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2de2-6x2h?method=export&format=GeoJSON",
+        "endpoint": "2de2-6x2h",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/djze-f4qi?method=export&format=GeoJSON",
+        "endpoint": "djze-f4qi",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/yann-8etk?method=export&format=GeoJSON",
+        "endpoint": "yann-8etk",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/5dic-xnxs?method=export&format=GeoJSON",
+        "endpoint": "5dic-xnxs",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/f6st-pb23?method=export&format=GeoJSON",
+        "endpoint": "f6st-pb23",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/x9uq-u3qs?method=export&format=GeoJSON",
+        "endpoint": "x9uq-u3qs",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xgwd-7vhd?method=export&format=GeoJSON",
+        "endpoint": "xgwd-7vhd",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/exjm-f27b?method=export&format=GeoJSON",
+        "endpoint": "exjm-f27b",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/drh3-e2fd?method=export&format=GeoJSON",
+        "endpoint": "drh3-e2fd",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/gpxw-bq7a?method=export&format=GeoJSON",
+        "endpoint": "gpxw-bq7a",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/urxm-vzzk?method=export&format=GeoJSON",
+        "endpoint": "urxm-vzzk",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ajyu-7sgg?method=export&format=GeoJSON",
+        "endpoint": "ajyu-7sgg",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/vr8g-vfny?method=export&format=GeoJSON",
+        "endpoint": "vr8g-vfny",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/yusd-j4xi?method=export&format=GeoJSON",
+        "endpoint": "yusd-j4xi",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tqmj-j8zm?method=export&format=GeoJSON",
+        "endpoint": "tqmj-j8zm",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/w83z-2kf9?method=export&format=GeoJSON",
+        "endpoint": "w83z-2kf9",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/khkb-h6hx?method=export&format=GeoJSON",
+        "endpoint": "khkb-h6hx",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/v9xd-tt3e?method=export&format=GeoJSON",
+        "endpoint": "v9xd-tt3e",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/i7a5-bsik?method=export&format=GeoJSON",
+        "endpoint": "i7a5-bsik",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/eizi-ujye?method=export&format=GeoJSON",
+        "endpoint": "eizi-ujye",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pn7c-bqri?method=export&format=GeoJSON",
+        "endpoint": "pn7c-bqri",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pv8j-5ywy?method=export&format=GeoJSON",
+        "endpoint": "pv8j-5ywy",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h682-ywyg?method=export&format=GeoJSON",
+        "endpoint": "h682-ywyg",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/vvdx-b56i?method=export&format=GeoJSON",
+        "endpoint": "vvdx-b56i",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/e2f7-cs7i?method=export&format=GeoJSON",
+        "endpoint": "e2f7-cs7i",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/yqz9-aduk?method=export&format=GeoJSON",
+        "endpoint": "yqz9-aduk",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ch5p-r223?method=export&format=GeoJSON",
+        "endpoint": "ch5p-r223",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pckb-8r2z?method=export&format=GeoJSON",
+        "endpoint": "pckb-8r2z",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ysjj-vb9j?method=export&format=GeoJSON",
+        "endpoint": "ysjj-vb9j",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ieyi-rqsn?method=export&format=GeoJSON",
+        "endpoint": "ieyi-rqsn",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/arq3-7z49?method=export&format=GeoJSON",
+        "endpoint": "arq3-7z49",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/72wx-vdjr?method=export&format=GeoJSON",
+        "endpoint": "72wx-vdjr",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/asbw-cwm7?method=export&format=GeoJSON",
+        "endpoint": "asbw-cwm7",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uh7r-6nya?method=export&format=GeoJSON",
+        "endpoint": "uh7r-6nya",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ekax-ky3z?method=export&format=GeoJSON",
+        "endpoint": "ekax-ky3z",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qh62-9utz?method=export&format=GeoJSON",
+        "endpoint": "qh62-9utz",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qqsi-vm9f?method=export&format=GeoJSON",
+        "endpoint": "qqsi-vm9f",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/d9z4-v86m?method=export&format=GeoJSON",
+        "endpoint": "d9z4-v86m",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/im58-6hb9?method=export&format=GeoJSON",
+        "endpoint": "im58-6hb9",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xbvj-gfnw?method=export&format=GeoJSON",
+        "endpoint": "xbvj-gfnw",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/n3et-mfjw?method=export&format=GeoJSON",
+        "endpoint": "n3et-mfjw",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/kdig-pewd?method=export&format=GeoJSON",
+        "endpoint": "kdig-pewd",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/cpf4-rkhq?method=export&format=GeoJSON",
+        "endpoint": "cpf4-rkhq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/5p78-k3zm?method=export&format=GeoJSON",
+        "endpoint": "5p78-k3zm",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/iiv7-jaj9?method=export&format=GeoJSON",
+        "endpoint": "iiv7-jaj9",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pf5b-73bw?method=export&format=GeoJSON",
+        "endpoint": "pf5b-73bw",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xfhz-rhsk?method=export&format=GeoJSON",
+        "endpoint": "xfhz-rhsk",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/e3uq-vht9?method=export&format=GeoJSON",
+        "endpoint": "e3uq-vht9",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/s2d8-h5fg?method=export&format=GeoJSON",
+        "endpoint": "s2d8-h5fg",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/v2h8-6mxf?method=export&format=GeoJSON",
+        "endpoint": "v2h8-6mxf",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/mshx-yvwq?method=export&format=GeoJSON",
+        "endpoint": "mshx-yvwq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xphm-ebrs?method=export&format=GeoJSON",
+        "endpoint": "xphm-ebrs",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qd3c-zuu7?method=export&format=GeoJSON",
+        "endpoint": "qd3c-zuu7",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ejxk-d93y?method=export&format=GeoJSON",
+        "endpoint": "ejxk-d93y",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/mzpm-a6vd?method=export&format=GeoJSON",
+        "endpoint": "mzpm-a6vd",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/hbw8-2bah?method=export&format=GeoJSON",
+        "endpoint": "hbw8-2bah",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/78dh-3ptz?method=export&format=GeoJSON",
+        "endpoint": "78dh-3ptz",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/t7sx-id53?method=export&format=GeoJSON",
+        "endpoint": "t7sx-id53",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/8fhn-c4v3?method=export&format=GeoJSON",
+        "endpoint": "8fhn-c4v3",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/g6pj-hd8k?method=export&format=GeoJSON",
+        "endpoint": "g6pj-hd8k",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/rjaj-zgq7?method=export&format=GeoJSON",
+        "endpoint": "rjaj-zgq7",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qwca-zqw3?method=export&format=GeoJSON",
+        "endpoint": "qwca-zqw3",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/86sd-4yhi?method=export&format=GeoJSON",
+        "endpoint": "86sd-4yhi",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/hkpx-aaxc?method=export&format=GeoJSON",
+        "endpoint": "hkpx-aaxc",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/k2bb-k6p8?method=export&format=GeoJSON",
+        "endpoint": "k2bb-k6p8",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/nn5y-wmuj?method=export&format=GeoJSON",
+        "endpoint": "nn5y-wmuj",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qvtg-k2hn?method=export&format=GeoJSON",
+        "endpoint": "qvtg-k2hn",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/gi7d-8gt5?method=export&format=GeoJSON",
+        "endpoint": "gi7d-8gt5",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/r8nu-ymqj?method=export&format=GeoJSON",
+        "endpoint": "r8nu-ymqj",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/i9rv-hdr5?method=export&format=GeoJSON",
+        "endpoint": "i9rv-hdr5",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/p4pf-fyc4?method=export&format=GeoJSON",
+        "endpoint": "p4pf-fyc4",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/hrii-hezj?method=export&format=GeoJSON",
+        "endpoint": "hrii-hezj",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/kdu2-865w?method=export&format=GeoJSON",
+        "endpoint": "kdu2-865w",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2cav-chmn?method=export&format=GeoJSON",
+        "endpoint": "2cav-chmn",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/388s-pnvc?method=export&format=GeoJSON",
+        "endpoint": "388s-pnvc",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/d7n3-sf2d?method=export&format=GeoJSON",
+        "endpoint": "d7n3-sf2d",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/6gvx-hydd?method=export&format=GeoJSON",
+        "endpoint": "6gvx-hydd",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/drex-xx56?method=export&format=GeoJSON",
+        "endpoint": "drex-xx56",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h2n3-98hq?method=export&format=GeoJSON",
+        "endpoint": "h2n3-98hq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/fxpq-c8ku?method=export&format=GeoJSON",
+        "endpoint": "fxpq-c8ku",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/w9uz-8epq?method=export&format=GeoJSON",
+        "endpoint": "w9uz-8epq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/3w3r-v568?method=export&format=GeoJSON",
+        "endpoint": "3w3r-v568",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2n64-63dq?method=export&format=GeoJSON",
+        "endpoint": "2n64-63dq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/txxa-5nhg?method=export&format=GeoJSON",
+        "endpoint": "txxa-5nhg",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/53au-zf7x?method=export&format=GeoJSON",
+        "endpoint": "53au-zf7x",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/4p5v-sqmv?method=export&format=GeoJSON",
+        "endpoint": "4p5v-sqmv",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/bmax-4kci?method=export&format=GeoJSON",
+        "endpoint": "bmax-4kci",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/4kym-4xw5?method=export&format=GeoJSON",
+        "endpoint": "4kym-4xw5",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/79z8-9mcf?method=export&format=GeoJSON",
+        "endpoint": "79z8-9mcf",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/4u36-44pe?method=export&format=GeoJSON",
+        "endpoint": "4u36-44pe",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pwhj-ikym?method=export&format=GeoJSON",
+        "endpoint": "pwhj-ikym",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/rm4p-5usz?method=export&format=GeoJSON",
+        "endpoint": "rm4p-5usz",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pp5b-95kq?method=export&format=GeoJSON",
+        "endpoint": "pp5b-95kq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tar7-vww3?method=export&format=GeoJSON",
+        "endpoint": "tar7-vww3",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/3aim-ipk8?method=export&format=GeoJSON",
+        "endpoint": "3aim-ipk8",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h7zy-iq3d?method=export&format=GeoJSON",
+        "endpoint": "h7zy-iq3d",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2qj2-cctx?method=export&format=GeoJSON",
+        "endpoint": "2qj2-cctx",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7equ-j2vi?method=export&format=GeoJSON",
+        "endpoint": "7equ-j2vi",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7vpq-4bh4?method=export&format=GeoJSON",
+        "endpoint": "7vpq-4bh4",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/62dw-nwnq?method=export&format=GeoJSON",
+        "endpoint": "62dw-nwnq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2fpa-bnsx?method=export&format=GeoJSON",
+        "endpoint": "2fpa-bnsx",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ty8z-v9d2?method=export&format=GeoJSON",
+        "endpoint": "ty8z-v9d2",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/rjqi-t95z?method=export&format=GeoJSON",
+        "endpoint": "rjqi-t95z",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qsuf-mgjh?method=export&format=GeoJSON",
+        "endpoint": "qsuf-mgjh",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uihr-hn7s?method=export&format=GeoJSON",
+        "endpoint": "uihr-hn7s",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/gx7x-82rk?method=export&format=GeoJSON",
+        "endpoint": "gx7x-82rk",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/q6ei-tvmg?method=export&format=GeoJSON",
+        "endpoint": "q6ei-tvmg",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/g84h-jbjm?method=export&format=GeoJSON",
+        "endpoint": "g84h-jbjm",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/kxg8-856s?method=export&format=GeoJSON",
+        "endpoint": "kxg8-856s",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/3nxf-gbay?method=export&format=GeoJSON",
+        "endpoint": "3nxf-gbay",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/a9we-mtpn?method=export&format=GeoJSON",
+        "endpoint": "a9we-mtpn",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ayer-cga7?method=export&format=GeoJSON",
+        "endpoint": "ayer-cga7",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/acxp-7ep7?method=export&format=GeoJSON",
+        "endpoint": "acxp-7ep7",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tv64-9x69?method=export&format=GeoJSON",
+        "endpoint": "tv64-9x69",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h9sf-7bej?method=export&format=GeoJSON",
+        "endpoint": "h9sf-7bej",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/htur-iwux?method=export&format=GeoJSON",
+        "endpoint": "htur-iwux",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/cwiz-gcty?method=export&format=GeoJSON",
+        "endpoint": "cwiz-gcty",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/jgqm-ccbd?method=export&format=GeoJSON",
+        "endpoint": "jgqm-ccbd",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/99bc-9p23?method=export&format=GeoJSON",
+        "endpoint": "99bc-9p23",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/3vjv-6tf5?method=export&format=GeoJSON",
+        "endpoint": "3vjv-6tf5",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/6cne-um3h?method=export&format=GeoJSON",
+        "endpoint": "6cne-um3h",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ezfn-5dsb?method=export&format=GeoJSON",
+        "endpoint": "ezfn-5dsb",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/wue3-68ab?method=export&format=GeoJSON",
+        "endpoint": "wue3-68ab",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/6ej9-7qyi?method=export&format=GeoJSON",
+        "endpoint": "6ej9-7qyi",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/yfnk-k7r4?method=export&format=GeoJSON",
+        "endpoint": "yfnk-k7r4",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h4i2-acfi?method=export&format=GeoJSON",
+        "endpoint": "h4i2-acfi",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h3ke-x25q?method=export&format=GeoJSON",
+        "endpoint": "h3ke-x25q",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/vfx9-tbb6?method=export&format=GeoJSON",
+        "endpoint": "vfx9-tbb6",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/b55q-34ps?method=export&format=GeoJSON",
+        "endpoint": "b55q-34ps",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/mzbd-kucq?method=export&format=GeoJSON",
+        "endpoint": "mzbd-kucq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tgyc-r5jh?method=export&format=GeoJSON",
+        "endpoint": "tgyc-r5jh",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/kjtf-e6kp?method=export&format=GeoJSON",
+        "endpoint": "kjtf-e6kp",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uyj8-7rv5?method=export&format=GeoJSON",
+        "endpoint": "uyj8-7rv5",
+        "flags": [
+            "processed"
+        ]
+    }
+]

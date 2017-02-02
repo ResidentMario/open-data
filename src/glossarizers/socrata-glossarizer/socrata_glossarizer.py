@@ -34,6 +34,10 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
     -------
     Nothing; writes to a file.
     """
+    # TODO: Link datatype has not been implemented yet.
+    if endpoint_type == "link":
+        raise ValueError("The link datatype has not been implemented yet.")
+
     # If the file already exists and we specify `use_cache=True`, simply return.
     resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
     preexisting = os.path.isfile(resource_filename)
@@ -73,7 +77,17 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
     roi_repr = []
     for resource in roi:
         endpoint = resource['resource']['id']
-        slug = "https://" + domain + "/api/views/" + endpoint + "/rows.csv?accessType=DOWNLOAD"
+
+        # The slug format depends on the API signature, which is in turn dependent on the dataset type.
+        if endpoint_type == "table":
+            slug = "https://" + domain + "/api/views/" + endpoint + "/rows.csv?accessType=DOWNLOAD"
+        elif endpoint_type == "geospatial dataset":
+            slug = "https://" + domain + "/api/geospatial/" + endpoint + "?method=export&format=GeoJSON"
+        elif endpoint_type == "blob":
+            slug = "https://data.cityofnewyork.us/download/" + endpoint + "/application%2Fzip"
+        else:
+            raise ValueError  # Links have not been implemented yet. This code shouldn't execute, gets caught at start.
+
         roi_repr.append(
             {
                 'endpoint': endpoint,
@@ -88,7 +102,7 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
 
 
 def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=True,
-                                 endpoint_type="table"):
+                                 endpoint_type="table", timeout=60):
     """
     Writes a dataset representation. This is the hard part!
 
@@ -103,6 +117,9 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
         old one).
     endpoint_type: str, default "table"
         The resource type to build a glossary for.
+    timeout: int, default 60
+        The maximum amount of time to spend downloading data before killing the process. This is implemented so that
+        occassional very large datasets do not crash the process.
 
     Returns
     -------
@@ -168,13 +185,56 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
 
                 # Update the resource list to make note of the fact that this job has been processed.
                 resource['flags'].append("processed")
+
+        # geospatial datasets, blobs, links:
+        # ...
         else:
-            pass
-            # TODO: Implement.
+            # Import the necessary library.
+            import sys; sys.path.insert(0, "../../limited-requests")
+            import limited_requests
+
+            # Create a q for managing jobs.
+            q = limited_requests.q()
+
+            for i, resource in tqdm(list(enumerate(resource_list))):
+
+                # Get the sizing information.
+                sizings = limited_requests.limited_get(resource['resource'], q, timeout=timeout)
+
+                # If successful, append the result to the glossary.
+                if sizings:  # If successful.
+
+                    for sizing in sizings:
+                        glossary.append({
+                            'rows': int(sizing['rows']),
+                            'columns': int(sizing['columns']),
+                            'filesize': int(sizing['filesize']),
+                            'flags': resource['flags'],
+                            'resource': sizing['resource'],
+                            'endpoint': resource['endpoint'],
+                            'dataset': sizing['dataset']
+                        })
+
+                # If unsuccessful, append a signal result to the glossary.
+                else:
+                    glossary.append({
+                        'rows': "?",
+                        'columns': "?",
+                        'filesize': ">60s",
+                        'flags': resource['flags'],
+                        'resource': resource['resource'],
+                        'endpoint': resource['endpoint'],
+                        'dataset': "."
+                    })
+
+                # Either way, update the resource list to make note of the fact that this job has been processed.
+                resource['flags'].append("processed")
+
     # Whether we succeeded or got caught on a fatal error, in either case clean up.
     finally:
-        # Close the driver instance.
-        pager.driver.quit()
+        # If a driver was open, close the driver instance.
+        if endpoint_type == "table":
+            pager.driver.quit()
 
         # Save output.
         with open(glossary_filename, "w") as fp:
