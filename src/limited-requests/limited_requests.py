@@ -7,7 +7,7 @@ content-length information in its header, the file itself is of <sizeout> size).
 
 import requests
 import multiprocessing as mp
-import time
+import sys
 
 import datafy
 
@@ -29,6 +29,7 @@ def _fetch(uri, q, reducer, sizeout=None):
                 raise FileTooLargeException
 
     dataset_tuples = datafy.get(uri)
+    print(dataset_tuples)
     q.put(reducer(dataset_tuples))
 
 
@@ -36,17 +37,32 @@ def _size_up(dataset_tuples):
     dataset_representations = []
     for data, fp, type in dataset_tuples:
 
-        # How we "size up" the dataset depends on what format it is provided in. If it's provided in a tabular format
+        # How we "size up" the dataset depends on what format it is provided in.
 
-        dataset_representations.append(
-            {
+        # If it's provided in a tabular format, e.g. as a parsed tabular or geospatial dataset, we are given a
+        # DataFrame or GeoDataFrame, and can analyze it as such.
+        if set(type).issubset({'csv', 'geojson', 'shp', 'xls'}):
+            dataset_representations.append({
                 'columns': len(data.columns),
                 'rows': len(data),
                 'filesize': data.memory_usage().sum(),
                 'type': type,
                 'dataset': fp
-            }
-        )
+            })
+
+        # ...
+
+        # Otherwise, do a basic sizing and print the type to console (WIP).
+        else:
+            print("Figure out how to work with: " + type)
+            dataset_representations.append({
+                'columns': -1,  # -1 is a signal value, used because it gets converted to an int upstream.
+                'rows': -1,
+                'filesize': sys.getsizeof(data),
+                'type': type,
+                'dataset': fp
+            })
+
     return dataset_representations
 
 

@@ -88,13 +88,11 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
         else:
             raise ValueError  # Links have not been implemented yet. This code shouldn't execute, gets caught at start.
 
-        roi_repr.append(
-            {
-                'endpoint': endpoint,
-                'resource': slug,
-                'flags': []
-             }
-        )
+        roi_repr.append({
+            'endpoint': endpoint,
+            'resource': slug,
+            'flags': []
+        })
 
     # Write to file and exit.
     with open(resource_filename, 'w') as fp:
@@ -199,6 +197,7 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
             for i, resource in tqdm(list(enumerate(resource_list))):
 
                 # Get the sizing information.
+                import pdb; pdb.set_trace()
                 sizings = limited_requests.limited_get(resource['resource'], q, timeout=timeout)
 
                 # If successful, append the result to the glossary.

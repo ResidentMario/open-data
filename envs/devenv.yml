@@ -16,3 +16,5 @@ dependencies:
     - requests-file
     - selenium
     - tqdm
+    - python-magic
+    - git+git://github.com/ResidentMario/datafy

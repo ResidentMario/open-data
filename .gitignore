@@ -5,4 +5,4 @@ src/readfile/__pycache__/
 src/limited-requests/__pycache__/
 src/endpoint-pager/__pycache__/
 src/glossarizers/socrata-glossarizer/__pycache__/
-
+.DS_Store
