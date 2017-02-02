@@ -4,3 +4,5 @@ notebooks/.ipynb_checkpoints
 src/readfile/__pycache__/
 src/limited-requests/__pycache__/
 src/endpoint-pager/__pycache__/
+src/socrata-glossarizer/__pycache__/
+
