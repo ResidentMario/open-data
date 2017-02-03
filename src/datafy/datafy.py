@@ -30,7 +30,7 @@ requests_session = requests.Session()
 requests_session.mount("file://", FileAdapter())
 
 
-def get(uri, sizeout=1000, type=None):
+def get(uri, sizeout=1000, type=None, localized=False):
 
     # First send a HEAD request and back out if sizeout is exceeded. Don't do this if the file is local.
     if "file://" not in uri:
@@ -83,6 +83,13 @@ def get(uri, sizeout=1000, type=None):
     # with a ".".
     filepath_hint = uri.replace("file://", "") if "file://" in uri else "."
 
+    # If get is called with the localized flag set to true, we are furthermore operating on a file which has already
+    # been saved to disc using a temporary filename. This was done to simplify the code with it comes to inspecting
+    # archival format files. Since we don't want that temporary path to be included in the filename that we write to
+    # the glossary, we set this flag when that happens in order to remove that component of the path before writing,
+    # as per here.
+    filepath_hint = "/".join(filepath_hint.spit("/")[1:]) if localized else filepath_hint
+
     # Use the hints to load the data.
     if type_hint == "csv":
         return [(pd.read_csv(io.BytesIO(r.content)), filepath_hint, type_hint)]
@@ -121,7 +128,10 @@ def get(uri, sizeout=1000, type=None):
 
         # This branch will then recursively call get as a subroutine, using the file driver to pick out the rest of the
         # files in the folder.
+        print(uri)
+
         z = zipfile.ZipFile(io.BytesIO(r.content))
+
         while True:
             temp_foldername = str(random.randint(0, 1000000))  # minimize the chance of a collision
             if not os.path.exists(temp_foldername):
@@ -133,7 +143,7 @@ def get(uri, sizeout=1000, type=None):
         ret = []
         for filename in z.namelist():
             type = filename.split(".")[-1]
-            ret += get("file:///{0}/{1}".format(temp_foldername, filename), type=type)
+            ret += get("file:///{0}/{1}".format(temp_foldername, filename), type=type, localized=True)
 
         # Delete the folder before returning the data.
         shutil.rmtree(temp_foldername)
