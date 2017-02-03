@@ -65,39 +65,64 @@ def page_socrata(domain, endpoint, timeout=10):
         WebDriverWait(driver, timeout).until(
             EC.presence_of_element_located((By.CLASS_NAME, "dataset-contents"))
         )
-        dataset_contents_list = driver.find_elements_by_class_name('dataset-contents')
-        assert len(dataset_contents_list) == 1  # check that the UI is what we expect it to be
-        metadata_pairs = dataset_contents_list[0].find_elements_by_class_name('metadata-pair')
-        # Again we assert that we have the information that we need. However, it's important to note that in some cases,
-        # there are *more* than two elements in the "What's in this Dataset?" content block. I'm not at all sure what
-        # the rules for this are, but compare one without extras:
-        # https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95
-        # With one that has them:
-        # https://data.cityofnewyork.us/Housing-Development/Housing-New-York-Units-by-Building/hg8x-zxpr
-        # That's ok. We'll include that data but ignore it in the read script itself.
-        assert len(metadata_pairs) >= 2
-        rowcol = dict()
-        for m in metadata_pairs:
-            key = m.find_element_by_class_name('metadata-pair-key').text
-            value = m.find_element_by_class_name('metadata-pair-value').text
-            rowcol.update({key.lower(): value})
-
-        # Convert to a machine format. 342K -> 342000, 1M -> 1000000
-        rowcol['columns'] = int(rowcol['columns'])
-        r = rowcol['rows']
-        r = r.replace(",", "")
-        if "M" in r:
-            r = int(float(r[:-1])  * 1000000)
-        elif "K" in r:
-            r = int(float(r[:-1])  * 1000)
-        else:
-            r = int(r)
-        rowcol['rows'] = r
-
-        return rowcol
+        return driver
     except TimeoutException:
         driver.save_screenshot('error.png')
         raise
 
-# Test:
-# print(page_socrata("data.cityofnewyork.us", "h9gi-nx95"))
+
+def page_socrata_for_endpoint_size(domain, endpoint, timeout=10):
+
+    # First use the page_socrata subroutine to fetch the loaded page.
+    driver = page_socrata(domain, endpoint, timeout=timeout)
+
+    # Now pull out the DOM element containing the desired sizing information.
+    dataset_contents_list = driver.find_elements_by_class_name('dataset-contents')
+    assert len(dataset_contents_list) == 1  # check that the UI is what we expect it to be
+    metadata_pairs = dataset_contents_list[0].find_elements_by_class_name('metadata-pair')
+
+    # Again we assert that we have the information that we need. However, it's important to note that in some cases,
+    # there are *more* than two elements in the "What's in this Dataset?" content block. I'm not at all sure what
+    # the rules for this are, but compare one without extras:
+    # https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95
+    # With one that has them:
+    # https://data.cityofnewyork.us/Housing-Development/Housing-New-York-Units-by-Building/hg8x-zxpr
+    # That's ok. We'll include that data but ignore it in the read script itself.
+    assert len(metadata_pairs) >= 2
+    rowcol = dict()
+    for m in metadata_pairs:
+        key = m.find_element_by_class_name('metadata-pair-key').text
+        value = m.find_element_by_class_name('metadata-pair-value').text
+        rowcol.update({key.lower(): value})
+
+    # Convert to a machine format. 342K -> 342000, 1M -> 1000000
+    rowcol['columns'] = int(rowcol['columns'])
+    r = rowcol['rows']
+    r = r.replace(",", "")
+    if "M" in r:
+        r = int(float(r[:-1]) * 1000000)
+    elif "K" in r:
+        r = int(float(r[:-1]) * 1000)
+    else:
+        r = int(r)
+    rowcol['rows'] = r
+
+    return rowcol
+
+
+def page_socrata_for_resource_link(domain, endpoint, timeout=10):
+
+    # First use the page_socrata subroutine to fetch the loaded page.
+    driver = page_socrata(domain, endpoint, timeout=timeout)
+
+    # Now pull out the DOM element containing the link.
+    download_placard = driver.find_elements_by_class_name('download-buttons')
+    assert len(download_placard) == 1  # check that the UI is what we expect it to be
+
+    # Select the download button DOM element (there may (?) be multiple buttons, take the first one).
+    download_buttons = download_placard[0].find_elements_by_class_name('download')
+    assert len(download_buttons) >= 1
+
+    # Get the link, concatenate it to the path, and return.
+    href = download_buttons[0].get_attribute("href")
+    return "{0}/{1}".format(domain, href)

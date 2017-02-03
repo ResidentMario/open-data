@@ -164,7 +164,7 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
             for resource in tqdm(resource_list):
                 # Catch an error where the dataset has been deleted, warn but continue.
                 try:
-                    rowcol = pager.page_socrata(domain, resource['endpoint'], timeout=10)
+                    rowcol = pager.page_socrata_for_endpoint_size(domain, resource['endpoint'], timeout=10)
                 except pager.DeletedEndpointException:
                     print("WARNING: the '{0}' endpoint appears to have been removed.".format(resource['endpoint']))
                     resource['flags'].append('removed')
