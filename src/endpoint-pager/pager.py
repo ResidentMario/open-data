@@ -55,7 +55,8 @@ class DeletedEndpointException(Exception):
     pass
 
 
-def page_socrata(domain, endpoint, timeout=10):
+def page_socrata(domain, endpoint, condition=EC.presence_of_element_located((By.CLASS_NAME, "dataset-contents")),
+                 timeout=10):
     uri = "https://" + domain + "/d/" + endpoint
     driver.get(uri)
     try:
@@ -63,7 +64,7 @@ def page_socrata(domain, endpoint, timeout=10):
         if driver.current_url == "https://" + domain + "/":
             raise DeletedEndpointException
         WebDriverWait(driver, timeout).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "dataset-contents"))
+            condition
         )
         return driver
     except TimeoutException:
@@ -113,16 +114,17 @@ def page_socrata_for_endpoint_size(domain, endpoint, timeout=10):
 def page_socrata_for_resource_link(domain, endpoint, timeout=10):
 
     # First use the page_socrata subroutine to fetch the loaded page.
-    driver = page_socrata(domain, endpoint, timeout=timeout)
+    condition = EC.presence_of_element_located((By.CLASS_NAME, "download-buttons"))
+    driver = page_socrata(domain, endpoint, condition=condition, timeout=timeout)
 
     # Now pull out the DOM element containing the link.
     download_placard = driver.find_elements_by_class_name('download-buttons')
-    assert len(download_placard) == 1  # check that the UI is what we expect it to be
+    assert len(download_placard) >= 1  # check that the UI is what we expect it to be
 
     # Select the download button DOM element (there may (?) be multiple buttons, take the first one).
     download_buttons = download_placard[0].find_elements_by_class_name('download')
     assert len(download_buttons) >= 1
 
-    # Get the link, concatenate it to the path, and return.
+    # Get the link and return it.
     href = download_buttons[0].get_attribute("href")
-    return "{0}/{1}".format(domain, href)
+    return href

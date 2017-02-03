@@ -1,0 +1,2686 @@
+[
+    {
+        "rows": -1,
+        "endpoint": "79me-a7rs",
+        "columns": -1,
+        "resource": "https://www.nycgovparks.org/bigapps/DPR_Parks_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "fx7a-24mf",
+        "columns": -1,
+        "resource": "https://www.nycgovparks.org/bigapps/DPR_Pools_outdoor_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "psde-rqze",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "ClosedPotholes_201701171457.CPG",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "psde-rqze",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "ClosedPotholes_201701171457.dbf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "psde-rqze",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "ClosedPotholes_201701171457.prj",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "psde-rqze",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "ClosedPotholes_201701171457.sbn",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "psde-rqze",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "ClosedPotholes_201701171457.sbx",
+        "filesize": 16
+    },
+    {
+        "rows": 199144,
+        "endpoint": "psde-rqze",
+        "columns": 15,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "ClosedPotholes_201701171457.shp",
+        "filesize": 175781593
+    },
+    {
+        "rows": -1,
+        "endpoint": "psde-rqze",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "ClosedPotholes_201701171457.shp.xml",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "psde-rqze",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "ClosedPotholes_201701171457.shx",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "dte3-kvx7",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/adopt-a-highway-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Adopt-a-Highway/",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "dte3-kvx7",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/adopt-a-highway-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Adopt-a-Highway/(A) March AAH Inspection Ratings.xlsx",
+        "filesize": 133
+    },
+    {
+        "rows": -1,
+        "endpoint": "dte3-kvx7",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/adopt-a-highway-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Adopt-a-Highway/(B) April AAH Inspection Ratings.xlsx",
+        "filesize": 133
+    },
+    {
+        "rows": -1,
+        "endpoint": "dte3-kvx7",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/adopt-a-highway-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Adopt-a-Highway/(C) May AAH Inspection Ratings.xlsx",
+        "filesize": 131
+    },
+    {
+        "rows": -1,
+        "endpoint": "dte3-kvx7",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/adopt-a-highway-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Adopt-a-Highway/(D) June AAH Inspection Ratings.xlsx",
+        "filesize": 132
+    },
+    {
+        "rows": -1,
+        "endpoint": "dte3-kvx7",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/adopt-a-highway-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Adopt-a-Highway/Highway Service Goods_Metadata.docx",
+        "filesize": 16
+    },
+    {
+        "rows": "?",
+        "endpoint": "9p9k-tusd",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/dot/downloads/excel/segallboro.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "hfa3-euj3",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/dot/downloads/excel/intallboro.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "pnij-y7y6",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/dot/downloads/excel/seg_active.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "yupw-u2ax",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/dot/downloads/excel/int_active.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": -1,
+        "endpoint": "9dux-uz3w",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/bridge-ratings-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Bridge Ratings/",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "9dux-uz3w",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/bridge-ratings-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Bridge Ratings/2015 Bridges Annual Report-FINAL.xlsx",
+        "filesize": 132
+    },
+    {
+        "rows": -1,
+        "endpoint": "9dux-uz3w",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/bridge-ratings-datafeeds.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Bridge Ratings/BridgeRatings_Metadata.docx",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qk6i-zcht",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Enforcement Report Year 2011 tables.xls",
+        "filesize": 119
+    },
+    {
+        "rows": -1,
+        "endpoint": "qk6i-zcht",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Enforcement Report Year 2012 tables.xls",
+        "filesize": 119
+    },
+    {
+        "rows": -1,
+        "endpoint": "qk6i-zcht",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Enforcement Report Year 2013 tables.xls",
+        "filesize": 119
+    },
+    {
+        "rows": -1,
+        "endpoint": "qk6i-zcht",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Enforcement Report Year 2014 tables.xls",
+        "filesize": 119
+    },
+    {
+        "rows": -1,
+        "endpoint": "qk6i-zcht",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Enforcement Report Year 2015 tables.xls",
+        "filesize": 119
+    },
+    {
+        "rows": -1,
+        "endpoint": "qk6i-zcht",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Enforcement Report Year 2008 tables.xls",
+        "filesize": 119
+    },
+    {
+        "rows": -1,
+        "endpoint": "qk6i-zcht",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Enforcement Report Year 2009 tables.xls",
+        "filesize": 119
+    },
+    {
+        "rows": -1,
+        "endpoint": "qk6i-zcht",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Enforcement Report Year 2010 tables.xls",
+        "filesize": 119
+    },
+    {
+        "rows": "?",
+        "endpoint": "ware-id4f",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_taxicab_metershops.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": -1,
+        "endpoint": "dnjp-mkjx",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/reasonable_suspicion_stops_data_tables_2011-2012.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Reasonable Suspicion Stops data tables 2011-2012/2011 Reasonable Suspicion Stops data tables.xlsx",
+        "filesize": 177
+    },
+    {
+        "rows": -1,
+        "endpoint": "dnjp-mkjx",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/reasonable_suspicion_stops_data_tables_2011-2012.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Reasonable Suspicion Stops data tables 2011-2012/2012 Reasonable Suspicion Stops data tables.xlsx",
+        "filesize": 177
+    },
+    {
+        "rows": 12188,
+        "endpoint": "j8nm-zs7q",
+        "columns": 11,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/excel/analysis_and_planning/c_summons_cw_2007_ytd_2015.xlsx",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 5126339
+    },
+    {
+        "rows": 1159,
+        "endpoint": "ezds-sqp6",
+        "columns": 12,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/excel/omap/nyc_park_crime_stats_q4_2014.xlsx",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 633176
+    },
+    {
+        "rows": -1,
+        "endpoint": "qiwj-i2jk",
+        "columns": -1,
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_CapitalProjectTracker_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "xswq-wnv9",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/ParkingReg/File%20description.pdf",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "wha9-m3tq",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/local_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Local_Truck_Routes_NYC_Lion14A/Local_Truck_Routes_NYC_Lion14A.dbf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "wha9-m3tq",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/local_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Local_Truck_Routes_NYC_Lion14A/Local_Truck_Routes_NYC_Lion14A.prj",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "wha9-m3tq",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/local_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Local_Truck_Routes_NYC_Lion14A/Local_Truck_Routes_NYC_Lion14A.sbn",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "wha9-m3tq",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/local_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Local_Truck_Routes_NYC_Lion14A/Local_Truck_Routes_NYC_Lion14A.sbx",
+        "filesize": 16
+    },
+    {
+        "rows": 18735,
+        "endpoint": "wha9-m3tq",
+        "columns": 122,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/local_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Local_Truck_Routes_NYC_Lion14A/Local_Truck_Routes_NYC_Lion14A.shp",
+        "filesize": 92401465
+    },
+    {
+        "rows": -1,
+        "endpoint": "wha9-m3tq",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/local_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Local_Truck_Routes_NYC_Lion14A/Local_Truck_Routes_NYC_Lion14A.shp.xml",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "wha9-m3tq",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/local_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Local_Truck_Routes_NYC_Lion14A/Local_Truck_Routes_NYC_Lion14A.shx",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qf28-yqqv",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/through_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Through_Truck_Routes_NYC_Lion14A/Through_Truck_Routes_NYC_Lion14A.dbf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qf28-yqqv",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/through_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Through_Truck_Routes_NYC_Lion14A/Through_Truck_Routes_NYC_Lion14A.prj",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qf28-yqqv",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/through_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Through_Truck_Routes_NYC_Lion14A/Through_Truck_Routes_NYC_Lion14A.sbn",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qf28-yqqv",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/through_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Through_Truck_Routes_NYC_Lion14A/Through_Truck_Routes_NYC_Lion14A.sbx",
+        "filesize": 16
+    },
+    {
+        "rows": 12906,
+        "endpoint": "qf28-yqqv",
+        "columns": 122,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/through_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Through_Truck_Routes_NYC_Lion14A/Through_Truck_Routes_NYC_Lion14A.shp",
+        "filesize": 63755657
+    },
+    {
+        "rows": -1,
+        "endpoint": "qf28-yqqv",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/through_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Through_Truck_Routes_NYC_Lion14A/Through_Truck_Routes_NYC_Lion14A.shp.xml",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qf28-yqqv",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/through_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Through_Truck_Routes_NYC_Lion14A/Through_Truck_Routes_NYC_Lion14A.shx",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "spax-mybh",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/all_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "All_Truck_Routes_NYC_Lion14A/All_Truck_Routes_NYC_Lion14A.dbf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "spax-mybh",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/all_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "All_Truck_Routes_NYC_Lion14A/All_Truck_Routes_NYC_Lion14A.prj",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "spax-mybh",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/all_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "All_Truck_Routes_NYC_Lion14A/All_Truck_Routes_NYC_Lion14A.sbn",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "spax-mybh",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/all_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "All_Truck_Routes_NYC_Lion14A/All_Truck_Routes_NYC_Lion14A.sbx",
+        "filesize": 16
+    },
+    {
+        "rows": 31641,
+        "endpoint": "spax-mybh",
+        "columns": 122,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/all_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "All_Truck_Routes_NYC_Lion14A/All_Truck_Routes_NYC_Lion14A.shp",
+        "filesize": 156157018
+    },
+    {
+        "rows": -1,
+        "endpoint": "spax-mybh",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/all_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "All_Truck_Routes_NYC_Lion14A/All_Truck_Routes_NYC_Lion14A.shp.xml",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "spax-mybh",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/all_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "All_Truck_Routes_NYC_Lion14A/All_Truck_Routes_NYC_Lion14A.shx",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "8d5p-rji6",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_CityBench.cpg",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "8d5p-rji6",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_CityBench.dbf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "8d5p-rji6",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_CityBench.prj",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "8d5p-rji6",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_CityBench.sbn",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "8d5p-rji6",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_CityBench.sbx",
+        "filesize": 16
+    },
+    {
+        "rows": 1362,
+        "endpoint": "8d5p-rji6",
+        "columns": 14,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_CityBench.shp",
+        "filesize": 981260
+    },
+    {
+        "rows": -1,
+        "endpoint": "8d5p-rji6",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_CityBench.shp.xml",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "8d5p-rji6",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_CityBench.shx",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "pnru-8qsf",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/bike_shelters.kml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "rn6h-i66u",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/lowbridges_citywide_data_71309.kml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "umu5-zyd3",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "nyc_bike_routes_2016.dbf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "umu5-zyd3",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "nyc_bike_routes_2016.prj",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "umu5-zyd3",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "nyc_bike_routes_2016.sbn",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "umu5-zyd3",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "nyc_bike_routes_2016.sbx",
+        "filesize": 16
+    },
+    {
+        "rows": 13205,
+        "endpoint": "umu5-zyd3",
+        "columns": 16,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "nyc_bike_routes_2016.shp",
+        "filesize": 10470492
+    },
+    {
+        "rows": -1,
+        "endpoint": "umu5-zyd3",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "nyc_bike_routes_2016.shp.xml",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "umu5-zyd3",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "nyc_bike_routes_2016.shx",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "umu5-zyd3",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "nyc_bike_routes_2016_METADATA.pdf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "hxay-3qcw",
+        "columns": -1,
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Kayak_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "9p99-55bh",
+        "columns": -1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "9p99-55bh",
+        "columns": -1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/.DS_Store",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "9p99-55bh",
+        "columns": -1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/",
+        "filesize": 16
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/10_NonTech_Jobs_in_Tech_Firms_by_Occupation.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/1_Industry_Definitions.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/2_Occupation_Definitions.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/3_Ecosystem_by_Industry.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/4_Tech_Jobs_in_Tech_Firms_by_Industry.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/5_Tech_Jobs_in_NonTech_Firms_by_Industry.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/6_NonTech_Jobs_in_Tech_Firms_by_Industry.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/7_Ecosystem_by_Occupation.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/8_Tech_Jobs_in_Tech_Firms_by_Occupation.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "9p99-55bh",
+        "columns": 1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/CSV_Files/9_Tech_Jobs_in_NonTech_Firms_by_Occupation.csv",
+        "filesize": 24
+    },
+    {
+        "rows": -1,
+        "endpoint": "9p99-55bh",
+        "columns": -1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/Data_Dictionary.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "9p99-55bh",
+        "columns": -1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/XLS_File/",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "9p99-55bh",
+        "columns": -1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/XLS_File/.DS_Store",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "9p99-55bh",
+        "columns": -1,
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "NYC_Tech_Ecosystem_Data/XLS_File/NYC_Tech_Ecosystem_Data.xlsx",
+        "filesize": 141
+    },
+    {
+        "rows": -1,
+        "endpoint": "p94q-8hxh",
+        "columns": -1,
+        "resource": "http://citibikenyc.com/stations/json",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 288
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "AccessPoints April 2014.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Ferry Ridership_Water Street.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "HotelPipeline Water Street.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Ped Counts_Water Street.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Residential Water Street_2013.csv",
+        "filesize": 24
+    },
+    {
+        "rows": -1,
+        "endpoint": "quix-kfbk",
+        "columns": -1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "retail and tenants water street 4.24.2014.xlsx",
+        "filesize": 126
+    },
+    {
+        "rows": -1,
+        "endpoint": "quix-kfbk",
+        "columns": -1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "schema.ini",
+        "filesize": 16
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Subway Ridership_Water Street.csv",
+        "filesize": 24
+    },
+    {
+        "rows": -1,
+        "endpoint": "quix-kfbk",
+        "columns": -1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "water street buildings 4.24.2014.xlsx",
+        "filesize": 117
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Water_St_Big_Belly.csv",
+        "filesize": 24
+    },
+    {
+        "rows": -1,
+        "endpoint": "quix-kfbk",
+        "columns": -1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Water_St_Big_Belly.xml",
+        "filesize": 16
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Water_St_Citi_Bike.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Water_St_Light_Poles.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Water_St_PLUTO.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Water_St_Public_Spaces.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Water_St_Solar_Chargers.csv",
+        "filesize": 24
+    },
+    {
+        "rows": 0,
+        "endpoint": "quix-kfbk",
+        "columns": 1,
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Client Devices April 2014.csv",
+        "filesize": 24
+    },
+    {
+        "rows": -1,
+        "endpoint": "r2ig-3im3",
+        "columns": -1,
+        "resource": "https://developer.foursquare.com/",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": "?",
+        "endpoint": "dpc8-z3jc",
+        "columns": "?",
+        "resource": "https://sa-static-customer-assets-us-east-1-fedramp-prod.s3.amazonaws.com/data.cityofnewyork.us/NYC_DEM_1ft.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": -1,
+        "endpoint": "mwxp-krtu",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "agency.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "mwxp-krtu",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "calendar.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "mwxp-krtu",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "calendar_dates.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "mwxp-krtu",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "feed_info.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "mwxp-krtu",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "routes.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "mwxp-krtu",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "shapes.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "mwxp-krtu",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "stops.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "mwxp-krtu",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "stop_times.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "mwxp-krtu",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "trips.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "hqhv-9zeg",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/citywide_historical_crime_data_archive.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Web Data 2010-2011/Misdemeanor Offenses 2000-2011.xls",
+        "filesize": 133
+    },
+    {
+        "rows": -1,
+        "endpoint": "hqhv-9zeg",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/citywide_historical_crime_data_archive.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Web Data 2010-2011/Non Seven Major Felony Offenses 2000 - 2011.xls",
+        "filesize": 146
+    },
+    {
+        "rows": -1,
+        "endpoint": "hqhv-9zeg",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/citywide_historical_crime_data_archive.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Web Data 2010-2011/Seven Major Felony Offenses 2000 - 2011.xls",
+        "filesize": 142
+    },
+    {
+        "rows": -1,
+        "endpoint": "hqhv-9zeg",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/citywide_historical_crime_data_archive.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Web Data 2010-2011/Violation Offenses 2000 - 2011.xls",
+        "filesize": 133
+    },
+    {
+        "rows": -1,
+        "endpoint": "xsat-x5sa",
+        "columns": -1,
+        "resource": "http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "bymk-vktx",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/StreetChanges/StreetNetworkChanges.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "xmzf-uf2w",
+        "columns": -1,
+        "resource": "http://misc.brooklynpubliclibrary.org/BigApps/BPL_branch_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "udt3-taj7",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/SIParking.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qfxy-c6k3",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/QueensParking.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "i8d5-5ciu",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/ManhattanParking.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "evdj-a5z2",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/BrooklynParking.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "7xqy-uv7r",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/BronxParking.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qpbf-g2yx",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "city_racks_2013_06_28.sbx",
+        "filesize": 16
+    },
+    {
+        "rows": 11734,
+        "endpoint": "qpbf-g2yx",
+        "columns": 7,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "city_racks_2013_06_28.shp",
+        "filesize": 1755610
+    },
+    {
+        "rows": -1,
+        "endpoint": "qpbf-g2yx",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "city_racks_2013_06_28.shp.xml",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qpbf-g2yx",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "city_racks_2013_06_28.shx",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qpbf-g2yx",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "city_racks_2013_06_28.dbf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qpbf-g2yx",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "city_racks_2013_06_28.prj",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qpbf-g2yx",
+        "columns": -1,
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "city_racks_2013_06_28.sbn",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "4bg6-ub7f",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/Citywide%20Arterials%20Milling%20Paving%20Schedule.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "9ned-hmak",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_RunningTracks_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "ydj7-rk56",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_RecreationCenter_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "hr2s-xdcw",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_PublicComputerResourceCenter_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "59gn-q4ai",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Playgrounds_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": "?",
+        "endpoint": "fupk-24im",
+        "columns": "?",
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/3C9B6404-D3C3-49D7-8FA8-36AC191BC328/26549/surveyaccess_1011092.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Info.xls",
+        "filesize": 102
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Teacher_Percent_2.xls",
+        "filesize": 115
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Teacher_Score.xls",
+        "filesize": 111
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Parent_Counts.xls",
+        "filesize": 111
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Parent_Percent.xls",
+        "filesize": 112
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Parent_Score.xls",
+        "filesize": 110
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Student_Counts.xlsx",
+        "filesize": 113
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Student_Percent.xlsx",
+        "filesize": 114
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Student_Score.xls",
+        "filesize": 111
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Teacher_Counts_1.xls",
+        "filesize": 114
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Teacher_Counts_2.xls",
+        "filesize": 114
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Teacher_Percent_1.xls",
+        "filesize": 115
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Teacher.pdf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "2008 Survey Data Dictionary (D75).xls",
+        "filesize": 117
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Master.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Parent.pdf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "bj76-nbjg",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_D75_Student.pdf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Teacher.pdf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Info.xls",
+        "filesize": 102
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Parent_Counts.xls",
+        "filesize": 111
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Parent_Percent.xls",
+        "filesize": 112
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Parent_Score.xls",
+        "filesize": 110
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Student_Counts.xls",
+        "filesize": 112
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Student_Percent.xls",
+        "filesize": 113
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Student_Score.xls",
+        "filesize": 111
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Teacher_Counts_1.xls",
+        "filesize": 114
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Teacher_Counts_2.xls",
+        "filesize": 114
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Teacher_Percent_1.xls",
+        "filesize": 115
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Teacher_Percent_2.xls",
+        "filesize": 115
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Teacher_Score.xls",
+        "filesize": 111
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "2008 Survey Data Dictionary.xls",
+        "filesize": 111
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Parent.pdf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Student.pdf",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "i762-rk6i",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_08_Reg_Master.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "ksfe-nc8x",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/623678D2-94D6-45FC-B970-BF1DC1660940/0/2009SurveyData.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "2009 Survey Data Dictionary.xls",
+        "filesize": 111
+    },
+    {
+        "rows": -1,
+        "endpoint": "ksfe-nc8x",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/623678D2-94D6-45FC-B970-BF1DC1660940/0/2009SurveyData.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Masterfile09_d75.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "ksfe-nc8x",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/623678D2-94D6-45FC-B970-BF1DC1660940/0/2009SurveyData.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "masterfile09_gened.txt",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "ksfe-nc8x",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/623678D2-94D6-45FC-B970-BF1DC1660940/0/2009SurveyData.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_09_D75_Overall.xls",
+        "filesize": 105
+    },
+    {
+        "rows": -1,
+        "endpoint": "ksfe-nc8x",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/623678D2-94D6-45FC-B970-BF1DC1660940/0/2009SurveyData.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "Survey_09_GenEd_Overall.xls",
+        "filesize": 107
+    },
+    {
+        "rows": -1,
+        "endpoint": "42p9-q6fd",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/4C258C57-05CC-4A69-8E99-C3EA4A5E61D9/0/2010SurveyData.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "2010 Survey Data Dictionary.xls",
+        "filesize": 111
+    },
+    {
+        "rows": -1,
+        "endpoint": "42p9-q6fd",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/4C258C57-05CC-4A69-8E99-C3EA4A5E61D9/0/2010SurveyData.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "masterfile10_D75_062610.xlsx",
+        "filesize": 108
+    },
+    {
+        "rows": -1,
+        "endpoint": "42p9-q6fd",
+        "columns": -1,
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/4C258C57-05CC-4A69-8E99-C3EA4A5E61D9/0/2010SurveyData.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": "masterfile10_gened_081210.xlsx",
+        "filesize": 110
+    },
+    {
+        "rows": "?",
+        "endpoint": "mnz3-dyi8",
+        "columns": "?",
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/11FE72CE-1313-4C82-88B1-C9FA53BE6842/0/2011datafilesonline.zip",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": 3340,
+        "endpoint": "fndu-yzn3",
+        "columns": 17,
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/for_hire_vehicles_open_summonses.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 2146349
+    },
+    {
+        "rows": "?",
+        "endpoint": "p7p7-wvdw",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/fhv_drivers_open_summonses.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "z42n-hfkv",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_unaffiliated_vehicles.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "sqyt-f78v",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_group_ride_bases.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "keny-zprk",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_group_ride_vehicles.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "ijxg-g6qy",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_group_ride_drivers.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "5j86-5vbn",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_taxicab_brokers.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "sx4q-k6ay",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_taxicab_metershops.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "x9ia-3cjh",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_agents.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "g8fi-we5z",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_medallions.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "ucrw-jk24",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_drivers_ad_complete.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "brrx-dg4s",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_drivers.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "tvy2-e7mm",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_vehicles.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "5q5r-bu4w",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_driver.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "3j9j-3cga",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_bases.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "niuh-hrin",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_commuter_vans.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "rqzz-2ajy",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_commuter_van_drivers.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "ecem-8bdx",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_luxury_limousine_vehicles.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "pr6u-akpp",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_luxury_limousine_bases.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "3nx4-m5h6",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_community_car_service_vehicles.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "ijaw-4yr5",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_community_car_service_bases.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "8f3b-vtv6",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_black_car_vehicles.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "y8c3-mmbu",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_black_car_bases.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": "?",
+        "endpoint": "c8wu-fxqw",
+        "columns": "?",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_fhv_drivers.xls",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": -1,
+        "endpoint": "yitc-zzrc",
+        "columns": -1,
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Cricket_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qjqq-8zh3",
+        "columns": -1,
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Bocce_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "t9jy-gfev",
+        "columns": -1,
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Inspection_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "ac9y-je94",
+        "columns": -1,
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Concessions_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "y8tr-23bj",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_PressReleases_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "efsz-uj8v",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_ParkClosure_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "xdkk-pvdv",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_HistoricalSigns_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "zhrf-jnt6",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_PublicArt_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "8792-ebcp",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Eateries_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "7yhi-h8kc",
+        "columns": -1,
+        "resource": "https://www.nycgovparks.org/bigapps/DPR_NaturePreserves_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "gzk5-mux8",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Zoos_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "dies-sqgi",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Tennis_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "x57r-az25",
+        "columns": -1,
+        "resource": "https://www.nycgovparks.org/bigapps/DPR_Pools_indoor_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "2hr8-czpv",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_NatureCenters_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "sage-tgxd",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_IceSkating_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "sxe3-hucm",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Horseback_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "un72-4nix",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_HistoricHouses_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "i8f4-bu5r",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Hiking_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "aviq-jvfs",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Handball_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": "?",
+        "endpoint": "ipbu-mtcs",
+        "columns": "?",
+        "resource": "http://nycgovparks.org/bigapps/DPR_DogRuns_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": ">60s"
+    },
+    {
+        "rows": -1,
+        "endpoint": "nn83-afrt",
+        "columns": -1,
+        "resource": "http://nyc.gov/html/dpr/nycbigapps/DPR_marinas_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "zyf6-z3xt",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Beaches_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "b937-zdky",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Basketball_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "v3zf-nci8",
+        "columns": -1,
+        "resource": "http://nycgovparks.org/bigapps/DPR_Barbecue_001.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "w3wp-dpdi",
+        "columns": -1,
+        "resource": "http://www.nycgovparks.org/xml/events_300_rss.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "t4s6-khpm",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/SpecialAlerts.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "qhen-5rve",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds//WeekendTraff.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    },
+    {
+        "rows": -1,
+        "endpoint": "vihk-m25f",
+        "columns": -1,
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/WeeklyTraf.xml",
+        "flags": [
+            "processed"
+        ],
+        "dataset": ".",
+        "filesize": 16
+    }
+]

@@ -34,9 +34,6 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
     -------
     Nothing; writes to a file.
     """
-    # TODO: Link datatype has not been implemented yet.
-    if endpoint_type == "link":
-        raise ValueError("The link datatype has not been implemented yet.")
 
     # If the file already exists and we specify `use_cache=True`, simply return.
     resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
@@ -75,7 +72,7 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
 
     # Build the data representation.
     roi_repr = []
-    for resource in roi:
+    for resource in tqdm(roi):
         endpoint = resource['resource']['id']
 
         # The slug format depends on the API signature, which is in turn dependent on the dataset type.
@@ -83,8 +80,10 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
             slug = "https://" + domain + "/api/views/" + endpoint + "/rows.csv?accessType=DOWNLOAD"
         elif endpoint_type == "geospatial dataset":
             slug = "https://" + domain + "/api/geospatial/" + endpoint + "?method=export&format=GeoJSON"
-        elif endpoint_type == "blob":
-            slug = "https://data.cityofnewyork.us/download/" + endpoint + "/application%2Fzip"
+        elif endpoint_type == "blob" or endpoint_type == "link":
+            import sys; sys.path.append("../../endpoint-pager")
+            import pager
+            slug = pager.page_socrata_for_resource_link(domain, endpoint)
         else:
             raise ValueError  # Links have not been implemented yet. This code shouldn't execute, gets caught at start.
 
@@ -199,19 +198,36 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
                 # Get the sizing information.
                 sizings = limited_requests.limited_get(resource['resource'], q, timeout=timeout)
 
-                # If successful, append the result to the glossary.
-                if sizings:  # If successful.
+                # If successful, append the result to the glossary...
+                if sizings:
 
                     for sizing in sizings:
-                        glossary.append({
-                            'rows': int(sizing['rows']),
-                            'columns': int(sizing['columns']),
-                            'filesize': int(sizing['filesize']),
-                            'flags': resource['flags'],
-                            'resource': sizing['resource'],
-                            'endpoint': resource['endpoint'],
-                            'dataset': sizing['dataset']
-                        })
+
+                        # ...but with one caveat. When this process is run on a link, there is a strong possibility
+                        # that it will result in the concatenation of a landing page. There's no automated way to
+                        # determine whether or not a specific resource is or is not a landing page other than to
+                        # inspect it outselves. For example, you can probably tell that
+                        # "http://datamine.mta.info/user/register" is a landing page, but how about
+                        # "http://ddcftp.nyc.gov/rfpweb/rfp_rss.aspx?q=open"? Or
+                        # "https://a816-healthpsi.nyc.gov/DispensingSiteLocator/mainView.do"?
+
+                        # Nevertheless, there is one fairly strong signal we can rely on: landing pages will be HTML
+                        # front-end, and python-magic should in *most* cases determine this fact for us and return it
+                        # in the file typing information. So we can use this to hopefully eliminate many of the
+                        # problematic endpoints.
+
+                        # However, realistically there would need to be some kind of secondary list mechanism that's
+                        # maintained by hand for excluding specific pages. That, however, is a TODO.
+                        if sizing['type'] != "htm" and sizing['type'] != "html":
+                            glossary.append({
+                                'rows': int(sizing['rows']),
+                                'columns': int(sizing['columns']),
+                                'filesize': int(sizing['filesize']),
+                                'flags': resource['flags'],
+                                'resource': sizing['resource'],
+                                'endpoint': resource['endpoint'],
+                                'dataset': sizing['dataset']
+                            })
 
                 # If unsuccessful, append a signal result to the glossary.
                 else:

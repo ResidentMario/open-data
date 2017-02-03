@@ -1,0 +1,1276 @@
+[
+    {
+        "endpoint": "79me-a7rs",
+        "resource": "https://www.nycgovparks.org/bigapps/DPR_Parks_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "fx7a-24mf",
+        "resource": "https://www.nycgovparks.org/bigapps/DPR_Pools_outdoor_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "psde-rqze",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/closed-potholes-datafeeds.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "dte3-kvx7",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/adopt-a-highway-datafeeds.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "9p9k-tusd",
+        "resource": "http://www.nyc.gov/html/dot/downloads/excel/segallboro.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "hfa3-euj3",
+        "resource": "http://www.nyc.gov/html/dot/downloads/excel/intallboro.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "pnij-y7y6",
+        "resource": "http://www.nyc.gov/html/dot/downloads/excel/seg_active.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "yupw-u2ax",
+        "resource": "http://www.nyc.gov/html/dot/downloads/excel/int_active.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "9dux-uz3w",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/bridge-ratings-datafeeds.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "d9fg-z42k",
+        "resource": "http://www.nyc.gov/html/dot/html/about/datafeeds.shtml#bikes",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "c5dk-m6ea",
+        "resource": "http://www.nyc.gov/html/nypd/html/crime_prevention/crime_statistics.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "qk6i-zcht",
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/crime_and_enforcement_report_data_tables_2008-2015.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "tnru-abg2",
+        "resource": "http://www1.nyc.gov/site/doitt/initiatives/3d-building.page",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ware-id4f",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_taxicab_metershops.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "v7f4-yzyg",
+        "resource": "http://www.nyc.gov/html/dot/html/about/vz_datafeeds.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "dnjp-mkjx",
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/reasonable_suspicion_stops_data_tables_2011-2012.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "j8nm-zs7q",
+        "resource": "http://www.nyc.gov/html/nypd/downloads/excel/analysis_and_planning/c_summons_cw_2007_ytd_2015.xlsx",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ezds-sqp6",
+        "resource": "http://www.nyc.gov/html/nypd/downloads/excel/omap/nyc_park_crime_stats_q4_2014.xlsx",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "qiwj-i2jk",
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_CapitalProjectTracker_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "xswq-wnv9",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/ParkingReg/File%20description.pdf",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "wha9-m3tq",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/local_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "qf28-yqqv",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/through_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "spax-mybh",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/all_truck_routes_nyc.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "8d5p-rji6",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2015_citybench.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "pnru-8qsf",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/bike_shelters.kml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "bqbs-iwyn",
+        "resource": "http://www.nyc.gov/html/ops/downloads/pdf/temporary_housing_report.pdf",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "f7ta-5e24",
+        "resource": "https://a816-healthpsi.nyc.gov/DispensingSiteLocator/mainView.do",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "824w-7c8u",
+        "resource": "http://www.nyc.gov/html/mocs/html/research/local_law_63_plan.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "2p3a-y7d4",
+        "resource": "http://www.nyc.gov/html/mocs/html/research/human_services.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "krxp-x4za",
+        "resource": "http://www.nyc.gov/html/mocs/html/research/mwbe_plan.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "64vf-hxyb",
+        "resource": "http://www.nyc.gov/html/mocs/html/research/pipeline.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "rn6h-i66u",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/lowbridges_citywide_data_71309.kml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "umu5-zyd3",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/nyc-bike-routes.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "pf9y-ef2p",
+        "resource": "http://www.nyc.gov/html/ops/html/data/data.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "hxay-3qcw",
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Kayak_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "9p99-55bh",
+        "resource": "http://www.hraadvisors.com/wp-content/uploads/2014/04/NYC_Tech_Ecosystem_Data1.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "pr5n-ucgi",
+        "resource": "https://votinginfoproject.org/feeds",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ivb7-t7a7",
+        "resource": "https://www.dropbox.com/s/6y39y4e718gem47/BigApps.TFA.SchoolNames.xlsx",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "pqb7-6q2k",
+        "resource": "https://data.ny.gov/Energy-Environment/Typical-Utility-Bill-Information-Electric-Beginnin/87qg-62za",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "n7nh-rhic",
+        "resource": "http://www.p12.nysed.gov/irs/schoolDirectory/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "s65f-sqe8",
+        "resource": "https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs-Map/s8uq-s4wq",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "8k4a-z83b",
+        "resource": "https://nycopendata.socrata.com/Government/Office-Energy-Intensity/bmet-43b8",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "nx9f-wn3a",
+        "resource": "http://www.nyc.gov/html/dcp/html/bytes/meta_mappluto.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "eweh-h793",
+        "resource": "http://www.nyc.gov/html/dof/downloads/pdf/12pdf/2012_nonresidential_properties.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "m7f5-x3k4",
+        "resource": "https://data.ny.gov/Energy-Environment/Wind-Energy-Projects-Beginning-2004/jmxa-iz8m",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "s8jv-f44n",
+        "resource": "http://www.epa.gov/cleanenergy/energy-resources/egrid/index.html",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ie6s-t87j",
+        "resource": "http://developer.nrel.gov/doc/api/pvwatts/v4",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "vdkk-sqws",
+        "resource": "https://data.ny.gov/Energy-Environment/Energy-Prices-Per-Physical-Unit-By-Sector-Beginnin/cxu4-yemb",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "aumr-wgtk",
+        "resource": "http://en.openei.org/datasets/node/41",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "egch-abu9",
+        "resource": "https://data.ny.gov/Energy-Environment/Electricity-Sales-By-Sector-GWh-Beginning-1980/pv7j-5nz8",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "5crx-5ivw",
+        "resource": "https://financere.nrel.gov/finance/content/crest-cost-energy-models",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ud5r-z5ws",
+        "resource": "http://schools.nyc.gov/Accountability/tools/report/default.htm#Citywide",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "tpe4-3w5y",
+        "resource": "http://developer.genability.com/documentation/api-reference/tariff-api/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "4v4n-gnh2",
+        "resource": "https://data.ny.gov/Energy-Environment/Energy-Efficiency-Programs-and-Estimated-Energy-Sa/vqmi-95p7",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "p84r-8kqf",
+        "resource": "https://github.com/ajaxorg/cloud9",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "3gx8-vrcy",
+        "resource": "https://data.ny.gov/Energy-Environment/New-York-Power-Authority-Net-Generation-MWh-Produc/isux-jnrn",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "hz79-96hi",
+        "resource": "https://data.ny.gov/Energy-Environment/Energy-Efficiency-Completed-Projects-Beginning-198/erjw-j2zx",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "sngu-yqq8",
+        "resource": "https://github.com/jhylau/air_quality",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "xi5z-cgq7",
+        "resource": "http://www.fema.gov/private-sector/public-private-partnership-models",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "t22b-cmty",
+        "resource": "https://github.com/benhamner/Air-Quality-Prediction-Hackathon-Winning-Model",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "p94q-8hxh",
+        "resource": "http://citibikenyc.com/stations/json",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "mpmk-b5ed",
+        "resource": "https://github.com/jmsaavedra/Air-Quality-Egg",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "vsnr-94wk",
+        "resource": "http://citibikenyc.com/system-data",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "quix-kfbk",
+        "resource": "http://www.downtownny.com/sites/default/files/data/ADNY-Big-Apps-Data.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "9jqw-r2a4",
+        "resource": "https://data.ny.gov/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "sah3-jw2y",
+        "resource": "https://tessel.io/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "epfh-qbp5",
+        "resource": "http://embed.ly/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "hc9t-g6wa",
+        "resource": "http://parse.com/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "vghm-gmwr",
+        "resource": "http://www.datatables.org/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "fbqm-ihfd",
+        "resource": "https://www.simplify.com/commerce/docs/api/index",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "sn25-9xqk",
+        "resource": "https://www.twilio.com/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "2mvc-qg9q",
+        "resource": "http://mapbox.com/tour",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "xz57-5ygp",
+        "resource": "http://www.csrhub.com/content/api-methods",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "vijr-8gr7",
+        "resource": "https://bronx.lehman.cuny.edu/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "szbc-ua9b",
+        "resource": "http://www.linkup.com/developers",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "3g65-5ni7",
+        "resource": "http://developer.nytimes.com/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "w3g3-3ai7",
+        "resource": "https://app.enigma.io/signup",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "65z6-rsii",
+        "resource": "http://www.yelp.com/developers",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "r2ig-3im3",
+        "resource": "https://developer.foursquare.com/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "y4xu-dcu3",
+        "resource": "http://cartodb.com/",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "w2sw-2dqb",
+        "resource": "http://www.carpoolworld.com/developer_api.html",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "agx7-ib66",
+        "resource": "http://seatgeek.com/build",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "tbvn-fzud",
+        "resource": "http://www.nyc.gov/html/dcp/html/bytes/archive_pluto_mappluto.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "dpc8-z3jc",
+        "resource": "https://sa-static-customer-assets-us-east-1-fedramp-prod.s3.amazonaws.com/data.cityofnewyork.us/NYC_DEM_1ft.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "f888-ni5f",
+        "resource": "http://www1.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page#mappluto",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "xuk2-nczf",
+        "resource": "http://www1.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "mxwn-eh3b",
+        "resource": "http://www.checkbooknyc.com/data-feeds",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "mwxp-krtu",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/siferry-gtfs.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "u6fv-5dqe",
+        "resource": "http://schools.nyc.gov/AboutUs/data/stats/arreports.htm",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "kwk4-6u9e",
+        "resource": "http://schools.nyc.gov/Accountability/tools/survey/default.htm",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "3bkj-34v2",
+        "resource": "http://schools.nyc.gov/Offices/EnterpriseOperations/DIIT/OOD/default.htm",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "r7rr-2vqh",
+        "resource": "http://www.nyc.gov/html/nypd/html/traffic_reports/motor_vehicle_collision_data.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "f6an-2v46",
+        "resource": "http://www.nyc.gov/html/nypd/html/traffic_reports/traffic_summons_reports.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ftxv-d5ix",
+        "resource": "http://www.nyc.gov/html/nypd/html/analysis_and_planning/stop_question_and_frisk_report.shtml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "hqhv-9zeg",
+        "resource": "http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/citywide_historical_crime_data_archive.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "xdsd-mmyu",
+        "resource": "http://www.nyc.gov/html/nycmg/nyctvod/html/home/xml/nyctv_vod_app.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "88da-cha7",
+        "resource": "http://www.nyc.gov/html/nycmg/nyctvod/html/home/xml/nyctv_vod.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "sp9a-cd2a",
+        "resource": "http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_paws_db_001.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "xsat-x5sa",
+        "resource": "http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "bymk-vktx",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/StreetChanges/StreetNetworkChanges.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "xmzf-uf2w",
+        "resource": "http://misc.brooklynpubliclibrary.org/BigApps/BPL_branch_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "b7t4-zm44",
+        "resource": "http://misc.brooklynpubliclibrary.org/BigApps/BPL_electronicResources_001.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "udt3-taj7",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/SIParking.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "qfxy-c6k3",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/QueensParking.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "i8d5-5ciu",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/ManhattanParking.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "evdj-a5z2",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/BrooklynParking.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "7xqy-uv7r",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/BronxParking.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "qpbf-g2yx",
+        "resource": "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "4bg6-ub7f",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/Citywide%20Arterials%20Milling%20Paving%20Schedule.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "9ned-hmak",
+        "resource": "http://nycgovparks.org/bigapps/DPR_RunningTracks_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ydj7-rk56",
+        "resource": "http://nycgovparks.org/bigapps/DPR_RecreationCenter_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "hr2s-xdcw",
+        "resource": "http://nycgovparks.org/bigapps/DPR_PublicComputerResourceCenter_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "59gn-q4ai",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Playgrounds_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "fupk-24im",
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/3C9B6404-D3C3-49D7-8FA8-36AC191BC328/26549/surveyaccess_1011092.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "bj76-nbjg",
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/146F83FD-E8D3-4C4C-A89F-594DDAD4CE26/0/2008ExcelD75.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "i762-rk6i",
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/EB281589-6F2B-42E5-A0AD-13C8CE2E8CDD/0/2008excel.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ksfe-nc8x",
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/623678D2-94D6-45FC-B970-BF1DC1660940/0/2009SurveyData.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "42p9-q6fd",
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/4C258C57-05CC-4A69-8E99-C3EA4A5E61D9/0/2010SurveyData.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "mnz3-dyi8",
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/11FE72CE-1313-4C82-88B1-C9FA53BE6842/0/2011datafilesonline.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "nmqv-xfsc",
+        "resource": "http://schools.nyc.gov/NR/rdonlyres/6E2A4A43-173F-462B-8CAC-B7D5E818546D/0/CitywideGraduationRateTotals_coh2006.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "nzvw-cjc2",
+        "resource": "http://nycprop.nyc.gov/nycproperty/help/hlpbldgcode.html",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "b2m2-7ih3",
+        "resource": "http://ddcftp.nyc.gov/rfpweb/rfp_rss.aspx?q=closed",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "tmtb-gcc6",
+        "resource": "http://ddcftp.nyc.gov/rfpweb/rfp_rss.aspx?q=open",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "fndu-yzn3",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/for_hire_vehicles_open_summonses.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "p7p7-wvdw",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/fhv_drivers_open_summonses.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "z42n-hfkv",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_unaffiliated_vehicles.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "sqyt-f78v",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_group_ride_bases.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "keny-zprk",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_group_ride_vehicles.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ijxg-g6qy",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_group_ride_drivers.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "5j86-5vbn",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_taxicab_brokers.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "sx4q-k6ay",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_taxicab_metershops.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "x9ia-3cjh",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_agents.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "g8fi-we5z",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_medallions.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ucrw-jk24",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_drivers_ad_complete.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "brrx-dg4s",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_drivers.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "tvy2-e7mm",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_vehicles.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "5q5r-bu4w",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_driver.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "3j9j-3cga",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_bases.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "niuh-hrin",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_commuter_vans.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "rqzz-2ajy",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_commuter_van_drivers.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ecem-8bdx",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_luxury_limousine_vehicles.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "pr6u-akpp",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_luxury_limousine_bases.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "3nx4-m5h6",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_community_car_service_vehicles.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ijaw-4yr5",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_community_car_service_bases.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "8f3b-vtv6",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_black_car_vehicles.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "y8c3-mmbu",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_black_car_bases.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "c8wu-fxqw",
+        "resource": "http://www.nyc.gov/html/tlc/downloads/excel/current_fhv_drivers.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "yitc-zzrc",
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Cricket_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "qjqq-8zh3",
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Bocce_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "t9jy-gfev",
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Inspection_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ac9y-je94",
+        "resource": "http://www.nycgovparks.org/bigapps/DPR_Concessions_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "wm9y-vrt8",
+        "resource": "http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_ldgma_001.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "bvc7-nbpp",
+        "resource": "http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_coastalboundary_001.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "mmu8-8w8b",
+        "resource": "http://datamine.mta.info/user/register",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "y8tr-23bj",
+        "resource": "http://nycgovparks.org/bigapps/DPR_PressReleases_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "efsz-uj8v",
+        "resource": "http://nycgovparks.org/bigapps/DPR_ParkClosure_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "xdkk-pvdv",
+        "resource": "http://nycgovparks.org/bigapps/DPR_HistoricalSigns_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "zhrf-jnt6",
+        "resource": "http://nycgovparks.org/bigapps/DPR_PublicArt_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "8792-ebcp",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Eateries_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "dhu2-kitw",
+        "resource": "http://ddcftp.nyc.gov/recruit_newddc/rss.aspx",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "7yhi-h8kc",
+        "resource": "https://www.nycgovparks.org/bigapps/DPR_NaturePreserves_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "gzk5-mux8",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Zoos_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "dies-sqgi",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Tennis_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "x57r-az25",
+        "resource": "https://www.nycgovparks.org/bigapps/DPR_Pools_indoor_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "2hr8-czpv",
+        "resource": "http://nycgovparks.org/bigapps/DPR_NatureCenters_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "sage-tgxd",
+        "resource": "http://nycgovparks.org/bigapps/DPR_IceSkating_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "sxe3-hucm",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Horseback_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "un72-4nix",
+        "resource": "http://nycgovparks.org/bigapps/DPR_HistoricHouses_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "i8f4-bu5r",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Hiking_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "aviq-jvfs",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Handball_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ipbu-mtcs",
+        "resource": "http://nycgovparks.org/bigapps/DPR_DogRuns_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "nn83-afrt",
+        "resource": "http://nyc.gov/html/dpr/nycbigapps/DPR_marinas_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "zyf6-z3xt",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Beaches_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "b937-zdky",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Basketball_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "v3zf-nci8",
+        "resource": "http://nycgovparks.org/bigapps/DPR_Barbecue_001.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "w3wp-dpdi",
+        "resource": "http://www.nycgovparks.org/xml/events_300_rss.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "ghse-r5nk",
+        "resource": "http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_nyc-hanes_001.zip",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "kvuc-fg9b",
+        "resource": "http://nyc.gov/html/dcp/download/biggapps/DCP_acs_cd_puma_001.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "cu9u-3r5e",
+        "resource": "http://nyc.gov/html/dcp/download/biggapps/DCP_acs_nyc_boros_001.xls",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "t4s6-khpm",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/SpecialAlerts.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "qhen-5rve",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds//WeekendTraff.xml",
+        "flags": [
+            "processed"
+        ]
+    },
+    {
+        "endpoint": "vihk-m25f",
+        "resource": "http://a841-dotweb01.nyc.gov/datafeeds/WeeklyTraf.xml",
+        "flags": [
+            "processed"
+        ]
+    }
+]

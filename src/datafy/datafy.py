@@ -30,16 +30,17 @@ requests_session = requests.Session()
 requests_session.mount("file://", FileAdapter())
 
 
-def get(uri, sizeout=1000, type=None, localized=False):
+def get(uri, sizeout=100000000000000000, type=None, localized=False):
 
     # First send a HEAD request and back out if sizeout is exceeded. Don't do this if the file is local.
     if "file://" not in uri:
         try:
             # Note: requests uses case-insenitive header names for access purposes. Saves a headache.
-            content_length = requests.head(uri, timeout=1).headers['content-length']
+            content_length = int(requests.head(uri, timeout=1).headers['content-length'])
             if content_length > sizeout:
                 return None
-        except KeyError:
+
+        except (KeyError, TypeError):
             pass
 
     # Then send a GET request.
@@ -88,7 +89,7 @@ def get(uri, sizeout=1000, type=None, localized=False):
     # archival format files. Since we don't want that temporary path to be included in the filename that we write to
     # the glossary, we set this flag when that happens in order to remove that component of the path before writing,
     # as per here.
-    filepath_hint = "/".join(filepath_hint.spit("/")[1:]) if localized else filepath_hint
+    filepath_hint = "/".join(filepath_hint.split("/")[2:]) if localized else filepath_hint
 
     # Use the hints to load the data.
     if type_hint == "csv":
@@ -118,6 +119,7 @@ def get(uri, sizeout=1000, type=None, localized=False):
             return [(r.content, filepath_hint, type_hint)]
 
     elif type_hint == "zip":
+
         # In certain cases, it's possible to the contents of an archive virtually. This depends on the contents of the
         # file: shapefiles can't be read because they are split across multiple files, KML and KMZ files can't be read
         # because fiona doesn't support them. But most of the rest of things can be.
@@ -128,8 +130,6 @@ def get(uri, sizeout=1000, type=None, localized=False):
 
         # This branch will then recursively call get as a subroutine, using the file driver to pick out the rest of the
         # files in the folder.
-        print(uri)
-
         z = zipfile.ZipFile(io.BytesIO(r.content))
 
         while True:
@@ -153,6 +153,12 @@ def get(uri, sizeout=1000, type=None, localized=False):
         # This will only happen on a file read, because shapefiles can't be a content-type on the web.
         data = gpd.read_file(uri.replace("file:///", ""))
         return [(data, filepath_hint, type_hint)]
+
+    elif type_hint == "html" or type_hint == "htm":
+        # This happens when we are passed a landing page instead of a proper resource endpoint. This shouldn't happen,
+        # but inevitably will, due to the difficulty of separating external resource links from external landing page
+        # links (this might also happen if a webpage is packaged into a zip archive or something).
+        return [(None, filepath_hint, type_hint)]
 
     else:
         # We ignore file formats we don't know how to deal with as well as shapefile support files handled elsewhere.
