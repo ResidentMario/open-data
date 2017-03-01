@@ -122,6 +122,7 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
     -------
     Nothing; writes to a file.
     """
+    import pdb; pdb.set_trace()
 
     # Begin by loading in the data that we have.
     resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
@@ -169,11 +170,12 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
                     resource['flags'].append('removed')
                     continue
 
+                # Remove the "processed" flag.
+                resource['flags'].pop('processed')
+
                 # If no repairable errors were caught, write in the information.
                 # (if a non-repairable error was caught the data gets sent to the outer finally block)
                 glossary.append({
-                    'rows': rowcol['rows'],
-                    'columns': rowcol['columns'],
                     'flags': resource['flags'],
                     'resource': resource['resource'],
                     'endpoint': resource['endpoint'],
@@ -218,10 +220,8 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
 
                         # However, realistically there would need to be some kind of secondary list mechanism that's
                         # maintained by hand for excluding specific pages. That, however, is a TODO.
-                        if sizing['type'] != "htm" and sizing['type'] != "html":
+                        if sizing['extension'] != "htm" and sizing['extension'] != "html":
                             glossary.append({
-                                'rows': int(sizing['rows']),
-                                'columns': int(sizing['columns']),
                                 'filesize': int(sizing['filesize']),
                                 'flags': resource['flags'],
                                 'resource': sizing['resource'],
@@ -232,8 +232,6 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
                 # If unsuccessful, append a signal result to the glossary.
                 else:
                     glossary.append({
-                        'rows': "?",
-                        'columns': "?",
                         'filesize': ">60s",
                         'flags': resource['flags'],
                         'resource': resource['resource'],

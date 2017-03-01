@@ -35,33 +35,15 @@ def _fetch(uri, q, reducer, sizeout=None):
     q.put(reducer(dataset_tuples))
 
 
-def _size_up(dataset_tuples):
+def _size_up(dataset_reprs):
     dataset_representations = []
-    for data, fp, type in dataset_tuples:
-
-        # How we "size up" the dataset depends on what format it is provided in.
-
-        # If it's provided in a tabular format, e.g. as a parsed tabular or geospatial dataset, we are given a
-        # DataFrame or GeoDataFrame, and can analyze it as such. We'll duck type this because this might not always
-        # work; it fails in particular fairly often in the case of Excel files.
-        try:
-            dataset_representations.append({
-                'columns': len(data.columns),
-                'rows': len(data),
-                'filesize': sys.getsizeof(data),  # this was formerly `data.memory_usage().sum()`
-                'type': type,
-                'dataset': fp
-            })
-
-        # Otherwise, do a basic sizing and print the type to console (WIP).
-        except (AttributeError, ValueError):
-            dataset_representations.append({
-                'columns': -1,  # -1 is a signal value, used because it gets converted to an int upstream
-                'rows': -1,
-                'filesize': sys.getsizeof(data),
-                'type': type,
-                'dataset': fp
-            })
+    for repr in dataset_reprs:
+        dataset_representations.append({
+            'filesize': sys.getsizeof(repr['data'].content),
+            'dataset': repr['fp'],
+            'mimetype': repr['mime'],
+            'extension': repr['ext']
+        })
 
     return dataset_representations
 

@@ -17,7 +17,7 @@ class TestLimitedRequests(unittest.TestCase):
         q = limited_requests.q()
         ret = limited_requests.limited_get(
             "https://data.cityofnewyork.us/api/geospatial/pi5s-9p35?method=export&format=Shapefile", q,
-            timeout=2
+            timeout=0.1
         )
         assert (not ret)
 

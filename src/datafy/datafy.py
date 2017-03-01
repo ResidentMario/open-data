@@ -1,5 +1,3 @@
-import pandas as pd
-import geopandas as gpd
 import requests
 import mimetypes
 import io
@@ -9,7 +7,6 @@ import random
 import shutil
 from requests_file import FileAdapter
 import magic
-from xlrd.biffh import XLRDError
 
 
 mime_map = {
@@ -22,6 +19,8 @@ mime_map = {
     'application/json': 'json',
     'application/xml': 'xml',
     'text/xml': 'xml',
+    'application/x-msaccess': 'mdb',
+    'application/vnd.ms-office': 'xls'  # Wrong, but useful, cf https://github.com/mime-types/ruby-mime-types/issues/98
 }
 
 
@@ -30,8 +29,29 @@ requests_session = requests.Session()
 requests_session.mount("file://", FileAdapter())
 
 
-def get(uri, sizeout=100000000000000000, type=None, localized=False):
+def get(uri, sizeout=100000000000000000, type_hints=(None, None), localized=False):
+    """
+    Given the download URI for a resource, returns a list of (data, filepath_hint, type_hint) tuples corresponding with
+    that resource's dataset contents. Note that in some cases None will substitute for `data` in the above, and that in
+    some cases this parameter will size out and simply return None instead of anything at all.
 
+    Parameters
+    ----------
+    uri: str (required)
+        The URI corresponding with the result download link.
+    sizeout: int
+        Before sending a download request this method will first ask the server for the content-length header of the
+        download. If one is provided, and exceeds this parameter in size, this method will simply return None.
+    type_hints: (str, str) tuple
+        Type hint for the dataset's type. Must be a (mimetype, extension) tuple.
+    localized: bool
+        Whether or not this file is a local file (e.g. a downloaded file that's sitting on your computer disk). This
+        flag should only be used when `get` calls itself `recursively`; it shouldn't be set by the user.
+
+    Returns
+    -------
+    None or a [{'data': r, 'fp': filepath_hint, 'mime': mime, 'ext': ext}, ...] list.
+    """
     # First send a HEAD request and back out if sizeout is exceeded. Don't do this if the file is local.
     if "file://" not in uri:
         try:
@@ -47,34 +67,42 @@ def get(uri, sizeout=100000000000000000, type=None, localized=False):
     r = requests_session.get(uri, timeout=7)
 
     # If a type hint is passed from above, use that.
-    if type:
-        type_hint = type
+    if type_hints != (None, None):
+        mime, ext = type_hints
 
     # If no type hint is provided we have to guess the file type ourselves. This is a two-step process.
     else:
 
         # First, we check the result's mimetype against a map of known mimetypes (`mime_map`, above) in order to catch
         # obvious inputs. We can't account for every possible input, however, so this doesn't catch everything.
+
+        # Files lacking a mimetype will generally be sent as an application/octet-stream.
+        # import pdb; pdb.set_trace()
         try:
             split = r.headers['content-type'].split()
-            type_hint = mime_map[split[0].replace(";", "")]
+            mime = split[0].replace(";", "")
+            ext = mime_map[mime]
         except KeyError:
-            type_hint = None
 
-        # If we get an object type that we don't get using the procedure above, we'll use an oracle to try to get it.
-        # An oracle alone isn't enough, because it would e.g. report a CSV document as text/plain, which is unhelpful.
-        # This is why the step above is necessary. However, an oracle (the `magic` library in this case) always
-        # generates some kind of guess; the base case in the case of scrambled binary seems to be to guess `.bat`.
-        if not type_hint:
+            # If we get an object type that we don't get using the procedure above, we'll use an oracle to try to get
+            # it. An oracle alone isn't enough, because it would e.g. report a CSV document as text/plain, which is
+            # unhelpful. This is why the step above is necessary. However, an oracle (the `magic` library in this case)
+            # always generates some kind of guess; the base case in the case of scrambled binary seems to be to guess
+            # `.bat`.
+            mime = magic.from_buffer(r.content, mime=True)
+
             try:
-                mime = magic.from_buffer(r.content, mime=True)
-                type_hint = mimetypes.guess_extension(mime)[1:]
-            except TypeError:
-                pass
-
-        # If we still don't have an answer, raise (note: I'm not sure this line will ever execute).
-        if not type_hint:
-            raise IOError("Couldn't determine meaning of the content-type associated with the URI {0}".format(uri))
+                ext = mime_map[mime]
+            except KeyError:
+                try:
+                    ext = mimetypes.guess_extension(mime)[1:]
+                except TypeError:
+                    # If we still don't have an answer, warn.
+                    # This mime type will probably need to be added to our hard-coded list at the top of the file.
+                    raise RuntimeWarning(
+                        "Couldn't determine meaning of the {0} content-type associated with the URI {1}".format(mime,
+                                                                                                                uri)
+                    )
 
     # TODO: It may prove necessary to guess encoding information as well. If so, investigate using chardet.
 
@@ -91,34 +119,7 @@ def get(uri, sizeout=100000000000000000, type=None, localized=False):
     # as per here.
     filepath_hint = "/".join(filepath_hint.split("/")[2:]) if localized else filepath_hint
 
-    # Use the hints to load the data.
-    if type_hint == "csv":
-        return [(pd.read_csv(io.BytesIO(r.content)), filepath_hint, type_hint)]
-
-    elif type_hint == "geojson":
-        data = gpd.GeoDataFrame(r.json())
-        return [(data, filepath_hint, type_hint)]
-
-    # We assume that JSON data gets passed with a JSON content-type and GeoJSON with a GeoJSON content-type. This is
-    # true of the Socrata open data portal, and *probably* true of other open data portal providers, but a rule that is
-    # almost certainly broken by less well-behaved landing pages on the net. For those cases, use the type parameter
-    # over-ride.
-    elif type_hint == "json":
-        data = r.json()
-        return [(data, filepath_hint, type_hint)]
-
-    elif type_hint == "xls" or type_hint == "xlsx":
-
-        # Try to read the Excel file, and return it as a component if we are successful.
-        try:
-            data = pd.read_excel(io.BytesIO(r.content))
-            return [(data, filepath_hint, type_hint)]
-
-        # If we are not, return the raw bytes instead.
-        except XLRDError:
-            return [(r.content, filepath_hint, type_hint)]
-
-    elif type_hint == "zip":
+    if ext == "zip":
 
         # In certain cases, it's possible to the contents of an archive virtually. This depends on the contents of the
         # file: shapefiles can't be read because they are split across multiple files, KML and KMZ files can't be read
@@ -139,27 +140,16 @@ def get(uri, sizeout=100000000000000000, type=None, localized=False):
                 break
         z.extractall(path=temp_foldername)
 
-        # Recuse using the file driver to deal with local folders.
+        # Recurse using the file driver to deal with local folders.
         ret = []
         for filename in z.namelist():
-            type = filename.split(".")[-1]
-            ret += get("file:///{0}/{1}".format(temp_foldername, filename), type=type, localized=True)
+            ext = filename.split(".")[-1]
+            mime = magic.from_file('{0}/{1}'.format(temp_foldername, filename), mime=True)
+            ret += get("file:///{0}/{1}".format(temp_foldername, filename), type_hints=(mime, ext), localized=True)
 
         # Delete the folder before returning the data.
         shutil.rmtree(temp_foldername)
         return ret
 
-    elif type_hint == "shp":
-        # This will only happen on a file read, because shapefiles can't be a content-type on the web.
-        data = gpd.read_file(uri.replace("file:///", ""))
-        return [(data, filepath_hint, type_hint)]
-
-    elif type_hint == "html" or type_hint == "htm":
-        # This happens when we are passed a landing page instead of a proper resource endpoint. This shouldn't happen,
-        # but inevitably will, due to the difficulty of separating external resource links from external landing page
-        # links (this might also happen if a webpage is packaged into a zip archive or something).
-        return [(None, filepath_hint, type_hint)]
-
     else:
-        # We ignore file formats we don't know how to deal with as well as shapefile support files handled elsewhere.
-        return [(None, filepath_hint, type_hint)]
+        return [{'data': r, 'fp': filepath_hint, 'mime': mime, 'ext': ext}]

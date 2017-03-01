@@ -13,7 +13,6 @@ dependencies:
     - sodapy
     - pysocrata
     - bs4
-    - pebble
     - requests-file
     - selenium
     - tqdm

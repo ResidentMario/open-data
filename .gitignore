@@ -8,3 +8,4 @@ src/glossarizers/socrata-glossarizer/__pycache__/
 src/datafy/__pycache__/
 src/datafy/tests/__pycache__/
 .DS_Store
+src/limited-requests/tests/__pycache__/
