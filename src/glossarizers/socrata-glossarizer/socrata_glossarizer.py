@@ -94,8 +94,6 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
         else:
             raise ValueError  # This code shouldn't execute, gets caught at start.
 
-        import pdb; pdb.set_trace()
-
         name = metadata['resource']['name']
         description = metadata['resource']['description']
         sources = [metadata['resource']['attribution']]

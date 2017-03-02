@@ -11,4 +11,4 @@ src/datafy/tests/__pycache__/
 src/limited-requests/tests/__pycache__/
 src/glossarizers/socrata-glossarizer/ghostdriver.log
 src/glossarizers/socrata-glossarizer/.ipynb_checkpoints/
-
+src/glossarizers/ckan-glossarizer/__pycache__/
