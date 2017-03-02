@@ -55,9 +55,8 @@ class DeletedEndpointException(Exception):
     pass
 
 
-def page_socrata(domain, endpoint, condition=EC.presence_of_element_located((By.CLASS_NAME, "dataset-contents")),
+def page_socrata(domain, uri, condition=EC.presence_of_element_located((By.CLASS_NAME, "dataset-contents")),
                  timeout=10):
-    uri = "https://" + domain + "/d/" + endpoint
     driver.get(uri)
     try:
         # Make sure that the endpoint hasn't been deleted.
@@ -72,10 +71,10 @@ def page_socrata(domain, endpoint, condition=EC.presence_of_element_located((By.
         raise
 
 
-def page_socrata_for_endpoint_size(domain, endpoint, timeout=10):
+def page_socrata_for_endpoint_size(domain, uri, timeout=10):
 
     # First use the page_socrata subroutine to fetch the loaded page.
-    driver = page_socrata(domain, endpoint, timeout=timeout)
+    driver = page_socrata(domain, uri, timeout=timeout)
 
     # Now pull out the DOM element containing the desired sizing information.
     dataset_contents_list = driver.find_elements_by_class_name('dataset-contents')
@@ -111,11 +110,11 @@ def page_socrata_for_endpoint_size(domain, endpoint, timeout=10):
     return rowcol
 
 
-def page_socrata_for_resource_link(domain, endpoint, timeout=10):
+def page_socrata_for_resource_link(domain, uri, timeout=10):
 
     # First use the page_socrata subroutine to fetch the loaded page.
     condition = EC.presence_of_element_located((By.CLASS_NAME, "download-buttons"))
-    driver = page_socrata(domain, endpoint, condition=condition, timeout=timeout)
+    driver = page_socrata(domain, uri, condition=condition, timeout=timeout)
 
     # Now pull out the DOM element containing the link.
     download_placard = driver.find_elements_by_class_name('download-buttons')

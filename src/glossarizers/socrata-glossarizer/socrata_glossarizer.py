@@ -5,6 +5,7 @@ This module implements methodologies for glossarizing Socrata endpoints.
 import pysocrata
 import json
 import numpy as np
+import pandas as pd
 import os
 from tqdm import tqdm
 
@@ -75,21 +76,38 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
     for resource in tqdm(roi):
         endpoint = resource['resource']['id']
 
+        # The permalink format is standard.
+        permalink = "https://{0}/d/{1}".format(domain, endpoint)
+
         # The slug format depends on the API signature, which is in turn dependent on the dataset type.
         if endpoint_type == "table":
             slug = "https://" + domain + "/api/views/" + endpoint + "/rows.csv?accessType=DOWNLOAD"
         elif endpoint_type == "geospatial dataset":
             slug = "https://" + domain + "/api/geospatial/" + endpoint + "?method=export&format=GeoJSON"
         elif endpoint_type == "blob" or endpoint_type == "link":
-            import sys; sys.path.append("../../endpoint-pager")
-            import pager
             slug = pager.page_socrata_for_resource_link(domain, endpoint)
         else:
-            raise ValueError  # Links have not been implemented yet. This code shouldn't execute, gets caught at start.
+            raise ValueError  # This code shouldn't execute, gets caught at start.
 
         roi_repr.append({
-            'endpoint': endpoint,
-            'resource': slug,
+            'id': {
+                'permalink': permalink,
+                'resource': slug,
+                'protocol': 'https',
+                'name': resource['resource']['name'],
+                'description': resource['resource']['description']
+            },
+            'provenance': {
+                'attribution': resource['resource']['attribution']
+            },
+            'usage': {
+                'created': str(pd.Timestamp(resource['resource']['createdAt'])),
+                'last_updated': str(pd.Timestamp(resource['resource']['updatedAt'])),
+                'page_views': resource['resource']['page_views']['page_views_total']
+            },
+            'contents': {
+                'column_names': resource['resource']['columns_name']
+            },
             'flags': []
         })
 
@@ -122,7 +140,6 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
     -------
     Nothing; writes to a file.
     """
-    import pdb; pdb.set_trace()
 
     # Begin by loading in the data that we have.
     resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
@@ -164,23 +181,34 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
             for resource in tqdm(resource_list):
                 # Catch an error where the dataset has been deleted, warn but continue.
                 try:
-                    rowcol = pager.page_socrata_for_endpoint_size(domain, resource['endpoint'], timeout=10)
+                    rowcol = pager.page_socrata_for_endpoint_size(domain, resource['id']['permalink'], timeout=10)
                 except pager.DeletedEndpointException:
-                    print("WARNING: the '{0}' endpoint appears to have been removed.".format(resource['endpoint']))
+                    print("WARNING: the '{0}' endpoint appears to have been removed.".format(
+                        resource['id']['endpoint']))
                     resource['flags'].append('removed')
                     continue
 
-                # Remove the "processed" flag.
-                resource['flags'].pop('processed')
+                # Remove the "processed" flag from the resource going into the glossary, if one exists.
+                glossarized_resource = resource.copy()
+                glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if flag != 'processed']
+
+                # Attach sizing information.
+                glossarized_resource['sizing'] = {
+                    'rows': rowcol['rows'],
+                    'columns': rowcol['columns'],
+                }
+
+                # Attach format information.
+                glossarized_resource['format'] = {
+                    'available_formats': ['csv', 'json', 'rdf', 'rss', 'tsv', 'xml'],
+                    'preferred_format': 'csv',
+                    'preferred_mimetype': 'text/csv'
+                }
 
                 # If no repairable errors were caught, write in the information.
                 # (if a non-repairable error was caught the data gets sent to the outer finally block)
-                glossary.append({
-                    'flags': resource['flags'],
-                    'resource': resource['resource'],
-                    'endpoint': resource['endpoint'],
-                    'dataset': '.'
-                })
+                glossarized_resource['id']['dataset'] = '.'
+                glossary.append(glossarized_resource)
 
                 # Update the resource list to make note of the fact that this job has been processed.
                 resource['flags'].append("processed")
@@ -198,7 +226,7 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
             for i, resource in tqdm(list(enumerate(resource_list))):
 
                 # Get the sizing information.
-                sizings = limited_requests.limited_get(resource['resource'], q, timeout=timeout)
+                sizings = limited_requests.limited_get(resource['id']['resource'], q, timeout=timeout)
 
                 # If successful, append the result to the glossary...
                 if sizings:
@@ -221,26 +249,45 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
                         # However, realistically there would need to be some kind of secondary list mechanism that's
                         # maintained by hand for excluding specific pages. That, however, is a TODO.
                         if sizing['extension'] != "htm" and sizing['extension'] != "html":
-                            glossary.append({
-                                'filesize': int(sizing['filesize']),
-                                'flags': resource['flags'],
-                                'resource': sizing['resource'],
-                                'endpoint': resource['endpoint'],
-                                'dataset': sizing['dataset']
-                            })
+                            # Remove the "processed" flag from the resource going into the glossary, if one exists.
+                            glossarized_resource = resource.copy()
+                            glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
+                                                             flag != 'processed']
+
+                            # Attach sizing information.
+                            glossarized_resource['sizing'] = {
+                                'filesize': sizing['filesize']
+                            }
+
+                            # Attach format information.
+                            glossarized_resource['format'] = {
+                                'preferred_format': sizing['extension'],
+                                'preferred_mimetype': sizing['mimetype']
+                            }
+
+                            # If no repairable errors were caught, write in the information.
+                            # (if a non-repairable error was caught the data gets sent to the outer finally block)
+                            glossarized_resource['id']['dataset'] = sizing['dataset']
+                            glossary.append(glossarized_resource)
+
+                            # Update the resource list to make note of the fact that this job has been processed.
+                            resource['flags'].append("processed")
 
                 # If unsuccessful, append a signal result to the glossary.
                 else:
-                    glossary.append({
-                        'filesize': ">60s",
-                        'flags': resource['flags'],
-                        'resource': resource['resource'],
-                        'endpoint': resource['endpoint'],
-                        'dataset': "."
-                    })
+                    glossarized_resource = resource.copy()
+
+                    glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
+                                                     flag != 'processed']
+
+                    glossarized_resource['sizing'] = {"filesize": ">{0}s".format(str(timeout))}
+                    glossarized_resource['id']['dataset'] = "."
+
+                    glossary.append(glossarized_resource)
 
                 # Either way, update the resource list to make note of the fact that this job has been processed.
-                resource['flags'].append("processed")
+                if 'processed' not in resource['flags']:
+                    resource["flags"].append("processed")
 
     # Whether we succeeded or got caught on a fatal error, in either case clean up.
     finally:
