@@ -10,3 +10,5 @@ src/datafy/tests/__pycache__/
 .DS_Store
 src/limited-requests/tests/__pycache__/
 src/glossarizers/socrata-glossarizer/ghostdriver.log
+src/glossarizers/socrata-glossarizer/.ipynb_checkpoints/
+

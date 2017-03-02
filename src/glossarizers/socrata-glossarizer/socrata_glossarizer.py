@@ -71,13 +71,18 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
     indices = np.nonzero([t == endpoint_type for t in types])
     roi = np.array(resources)[indices]
 
+    # Conditional pager import (this inits PhantomJS, don't necessarily want to if we don't have to).
+    if endpoint_type == "blob" or endpoint_type == "link":
+        import sys; sys.path.insert(0, "../../endpoint-pager/")
+        import pager
+
     # Build the data representation.
     roi_repr = []
     for resource in tqdm(roi):
         endpoint = resource['resource']['id']
 
-        # The permalink format is standard.
-        permalink = "https://{0}/d/{1}".format(domain, endpoint)
+        # The landing_page format is standard.
+        landing_page = "https://{0}/d/{1}".format(domain, endpoint)
 
         # The slug format depends on the API signature, which is in turn dependent on the dataset type.
         if endpoint_type == "table":
@@ -85,13 +90,13 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
         elif endpoint_type == "geospatial dataset":
             slug = "https://" + domain + "/api/geospatial/" + endpoint + "?method=export&format=GeoJSON"
         elif endpoint_type == "blob" or endpoint_type == "link":
-            slug = pager.page_socrata_for_resource_link(domain, endpoint)
+            slug = pager.page_socrata_for_resource_link(domain, landing_page)
         else:
             raise ValueError  # This code shouldn't execute, gets caught at start.
 
         roi_repr.append({
             'id': {
-                'permalink': permalink,
+                'landing_page': landing_page,
                 'resource': slug,
                 'protocol': 'https',
                 'name': resource['resource']['name'],
@@ -181,7 +186,7 @@ def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="ny
             for resource in tqdm(resource_list):
                 # Catch an error where the dataset has been deleted, warn but continue.
                 try:
-                    rowcol = pager.page_socrata_for_endpoint_size(domain, resource['id']['permalink'], timeout=10)
+                    rowcol = pager.page_socrata_for_endpoint_size(domain, resource['id']['landing_page'], timeout=10)
                 except pager.DeletedEndpointException:
                     print("WARNING: the '{0}' endpoint appears to have been removed.".format(
                         resource['id']['endpoint']))
