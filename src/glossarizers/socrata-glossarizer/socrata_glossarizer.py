@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 
 def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=True,
-                                  credentials="../../auth/nyc-open-data.json",
+                                  credentials="../../../auth/nyc-open-data.json",
                                   endpoint_type="table"):
     """
     Fetches a resource representation for a single resource type from a Socrata portal.
@@ -45,7 +45,7 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
     # Otherwise, continue.
     # First of all, load credentials.
     if isinstance(credentials, str):
-        with open("../../../auth/nyc-open-data.json", "r") as fp:
+        with open(credentials, "r") as fp:
             auth = json.load(fp)
     else:
         auth = credentials
@@ -78,8 +78,8 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
 
     # Build the data representation.
     roi_repr = []
-    for resource in tqdm(roi):
-        endpoint = resource['resource']['id']
+    for metadata in tqdm(roi):
+        endpoint = metadata['resource']['id']
 
         # The landing_page format is standard.
         landing_page = "https://{0}/d/{1}".format(domain, endpoint)
@@ -94,24 +94,43 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
         else:
             raise ValueError  # This code shouldn't execute, gets caught at start.
 
+        import pdb; pdb.set_trace()
+
+        name = metadata['resource']['name']
+        description = metadata['resource']['description']
+        sources = [metadata['resource']['attribution']]
+
+        created = str(pd.Timestamp(metadata['resource']['createdAt']))
+        last_updated = str(pd.Timestamp(metadata['resource']['updatedAt']))
+        page_views = metadata['resource']['page_views']['page_views_total']
+
+        column_names = metadata['resource']['columns_name']
+
+        topics_provided = [metadata['classification']['domain_category']]
+        keywords_provided = metadata['classification']['domain_tags']
+
         roi_repr.append({
             'id': {
                 'landing_page': landing_page,
                 'resource': slug,
                 'protocol': 'https',
-                'name': resource['resource']['name'],
-                'description': resource['resource']['description']
+                'name': name,
+                'description': description
             },
             'provenance': {
-                'attribution': resource['resource']['attribution']
+                'sources': sources
             },
             'usage': {
-                'created': str(pd.Timestamp(resource['resource']['createdAt'])),
-                'last_updated': str(pd.Timestamp(resource['resource']['updatedAt'])),
-                'page_views': resource['resource']['page_views']['page_views_total']
+                'created': created,
+                'last_updated': last_updated,
+                'page_views': page_views
             },
             'contents': {
-                'column_names': resource['resource']['columns_name']
+                'column_names': column_names
+            },
+            'tags': {
+                'topics_provided': topics_provided,
+                'keywords_provided': keywords_provided
             },
             'flags': []
         })
