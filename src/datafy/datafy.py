@@ -53,6 +53,7 @@ def get(uri, sizeout=100000000000000000, type_hints=(None, None), localized=Fals
     None or a [{'data': r, 'fp': filepath_hint, 'mime': mime, 'ext': ext}, ...] list.
     """
     # First send a HEAD request and back out if sizeout is exceeded. Don't do this if the file is local.
+    import pdb; pdb.set_trace()
     if "file://" not in uri:
         try:
             # Note: requests uses case-insenitive header names for access purposes. Saves a headache.

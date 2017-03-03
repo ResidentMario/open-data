@@ -140,7 +140,7 @@ def write_resource_representation(domain="data.gov.sg", folder_slug="singapore",
             json.dump(roi_repr, fp, indent=4)
 
 
-def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type="everything", use_cache=True,
+def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type="resources", use_cache=True,
                    timeout=60):
     """
     Writes a dataset representation. This is the hard part!
@@ -190,76 +190,17 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
 
     # Whether we succeed or fail, we'll want to save the data we have at the end with a try-finally block.
     try:
-        # Import the necessary library.
-        import sys; sys.path.insert(0, "../../limited-requests")
-        import limited_requests
-
-        # Create a q for managing jobs.
-        q = limited_requests.q()
-
         for i, resource in tqdm(list(enumerate(resource_list))):
 
             # Get the sizing information.
-            sizings = limited_requests.limited_get(resource['id']['resource'], q, timeout=timeout)
+            headers = requests.head(resource['id']['resource']).headers
+            glossarized_resource = resource.copy()
+            glossarized_resource['sizing'] = {
+                'filesize': headers['content-length']
+            }
+            glossarized_resource['format']['preferred_mimetype'] = headers['content-type']
 
-            # If successful, append the result to the glossary...
-            if sizings:
-
-                for sizing in sizings:
-
-                    # ...but with one caveat. When this process is run on a link, there is a strong possibility
-                    # that it will result in the concatenation of a landing page. There's no automated way to
-                    # determine whether or not a specific resource is or is not a landing page other than to
-                    # inspect it outselves. For example, you can probably tell that
-                    # "http://datamine.mta.info/user/register" is a landing page, but how about
-                    # "http://ddcftp.nyc.gov/rfpweb/rfp_rss.aspx?q=open"? Or
-                    # "https://a816-healthpsi.nyc.gov/DispensingSiteLocator/mainView.do"?
-
-                    # Nevertheless, there is one fairly strong signal we can rely on: landing pages will be HTML
-                    # front-end, and python-magic should in *most* cases determine this fact for us and return it
-                    # in the file typing information. So we can use this to hopefully eliminate many of the
-                    # problematic endpoints.
-
-                    # However, realistically there would need to be some kind of secondary list mechanism that's
-                    # maintained by hand for excluding specific pages. That, however, is a TODO.
-                    if sizing['extension'] != "htm" and sizing['extension'] != "html":
-                        # Remove the "processed" flag from the resource going into the glossary, if one exists.
-                        glossarized_resource = resource.copy()
-                        glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
-                                                         flag != 'processed']
-
-                        # Attach sizing information.
-                        glossarized_resource['sizing'] = {
-                            'filesize': sizing['filesize']
-                        }
-
-                        # Attach format information.
-                        glossarized_resource['format'] = {
-                            'preferred_format': sizing['extension'],
-                            'preferred_mimetype': sizing['mimetype']
-                        }
-
-                        # If no repairable errors were caught, write in the information.
-                        # (if a non-repairable error was caught the data gets sent to the outer finally block)
-                        glossarized_resource['id']['dataset'] = sizing['dataset']
-                        glossary.append(glossarized_resource)
-
-                        # Update the resource list to make note of the fact that this job has been processed.
-                        resource['flags'].append("processed")
-
-            # If unsuccessful, append a signal result to the glossary.
-            else:
-                glossarized_resource = resource.copy()
-
-                glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
-                                                 flag != 'processed']
-
-                glossarized_resource['sizing'] = {"filesize": ">{0}s".format(str(timeout))}
-                glossarized_resource['id']['dataset'] = "."
-
-                glossary.append(glossarized_resource)
-
-            # Either way, update the resource list to make note of the fact that this job has been processed.
+            # Update the resource list to make note of the fact that this job has been processed.
             if 'processed' not in resource['flags']:
                 resource["flags"].append("processed")
 
