@@ -73,8 +73,7 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
 
     # Conditional pager import (this inits PhantomJS, don't necessarily want to if we don't have to).
     if endpoint_type == "blob" or endpoint_type == "link":
-        import sys; sys.path.insert(0, "../../endpoint-pager/")
-        import pager
+        import src.glossarizers.pager as pager
 
     # Build the data representation.
     roi_repr = []
@@ -193,11 +192,11 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
 
         # tables:
         # We take advantage of information provided on the Socrata portal pages to avoid having to work with the
-        # datasets directly. The facilities provided by the endpoint-pager module are used to handle reading in data
+        # datasets directly. The facilities provided by the pager module are used to handle reading in data
         # from the portal web interface, which displays, among other things, row and column counts.
         if endpoint_type == "table":
             # Import the necessary library.
-            import sys; sys.path.insert(0, "../../endpoint-pager/")
+            import sys; sys.path.insert(0, "../../pager/")
             import pager
 
             for resource in tqdm(resource_list):
@@ -238,9 +237,7 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
         # geospatial datasets, blobs, links:
         # ...
         else:
-            # Import the necessary library.
-            import sys; sys.path.insert(0, "../../limited-requests")
-            import limited_requests
+            import src.glossarizers.limited_requests as limited_requests
 
             # Create a q for managing jobs.
             q = limited_requests.q()

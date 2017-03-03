@@ -165,8 +165,7 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
     -------
     Nothing; writes to a file.
     """
-    import sys; sys.path.insert(0, "../../limited-requests")
-    import limited_requests
+    import src.glossarizers.limited_requests as limited_requests
 
     q = limited_requests.q()
 
