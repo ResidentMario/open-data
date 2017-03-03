@@ -1,18 +1,16 @@
 import json
 import pandas as pd
-import os
 from tqdm import tqdm
 import requests
 import warnings
+from src.glossarizers.generic import (return_if_preexisting_and_use_cache, load_glossary_todo,
+                                      write_resource_file, write_glossary_file)
 
 
 def write_resource_representation(domain="data.gov.sg", folder_slug="singapore", use_cache=True,
                                   endpoint_type="resources"):
     # If the file already exists and we specify `use_cache=True`, simply return.
-    resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
-    preexisting = os.path.isfile(resource_filename)
-    if preexisting and use_cache:
-        return
+    return_if_preexisting_and_use_cache(folder_slug, endpoint_type, use_cache)
 
     package_list_slug = "{0}/api/3/action/package_list".format(domain)
     package_list = requests.get(package_list_slug).json()
@@ -137,8 +135,7 @@ def write_resource_representation(domain="data.gov.sg", folder_slug="singapore",
 
     finally:
         # Write to file and exit.
-        with open(resource_filename, 'w') as fp:
-            json.dump(roi_repr, fp, indent=4)
+        write_resource_file(folder_slug, endpoint_type, roi_repr)
 
 
 def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type="resources", use_cache=True,
@@ -169,29 +166,8 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
 
     q = limited_requests.q()
 
-    # Begin by loading in the data that we have.
-    resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
-    with open(resource_filename, "r") as fp:
-        resource_list = json.load(fp)
-
-    # If use_cache is True, remove resources which have already been processed. Otherwise, only exclude "ignore" flags.
-    # Note: "removed" flags are not ignored. It's not too expensive to check whether or not this was a fluke or if the
-    # dataset is back up or not.
-    if use_cache:
-        resource_list = [r for r in resource_list if "processed" not in r['flags'] and "ignore" not in r['flags']]
-    else:
-        resource_list = [r for r in resource_list if "ignore" not in r['flags']]
-
-    # Check whether or not the glossary file exists.
-    glossary_filename = "../../../data/" + folder_slug + "/glossaries/" + endpoint_type + ".json"
-    preexisting = os.path.isfile(glossary_filename)
-
-    # If it does, load it. Otherwise, load an empty list.
-    if preexisting:
-        with open(glossary_filename, "r") as fp:
-            glossary = json.load(fp)
-    else:
-        glossary = []
+    resource_list, resource_filename, glossary, glossary_filename = load_glossary_todo(folder_slug, endpoint_type,
+                                                                                       use_cache)
 
     # Whether we succeed or fail, we'll want to save the data we have at the end with a try-finally block.
     try:
@@ -239,6 +215,8 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
     # Whether we succeeded or got caught on a fatal error, in either case clean up.
     finally:
         # Save output.
+        write_resource_file(folder_slug, endpoint_type, resource_list)
+        write_glossary_file(folder_slug, endpoint_type, glossary)
         with open(glossary_filename, "w") as fp:
             json.dump(glossary, fp, indent=4)
         with open(resource_filename, "w") as fp:
