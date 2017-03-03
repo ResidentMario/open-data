@@ -140,7 +140,7 @@ def write_resource_representation(domain="data.gov.sg", folder_slug="singapore",
             json.dump(roi_repr, fp, indent=4)
 
 
-def write_glossary(domain="data.cityofnewyork.us", folder_slug="singapore", use_cache=True,
+def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type="everything", use_cache=True,
                    timeout=60):
     """
     Writes a dataset representation. This is the hard part!
@@ -151,6 +151,8 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="singapore", use_
         The open data portal URI.
     folder_slug: str, default "nyc"
         The subfolder of the "data" directory into which the resource glossary will be placed.
+    endpoint_type: str, default "everything"
+        The resource type to build a glossary for.
     use_cache: bool, default True
         If a glossary already exists, whether to simply exit out or blow it away and create a new one (overwriting the
         old one).
