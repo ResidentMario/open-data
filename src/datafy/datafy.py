@@ -142,7 +142,7 @@ def get(uri, sizeout=100000000000000000, type_hints=(None, None), localized=Fals
 
         # Recurse using the file driver to deal with local folders.
         ret = []
-        for filename in z.namelist():
+        for filename in [name for name in z.namelist() if os.path.isdir(name)]:
             ext = filename.split(".")[-1]
             mime = magic.from_file('{0}/{1}'.format(temp_foldername, filename), mime=True)
             ret += get("file:///{0}/{1}".format(temp_foldername, filename), type_hints=(mime, ext), localized=True)

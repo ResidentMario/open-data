@@ -1,0 +1,60 @@
+[
+    {
+        "contents": {
+            "column_names": []
+        },
+        "provenance": {
+            "sources": [
+                "Department of Transportation (DOT)"
+            ]
+        },
+        "flags": [],
+        "usage": {
+            "last_updated": "2016-12-12 17:03:56+00:00",
+            "created": "2016-12-09 22:17:28+00:00",
+            "page_views": 20
+        },
+        "sizing": {
+            "filesize": ">60s"
+        },
+        "tags": {
+            "keywords_provided": [
+                "williamsburg",
+                "count",
+                "counts",
+                "bike",
+                "bikes",
+                "bikers",
+                "cyclist",
+                "riders",
+                "volume",
+                "bicycle",
+                "bicycles",
+                "east",
+                "river",
+                "bridge",
+                "bridges",
+                "erb",
+                "manhattan",
+                "brooklyn",
+                "queens",
+                "queensboro",
+                "ed",
+                "edward",
+                "koch",
+                "ridership"
+            ],
+            "topics_provided": [
+                "Transportation"
+            ]
+        },
+        "id": {
+            "protocol": "https",
+            "name": "Bicycle Counts for East River Bridges",
+            "resource": "https://data.cityofnewyork.us/download/gua4-p9wg/application%2Fzip",
+            "dataset": ".",
+            "description": "New York City Department of Transportation (DOT) conducts regular bike counts on the East River bridges.  DOT installed automated counters, which provide continuous 24 hour data every day of the year. The data contain all count days, corresponding temperature and precipitation information.",
+            "landing_page": "https://data.cityofnewyork.us/d/gua4-p9wg"
+        }
+    }
+]

@@ -31,7 +31,7 @@ def _fetch(uri, q, reducer, sizeout=None):
                 raise FileTooLargeException
 
     dataset_tuples = datafy.get(uri)
-    print(dataset_tuples)  # for debugging
+    # print(dataset_tuples)  # for debugging
     q.put(reducer(dataset_tuples))
 
 
