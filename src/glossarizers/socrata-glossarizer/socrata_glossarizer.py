@@ -138,8 +138,8 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
         json.dump(roi_repr, fp, indent=4)
 
 
-def write_dataset_representation(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=True,
-                                 endpoint_type="table", timeout=60):
+def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=True,
+                   endpoint_type="table", timeout=60):
     """
     Writes a dataset representation. This is the hard part!
 
