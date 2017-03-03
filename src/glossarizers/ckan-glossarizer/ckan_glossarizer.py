@@ -3,6 +3,7 @@ import pandas as pd
 import os
 from tqdm import tqdm
 import requests
+import warnings
 
 
 def write_resource_representation(domain="data.gov.sg", folder_slug="singapore", use_cache=True,
@@ -209,20 +210,32 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
                     'filesize': headers['content-length']
                 }
                 glossarized_resource['id']['dataset'] = '.'
+                succeeded = True
 
             # If we error out, this is a packaged/gzipped file. Do sizing the basic way, with a GET request.
             except KeyError:
                 repr = limited_requests.limited_get(resource['id']['resource'], q)
-                glossarized_resource['sizing'] = {
-                    'filesize': repr['filesize']
-                }
-                glossarized_resource['dataset'] = {
-                    'dataset': repr['fp']
-                }
+                try:
+                    glossarized_resource['sizing'] = {
+                        'filesize': repr[0]['filesize']
+                    }
+                    glossarized_resource['dataset'] = {
+                        'dataset': repr[0]['dataset']
+                    }
+                    succeeded = True
+                except TypeError:
+                    # Transient failure.
+                    succeeded = False
+                    warnings.warn(
+                        "Couldn't parse the URI {0} due to a transient network failure."\
+                            .format(resource['id']['resource'])
+                    )
 
             # Update the resource list to make note of the fact that this job has been processed.
-            if 'processed' not in resource['flags']:
+            if 'processed' not in resource['flags'] and succeeded:
                 resource["flags"].append("processed")
+
+            glossary.append(glossarized_resource)
 
     # Whether we succeeded or got caught on a fatal error, in either case clean up.
     finally:
