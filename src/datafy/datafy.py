@@ -65,7 +65,7 @@ def get(uri, sizeout=100000000000000000, type_hints=(None, None), localized=Fals
             pass
 
     # Then send a GET request.
-    r = requests_session.get(uri, timeout=7)
+    r = requests_session.get(uri)
 
     # If a type hint is passed from above, use that.
     if type_hints != (None, None):
@@ -143,7 +143,7 @@ def get(uri, sizeout=100000000000000000, type_hints=(None, None), localized=Fals
 
         # Recurse using the file driver to deal with local folders.
         ret = []
-        for filename in [name for name in z.namelist() if os.path.isdir(name)]:
+        for filename in [name for name in z.namelist() if not os.path.isdir(name)]:
             ext = filename.split(".")[-1]
             mime = magic.from_file('{0}/{1}'.format(temp_foldername, filename), mime=True)
             ret += get("file:///{0}/{1}".format(temp_foldername, filename), type_hints=(mime, ext), localized=True)

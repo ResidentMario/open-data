@@ -164,6 +164,11 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
     -------
     Nothing; writes to a file.
     """
+    import sys; sys.path.insert(0, "../../limited-requests")
+    import limited_requests
+
+    q = limited_requests.q()
+
     # Begin by loading in the data that we have.
     resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
     with open(resource_filename, "r") as fp:
@@ -192,13 +197,28 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
     try:
         for i, resource in tqdm(list(enumerate(resource_list))):
 
-            # Get the sizing information.
-            headers = requests.head(resource['id']['resource']).headers
             glossarized_resource = resource.copy()
-            glossarized_resource['sizing'] = {
-                'filesize': headers['content-length']
-            }
+
+            # Get the sizing information.
+            # If the resource is its own dataset, this is provided in the content header. Sometimes it is not.
+            headers = requests.head(resource['id']['resource']).headers
             glossarized_resource['format']['preferred_mimetype'] = headers['content-type']
+
+            try:
+                glossarized_resource['sizing'] = {
+                    'filesize': headers['content-length']
+                }
+                glossarized_resource['id']['dataset'] = '.'
+
+            # If we error out, this is a packaged/gzipped file. Do sizing the basic way, with a GET request.
+            except KeyError:
+                repr = limited_requests.limited_get(resource['id']['resource'], q)
+                glossarized_resource['sizing'] = {
+                    'filesize': repr['filesize']
+                }
+                glossarized_resource['dataset'] = {
+                    'dataset': repr['fp']
+                }
 
             # Update the resource list to make note of the fact that this job has been processed.
             if 'processed' not in resource['flags']:
