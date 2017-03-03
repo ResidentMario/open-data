@@ -52,3 +52,50 @@ def load_glossary_todo(folder_slug, endpoint_type, use_cache):
         glossary = []
 
     return resource_list, resource_filename, glossary, glossary_filename
+
+
+write_resource_representation_docstring = """
+Fetches a resource representation for a single resource type from a Socrata portal.
+
+Parameters
+----------
+domain: str, default "data.cityofnewyork.us"
+    The open data portal URI.
+folder_slug: str, default "nyc"
+    The subfolder of the "data" directory into which the resource representation will be placed.
+use_cache: bool, default True
+    If a resource representation already exists, whether to simply exit out or blow it away and create a new one
+    (overwriting the old one).
+credentials: str or dict, default "../../auth/nyc-open-data.json"
+    Either a filepath to the file containing your API credentials for the given Socrata instance, or a dictionary
+    containing the same information.
+endpoint_type: str, default "table"
+    The resource type to fetch a representation for.
+
+Returns
+-------
+Nothing; writes to a file.
+"""
+
+write_glossary_docstring = """
+Writes a dataset representation. This is the hard part!
+
+Parameters
+----------
+domain: str, default "data.cityofnewyork.us"
+    The open data portal URI.
+folder_slug: str, default "nyc"
+    The subfolder of the "data" directory into which the resource glossary will be placed.
+use_cache: bool, default True
+    If a glossary already exists, whether to simply exit out or blow it away and create a new one (overwriting the
+    old one).
+endpoint_type: str, default "table"
+    The resource type to build a glossary for.
+timeout: int, default 60
+    The maximum amount of time to spend downloading data before killing the process. This is implemented so that
+    occassional very large datasets do not crash the process.
+
+Returns
+-------
+Nothing; writes to a file.
+"""

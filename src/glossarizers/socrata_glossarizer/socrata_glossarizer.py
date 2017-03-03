@@ -6,8 +6,10 @@ import pysocrata
 import json
 import numpy as np
 import pandas as pd
-import os
 from tqdm import tqdm
+from src.glossarizers.generic import (return_if_preexisting_and_use_cache, load_glossary_todo,
+                                      write_resource_file, write_glossary_file,
+                                      write_resource_representation_docstring, write_glossary_docstring)
 
 
 def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=True,
@@ -37,10 +39,7 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
     """
 
     # If the file already exists and we specify `use_cache=True`, simply return.
-    resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
-    preexisting = os.path.isfile(resource_filename)
-    if preexisting and use_cache:
-        return
+    return_if_preexisting_and_use_cache(folder_slug, endpoint_type, use_cache)
 
     # Otherwise, continue.
     # First of all, load credentials.
@@ -133,8 +132,9 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
         })
 
     # Write to file and exit.
-    with open(resource_filename, 'w') as fp:
-        json.dump(roi_repr, fp, indent=4)
+    write_resource_file(folder_slug, endpoint_type, roi_repr)
+
+write_resource_representation.__doc__ = write_resource_representation_docstring
 
 
 def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=True,
@@ -163,28 +163,8 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
     """
 
     # Begin by loading in the data that we have.
-    resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
-    with open(resource_filename, "r") as fp:
-        resource_list = json.load(fp)
-
-    # If use_cache is True, remove resources which have already been processed. Otherwise, only exclude "ignore" flags.
-    # Note: "removed" flags are not ignored. It's not too expensive to check whether or not this was a fluke or if the
-    # dataset is back up or not.
-    if use_cache:
-        resource_list = [r for r in resource_list if "processed" not in r['flags'] and "ignore" not in r['flags']]
-    else:
-        resource_list = [r for r in resource_list if "ignore" not in r['flags']]
-
-    # Check whether or not the glossary file exists.
-    glossary_filename = "../../../data/" + folder_slug + "/glossaries/" + endpoint_type + ".json"
-    preexisting = os.path.isfile(glossary_filename)
-
-    # If it does, load it. Otherwise, load an empty list.
-    if preexisting:
-        with open(glossary_filename, "r") as fp:
-            glossary = json.load(fp)
-    else:
-        glossary = []
+    resource_list, resource_filename, glossary, glossary_filename = load_glossary_todo(folder_slug, endpoint_type,
+                                                                                       use_cache)
 
     # Whether we succeed or fail, we'll want to save the data we have at the end with a try-finally block.
     try:
@@ -315,7 +295,7 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
             pager.driver.quit()
 
         # Save output.
-        with open(glossary_filename, "w") as fp:
-            json.dump(glossary, fp, indent=4)
-        with open(resource_filename, "w") as fp:
-            json.dump(resource_list, fp, indent=4)
+        write_resource_file(folder_slug, endpoint_type, resource_list)
+        write_glossary_file(folder_slug, endpoint_type, glossary)
+
+write_resource_representation.__doc__ = write_glossary_docstring

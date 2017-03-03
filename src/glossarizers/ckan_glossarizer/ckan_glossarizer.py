@@ -1,10 +1,10 @@
-import json
 import pandas as pd
 from tqdm import tqdm
 import requests
 import warnings
 from src.glossarizers.generic import (return_if_preexisting_and_use_cache, load_glossary_todo,
-                                      write_resource_file, write_glossary_file)
+                                      write_resource_file, write_glossary_file,
+                                      write_resource_representation_docstring, write_glossary_docstring)
 
 
 def write_resource_representation(domain="data.gov.sg", folder_slug="singapore", use_cache=True,
@@ -137,31 +137,11 @@ def write_resource_representation(domain="data.gov.sg", folder_slug="singapore",
         # Write to file and exit.
         write_resource_file(folder_slug, endpoint_type, roi_repr)
 
+write_resource_representation.__doc__ = write_resource_representation_docstring
+
 
 def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type="resources", use_cache=True,
                    timeout=60):
-    """
-    Writes a dataset representation. This is the hard part!
-
-    Parameters
-    ----------
-    domain: str, default "data.cityofnewyork.us"
-        The open data portal URI.
-    folder_slug: str, default "nyc"
-        The subfolder of the "data" directory into which the resource glossary will be placed.
-    endpoint_type: str, default "everything"
-        The resource type to build a glossary for.
-    use_cache: bool, default True
-        If a glossary already exists, whether to simply exit out or blow it away and create a new one (overwriting the
-        old one).
-    timeout: int, default 60
-        The maximum amount of time to spend downloading data before killing the process. This is implemented so that
-        occassional very large datasets do not crash the process.
-
-    Returns
-    -------
-    Nothing; writes to a file.
-    """
     import src.glossarizers.limited_requests as limited_requests
 
     q = limited_requests.q()
@@ -217,7 +197,5 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
         # Save output.
         write_resource_file(folder_slug, endpoint_type, resource_list)
         write_glossary_file(folder_slug, endpoint_type, glossary)
-        with open(glossary_filename, "w") as fp:
-            json.dump(glossary, fp, indent=4)
-        with open(resource_filename, "w") as fp:
-            json.dump(resource_list, fp, indent=4)
+
+write_glossary.__doc__ = write_glossary_docstring
