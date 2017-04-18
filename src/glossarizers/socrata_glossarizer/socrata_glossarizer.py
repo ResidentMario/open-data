@@ -10,9 +10,10 @@ from tqdm import tqdm
 from src.glossarizers.generic import (return_if_preexisting_and_use_cache, load_glossary_todo,
                                       write_resource_file, write_glossary_file,
                                       write_resource_representation_docstring, write_glossary_docstring)
+from selenium.common.exceptions import TimeoutException
 
 
-def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=True,
+def write_resource_representation(domain="data.cityofnewyork.us", resource_filepath="nyc", use_cache=True,
                                   credentials="../../../auth/nyc-open-data.json",
                                   endpoint_type="table"):
     """
@@ -39,7 +40,7 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
     """
 
     # If the file already exists and we specify `use_cache=True`, simply return.
-    return_if_preexisting_and_use_cache(folder_slug, endpoint_type, use_cache)
+    return_if_preexisting_and_use_cache(resource_filepath, endpoint_type, use_cache)
 
     # Otherwise, continue.
     # First of all, load credentials.
@@ -132,13 +133,13 @@ def write_resource_representation(domain="data.cityofnewyork.us", folder_slug="n
         })
 
     # Write to file and exit.
-    write_resource_file(folder_slug, endpoint_type, roi_repr)
+    write_resource_file(None, None, roi_repr, resource_filepath)
 
 write_resource_representation.__doc__ = write_resource_representation_docstring
 
 
 def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=True,
-                   endpoint_type="table", timeout=60):
+                   endpoint_type="table", resource_filepath=None, glossary_filepath=None, timeout=60):
     """
     Writes a dataset representation. This is the hard part!
 
@@ -163,8 +164,11 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
     """
 
     # Begin by loading in the data that we have.
-    resource_list, resource_filename, glossary, glossary_filename = load_glossary_todo(folder_slug, endpoint_type,
-                                                                                       use_cache)
+    import pdb; pdb.set_trace()
+    resource_list, resource_filename, glossary, _glossary_filename = load_glossary_todo(folder_slug, endpoint_type,
+                                                                                        use_cache, resource_filepath)
+    if not glossary_filepath:
+        glossary_filepath = _glossary_filename
 
     # Whether we succeed or fail, we'll want to save the data we have at the end with a try-finally block.
     try:
@@ -176,16 +180,19 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
         # from the portal web interface, which displays, among other things, row and column counts.
         if endpoint_type == "table":
             # Import the necessary library.
-            import sys; sys.path.insert(0, "../../pager/")
+            # TODO: MUST UNHARCODE THIS PATH!!!!!!!!!!!!!!!!!!
+            # ATM this will only run from the notebooks directory (i.e. from a Jupyter notebook)
+            # pager extremely strongly needs to be modularized, this
+            import sys; sys.path.append("../src/glossarizers/pager")
             import pager
 
             for resource in tqdm(resource_list):
                 # Catch an error where the dataset has been deleted, warn but continue.
                 try:
                     rowcol = pager.page_socrata_for_endpoint_size(domain, resource['id']['landing_page'], timeout=10)
-                except pager.DeletedEndpointException:
+                except (pager.DeletedEndpointException, TimeoutException):
                     print("WARNING: the '{0}' endpoint appears to have been removed.".format(
-                        resource['id']['endpoint']))
+                        resource['id']['landing_page']))
                     resource['flags'].append('removed')
                     continue
 
@@ -217,7 +224,8 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
         # geospatial datasets, blobs, links:
         # ...
         else:
-            import src.glossarizers.limited_requests as limited_requests
+            import sys; sys.path.append("../src/glossarizers/limited_requests")
+            import limited_requests
 
             # Create a q for managing jobs.
             q = limited_requests.q()
@@ -295,7 +303,7 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
             pager.driver.quit()
 
         # Save output.
-        write_resource_file(folder_slug, endpoint_type, resource_list)
-        write_glossary_file(folder_slug, endpoint_type, glossary)
+        write_resource_file(None, None, resource_list, resource_filename)
+        write_glossary_file(None, None, glossary, glossary_filepath)
 
 write_resource_representation.__doc__ = write_glossary_docstring

@@ -10,7 +10,9 @@ import multiprocessing as mp
 import sys
 
 
-sys.path.append("../../")
+import pdb; pdb.set_trace()
+# TODO: UN-HARDCODE THIS!!!!!!!!
+sys.path.append("../src/glossarizers/datafy")
 import datafy
 
 

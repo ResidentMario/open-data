@@ -6,29 +6,31 @@ import os
 import json
 
 
-def return_if_preexisting_and_use_cache(folder_slug, endpoint_type, use_cache):
+def return_if_preexisting_and_use_cache(folder_filepath, endpoint_type, use_cache):
     # If the file already exists and we specify `use_cache=True`, simply return.
-    resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
-    preexisting = os.path.isfile(resource_filename)
+    preexisting = os.path.isfile(folder_filepath)
     if preexisting and use_cache:
         return
 
 
-def write_resource_file(folder_slug, endpoint_type, roi_repr):
-    resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
+def write_resource_file(folder_slug, endpoint_type, roi_repr, resource_filename):
+    if not resource_filename:
+        resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
     with open(resource_filename, 'w') as fp:
         json.dump(roi_repr, fp, indent=4)
 
 
-def write_glossary_file(folder_slug, endpoint_type, glossary_repr):
-    glossary_filename = "../../../data/" + folder_slug + "/glossaries/" + endpoint_type + ".json"
+def write_glossary_file(folder_slug, endpoint_type, glossary_repr, glossary_filename):
+    if not glossary_filename:
+        glossary_filename = "../../../data/" + folder_slug + "/glossaries/" + endpoint_type + ".json"
     with open(glossary_filename, "w") as fp:
         json.dump(glossary_repr, fp, indent=4)
 
 
-def load_glossary_todo(folder_slug, endpoint_type, use_cache):
+def load_glossary_todo(folder_slug, endpoint_type, use_cache, resource_filename):
     # Begin by loading in the data that we have.
-    resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
+    if not resource_filename:
+        resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
     with open(resource_filename, "r") as fp:
         resource_list = json.load(fp)
 

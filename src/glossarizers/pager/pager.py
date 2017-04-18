@@ -67,7 +67,7 @@ def page_socrata(domain, uri, condition=EC.presence_of_element_located((By.CLASS
         )
         return driver
     except TimeoutException:
-        driver.save_screenshot('error.png')
+        print("WARNING: {0} did not process correctly. Are you sure this is a valid endpoint?".format(uri))
         raise
 
 
