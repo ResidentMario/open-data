@@ -7,9 +7,9 @@ import json
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-from src.glossarizers.generic import (return_if_preexisting_and_use_cache, load_glossary_todo,
-                                      write_resource_file, write_glossary_file,
-                                      write_resource_representation_docstring, write_glossary_docstring)
+from .generic import (return_if_preexisting_and_use_cache, load_glossary_todo,
+                     write_resource_file, write_glossary_file,
+                     write_resource_representation_docstring, write_glossary_docstring)
 from selenium.common.exceptions import TimeoutException
 
 
@@ -38,6 +38,7 @@ def write_resource_representation(domain="data.cityofnewyork.us", resource_filep
     -------
     Nothing; writes to a file.
     """
+    import pdb; pdb.set_trace()
 
     # If the file already exists and we specify `use_cache=True`, simply return.
     return_if_preexisting_and_use_cache(resource_filepath, endpoint_type, use_cache)

@@ -2,7 +2,7 @@ import pandas as pd
 from tqdm import tqdm
 import requests
 import warnings
-from src.glossarizers.generic import (return_if_preexisting_and_use_cache, load_glossary_todo,
+from .generic import (return_if_preexisting_and_use_cache, load_glossary_todo,
                                       write_resource_file, write_glossary_file,
                                       write_resource_representation_docstring, write_glossary_docstring)
 
