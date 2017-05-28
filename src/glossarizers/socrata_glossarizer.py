@@ -7,51 +7,18 @@ import json
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-from .generic import (return_if_preexisting_and_use_cache, load_glossary_todo,
-                     write_resource_file, write_glossary_file,
-                     write_resource_representation_docstring, write_glossary_docstring)
+from .generic import (preexisting_cache, load_glossary_todo,
+                      write_resource_file, write_glossary_file,
+                      write_resource_representation_docstring, write_glossary_docstring)
 from selenium.common.exceptions import TimeoutException
 
 
-def write_resource_representation(domain="data.cityofnewyork.us", resource_filepath="nyc", use_cache=True,
-                                  credentials="../../../auth/nyc-open-data.json",
-                                  endpoint_type="table"):
-    """
-    Fetches a resource representation for a single resource type from a Socrata portal.
-
-    Parameters
-    ----------
-    domain: str, default "data.cityofnewyork.us"
-        The open data portal URI.
-    folder_slug: str, default "nyc"
-        The subfolder of the "data" directory into which the resource representation will be placed.
-    use_cache: bool, default True
-        If a resource representation already exists, whether to simply exit out or blow it away and create a new one
-        (overwriting the old one).
-    credentials: str or dict, default "../../auth/nyc-open-data.json"
-        Either a filepath to the file containing your API credentials for the given Socrata instance, or a dictionary
-        containing the same information.
-    endpoint_type: str, default "table"
-        The resource type to fetch a representation for.
-
-    Returns
-    -------
-    Nothing; writes to a file.
-    """
+def get_resource_representation(domain, credentials, endpoint_type):
     import pdb; pdb.set_trace()
 
-    # If the file already exists and we specify `use_cache=True`, simply return.
-    return_if_preexisting_and_use_cache(resource_filepath, endpoint_type, use_cache)
-
-    # Otherwise, continue.
-    # First of all, load credentials.
-    if isinstance(credentials, str):
-        with open(credentials, "r") as fp:
-            auth = json.load(fp)
-    else:
-        auth = credentials
-
-    # Attach the domain.
+    # Load credentials.
+    with open(credentials, "r") as fp:
+        auth = json.load(fp)
     auth['domain'] = domain
 
     # If the metadata doesn't already exist, use pysocrata to fetch portal metadata. Otherwise, use what's provided.
@@ -68,13 +35,12 @@ def write_resource_representation(domain="data.cityofnewyork.us", resource_filep
     types = list(map(lambda d: volcab_map[d], types))
 
     # Get the resources of interest.
-    # endpoints = [d['resource']['id'] for d in resources]
     indices = np.nonzero([t == endpoint_type for t in types])
     roi = np.array(resources)[indices]
 
     # Conditional pager import (this inits PhantomJS, don't necessarily want to if we don't have to).
     if endpoint_type == "blob" or endpoint_type == "link":
-        import src.glossarizers.pager as pager
+        from .pager import page_socrata_for_resource_link
 
     # Build the data representation.
     roi_repr = []
@@ -89,10 +55,9 @@ def write_resource_representation(domain="data.cityofnewyork.us", resource_filep
             slug = "https://" + domain + "/api/views/" + endpoint + "/rows.csv?accessType=DOWNLOAD"
         elif endpoint_type == "geospatial dataset":
             slug = "https://" + domain + "/api/geospatial/" + endpoint + "?method=export&format=GeoJSON"
-        elif endpoint_type == "blob" or endpoint_type == "link":
-            slug = pager.page_socrata_for_resource_link(domain, landing_page)
-        else:
-            raise ValueError  # This code shouldn't execute, gets caught at start.
+        else:  # endpoint_type == "blob" or endpoint_type == "link":
+            # noinspection PyUnboundLocalVariable
+            slug = page_socrata_for_resource_link(domain, landing_page)
 
         name = metadata['resource']['name']
         description = metadata['resource']['description']
@@ -133,8 +98,41 @@ def write_resource_representation(domain="data.cityofnewyork.us", resource_filep
             'flags': []
         })
 
-    # Write to file and exit.
-    write_resource_file(None, None, roi_repr, resource_filepath)
+    return roi_repr
+
+
+def write_resource_representation(domain="data.cityofnewyork.us", resource_filepath="nyc-tables.json", use_cache=True,
+                                  credentials="../../../auth/nyc-open-data.json",
+                                  endpoint_type="table"):
+    """
+    Fetches a resource representation for a single resource type from a Socrata portal.
+
+    Parameters
+    ----------
+    domain: str, default "data.cityofnewyork.us"
+        The open data portal URI.
+    folder_slug: str, default "nyc"
+        The subfolder of the "data" directory into which the resource representation will be placed.
+    use_cache: bool, default True
+        If a resource representation already exists, whether to simply exit out or blow it away and create a new one
+        (overwriting the old one).
+    credentials: str or dict, default "../../auth/nyc-open-data.json"
+        Either a filepath to the file containing your API credentials for the given Socrata instance, or a dictionary
+        containing the same information.
+    endpoint_type: str, default "table"
+        The resource type to fetch a representation for.
+
+    Returns
+    -------
+    Nothing; writes to a file.
+    """
+    # If the file already exists and we specify `use_cache=True`, simply return.
+    if preexisting_cache(resource_filepath, use_cache):
+        return
+
+    # Generate to file and exit.
+    roi_repr = get_resource_representation(domain, credentials, endpoint_type)
+    write_resource_file(roi_repr, resource_filepath)
 
 write_resource_representation.__doc__ = write_resource_representation_docstring
 

@@ -6,16 +6,14 @@ import os
 import json
 
 
-def return_if_preexisting_and_use_cache(folder_filepath, endpoint_type, use_cache):
+def preexisting_cache(folder_filepath, use_cache):
     # If the file already exists and we specify `use_cache=True`, simply return.
     preexisting = os.path.isfile(folder_filepath)
     if preexisting and use_cache:
         return
 
 
-def write_resource_file(folder_slug, endpoint_type, roi_repr, resource_filename):
-    if not resource_filename:
-        resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
+def write_resource_file(roi_repr, resource_filename):
     with open(resource_filename, 'w') as fp:
         json.dump(roi_repr, fp, indent=4)
 
