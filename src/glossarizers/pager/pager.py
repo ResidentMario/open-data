@@ -57,6 +57,14 @@ class DeletedEndpointException(Exception):
 
 def page_socrata(domain, uri, condition=EC.presence_of_element_located((By.CLASS_NAME, "dataset-contents")),
                  timeout=10):
+    """
+    Returns the portal page HTML contents in a Selenium webdriver. Waits until the specified condition is True.
+    """
+    # Choose a condition as close to the target elements of interest as possible. Failures may occur when a partial page
+    # load occurs if that page load includes the conditioned element but not the targeted element. See further the
+    # note in socrata_glossarizer.py.
+
+    # TODO: Repair this wait issue.
     driver.get(uri)
     try:
         # Make sure that the endpoint hasn't been deleted.
@@ -67,18 +75,23 @@ def page_socrata(domain, uri, condition=EC.presence_of_element_located((By.CLASS
         )
         return driver
     except TimeoutException:
-        print("WARNING: {0} did not process correctly. Are you sure this is a valid endpoint?".format(uri))
-        raise
+        raise TimeoutException("{0} could not be processed within {1} seconds. The server was likely too slow to "
+                               "respond".format(uri, timeout))
 
 
 def page_socrata_for_endpoint_size(domain, uri, timeout=10):
-
-    # First use the page_socrata subroutine to fetch the loaded page.
+    """
+    Given the domain and URI of a table on a Socrata portal, returns information on the number of rows and columns
+    thereof, if that information can be had within the allotted timeout.
+    """
     driver = page_socrata(domain, uri, timeout=timeout)
 
     # Now pull out the DOM element containing the desired sizing information.
     dataset_contents_list = driver.find_elements_by_class_name('dataset-contents')
-    assert len(dataset_contents_list) == 1  # check that the UI is what we expect it to be
+
+    if len(dataset_contents_list) != 1:
+        raise ValueError("{0} could not be processed because the portal UI has probably changed.".format(uri))
+
     metadata_pairs = dataset_contents_list[0].find_elements_by_class_name('metadata-pair')
 
     # Again we assert that we have the information that we need. However, it's important to note that in some cases,
@@ -88,12 +101,25 @@ def page_socrata_for_endpoint_size(domain, uri, timeout=10):
     # With one that has them:
     # https://data.cityofnewyork.us/Housing-Development/Housing-New-York-Units-by-Building/hg8x-zxpr
     # That's ok. We'll include that data but ignore it in the read script itself.
-    #
-    # This process occassionally and seemingly randomly fails. Specifically, the search for the sub-element fails due to
-    # a selenium.common.exceptions.WebDriverException. I have no idea what is causing this, but it occurs in random
-    # places at random times and it will need to be fixed.
-    # TODO: Address random failures. Test with write_glossary(resource_filename="...", glossary_filename="...")
-    assert len(metadata_pairs) >= 2
+
+    # It's difficult to design a wait condition that will guarantee that the metadata-pair element that we
+    # need is loaded onto the page (and not still moving over the pipe). Socrata uses AJAX, and makes no
+    # guarantees that one part of the screen will load before or after another. Checking that the metadata-pair
+    # parent element is present is sufficient in 95% of cases, but for the remaining cases I've not yet found
+    # a better way than just polling whether or not the deal is done using time.sleep.
+
+    # Socrata portals appear to heavily throttle page requests, even 10-second intervals are insufficient at times.
+    import time
+    for i in range(0, 20):
+        if len(metadata_pairs) < 2:
+            time.sleep(0.1)
+        else:
+            break
+
+    if len(metadata_pairs) < 2:
+        raise TimeoutException("{0} could not be processed to get file size within the {1} seconds allotted. Either "
+                               "the server was too slow or the portal UI has changed.".format(uri, timeout))
+
     rowcol = dict()
     for m in metadata_pairs:
         key = m.find_element_by_class_name('metadata-pair-key').text
@@ -116,18 +142,28 @@ def page_socrata_for_endpoint_size(domain, uri, timeout=10):
 
 
 def page_socrata_for_resource_link(domain, uri, timeout=10):
-
-    # First use the page_socrata subroutine to fetch the loaded page.
+    """
+    Given the domain and URI of a link or blob on a Socrata portal, returns a download link for that resource,
+    assuming that it can be had within the timeout allotted.
+    """
+    # Unlike dataset size the download button is isolated to a unique element that can always be waited on.
     condition = EC.presence_of_element_located((By.CLASS_NAME, "download-buttons"))
     driver = page_socrata(domain, uri, condition=condition, timeout=timeout)
 
     # Now pull out the DOM element containing the link.
     download_placard = driver.find_elements_by_class_name('download-buttons')
-    assert len(download_placard) >= 1  # check that the UI is what we expect it to be
+
+    # Check that the UI is what we expect it to be.
+    if len(download_placard) < 1:
+        raise ValueError("{0} could not be processed because the portal UI has probably changed.".format(uri))
 
     # Select the download button DOM element (there may (?) be multiple buttons, take the first one).
     download_buttons = download_placard[0].find_elements_by_class_name('download')
     assert len(download_buttons) >= 1
+
+    # Check that the UI is what we expect it to be.
+    if len(download_buttons) < 1:
+        raise ValueError("{0} could not be processed because the portal UI has probably changed.".format(uri))
 
     # Get the link and return it.
     href = download_buttons[0].get_attribute("href")

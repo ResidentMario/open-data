@@ -5,3 +5,4 @@ auth/*
 **/ghostdriver.log
 **/.ipynb_checkpoints
 __pycache__/
+**/.cache

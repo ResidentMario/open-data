@@ -8,14 +8,79 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from .generic import (preexisting_cache, load_glossary_todo,
-                      write_resource_file, write_glossary_file,
-                      write_resource_representation_docstring, write_glossary_docstring)
+                      write_resource_file, write_glossary_file)
 from selenium.common.exceptions import TimeoutException
 
 
-def get_resource_representation(domain, credentials, endpoint_type):
-    import pdb; pdb.set_trace()
+def resourcify(metadata, domain, endpoint_type):
+    """
+    Given Socrata API metadata about a certain endpoint (as well as the domain of the endpoint
+    e.g. "data.cityofnewyork.us", and the type, e.g. "table") return a resource-ified entry for the
+    endpoint for inclusion in the resource listing.
+    """
+    # Conditional pager import (this inits PhantomJS, don't necessarily want to if we don't have to).
+    if endpoint_type == "blob" or endpoint_type == "link":
+        from .pager import page_socrata_for_resource_link
 
+    endpoint = metadata['resource']['id']
+
+    # The landing_page format is standard.
+    landing_page = "https://{0}/d/{1}".format(domain, endpoint)
+
+    # The slug format depends on the API signature, which is in turn dependent on the dataset type.
+    if endpoint_type == "table":
+        slug = "https://" + domain + "/api/views/" + endpoint + "/rows.csv?accessType=DOWNLOAD"
+    elif endpoint_type == "geospatial dataset":
+        slug = "https://" + domain + "/api/geospatial/" + endpoint + "?method=export&format=GeoJSON"
+    else:  # endpoint_type == "blob" or endpoint_type == "link":
+        # noinspection PyUnboundLocalVariable
+        slug = page_socrata_for_resource_link(domain, landing_page)
+
+    name = metadata['resource']['name']
+    description = metadata['resource']['description']
+    sources = [metadata['resource']['attribution']]
+
+    created = str(pd.Timestamp(metadata['resource']['createdAt']))
+    last_updated = str(pd.Timestamp(metadata['resource']['updatedAt']))
+    page_views = metadata['resource']['page_views']['page_views_total']
+
+    column_names = metadata['resource']['columns_name']
+
+    topics_provided = [metadata['classification']['domain_category']]
+    keywords_provided = metadata['classification']['domain_tags']
+
+    return {
+        'id': {
+            'landing_page': landing_page,
+            'resource': slug,
+            'protocol': 'https',
+            'name': name,
+            'description': description
+        },
+        'provenance': {
+            'sources': sources
+        },
+        'usage': {
+            'created': created,
+            'last_updated': last_updated,
+            'page_views': page_views
+        },
+        'contents': {
+            'column_names': column_names
+        },
+        'tags': {
+            'topics_provided': topics_provided,
+            'keywords_provided': keywords_provided
+        },
+        'flags': []
+    }
+
+
+def get_resource_representation(domain, credentials, endpoint_type):
+    """
+    Given a domain, Socrata API credentials for that domain, and a type of endpoint of interest, returns a full
+    resource representation (using resourcify) for each resource therein.
+    """
     # Load credentials.
     with open(credentials, "r") as fp:
         auth = json.load(fp)
@@ -38,65 +103,10 @@ def get_resource_representation(domain, credentials, endpoint_type):
     indices = np.nonzero([t == endpoint_type for t in types])
     roi = np.array(resources)[indices]
 
-    # Conditional pager import (this inits PhantomJS, don't necessarily want to if we don't have to).
-    if endpoint_type == "blob" or endpoint_type == "link":
-        from .pager import page_socrata_for_resource_link
-
     # Build the data representation.
     roi_repr = []
     for metadata in tqdm(roi):
-        endpoint = metadata['resource']['id']
-
-        # The landing_page format is standard.
-        landing_page = "https://{0}/d/{1}".format(domain, endpoint)
-
-        # The slug format depends on the API signature, which is in turn dependent on the dataset type.
-        if endpoint_type == "table":
-            slug = "https://" + domain + "/api/views/" + endpoint + "/rows.csv?accessType=DOWNLOAD"
-        elif endpoint_type == "geospatial dataset":
-            slug = "https://" + domain + "/api/geospatial/" + endpoint + "?method=export&format=GeoJSON"
-        else:  # endpoint_type == "blob" or endpoint_type == "link":
-            # noinspection PyUnboundLocalVariable
-            slug = page_socrata_for_resource_link(domain, landing_page)
-
-        name = metadata['resource']['name']
-        description = metadata['resource']['description']
-        sources = [metadata['resource']['attribution']]
-
-        created = str(pd.Timestamp(metadata['resource']['createdAt']))
-        last_updated = str(pd.Timestamp(metadata['resource']['updatedAt']))
-        page_views = metadata['resource']['page_views']['page_views_total']
-
-        column_names = metadata['resource']['columns_name']
-
-        topics_provided = [metadata['classification']['domain_category']]
-        keywords_provided = metadata['classification']['domain_tags']
-
-        roi_repr.append({
-            'id': {
-                'landing_page': landing_page,
-                'resource': slug,
-                'protocol': 'https',
-                'name': name,
-                'description': description
-            },
-            'provenance': {
-                'sources': sources
-            },
-            'usage': {
-                'created': created,
-                'last_updated': last_updated,
-                'page_views': page_views
-            },
-            'contents': {
-                'column_names': column_names
-            },
-            'tags': {
-                'topics_provided': topics_provided,
-                'keywords_provided': keywords_provided
-            },
-            'flags': []
-        })
+        roi_repr.append(resourcify(metadata, domain, endpoint_type))
 
     return roi_repr
 
@@ -104,20 +114,12 @@ def get_resource_representation(domain, credentials, endpoint_type):
 def write_resource_representation(domain="data.cityofnewyork.us", out="nyc-tables.json", use_cache=True,
                                   credentials="../../../auth/nyc-open-data.json"):
     """
-    Fetches a resource representation for a single resource type from a Socrata portal.
+    Fetches a resource representation for a single resource type from a Socrata portal. Simple I/O wrapper around
+    get_resource_representation, using some utilities from generic.py.
 
     Parameters
     ----------
-    domain: str, default "data.cityofnewyork.us"
-        The open data portal URI.
-    out: str, filepath
-        Where to write the file to.
-    use_cache: bool, default True
-        If a resource representation already exists, whether to simply exit out or blow it away and create a new one
-        (overwriting the old one).
-    credentials: str or dict, default "../../auth/nyc-open-data.json"
-        Either a filepath to the file containing your API credentials for the given Socrata instance, or a dictionary
-        containing the same information.
+    TODO
 
     Returns
     -------
@@ -134,15 +136,18 @@ def write_resource_representation(domain="data.cityofnewyork.us", out="nyc-table
         roi_repr += get_resource_representation(domain, credentials, endpoint_type)
     write_resource_file(roi_repr, out)
 
-write_resource_representation.__doc__ = write_resource_representation_docstring
-
 
 def get_sizings(uri, q, timeout=60):
+    """
+    Given a URI and a multiprocessing.Queue, returns a structured dict explaining file size and type if download is
+    successful, and None if the download process times out (takes too long).
+
+    This method utilizes limited_process and datafy facilities, these are two small modules written for the purposes of
+    this project maintained as separate modules.
+    """
     import limited_process
     import datafy
     import sys
-
-    # kwargs = {}
 
     def _size_up(uri, q, kwargs):
         def apply(resource):
@@ -163,20 +168,23 @@ def get_sizings(uri, q, timeout=60):
     )
 
 
+def glossarize():
+    pass
+
 def get_glossary(domain="data.cityofnewyork.us", use_cache=True,
                  endpoint_type="table", resource_filename=None, glossary_filename=None, timeout=60):
     pass
 
 
-def write_glossary(domain="data.cityofnewyork.us", use_cache=True,
+def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
                    endpoint_type="table", resource_filename=None, glossary_filename=None, timeout=60):
     """
-    Writes a dataset representation. This is the hard part!
+    Writes a dataset representation.
 
     Parameters
     ----------
-    domain: str, default "data.cityofnewyork.us"
-        The open data portal URI.
+    domain: str, default "opendata.cityofnewyork.us"
+        The open data portal landing page URI. This is distinct from the subpage slug...
     folder_slug: str, default "nyc"
         The subfolder of the "data" directory into which the resource glossary will be placed.
     use_cache: bool, default True
@@ -209,19 +217,26 @@ def write_glossary(domain="data.cityofnewyork.us", use_cache=True,
             from .pager import page_socrata_for_endpoint_size, DeletedEndpointException, driver
 
             for resource in tqdm(resource_list):
-                # Catch an error where the dataset has been deleted, warn but continue.
                 try:
                     rowcol = page_socrata_for_endpoint_size(domain, resource['id']['landing_page'], timeout=10)
                 except (DeletedEndpointException):
-                    print("WARNING: the '{0}' endpoint was probably removed.".format(
-                        resource['id']['landing_page']))
+                    print("WARNING: the '{0}' endpoint was deleted.".format(resource['id']['landing_page']))
                     resource['flags'].append('removed')
                     continue
                 except (TimeoutException):
-                    print("WARNING: the '{0}' endpoint amay have been removed.".format(
-                        resource['id']['landing_page']))
+                    print("WARNING: the '{0}' endpoint could not be processed.".format(resource['id']['landing_page']))
                     resource['flags'].append('removed')
                     continue
+                # except (AssertionError):
+                #     import pdb; pdb.set_trace()
+                #     print("WARNING: the '{0}' endpoint doesn't follow the expected format.".format(
+                #         resource['id']['landing_page']))
+                #     resource['flags'].append('error')
+                #     continue
+                # except:
+                #     import pdb; pdb.set_trace()
+                #     1 + 1
+                #     print("Yo.")
 
                 # Remove the "processed" flag from the resource going into the glossary, if one exists.
                 glossarized_resource = resource.copy()
@@ -252,14 +267,24 @@ def write_glossary(domain="data.cityofnewyork.us", use_cache=True,
         # ...
         else:
             import limited_process
+            import zipfile
             q = limited_process.q()
 
             for i, resource in tqdm(list(enumerate(resource_list))):
+                import pdb; pdb.set_trace()
+
                 # Get the sizing information.
-                sizings = get_sizings(
-                    "https://data.cityofnewyork.us/api/views/gezn-7mgk/rows.csv?accessType=DOWNLOAD",
-                    q, timeout=timeout
-                )
+                try:
+                    sizings = get_sizings(
+                        resource['id']['resource'],
+                        q, timeout=timeout
+                    )
+                except zipfile.BadZipfile:
+                    # cf. https://github.com/ResidentMario/datafy/issues/2
+                    print("WARNING: the '{0}' endpoint is either misformatted or contains multiple levels of "
+                          "archiving which failed to process.".format(resource['id']['landing_page']))
+                    resource['flags'].append('error')
+                    continue
 
                 # If successful, append the result to the glossary...
                 if sizings:
@@ -331,7 +356,5 @@ def write_glossary(domain="data.cityofnewyork.us", use_cache=True,
             driver.quit()  # pager.driver
 
         # Save output.
-        write_resource_file(None, None, resource_list, resource_filename)
-        write_glossary_file(None, None, glossary, glossary_filepath)
-
-write_resource_representation.__doc__ = write_glossary_docstring
+        write_resource_file(resource_list, resource_filename)
+        write_glossary_file(glossary, glossary_filename)
