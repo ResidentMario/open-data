@@ -3,8 +3,7 @@ from tqdm import tqdm
 import requests
 import warnings
 from .generic import (preexisting_cache, load_glossary_todo,
-                      write_resource_file, write_glossary_file,
-                      write_resource_representation_docstring, write_glossary_docstring)
+                      write_resource_file, write_glossary_file)
 
 
 def write_resource_representation(domain="data.gov.sg", folder_slug="singapore", use_cache=True,
@@ -138,8 +137,6 @@ def write_resource_representation(domain="data.gov.sg", folder_slug="singapore",
         # Write to file and exit.
         write_resource_file(folder_slug, endpoint_type, roi_repr)
 
-write_resource_representation.__doc__ = write_resource_representation_docstring
-
 
 def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type="resources", use_cache=True,
                    timeout=60):
@@ -199,4 +196,3 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
         write_resource_file(folder_slug, endpoint_type, resource_list)
         write_glossary_file(folder_slug, endpoint_type, glossary)
 
-write_glossary.__doc__ = write_glossary_docstring

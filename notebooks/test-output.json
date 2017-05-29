@@ -1,8 +1,11 @@
 [
     {
-        "flags": [
-            "processed"
-        ],
+        "provenance": {
+            "sources": [
+                null
+            ]
+        },
+        "flags": [],
         "tags": {
             "topics_provided": [
                 ""
@@ -24,19 +27,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/ft4n-yqee",
             "resource": "https://data.cityofnewyork.us/download/ft4n-yqee/application%2Fzip"
         },
+        "sizing": {
+            "filesize": ">60s"
+        },
         "contents": {
             "column_names": []
-        },
-        "provenance": {
-            "sources": [
-                null
-            ]
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "provenance": {
+            "sources": [
+                "Department of City Planning (DCP)"
+            ]
+        },
+        "flags": [],
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -62,19 +66,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/mxbm-493w",
             "resource": "https://data.cityofnewyork.us/download/mxbm-493w/application%2Fzip"
         },
+        "sizing": {
+            "filesize": ">60s"
+        },
         "contents": {
             "column_names": []
-        },
-        "provenance": {
-            "sources": [
-                "Department of City Planning (DCP)"
-            ]
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "provenance": {
+            "sources": [
+                "311"
+            ]
+        },
+        "flags": [],
         "tags": {
             "topics_provided": [
                 ""
@@ -94,19 +99,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/as38-8eb5",
             "resource": "https://data.cityofnewyork.us/download/as38-8eb5/application%2Fzip"
         },
+        "sizing": {
+            "filesize": ">60s"
+        },
         "contents": {
             "column_names": []
-        },
+        }
+    },
+    {
         "provenance": {
             "sources": [
                 "311"
             ]
-        }
-    },
-    {
-        "flags": [
-            "processed"
-        ],
+        },
+        "flags": [],
         "tags": {
             "topics_provided": [
                 ""
@@ -126,19 +132,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/vtzg-7562",
             "resource": "https://data.cityofnewyork.us/download/vtzg-7562/application%2Fzip"
         },
+        "sizing": {
+            "filesize": ">60s"
+        },
         "contents": {
             "column_names": []
-        },
+        }
+    },
+    {
         "provenance": {
             "sources": [
                 "311"
             ]
-        }
-    },
-    {
-        "flags": [
-            "processed"
-        ],
+        },
+        "flags": [],
         "tags": {
             "topics_provided": [
                 ""
@@ -158,19 +165,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/hybb-af8n",
             "resource": "https://data.cityofnewyork.us/download/hybb-af8n/application%2Fzip"
         },
+        "sizing": {
+            "filesize": ">60s"
+        },
         "contents": {
             "column_names": []
-        },
+        }
+    },
+    {
         "provenance": {
             "sources": [
                 "311"
             ]
-        }
-    },
-    {
-        "flags": [
-            "processed"
-        ],
+        },
+        "flags": [],
         "tags": {
             "topics_provided": [
                 ""
@@ -190,19 +198,224 @@
             "landing_page": "https://data.cityofnewyork.us/d/57g5-etyj",
             "resource": "https://data.cityofnewyork.us/download/57g5-etyj/application%2Fzip"
         },
+        "sizing": {
+            "filesize": ">60s"
+        },
         "contents": {
             "column_names": []
+        }
+    },
+    {
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
+        "tags": {
+            "topics_provided": [
+                ""
+            ],
+            "keywords_provided": [
+                "broadband data dig"
+            ]
+        },
+        "usage": {
+            "last_updated": "2016-11-19 13:57:56+00:00",
+            "page_views": 56,
+            "created": "2016-11-18 20:55:12+00:00"
+        },
+        "id": {
+            "description": "Twenty-one percent of New York City households currently do not have Internet service at home. For the first time ever, the City is inviting the public to use broadband data to help make New York City the most connected, equitable city in the world. Come help us dig into this data and find interesting insights!\r\n \r\nWhen: Saturday November 19th, 9am - 6pm\r\nWhere: Brooklyn Public Library, 10 Grand Army Plaza, Brooklyn\r\n\r\nRSVP here: https://www.eventbrite.com/e/nyc-connected-broadband-data-dig-tickets-28750933817\r\n\r\nClick the button beneath \u201cDownload\u201d to get access to relevant datasets for this event. You\u2019ll download a zipfile which should contain all datasets for this event.",
+            "protocol": "https",
+            "dataset": ".",
+            "name": "Broadband Data Dig - Datasets",
+            "landing_page": "https://data.cityofnewyork.us/d/ft4n-yqee",
+            "resource": "https://data.cityofnewyork.us/download/ft4n-yqee/application%2Fzip"
+        },
+        "provenance": {
+            "sources": [
+                null
+            ]
+        },
+        "contents": {
+            "column_names": []
+        }
+    },
+    {
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
+        "tags": {
+            "topics_provided": [
+                "City Government"
+            ],
+            "keywords_provided": [
+                "raster",
+                "zoning",
+                "maps",
+                "dcp",
+                "city planning"
+            ]
+        },
+        "usage": {
+            "last_updated": "2017-02-02 20:57:50+00:00",
+            "page_views": 99,
+            "created": "2016-09-12 19:26:56+00:00"
+        },
+        "id": {
+            "description": "The Georeferenced NYC Zoning Maps raster dataset is intended to be a spatial representation of the entire zoning map catalog for the City of New York as one seamless citywide raster zoning map sans title blocks. These maps are normally maintained as 126 individual quarter sections and printed periodically for inclusion in Vol III of the City\u2019s Zoning Resolution. This dataset encompasses recent changes to mapped zoning districts or zoning text amendments as they are adopted by the City Council as well as filed City Map changes.",
+            "protocol": "https",
+            "dataset": ".",
+            "name": "Georeferenced NYC Zoning Maps",
+            "landing_page": "https://data.cityofnewyork.us/d/mxbm-493w",
+            "resource": "https://data.cityofnewyork.us/download/mxbm-493w/application%2Fzip"
+        },
+        "provenance": {
+            "sources": [
+                "Department of City Planning (DCP)"
+            ]
+        },
+        "contents": {
+            "column_names": []
+        }
+    },
+    {
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
+        "tags": {
+            "topics_provided": [
+                ""
+            ],
+            "keywords_provided": []
+        },
+        "usage": {
+            "last_updated": "2016-11-17 22:21:51+00:00",
+            "page_views": 89,
+            "created": "2016-08-14 15:22:28+00:00"
+        },
+        "id": {
+            "description": "",
+            "protocol": "https",
+            "dataset": ".",
+            "name": "311 Service Requests From 2012",
+            "landing_page": "https://data.cityofnewyork.us/d/as38-8eb5",
+            "resource": "https://data.cityofnewyork.us/download/as38-8eb5/application%2Fzip"
         },
         "provenance": {
             "sources": [
                 "311"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
+        "tags": {
+            "topics_provided": [
+                ""
+            ],
+            "keywords_provided": []
+        },
+        "usage": {
+            "last_updated": "2016-11-17 22:22:21+00:00",
+            "page_views": 97,
+            "created": "2016-08-14 14:59:11+00:00"
+        },
+        "id": {
+            "description": "",
+            "protocol": "https",
+            "dataset": ".",
+            "name": "311 Service Requests From 2014",
+            "landing_page": "https://data.cityofnewyork.us/d/vtzg-7562",
+            "resource": "https://data.cityofnewyork.us/download/vtzg-7562/application%2Fzip"
+        },
+        "provenance": {
+            "sources": [
+                "311"
+            ]
+        },
+        "contents": {
+            "column_names": []
+        }
+    },
+    {
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
+        "tags": {
+            "topics_provided": [
+                ""
+            ],
+            "keywords_provided": []
+        },
+        "usage": {
+            "last_updated": "2016-11-17 22:22:14+00:00",
+            "page_views": 83,
+            "created": "2016-08-14 14:59:10+00:00"
+        },
+        "id": {
+            "description": "",
+            "protocol": "https",
+            "dataset": ".",
+            "name": "311 Service Requests From 2013",
+            "landing_page": "https://data.cityofnewyork.us/d/hybb-af8n",
+            "resource": "https://data.cityofnewyork.us/download/hybb-af8n/application%2Fzip"
+        },
+        "provenance": {
+            "sources": [
+                "311"
+            ]
+        },
+        "contents": {
+            "column_names": []
+        }
+    },
+    {
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
+        "tags": {
+            "topics_provided": [
+                ""
+            ],
+            "keywords_provided": []
+        },
+        "usage": {
+            "last_updated": "2016-11-17 22:22:28+00:00",
+            "page_views": 483,
+            "created": "2016-08-14 13:58:36+00:00"
+        },
+        "id": {
+            "description": "",
+            "protocol": "https",
+            "dataset": ".",
+            "name": "311 Service Requests From 2015",
+            "landing_page": "https://data.cityofnewyork.us/d/57g5-etyj",
+            "resource": "https://data.cityofnewyork.us/download/57g5-etyj/application%2Fzip"
+        },
+        "provenance": {
+            "sources": [
+                "311"
+            ]
+        },
+        "contents": {
+            "column_names": []
+        }
+    },
+    {
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 ""
@@ -222,19 +435,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/fpz8-jqf4",
             "resource": "https://data.cityofnewyork.us/download/fpz8-jqf4/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "311"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -254,19 +468,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/c2g8-ercv",
             "resource": "https://data.cityofnewyork.us/download/c2g8-ercv/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 ""
@@ -290,19 +505,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/q663-gvx6",
             "resource": "https://data.cityofnewyork.us/download/q663-gvx6/application%2Fvnd.ms-excel"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -326,19 +542,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/a2ju-qb9a",
             "resource": "https://data.cityofnewyork.us/download/a2ju-qb9a/application%2Fvnd.ms-excel"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Transportation"
@@ -363,19 +580,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/xd8h-7j2h",
             "resource": "https://data.cityofnewyork.us/download/xd8h-7j2h/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Information Technology & Telecommunications (DOITT)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Transportation"
@@ -400,19 +618,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/49mj-4gmb",
             "resource": "https://data.cityofnewyork.us/download/49mj-4gmb/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Information Technology & Telecommunications (DOITT)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Transportation"
@@ -437,19 +656,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/dja4-zgtf",
             "resource": "https://data.cityofnewyork.us/download/dja4-zgtf/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Information Technology & Telecommunications (DOITT)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Transportation"
@@ -474,19 +694,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/3nr6-bnks",
             "resource": "https://data.cityofnewyork.us/download/3nr6-bnks/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Information Technology & Telecommunications (DOITT)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Education"
@@ -511,19 +732,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/vrfr-9k4d",
             "resource": "https://data.cityofnewyork.us/download/vrfr-9k4d/application%2Fvnd.ms-excel"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Education (DOE)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Education"
@@ -548,19 +770,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/vy67-bzq3",
             "resource": "https://data.cityofnewyork.us/download/vy67-bzq3/application%2Fvnd.ms-excel"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Education (DOE)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Transportation"
@@ -585,19 +808,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/wt4d-p43d",
             "resource": "https://data.cityofnewyork.us/download/wt4d-p43d/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Information Technology & Telecommunications (DoITT)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -624,19 +848,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/abgy-h8ag",
             "resource": "https://data.cityofnewyork.us/download/abgy-h8ag/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -661,19 +886,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/gx5n-2nma",
             "resource": "https://data.cityofnewyork.us/download/gx5n-2nma/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -693,36 +919,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/n5e5-z493",
             "resource": "https://data.cityofnewyork.us/download/n5e5-z493/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -742,28 +952,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/qiwn-t99b",
             "resource": "https://data.cityofnewyork.us/download/qiwn-t99b/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Mayor's Office of Contract Services (MOCS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -783,19 +985,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/u2m4-wh3s",
             "resource": "https://data.cityofnewyork.us/download/u2m4-wh3s/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Mayor's Office of Contract Services (MOCS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -815,20 +1018,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/2jnq-tef6",
             "resource": "https://data.cityofnewyork.us/download/2jnq-tef6/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -848,22 +1051,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/kkjw-ny95",
             "resource": "https://data.cityofnewyork.us/download/kkjw-ny95/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -883,21 +1084,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/bhs9-p657",
             "resource": "https://data.cityofnewyork.us/download/bhs9-p657/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Education"
@@ -917,19 +1117,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/vdgp-ddvg",
             "resource": "https://data.cityofnewyork.us/download/vdgp-ddvg/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Education (DOE)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Transportation"
@@ -958,19 +1159,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/dgm3-gggb",
             "resource": "https://data.cityofnewyork.us/download/dgm3-gggb/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Transportation (DOT)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -990,29 +1192,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/qs4p-vs2w",
             "resource": "https://data.cityofnewyork.us/download/qs4p-vs2w/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -1032,21 +1225,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/igkv-8cju",
             "resource": "https://data.cityofnewyork.us/download/igkv-8cju/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Housing Preservation and Development (HPD)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1075,24 +1267,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/w4v2-rv6b",
             "resource": "https://data.cityofnewyork.us/download/w4v2-rv6b/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1122,24 +1310,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/bc8t-ecyu",
             "resource": "https://data.cityofnewyork.us/download/bc8t-ecyu/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1159,19 +1343,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/s5c9-5mja",
             "resource": "https://data.cityofnewyork.us/download/s5c9-5mja/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Conflicts of Interest Board (CONFLICTS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -1191,19 +1376,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/29i8-bmct",
             "resource": "https://data.cityofnewyork.us/download/29i8-bmct/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Homeless Services (DHS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -1229,19 +1415,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/hgue-hj96",
             "resource": "https://data.cityofnewyork.us/download/hgue-hj96/application%2Fvnd.openxmlformats-officedocument.spreadsheetml.sheet"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Environmental Protection (DEP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1263,22 +1450,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/cbn4-bn4p",
             "resource": "https://data.cityofnewyork.us/download/cbn4-bn4p/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1303,22 +1488,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/7q5y-m6mr",
             "resource": "https://data.cityofnewyork.us/download/7q5y-m6mr/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1343,19 +1526,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/hyuz-tij8",
             "resource": "https://data.cityofnewyork.us/download/hyuz-tij8/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1378,19 +1562,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/5unr-w4sc",
             "resource": "https://data.cityofnewyork.us/download/5unr-w4sc/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1413,20 +1598,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/ye4r-qpmp",
             "resource": "https://data.cityofnewyork.us/download/ye4r-qpmp/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Transportation"
@@ -1452,22 +1637,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/sf3b-xntp",
             "resource": "https://data.cityofnewyork.us/download/sf3b-xntp/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -1493,35 +1676,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/3m2q-9maw",
             "resource": "https://data.cityofnewyork.us/download/3m2q-9maw/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1543,19 +1711,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/s7k9-vr5b",
             "resource": "https://data.cityofnewyork.us/download/s7k9-vr5b/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of the Mayor (OTM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -1577,19 +1746,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/yjw6-uibq",
             "resource": "https://data.cityofnewyork.us/download/yjw6-uibq/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Environmental Protection (DEP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1611,19 +1781,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/twim-r7xp",
             "resource": "https://data.cityofnewyork.us/download/twim-r7xp/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of the Mayor (OTM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1645,19 +1816,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/294z-97kb",
             "resource": "https://data.cityofnewyork.us/download/294z-97kb/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of the Mayor (OTM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1679,19 +1851,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/5rx8-ct65",
             "resource": "https://data.cityofnewyork.us/download/5rx8-ct65/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of the Mayor (OTM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1713,19 +1886,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/nzih-r6xb",
             "resource": "https://data.cityofnewyork.us/download/nzih-r6xb/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of the Mayor (OTM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -1750,19 +1924,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/39yy-hdfd",
             "resource": "https://data.cityofnewyork.us/download/39yy-hdfd/application%2Fvnd.ms-excel"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Environmental Protection (DEP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -1793,19 +1968,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/3cdm-p29e",
             "resource": "https://data.cityofnewyork.us/download/3cdm-p29e/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Information Technology & Telecommunications (DoITT)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Public Safety"
@@ -1828,19 +2004,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/q6p5-m7xb",
             "resource": "https://data.cityofnewyork.us/download/q6p5-m7xb/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of Emergency Management (OEM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -1863,19 +2040,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/xg3x-h3g7",
             "resource": "https://data.cityofnewyork.us/download/xg3x-h3g7/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Social Services"
@@ -1898,19 +2076,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/rnjn-x48k",
             "resource": "https://data.cityofnewyork.us/download/rnjn-x48k/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Administration for Children's Services (ACS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Public Safety"
@@ -1933,19 +2112,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/aprw-p4ws",
             "resource": "https://data.cityofnewyork.us/download/aprw-p4ws/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of Emergency Management (OEM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Public Safety"
@@ -1968,19 +2148,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/sntb-k5vj",
             "resource": "https://data.cityofnewyork.us/download/sntb-k5vj/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of Emergency Management (OEM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Public Safety"
@@ -2005,19 +2186,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/cxyq-uhvk",
             "resource": "https://data.cityofnewyork.us/download/cxyq-uhvk/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of Emergency Management (OEM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Public Safety"
@@ -2043,19 +2225,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/ks56-wyey",
             "resource": "https://data.cityofnewyork.us/download/ks56-wyey/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of Emergency Management (OEM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Public Safety"
@@ -2082,19 +2265,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/cxzk-qz9w",
             "resource": "https://data.cityofnewyork.us/download/cxzk-qz9w/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of Emergency Management (OEM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -2119,25 +2303,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/kjk4-7tzy",
             "resource": "https://data.cityofnewyork.us/download/kjk4-7tzy/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Business"
@@ -2163,83 +2342,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/i8iw-xf4u",
             "resource": "https://data.cityofnewyork.us/download/i8iw-xf4u/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Information Technology & Telecommunications (DoITT)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -2269,63 +2385,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/mm69-vrje",
             "resource": "https://data.cityofnewyork.us/download/mm69-vrje/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -2351,86 +2424,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/mran-v46w",
             "resource": "https://data.cityofnewyork.us/download/mran-v46w/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -2456,19 +2463,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/2v4z-66xt",
             "resource": "https://data.cityofnewyork.us/download/2v4z-66xt/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -2497,19 +2505,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/smk3-tmxj",
             "resource": "https://data.cityofnewyork.us/download/smk3-tmxj/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Education"
@@ -2543,19 +2552,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/4szu-rxzq",
             "resource": "https://data.cityofnewyork.us/download/4szu-rxzq/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Education (DOE)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -2579,19 +2589,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/vnwz-ihnf",
             "resource": "https://data.cityofnewyork.us/download/vnwz-ihnf/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -2623,25 +2634,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/fmhd-mfkw",
             "resource": "https://data.cityofnewyork.us/download/fmhd-mfkw/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Health and Mental Hygiene (DOHMH)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -2669,19 +2675,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/496p-fwvq",
             "resource": "https://data.cityofnewyork.us/download/496p-fwvq/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Environmental Protection (DEP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -2712,23 +2719,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/hnxz-kkn5",
             "resource": "https://data.cityofnewyork.us/download/hnxz-kkn5/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Parks and Recreation (DPR)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -2765,25 +2769,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/9auy-76zt",
             "resource": "https://data.cityofnewyork.us/download/9auy-76zt/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Parks and Recreation (DPR)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -2807,31 +2806,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/p23h-ci72",
             "resource": "https://data.cityofnewyork.us/download/p23h-ci72/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Parks and Recreation (DPR)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -2859,19 +2847,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/sg2s-hjt6",
             "resource": "https://data.cityofnewyork.us/download/sg2s-hjt6/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Parks and Recreation (DPR)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Environment"
@@ -2900,19 +2889,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/my58-k6an",
             "resource": "https://data.cityofnewyork.us/download/my58-k6an/application%2Fvnd.ms-excel"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "School Construction Authority (SCA)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -2939,19 +2929,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/djj3-qxwf",
             "resource": "https://data.cityofnewyork.us/download/djj3-qxwf/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -2978,19 +2969,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/na8n-6f5f",
             "resource": "https://data.cityofnewyork.us/download/na8n-6f5f/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3017,19 +3009,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/je66-se2r",
             "resource": "https://data.cityofnewyork.us/download/je66-se2r/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3056,19 +3049,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/eznj-hdma",
             "resource": "https://data.cityofnewyork.us/download/eznj-hdma/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3095,84 +3089,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/yh7h-cx7a",
             "resource": "https://data.cityofnewyork.us/download/yh7h-cx7a/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3204,19 +3134,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/uzf5-f8n2",
             "resource": "https://data.cityofnewyork.us/download/uzf5-f8n2/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -3251,19 +3182,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/dv6z-emb2",
             "resource": "https://data.cityofnewyork.us/download/dv6z-emb2/application%2Fvnd.ms-office"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Times Square Alliance (TSA)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -3317,19 +3249,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/w7es-2nrk",
             "resource": "https://data.cityofnewyork.us/download/w7es-2nrk/application%2Fx-msaccess"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Records and Information Services (RECORDS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -3435,19 +3368,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/bevq-88e4",
             "resource": "https://data.cityofnewyork.us/download/bevq-88e4/application%2Fx-msaccess"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Records and Information Services (RECORDS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "City Government"
@@ -3484,19 +3418,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/wchz-a6hh",
             "resource": "https://data.cityofnewyork.us/download/wchz-a6hh/application%2Fx-msaccess"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Records and Information Services (RECORDS)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Business"
@@ -3525,19 +3460,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/ige5-v6sk",
             "resource": "https://data.cityofnewyork.us/download/ige5-v6sk/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3567,19 +3503,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/fum3-ejky",
             "resource": "https://data.cityofnewyork.us/download/fum3-ejky/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3617,19 +3554,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/94qw-aaee",
             "resource": "https://data.cityofnewyork.us/download/94qw-aaee/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3667,19 +3605,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/ibjs-7vdf",
             "resource": "https://data.cityofnewyork.us/download/ibjs-7vdf/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of City Planning (DCP)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Recreation"
@@ -3705,32 +3644,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/gs56-euca",
             "resource": "https://data.cityofnewyork.us/download/gs56-euca/application%2Fxml"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "NYC & Company (NYCGO)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Education"
@@ -3765,25 +3692,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/dqkt-8x6u",
             "resource": "https://data.cityofnewyork.us/download/dqkt-8x6u/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Education (DOE)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Education"
@@ -3817,19 +3739,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/jfju-ynrr",
             "resource": "https://data.cityofnewyork.us/download/jfju-ynrr/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Education (DOE)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3861,19 +3784,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/cqds-77ys",
             "resource": "https://data.cityofnewyork.us/download/cqds-77ys/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3905,19 +3829,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/qpsp-bm9z",
             "resource": "https://data.cityofnewyork.us/download/qpsp-bm9z/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Housing & Development"
@@ -3948,19 +3873,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/rgy2-tti8",
             "resource": "https://data.cityofnewyork.us/download/rgy2-tti8/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Finance (DOF)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Recreation"
@@ -3992,21 +3918,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/9ixa-eggw",
             "resource": "https://data.cityofnewyork.us/download/9ixa-eggw/application%2Fxml"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of Film, Theatre, and Broadcasting (FILM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Education"
@@ -4041,23 +3966,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/qirg-qbv8",
             "resource": "https://data.cityofnewyork.us/download/qirg-qbv8/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Education (DOE)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed",
-            "processed",
-            "processed",
-            "processed",
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Education"
@@ -4092,19 +4014,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/ens7-ac7e",
             "resource": "https://data.cityofnewyork.us/download/ens7-ac7e/application%2Fzip"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Department of Education (DOE)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Business"
@@ -4129,19 +4052,20 @@
             "landing_page": "https://data.cityofnewyork.us/d/qb3k-n8mm",
             "resource": "https://data.cityofnewyork.us/download/qb3k-n8mm/application%2Fxml"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "Office of Film, Theatre, and Broadcasting (FILM)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     },
     {
-        "flags": [
-            "processed"
-        ],
+        "flags": [],
+        "sizing": {
+            "filesize": ">60s"
+        },
         "tags": {
             "topics_provided": [
                 "Recreation"
@@ -4175,13 +4099,13 @@
             "landing_page": "https://data.cityofnewyork.us/d/kcrm-j9hh",
             "resource": "https://data.cityofnewyork.us/download/kcrm-j9hh/application%2Fxml"
         },
-        "contents": {
-            "column_names": []
-        },
         "provenance": {
             "sources": [
                 "NYC & Company (NYCGO)"
             ]
+        },
+        "contents": {
+            "column_names": []
         }
     }
 ]

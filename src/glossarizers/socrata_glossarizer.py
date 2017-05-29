@@ -168,8 +168,46 @@ def get_sizings(uri, q, timeout=60):
     )
 
 
-def glossarize():
-    pass
+def glossarize_table(resource, domain):
+    from .pager import page_socrata_for_endpoint_size, DeletedEndpointException, driver
+
+    try:
+        rowcol = page_socrata_for_endpoint_size(domain, resource['id']['landing_page'], timeout=10)
+    except DeletedEndpointException:
+        print("WARNING: the '{0}' endpoint was deleted.".format(resource['id']['landing_page']))
+        resource['flags'].append('removed')
+        return None
+    except TimeoutException:
+        print("WARNING: the '{0}' endpoint could not be processed.".format(resource['id']['landing_page']))
+        resource['flags'].append('removed')
+        return None
+
+    # Remove the "processed" flag from the resource going into the glossary, if one exists.
+    glossarized_resource = resource.copy()
+    glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if flag != 'processed']
+
+    # Attach sizing information.
+    glossarized_resource['sizing'] = {
+        'rows': rowcol['rows'],
+        'columns': rowcol['columns'],
+    }
+
+    # Attach format information.
+    glossarized_resource['format'] = {
+        'available_formats': ['csv', 'json', 'rdf', 'rss', 'tsv', 'xml'],
+        'preferred_format': 'csv',
+        'preferred_mimetype': 'text/csv'
+    }
+
+    # If no repairable errors were caught, write in the information.
+    # (if a non-repairable error was caught the data gets sent to the outer finally block)
+    glossarized_resource['id']['dataset'] = '.'
+
+    # Update the resource list to make note of the fact that this job has been processed.
+    resource['flags'].append("processed")
+
+    return glossarized_resource
+
 
 def get_glossary(domain="data.cityofnewyork.us", use_cache=True,
                  endpoint_type="table", resource_filename=None, glossary_filename=None, timeout=60):
@@ -233,10 +271,8 @@ def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
                 #         resource['id']['landing_page']))
                 #     resource['flags'].append('error')
                 #     continue
-                # except:
+                # except:  # useful for debugging
                 #     import pdb; pdb.set_trace()
-                #     1 + 1
-                #     print("Yo.")
 
                 # Remove the "processed" flag from the resource going into the glossary, if one exists.
                 glossarized_resource = resource.copy()
@@ -271,8 +307,6 @@ def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
             q = limited_process.q()
 
             for i, resource in tqdm(list(enumerate(resource_list))):
-                import pdb; pdb.set_trace()
-
                 # Get the sizing information.
                 try:
                     sizings = get_sizings(
@@ -349,7 +383,6 @@ def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
 
     # Whether we succeeded or got caught on a fatal error, in either case clean up.
     finally:
-        import pdb; pdb.set_trace()
         # If a driver was open, close the driver instance.
         if endpoint_type == "table":
             # noinspection PyUnboundLocalVariable
