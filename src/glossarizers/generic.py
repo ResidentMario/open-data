@@ -25,10 +25,8 @@ def write_glossary_file(folder_slug, endpoint_type, glossary_repr, glossary_file
         json.dump(glossary_repr, fp, indent=4)
 
 
-def load_glossary_todo(folder_slug, endpoint_type, use_cache, resource_filename):
+def load_glossary_todo(resource_filename, glossary_filename, use_cache=True):
     # Begin by loading in the data that we have.
-    if not resource_filename:
-        resource_filename = "../../../data/" + folder_slug + "/resource lists/" + endpoint_type + ".json"
     with open(resource_filename, "r") as fp:
         resource_list = json.load(fp)
 
@@ -41,7 +39,6 @@ def load_glossary_todo(folder_slug, endpoint_type, use_cache, resource_filename)
         resource_list = [r for r in resource_list if "ignore" not in r['flags']]
 
     # Check whether or not the glossary file exists.
-    glossary_filename = "../../../data/" + folder_slug + "/glossaries/" + endpoint_type + ".json"
     preexisting = os.path.isfile(glossary_filename)
 
     # If it does, load it. Otherwise, load an empty list.
@@ -51,7 +48,7 @@ def load_glossary_todo(folder_slug, endpoint_type, use_cache, resource_filename)
     else:
         glossary = []
 
-    return resource_list, resource_filename, glossary, glossary_filename
+    return resource_list, glossary
 
 
 write_resource_representation_docstring = """

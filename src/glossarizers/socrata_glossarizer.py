@@ -101,9 +101,8 @@ def get_resource_representation(domain, credentials, endpoint_type):
     return roi_repr
 
 
-def write_resource_representation(domain="data.cityofnewyork.us", resource_filepath="nyc-tables.json", use_cache=True,
-                                  credentials="../../../auth/nyc-open-data.json",
-                                  endpoint_type="table"):
+def write_resource_representation(domain="data.cityofnewyork.us", out="nyc-tables.json", use_cache=True,
+                                  credentials="../../../auth/nyc-open-data.json"):
     """
     Fetches a resource representation for a single resource type from a Socrata portal.
 
@@ -111,34 +110,66 @@ def write_resource_representation(domain="data.cityofnewyork.us", resource_filep
     ----------
     domain: str, default "data.cityofnewyork.us"
         The open data portal URI.
-    folder_slug: str, default "nyc"
-        The subfolder of the "data" directory into which the resource representation will be placed.
+    out: str, filepath
+        Where to write the file to.
     use_cache: bool, default True
         If a resource representation already exists, whether to simply exit out or blow it away and create a new one
         (overwriting the old one).
     credentials: str or dict, default "../../auth/nyc-open-data.json"
         Either a filepath to the file containing your API credentials for the given Socrata instance, or a dictionary
         containing the same information.
-    endpoint_type: str, default "table"
-        The resource type to fetch a representation for.
 
     Returns
     -------
     Nothing; writes to a file.
     """
     # If the file already exists and we specify `use_cache=True`, simply return.
-    if preexisting_cache(resource_filepath, use_cache):
+    if preexisting_cache(out, use_cache):
         return
 
     # Generate to file and exit.
-    roi_repr = get_resource_representation(domain, credentials, endpoint_type)
-    write_resource_file(roi_repr, resource_filepath)
+    roi_repr = []
+    import pdb; pdb.set_trace()
+    for endpoint_type in ['table', 'geospatial dataset', 'blob', 'link']:
+        roi_repr += get_resource_representation(domain, credentials, endpoint_type)
+    write_resource_file(roi_repr, out)
 
 write_resource_representation.__doc__ = write_resource_representation_docstring
 
 
-def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=True,
-                   endpoint_type="table", resource_filepath=None, glossary_filepath=None, timeout=60):
+def get_sizings(uri, q, timeout=60):
+    import limited_process
+    import datafy
+    import sys
+
+    # kwargs = {}
+
+    def _size_up(uri, q, kwargs):
+        def apply(resource):
+            thing_log = []
+            for thing in resource:  # probably a dataset, but potentially metadata et. al. instead
+                print(thing)
+                thing_log.append({
+                    'filesize': sys.getsizeof(thing['data'].content) / 1024,
+                    'dataset': thing['filepath'],
+                    'mimetype': thing['mimetype'],
+                    'extension': thing['extension']
+                })
+        return q.put(apply(datafy.get(uri, **kwargs)))
+
+    return limited_process.limited_get(
+        uri,
+        q, timeout=timeout, callback=_size_up
+    )
+
+
+def get_glossary(domain="data.cityofnewyork.us", use_cache=True,
+                 endpoint_type="table", resource_filename=None, glossary_filename=None, timeout=60):
+    pass
+
+
+def write_glossary(domain="data.cityofnewyork.us", use_cache=True,
+                   endpoint_type="table", resource_filename=None, glossary_filename=None, timeout=60):
     """
     Writes a dataset representation. This is the hard part!
 
@@ -163,11 +194,7 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
     """
 
     # Begin by loading in the data that we have.
-    import pdb; pdb.set_trace()
-    resource_list, resource_filename, glossary, _glossary_filename = load_glossary_todo(folder_slug, endpoint_type,
-                                                                                        use_cache, resource_filepath)
-    if not glossary_filepath:
-        glossary_filepath = _glossary_filename
+    resource_list, glossary = load_glossary_todo(resource_filename, glossary_filename, use_cache)
 
     # Whether we succeed or fail, we'll want to save the data we have at the end with a try-finally block.
     try:
@@ -178,19 +205,20 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
         # datasets directly. The facilities provided by the pager module are used to handle reading in data
         # from the portal web interface, which displays, among other things, row and column counts.
         if endpoint_type == "table":
-            # Import the necessary library.
-            # TODO: MUST UNHARCODE THIS PATH!!!!!!!!!!!!!!!!!!
-            # ATM this will only run from the notebooks directory (i.e. from a Jupyter notebook)
-            # pager extremely strongly needs to be modularized, this
-            import sys; sys.path.append("../src/glossarizers/pager")
-            import pager
+            # Only import pager if we have to.
+            from .pager import page_socrata_for_endpoint_size, DeletedEndpointException, driver
 
             for resource in tqdm(resource_list):
                 # Catch an error where the dataset has been deleted, warn but continue.
                 try:
-                    rowcol = pager.page_socrata_for_endpoint_size(domain, resource['id']['landing_page'], timeout=10)
-                except (pager.DeletedEndpointException, TimeoutException):
-                    print("WARNING: the '{0}' endpoint appears to have been removed.".format(
+                    rowcol = page_socrata_for_endpoint_size(domain, resource['id']['landing_page'], timeout=10)
+                except (DeletedEndpointException):
+                    print("WARNING: the '{0}' endpoint was probably removed.".format(
+                        resource['id']['landing_page']))
+                    resource['flags'].append('removed')
+                    continue
+                except (TimeoutException):
+                    print("WARNING: the '{0}' endpoint amay have been removed.".format(
                         resource['id']['landing_page']))
                     resource['flags'].append('removed')
                     continue
@@ -223,16 +251,15 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
         # geospatial datasets, blobs, links:
         # ...
         else:
-            import sys; sys.path.append("../src/glossarizers/limited_requests")
-            import limited_requests
-
-            # Create a q for managing jobs.
-            q = limited_requests.q()
+            import limited_process
+            q = limited_process.q()
 
             for i, resource in tqdm(list(enumerate(resource_list))):
-
                 # Get the sizing information.
-                sizings = limited_requests.limited_get(resource['id']['resource'], q, timeout=timeout)
+                sizings = get_sizings(
+                    "https://data.cityofnewyork.us/api/views/gezn-7mgk/rows.csv?accessType=DOWNLOAD",
+                    q, timeout=timeout
+                )
 
                 # If successful, append the result to the glossary...
                 if sizings:
@@ -297,9 +324,11 @@ def write_glossary(domain="data.cityofnewyork.us", folder_slug="nyc", use_cache=
 
     # Whether we succeeded or got caught on a fatal error, in either case clean up.
     finally:
+        import pdb; pdb.set_trace()
         # If a driver was open, close the driver instance.
         if endpoint_type == "table":
-            pager.driver.quit()
+            # noinspection PyUnboundLocalVariable
+            driver.quit()  # pager.driver
 
         # Save output.
         write_resource_file(None, None, resource_list, resource_filename)

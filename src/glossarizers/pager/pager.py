@@ -88,6 +88,11 @@ def page_socrata_for_endpoint_size(domain, uri, timeout=10):
     # With one that has them:
     # https://data.cityofnewyork.us/Housing-Development/Housing-New-York-Units-by-Building/hg8x-zxpr
     # That's ok. We'll include that data but ignore it in the read script itself.
+    #
+    # This process occassionally and seemingly randomly fails. Specifically, the search for the sub-element fails due to
+    # a selenium.common.exceptions.WebDriverException. I have no idea what is causing this, but it occurs in random
+    # places at random times and it will need to be fixed.
+    # TODO: Address random failures. Test with write_glossary(resource_filename="...", glossary_filename="...")
     assert len(metadata_pairs) >= 2
     rowcol = dict()
     for m in metadata_pairs:
