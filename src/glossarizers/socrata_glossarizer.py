@@ -168,8 +168,15 @@ def get_sizings(uri, q, timeout=60):
     )
 
 
-def glossarize_table(resource, domain):
-    from .pager import page_socrata_for_endpoint_size, DeletedEndpointException, driver
+def glossarize_table(resource, domain, driver=None):
+    from .pager import page_socrata_for_endpoint_size, DeletedEndpointException
+
+    # If a PhantomJS driver has not been initialized (via import), initialize it now.
+    # In this case we will also quit it out at the end of the process.
+    # This is inefficient, but useful for testing.
+    driver_passed = bool(driver)
+    if not driver_passed:
+        from .pager import driver
 
     try:
         rowcol = page_socrata_for_endpoint_size(domain, resource['id']['landing_page'], timeout=10)
@@ -203,15 +210,135 @@ def glossarize_table(resource, domain):
     # (if a non-repairable error was caught the data gets sent to the outer finally block)
     glossarized_resource['id']['dataset'] = '.'
 
-    # Update the resource list to make note of the fact that this job has been processed.
-    resource['flags'].append("processed")
+    if not driver_passed:
+        driver.quit()
 
     return glossarized_resource
 
 
-def get_glossary(domain="data.cityofnewyork.us", use_cache=True,
-                 endpoint_type="table", resource_filename=None, glossary_filename=None, timeout=60):
-    pass
+def glossarize_nontable(resource, timeout, q=None):
+    import limited_process
+    import zipfile
+
+    if not bool(q):
+        q = limited_process.q()
+
+    try:
+        sizings = get_sizings(
+            resource['id']['resource'],
+            q, timeout=timeout
+        )
+    except zipfile.BadZipfile:
+        # cf. https://github.com/ResidentMario/datafy/issues/2
+        print("WARNING: the '{0}' endpoint is either misformatted or contains multiple levels of "
+              "archiving which failed to process.".format(resource['id']['landing_page']))
+        resource['flags'].append('error')
+        return None
+
+    # If successful, append the result to the glossary...
+    if sizings:
+        for sizing in sizings:
+            # ...but with one caveat. When this process is run on a link, there is a strong possibility
+            # that it will result in the concatenation of a landing page. There's no automated way to
+            # determine whether or not a specific resource is or is not a landing page other than to
+            # inspect it outselves. For example, you can probably tell that
+            # "http://datamine.mta.info/user/register" is a landing page, but how about
+            # "http://ddcftp.nyc.gov/rfpweb/rfp_rss.aspx?q=open"? Or
+            # "https://a816-healthpsi.nyc.gov/DispensingSiteLocator/mainView.do"?
+
+            # Nevertheless, there is one fairly strong signal we can rely on: landing pages will be HTML
+            # front-end, and python-magic should in *most* cases determine this fact for us and return it
+            # in the file typing information. So we can use this to hopefully eliminate many of the
+            # problematic endpoints.
+
+            # However, realistically there would need to be some kind of secondary list mechanism that's
+            # maintained by hand for excluding specific pages. That, however, is a TODO.
+            if sizing['extension'] != "htm" and sizing['extension'] != "html":
+                # Remove the "processed" flag from the resource going into the glossary, if one exists.
+                glossarized_resource = resource.copy()
+                glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
+                                                 flag != 'processed']
+
+                # Attach sizing information.
+                glossarized_resource['sizing'] = {
+                    'filesize': sizing['filesize']
+                }
+
+                # Attach format information.
+                glossarized_resource['format'] = {
+                    'preferred_format': sizing['extension'],
+                    'preferred_mimetype': sizing['mimetype']
+                }
+
+                # If no repairable errors were caught, write in the information.
+                # (if a non-repairable error was caught the data gets sent to the outer finally block)
+                glossarized_resource['id']['dataset'] = sizing['dataset']
+
+                return glossarized_resource
+
+                # # Update the resource list to make note of the fact that this job has been processed.
+                # resource['flags'].append("processed")
+
+    # If unsuccessful, append a signal result to the glossary.
+    else:
+        glossarized_resource = resource.copy()
+
+        glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
+                                         flag != 'processed']
+
+        glossarized_resource['sizing'] = {"filesize": ">{0}s".format(str(timeout))}
+        glossarized_resource['id']['dataset'] = "."
+
+        return glossarized_resource
+
+    # Either way, update the resource list to make note of the fact that this job has been processed.
+    if 'processed' not in resource['flags']:
+        resource["flags"].append("processed")
+
+
+def get_glossary(resource_list, glossary, domain='opendata.cityofnewyork.us', endpoint_type="table", timeout=60):
+    # Whether we succeed or fail, we'll want to save the data we have at the end with a try-finally block.
+    try:
+        # What we do with the data depends on the endpoint type.
+
+        # tables:
+        # We take advantage of information provided on the Socrata portal pages to avoid having to work with the
+        # datasets directly. The facilities provided by the pager module are used to handle reading in data
+        # from the portal web interface, which displays, among other things, row and column counts.
+        if endpoint_type == "table":
+            # Only import pager if we have to.
+
+            from .pager import driver
+
+            for resource in tqdm(resource_list):
+                glossarized_resource = glossarize_table(resource, domain, driver=driver)
+                glossary.append(glossarized_resource)
+
+                # Update the resource list to make note of the fact that this job has been processed.
+                resource['flags'].append("processed")
+
+        # geospatial datasets, blobs, links:
+        # ...
+        else:
+            import limited_process
+            q = limited_process.q()
+
+            for resource in tqdm(list(resource_list)):
+                glossarized_resource = glossarize_nontable(resource, timeout, q=q)
+                glossary.append(glossarized_resource)
+
+                # Update the resource list to make note of the fact that this job has been processed.
+                if 'processed' not in resource['flags']:
+                    resource["flags"].append("processed")
+
+    # Whether we succeeded or got caught on a fatal error, in either case clean up.
+    finally:
+        # If a driver was open, close the driver instance.
+        if endpoint_type == "table":
+            # noinspection PyUnboundLocalVariable
+            driver.quit()  # pager.driver
+    return resource_list, glossary
+
 
 
 def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
@@ -242,152 +369,10 @@ def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
     # Begin by loading in the data that we have.
     resource_list, glossary = load_glossary_todo(resource_filename, glossary_filename, use_cache)
 
-    # Whether we succeed or fail, we'll want to save the data we have at the end with a try-finally block.
-    try:
-        # What we do with the data depends on the endpoint type.
+    # Generate the glossary.
+    resource_list, glossary = get_glossary(resource_list, glossary, domain=domain, endpoint_type=endpoint_type,
+                                           timeout=timeout)
 
-        # tables:
-        # We take advantage of information provided on the Socrata portal pages to avoid having to work with the
-        # datasets directly. The facilities provided by the pager module are used to handle reading in data
-        # from the portal web interface, which displays, among other things, row and column counts.
-        if endpoint_type == "table":
-            # Only import pager if we have to.
-            from .pager import page_socrata_for_endpoint_size, DeletedEndpointException, driver
-
-            for resource in tqdm(resource_list):
-                try:
-                    rowcol = page_socrata_for_endpoint_size(domain, resource['id']['landing_page'], timeout=10)
-                except (DeletedEndpointException):
-                    print("WARNING: the '{0}' endpoint was deleted.".format(resource['id']['landing_page']))
-                    resource['flags'].append('removed')
-                    continue
-                except (TimeoutException):
-                    print("WARNING: the '{0}' endpoint could not be processed.".format(resource['id']['landing_page']))
-                    resource['flags'].append('removed')
-                    continue
-                # except (AssertionError):
-                #     import pdb; pdb.set_trace()
-                #     print("WARNING: the '{0}' endpoint doesn't follow the expected format.".format(
-                #         resource['id']['landing_page']))
-                #     resource['flags'].append('error')
-                #     continue
-                # except:  # useful for debugging
-                #     import pdb; pdb.set_trace()
-
-                # Remove the "processed" flag from the resource going into the glossary, if one exists.
-                glossarized_resource = resource.copy()
-                glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if flag != 'processed']
-
-                # Attach sizing information.
-                glossarized_resource['sizing'] = {
-                    'rows': rowcol['rows'],
-                    'columns': rowcol['columns'],
-                }
-
-                # Attach format information.
-                glossarized_resource['format'] = {
-                    'available_formats': ['csv', 'json', 'rdf', 'rss', 'tsv', 'xml'],
-                    'preferred_format': 'csv',
-                    'preferred_mimetype': 'text/csv'
-                }
-
-                # If no repairable errors were caught, write in the information.
-                # (if a non-repairable error was caught the data gets sent to the outer finally block)
-                glossarized_resource['id']['dataset'] = '.'
-                glossary.append(glossarized_resource)
-
-                # Update the resource list to make note of the fact that this job has been processed.
-                resource['flags'].append("processed")
-
-        # geospatial datasets, blobs, links:
-        # ...
-        else:
-            import limited_process
-            import zipfile
-            q = limited_process.q()
-
-            for i, resource in tqdm(list(enumerate(resource_list))):
-                # Get the sizing information.
-                try:
-                    sizings = get_sizings(
-                        resource['id']['resource'],
-                        q, timeout=timeout
-                    )
-                except zipfile.BadZipfile:
-                    # cf. https://github.com/ResidentMario/datafy/issues/2
-                    print("WARNING: the '{0}' endpoint is either misformatted or contains multiple levels of "
-                          "archiving which failed to process.".format(resource['id']['landing_page']))
-                    resource['flags'].append('error')
-                    continue
-
-                # If successful, append the result to the glossary...
-                if sizings:
-
-                    for sizing in sizings:
-
-                        # ...but with one caveat. When this process is run on a link, there is a strong possibility
-                        # that it will result in the concatenation of a landing page. There's no automated way to
-                        # determine whether or not a specific resource is or is not a landing page other than to
-                        # inspect it outselves. For example, you can probably tell that
-                        # "http://datamine.mta.info/user/register" is a landing page, but how about
-                        # "http://ddcftp.nyc.gov/rfpweb/rfp_rss.aspx?q=open"? Or
-                        # "https://a816-healthpsi.nyc.gov/DispensingSiteLocator/mainView.do"?
-
-                        # Nevertheless, there is one fairly strong signal we can rely on: landing pages will be HTML
-                        # front-end, and python-magic should in *most* cases determine this fact for us and return it
-                        # in the file typing information. So we can use this to hopefully eliminate many of the
-                        # problematic endpoints.
-
-                        # However, realistically there would need to be some kind of secondary list mechanism that's
-                        # maintained by hand for excluding specific pages. That, however, is a TODO.
-                        if sizing['extension'] != "htm" and sizing['extension'] != "html":
-                            # Remove the "processed" flag from the resource going into the glossary, if one exists.
-                            glossarized_resource = resource.copy()
-                            glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
-                                                             flag != 'processed']
-
-                            # Attach sizing information.
-                            glossarized_resource['sizing'] = {
-                                'filesize': sizing['filesize']
-                            }
-
-                            # Attach format information.
-                            glossarized_resource['format'] = {
-                                'preferred_format': sizing['extension'],
-                                'preferred_mimetype': sizing['mimetype']
-                            }
-
-                            # If no repairable errors were caught, write in the information.
-                            # (if a non-repairable error was caught the data gets sent to the outer finally block)
-                            glossarized_resource['id']['dataset'] = sizing['dataset']
-                            glossary.append(glossarized_resource)
-
-                            # Update the resource list to make note of the fact that this job has been processed.
-                            resource['flags'].append("processed")
-
-                # If unsuccessful, append a signal result to the glossary.
-                else:
-                    glossarized_resource = resource.copy()
-
-                    glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
-                                                     flag != 'processed']
-
-                    glossarized_resource['sizing'] = {"filesize": ">{0}s".format(str(timeout))}
-                    glossarized_resource['id']['dataset'] = "."
-
-                    glossary.append(glossarized_resource)
-
-                # Either way, update the resource list to make note of the fact that this job has been processed.
-                if 'processed' not in resource['flags']:
-                    resource["flags"].append("processed")
-
-    # Whether we succeeded or got caught on a fatal error, in either case clean up.
-    finally:
-        # If a driver was open, close the driver instance.
-        if endpoint_type == "table":
-            # noinspection PyUnboundLocalVariable
-            driver.quit()  # pager.driver
-
-        # Save output.
-        write_resource_file(resource_list, resource_filename)
-        write_glossary_file(glossary, glossary_filename)
+    # Save output.
+    write_resource_file(resource_list, resource_filename)
+    write_glossary_file(glossary, glossary_filename)
