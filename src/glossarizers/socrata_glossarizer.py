@@ -50,28 +50,18 @@ def resourcify(metadata, domain, endpoint_type):
     keywords_provided = metadata['classification']['domain_tags']
 
     return {
-        'id': {
-            'landing_page': landing_page,
-            'resource': slug,
-            'protocol': 'https',
-            'name': name,
-            'description': description
-        },
-        'provenance': {
-            'sources': sources
-        },
-        'usage': {
-            'created': created,
-            'last_updated': last_updated,
-            'page_views': page_views
-        },
-        'contents': {
-            'column_names': column_names
-        },
-        'tags': {
-            'topics_provided': topics_provided,
-            'keywords_provided': keywords_provided
-        },
+        'landing_page': landing_page,
+        'resource': slug,
+        'protocol': 'https',
+        'name': name,
+        'description': description,
+        'sources': sources,
+        'created': created,
+        'last_updated': last_updated,
+        'page_views': page_views,
+        'column_names': column_names,
+        'topics_provided': topics_provided,
+        'keywords_provided': keywords_provided,
         'flags': []
     }
 
@@ -122,7 +112,7 @@ def get_resource_representation(domain, credentials, endpoint_type):
 
 
 def write_resource_representation(domain="data.cityofnewyork.us", out="nyc-tables.json", use_cache=True,
-                                  credentials="../../../auth/nyc-open-data.json"):
+                                  credentials="../../../auth/nyc-open-data.json", endpoint_type='table'):
     """
     Fetches a resource representation for a single resource type from a Socrata portal. Simple I/O wrapper around
     get_resource_representation, using some utilities from generic.py.
@@ -141,10 +131,52 @@ def write_resource_representation(domain="data.cityofnewyork.us", out="nyc-table
 
     # Generate to file and exit.
     roi_repr = []
-    import pdb; pdb.set_trace()
-    for endpoint_type in ['table', 'geospatial dataset', 'blob', 'link']:
-        roi_repr += get_resource_representation(domain, credentials, endpoint_type)
+    roi_repr += get_resource_representation(domain, credentials, endpoint_type)
     write_resource_file(roi_repr, out)
+
+
+def glossarize_table(resource, domain, driver=None):
+    from .pager import page_socrata_for_endpoint_size, DeletedEndpointException
+
+    # If a PhantomJS driver has not been initialized (via import), initialize it now.
+    # In this case we will also quit it out at the end of the process.
+    # This is inefficient, but useful for testing.
+    driver_passed = bool(driver)
+    if not driver_passed:
+        from .pager import driver
+
+    try:
+        rowcol = page_socrata_for_endpoint_size(domain, resource['landing_page'], timeout=10)
+    except DeletedEndpointException:
+        print("WARNING: the '{0}' endpoint was deleted.".format(resource['landing_page']))
+        resource['flags'].append('removed')
+        return None
+    except TimeoutException:
+        print("WARNING: the '{0}' endpoint could not be processed.".format(resource['landing_page']))
+        resource['flags'].append('removed')
+        return None
+
+    # Remove the "processed" flag from the resource going into the glossary, if one exists.
+    glossarized_resource = resource.copy()
+    glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if flag != 'processed']
+
+    # Attach sizing information.
+    glossarized_resource['rows'] = rowcol['rows']
+    glossarized_resource['columns'] = rowcol['columns']
+
+    # Attach format information.
+    glossarized_resource['available_formats'] = ['csv', 'json', 'rdf', 'rss', 'tsv', 'xml']
+    glossarized_resource['preferred_format'] = 'csv'
+    glossarized_resource['preferred_mimetype'] = 'text/csv'
+
+    # If no repairable errors were caught, write in the information.
+    # (if a non-repairable error was caught the data gets sent to the outer finally block)
+    glossarized_resource['dataset'] = '.'
+
+    if not driver_passed:
+        driver.quit()
+
+    return glossarized_resource
 
 
 def get_sizings(uri, q, timeout=60):
@@ -176,54 +208,6 @@ def get_sizings(uri, q, timeout=60):
         uri,
         q, timeout=timeout, callback=_size_up
     )
-
-
-def glossarize_table(resource, domain, driver=None):
-    from .pager import page_socrata_for_endpoint_size, DeletedEndpointException
-
-    # If a PhantomJS driver has not been initialized (via import), initialize it now.
-    # In this case we will also quit it out at the end of the process.
-    # This is inefficient, but useful for testing.
-    driver_passed = bool(driver)
-    if not driver_passed:
-        from .pager import driver
-
-    try:
-        rowcol = page_socrata_for_endpoint_size(domain, resource['id']['landing_page'], timeout=10)
-    except DeletedEndpointException:
-        print("WARNING: the '{0}' endpoint was deleted.".format(resource['id']['landing_page']))
-        resource['flags'].append('removed')
-        return None
-    except TimeoutException:
-        print("WARNING: the '{0}' endpoint could not be processed.".format(resource['id']['landing_page']))
-        resource['flags'].append('removed')
-        return None
-
-    # Remove the "processed" flag from the resource going into the glossary, if one exists.
-    glossarized_resource = resource.copy()
-    glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if flag != 'processed']
-
-    # Attach sizing information.
-    glossarized_resource['sizing'] = {
-        'rows': rowcol['rows'],
-        'columns': rowcol['columns'],
-    }
-
-    # Attach format information.
-    glossarized_resource['format'] = {
-        'available_formats': ['csv', 'json', 'rdf', 'rss', 'tsv', 'xml'],
-        'preferred_format': 'csv',
-        'preferred_mimetype': 'text/csv'
-    }
-
-    # If no repairable errors were caught, write in the information.
-    # (if a non-repairable error was caught the data gets sent to the outer finally block)
-    glossarized_resource['id']['dataset'] = '.'
-
-    if not driver_passed:
-        driver.quit()
-
-    return glossarized_resource
 
 
 def glossarize_nontable(resource, timeout, q=None):
@@ -270,19 +254,15 @@ def glossarize_nontable(resource, timeout, q=None):
                                                  flag != 'processed']
 
                 # Attach sizing information.
-                glossarized_resource['sizing'] = {
-                    'filesize': sizing['filesize']
-                }
+                glossarized_resource['filesize'] = sizing['filesize']
 
                 # Attach format information.
-                glossarized_resource['format'] = {
-                    'preferred_format': sizing['extension'],
-                    'preferred_mimetype': sizing['mimetype']
-                }
+                glossarized_resource['preferred_format'] = sizing['extension']
+                glossarized_resource['preferred_mimetype'] = sizing['mimetype']
 
                 # If no repairable errors were caught, write in the information.
                 # (if a non-repairable error was caught the data gets sent to the outer finally block)
-                glossarized_resource['id']['dataset'] = sizing['dataset']
+                glossarized_resource['dataset'] = sizing['dataset']
 
                 return glossarized_resource
 
@@ -296,8 +276,8 @@ def glossarize_nontable(resource, timeout, q=None):
         glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
                                          flag != 'processed']
 
-        glossarized_resource['sizing'] = {"filesize": ">{0}s".format(str(timeout))}
-        glossarized_resource['id']['dataset'] = "."
+        glossarized_resource["filesize"] = ">{0}s".format(str(timeout))
+        glossarized_resource['dataset'] = "."
 
         return glossarized_resource
 
