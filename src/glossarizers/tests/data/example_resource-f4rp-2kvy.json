@@ -1,0 +1,15 @@
+{
+	"last_updated": "2017-05-30 00:44:38+00:00",
+	"protocol": "https",
+	"page_views": 1484,
+	"flags": [],
+	"resource": "https://data.cityofnewyork.us/api/views/f4rp-2kvy/rows.csv?accessType=DOWNLOAD",
+	"description": "Contains information on current boiler and industrial operation permits in New York City registered with  DEP.",
+	"landing_page": "https://data.cityofnewyork.us/d/f4rp-2kvy",
+	"name": "CATS Permits",
+	"sources": ["Department of Environmental Protection (DEP)"],
+	"topics_provided": ["Environment"],
+	"column_names": ["PrimaryFuel", "Quantity", "House", "Street", "Borough", "Bin", "RequestID", "ApplicationID", "PremiseName", "status", "IssueDate", "RequestType", "Block", "Lot", "OwnerName", "ExpirationDate", "Make", "Model", "BurnerMake", "BurnerModel", "SecondaryFuel"],
+	"keywords_provided": [],
+	"created": "2015-07-07 22:05:30+00:00"
+}
