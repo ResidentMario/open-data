@@ -76,10 +76,10 @@ def resourcify(metadata, domain, endpoint_type):
     }
 
 
-def get_resource_representation(domain, credentials, endpoint_type):
+def get_portal_metadata(domain, credentials, endpoint_type):
     """
-    Given a domain, Socrata API credentials for that domain, and a type of endpoint of interest, returns a full
-    resource representation (using resourcify) for each resource therein.
+    Given a domain, Socrata API credentials for that domain, and a type of endpoint of interest, returns the metadata
+    provided by the portal (via the pysocrata package).
     """
     # Load credentials.
     with open(credentials, "r") as fp:
@@ -103,7 +103,17 @@ def get_resource_representation(domain, credentials, endpoint_type):
     indices = np.nonzero([t == endpoint_type for t in types])
     roi = np.array(resources)[indices]
 
-    # Build the data representation.
+    return roi
+
+
+def get_resource_representation(domain, credentials, endpoint_type):
+    """
+    Given a domain, Socrata API credentials for that domain, and a type of endpoint of interest, returns a full
+    resource representation (using resourcify) for each resource therein.
+    """
+    roi = get_portal_metadata(domain, credentials, endpoint_type)
+
+    # Convert the pysocrata output to our data representation using resourcify.
     roi_repr = []
     for metadata in tqdm(roi):
         roi_repr.append(resourcify(metadata, domain, endpoint_type))
@@ -338,7 +348,6 @@ def get_glossary(resource_list, glossary, domain='opendata.cityofnewyork.us', en
             # noinspection PyUnboundLocalVariable
             driver.quit()  # pager.driver
     return resource_list, glossary
-
 
 
 def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,

@@ -1,0 +1,55 @@
+{
+	"link": "https://data.cityofnewyork.us/Environment/CATS-Permits/f4rp-2kvy",
+	"metadata": {
+		"license": "Public Domain",
+		"domain": "data.cityofnewyork.us"
+	},
+	"classification": {
+		"domain_category": "Environment",
+		"tags": [],
+		"categories": [],
+		"domain_metadata": [{
+			"value": "Yes",
+			"key": "Update_Automation"
+		}, {
+			"value": "As needed",
+			"key": "Update_Update-Frequency"
+		}, {
+			"value": "Department of Environmental Protection (DEP)",
+			"key": "Dataset-Information_Agency"
+		}],
+		"domain_tags": []
+	},
+	"permalink": "https://data.cityofnewyork.us/d/f4rp-2kvy",
+	"resource": {
+		"parent_fxf": -1,
+		"type": "dataset",
+		"description": "Contains information on current boiler and industrial operation permits in New York City registered with  DEP.",
+		"name": "CATS Permits",
+		"id": "f4rp-2kvy",
+		"columns_field_name": ["primaryfuel", "quantity", "house", "street", "borough", "bin", "requestid", "applicationid", "premisename", "status", "issuedate", "requesttype", "block", "lot", "ownername", "expirationdate", "make", "model", "burnermake", "burnermodel", "secondaryfuel"],
+		"columns_description": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+		"createdAt": "2015-07-07T22:05:30.000Z",
+		"download_count": -1,
+		"attribution": "Department of Environmental Protection (DEP)",
+		"view_count": {
+			"page_views_last_month": 45,
+			"page_views_last_month_log": 5.523561956057013,
+			"page_views_total": 1484,
+			"page_views_last_week_log": 3.700439718141092,
+			"page_views_last_week": 12,
+			"page_views_total_log": 10.536247215688128
+		},
+		"columns_name": ["PrimaryFuel", "Quantity", "House", "Street", "Borough", "Bin", "RequestID", "ApplicationID", "PremiseName", "status", "IssueDate", "RequestType", "Block", "Lot", "OwnerName", "ExpirationDate", "Make", "Model", "BurnerMake", "BurnerModel", "SecondaryFuel"],
+		"provenance": "official",
+		"page_views": {
+			"page_views_last_month": 45,
+			"page_views_last_month_log": 5.523561956057013,
+			"page_views_total": 1484,
+			"page_views_last_week_log": 3.700439718141092,
+			"page_views_last_week": 12,
+			"page_views_total_log": 10.536247215688128
+		},
+		"updatedAt": "2017-05-30T00:44:38.000Z"
+	}
+}
