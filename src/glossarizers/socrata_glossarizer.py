@@ -176,7 +176,7 @@ def glossarize_table(resource, domain, driver=None):
     if not driver_passed:
         driver.quit()
 
-    return glossarized_resource
+    return [glossarized_resource]
 
 
 def get_sizings(uri, q, timeout=60):
@@ -191,35 +191,83 @@ def get_sizings(uri, q, timeout=60):
     import datafy
     import sys
 
-    def _size_up(uri, q, kwargs):
-        def apply(resource):
-            thing_log = []
-            for thing in resource:  # probably a dataset, but potentially metadata et. al. instead
-                print(thing)
-                thing_log.append({
-                    'filesize': sys.getsizeof(thing['data'].content) / 1024,
-                    'dataset': thing['filepath'],
-                    'mimetype': thing['mimetype'],
-                    'extension': thing['extension']
-                })
-        return q.put(apply(datafy.get(uri, **kwargs)))
+    import signal
+    from functools import wraps
+    import errno
+    import os
 
-    return limited_process.limited_get(
-        uri,
-        q, timeout=timeout, callback=_size_up
-    )
+    def timeout_process(seconds=10, error_message=os.strerror(errno.ETIME)):
+        """
+        Times out a process. Taken from Stack Overflow: 2281850/timeout-function-if-it-takes-too-long-to-finish.
+
+        Some notes:
+        * Timing out a process, it turns out, is very hard. I wrote a timeout using multiprocessing.Queue from the
+          standard library, wrapped in a package I named "limited-requests". It worked for simple files,
+          but broke down on more complex ones, with the process simply hanging forever. I don't know why; I suspect
+          that Queue implicity requires the operations that are placed in the queue not touch the filesystem,
+          or somesuch. One day I would like to find out the answer why.
+
+        * I don't claim to really understand this code. It uses UNIX signaling to get the OS to force the process to
+          explode.
+
+        * This means that even though it says it will throw a TimeoutError, in reality it seems to always throw a
+          ChunkEncodedError instead (from requests). Or maybe it's that requests is intercepting the timeout and
+          throwing its own error? Heavens knows.
+
+        * It's UNIX-only.
+
+        * It's very dangerous. XXX.
+
+        * More details: http://eli.thegreenplace.net/2011/08/22/how-not-to-set-a-timeout-on-a-computation-in-python
+
+        * multiprocessing.Pool may provide a better interface. I do not know how to operate a multiprocessing.Pool
+         though.
+        """
+        # TODO: Study this problem and find some way to improve on this. Maybe a new module idea?
+        def decorator(func):
+            def _handle_timeout(signum, frame):
+                raise TimeoutError(error_message)
+
+            def wrapper(*args, **kwargs):
+                signal.signal(signal.SIGALRM, _handle_timeout)
+                signal.alarm(seconds)
+                try:
+                    result = func(*args, **kwargs)
+                finally:
+                    signal.alarm(0)
+                return result
+
+            return wraps(func)(wrapper)
+
+        return decorator
+
+    @timeout_process(timeout)
+    def _size_up(uri):
+        resource = datafy.get(uri)
+        thing_log = []
+        for thing in resource:
+            thing_log.append({
+                'filesize': sys.getsizeof(thing['data'].content) / 1024,
+                'dataset': thing['filepath'],
+                'mimetype': thing['mimetype'],
+                'extension': thing['extension']
+            })
+        return thing_log
+
+    return _size_up(uri)
 
 
 def glossarize_nontable(resource, timeout, q=None):
     import limited_process
     import zipfile
+    from requests.exceptions import ChunkedEncodingError
 
     if not bool(q):
         q = limited_process.q()
 
     try:
         sizings = get_sizings(
-            resource['id']['resource'],
+            resource['resource'],
             q, timeout=timeout
         )
     except zipfile.BadZipfile:
@@ -228,9 +276,13 @@ def glossarize_nontable(resource, timeout, q=None):
               "archiving which failed to process.".format(resource['id']['landing_page']))
         resource['flags'].append('error')
         return None
+    except ChunkedEncodingError:
+        print("HELLO")
 
     # If successful, append the result to the glossary...
     if sizings:
+        glossarized_resource = []
+
         for sizing in sizings:
             # ...but with one caveat. When this process is run on a link, there is a strong possibility
             # that it will result in the concatenation of a landing page. There's no automated way to
@@ -249,25 +301,27 @@ def glossarize_nontable(resource, timeout, q=None):
             # maintained by hand for excluding specific pages. That, however, is a TODO.
             if sizing['extension'] != "htm" and sizing['extension'] != "html":
                 # Remove the "processed" flag from the resource going into the glossary, if one exists.
-                glossarized_resource = resource.copy()
-                glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if
-                                                 flag != 'processed']
+                glossarized_resource_element = resource.copy()
+                glossarized_resource_element['flags'] = [flag for flag in glossarized_resource_element['flags'] if
+                                                         flag != 'processed']
 
                 # Attach sizing information.
-                glossarized_resource['filesize'] = sizing['filesize']
+                glossarized_resource_element['filesize'] = sizing['filesize']
 
                 # Attach format information.
-                glossarized_resource['preferred_format'] = sizing['extension']
-                glossarized_resource['preferred_mimetype'] = sizing['mimetype']
+                glossarized_resource_element['preferred_format'] = sizing['extension']
+                glossarized_resource_element['preferred_mimetype'] = sizing['mimetype']
 
                 # If no repairable errors were caught, write in the information.
                 # (if a non-repairable error was caught the data gets sent to the outer finally block)
-                glossarized_resource['dataset'] = sizing['dataset']
+                glossarized_resource_element['dataset'] = sizing['dataset']
 
-                return glossarized_resource
+                glossarized_resource.append(glossarized_resource_element)
 
                 # # Update the resource list to make note of the fact that this job has been processed.
                 # resource['flags'].append("processed")
+
+        return glossarized_resource
 
     # If unsuccessful, append a signal result to the glossary.
     else:
@@ -282,8 +336,8 @@ def glossarize_nontable(resource, timeout, q=None):
         return glossarized_resource
 
     # Either way, update the resource list to make note of the fact that this job has been processed.
-    if 'processed' not in resource['flags']:
-        resource["flags"].append("processed")
+    # if 'processed' not in resource['flags']:
+    #     resource["flags"].append("processed")
 
 
 def get_glossary(resource_list, glossary, domain='opendata.cityofnewyork.us', endpoint_type="table", timeout=60):

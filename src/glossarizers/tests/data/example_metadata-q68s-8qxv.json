@@ -1,0 +1,54 @@
+{
+	"resource": {
+		"provenance": "official",
+		"attribution": "Department of Health and Mental Hygiene (DOHMH)",
+		"page_views": {
+			"page_views_last_month": 20,
+			"page_views_last_month_log": 4.392317422778761,
+			"page_views_last_week": 10,
+			"page_views_total_log": 4.392317422778761,
+			"page_views_last_week_log": 3.4594316186372978,
+			"page_views_total": 20
+		},
+		"type": "file",
+		"updatedAt": "2017-05-12T17:28:55.000Z",
+		"createdAt": "2017-05-11T18:55:46.000Z",
+		"name": "NYCCAS Air Pollution Rasters",
+		"parent_fxf": None,
+		"columns_name": [],
+		"columns_field_name": [],
+		"columns_description": [],
+		"view_count": {
+			"page_views_last_month": 20,
+			"page_views_last_month_log": 4.392317422778761,
+			"page_views_last_week": 10,
+			"page_views_total_log": 4.392317422778761,
+			"page_views_last_week_log": 3.4594316186372978,
+			"page_views_total": 20
+		},
+		"download_count": 28,
+		"description": "Citywide raster files of annual average predicted surface for nitrogen dioxide (NO2), fine particulate matter (PM2.5), black carbon (BC), and nitric oxide (NO); summer average for ozone (O3) and winter average for sulfure dioxide (SO2).\r\n\r\n\r\nDescription:  Annual average predicted surface for nitrogen dioxide (NO2), fine particulate matter (PM2.5), black carbon (BC), and nitric oxide (NO); summer average for ozone (O3) and winter average for sulfure dioxide (SO2). File type is ESRI grid raster files at 300 m resolution, NAD83 New York Long Island State Plane FIPS, feet projection. Prediction surface generated from Land Use Regression modeling of December 2008- December 2015 (years 1-7) New York Community Air Survey monitoring data.As these are estimated annual average levels produced by a statistical model, they are not comparable to short term localized monitoring or monitoring done for regulatory purposes. For description of NYCCAS design and Land Use Regression Modeling process see: http://www1.nyc.gov/assets/doh/downloads/pdf/environmental/comm-air-survey-08-14.pdf",
+		"id": "q68s-8qxv"
+	},
+	"classification": {
+		"tags": [],
+		"domain_tags": ["air pollution", "ozone", "black carbon", "pm2.5", "no2", "so2", "nyccas", "air quality"],
+		"categories": ["environment"],
+		"domain_metadata": [{
+			"value": "No",
+			"key": "Update_Automation"
+		}, {
+			"value": "Annually",
+			"key": "Update_Update-Frequency"
+		}, {
+			"value": "Department of Health and Mental Hygiene (DOHMH)",
+			"key": "Dataset-Information_Agency"
+		}],
+		"domain_category": "Environment"
+	},
+	"permalink": "https://data.cityofnewyork.us/d/q68s-8qxv",
+	"link": "https://data.cityofnewyork.us/Environment/NYCCAS-Air-Pollution-Rasters/q68s-8qxv",
+	"metadata": {
+		"domain": "data.cityofnewyork.us"
+	}
+}
