@@ -14,7 +14,7 @@
 		"updatedAt": "2017-05-12T17:28:55.000Z",
 		"createdAt": "2017-05-11T18:55:46.000Z",
 		"name": "NYCCAS Air Pollution Rasters",
-		"parent_fxf": None,
+		"parent_fxf": null,
 		"columns_name": [],
 		"columns_field_name": [],
 		"columns_description": [],

@@ -1,3 +1,7 @@
+"""
+Unit tests for socrata_glossarizer module macro-level subcomponents.
+"""
+
 import unittest
 import pytest
 import json
@@ -5,6 +9,7 @@ import json
 import sys; sys.path.insert(0, '../../')
 # noinspection PyUnresolvedReferences
 from glossarizers import socrata_glossarizer
+import requests
 
 
 # @slow
@@ -58,8 +63,8 @@ class TestGlossarizeTable(unittest.TestCase):
         Test that the resource-to-glossary method works in isolation and that the glossary schema is what we
         expected it to be.
         """
-        with open("data/example_resource-f4rp-2kvy.json", "r") as fp:
-            resource = json.load(fp)
+        with open("data/example_metadata-f4rp-2kvy.json", "r") as fp:
+            resource = socrata_glossarizer.resourcify(json.load(fp), "data.cityofnewyork.us", "table")
 
         glossarized_resource = socrata_glossarizer.glossarize_table(resource, "opendata.cityofnewyork.us")
         assert glossarized_resource[0].keys() == table_glossary_keys
@@ -70,6 +75,8 @@ class TestGetSizings(unittest.TestCase):
         self.zip_test_uri = "https://data.cityofnewyork.us/api/views/q68s-8qxv/files/511dbe78-65f3-470f-9cc8" \
                             "-c1415f75a6e6?filename=AnnAvg1_7_300mSurfaces.zip"
         self.csv_test_uri = "https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.csv?accessType=DOWNLOAD"
+        self.zip_fail_test_uri = "https://data.cityofnewyork.us/api/views/ft4n-yqee/files/3d0f7600-f88a-4a11-8ad9" \
+                                 "-707c785caa08?filename=Broadband%20Data%20Dig%20-%20Datasets.zip"
 
     def test_get_sizings_success_csv(self):
         sizings = socrata_glossarizer.get_sizings(self.csv_test_uri, None, timeout=20)
@@ -80,6 +87,14 @@ class TestGetSizings(unittest.TestCase):
         sizings = socrata_glossarizer.get_sizings(self.zip_test_uri, None, timeout=20)
         assert sizings and len(sizings) != 0
 
+    def test_get_sizing_fail(self):
+        """
+        The error being raises is not something I am comfortable with, but it is what works for the moment and what
+        the module depends on. See the notes in timeout_process for more details.
+        """
+        with pytest.raises(requests.exceptions.ChunkedEncodingError):
+            socrata_glossarizer.get_sizings(self.zip_fail_test_uri, None, timeout=1)
+
 
 nontable_glossary_keys = {'resource', 'column_names', 'created', 'page_views', 'landing_page', 'flags',
                           'keywords_provided', 'name', 'description', 'last_updated', 'filesize', 'dataset',
@@ -87,25 +102,47 @@ nontable_glossary_keys = {'resource', 'column_names', 'created', 'page_views', '
 
 
 class TestGlossarizeNonTable(unittest.TestCase):
-    def test_glossarize_nontable(self):
-        """
-        Test that the resource-to-glossary method works in isolation and that the glossary schema is what we
-        expected it to be.
-        """
+    """
+    Test that the resource-to-glossary method works in isolation and that the glossary schema is what we
+    expected it to be.
+    """
+
+    def test_glossarize_nontable_blob(self):
+        # TODO: Why does this fail?
+        # with open("data/example_metadata-q68s-8qxv.json", "r") as fp:
+        #     import pdb; pdb.set_trace()
+        #     resource = socrata_glossarizer.resourcify(json.load(fp), "data.cityofnewyork.us", "blob")
         with open("data/example_resource-q68s-8qxv.json", "r") as fp:
             resource = json.load(fp)
 
-        glossarized_resource = socrata_glossarizer.glossarize_nontable(resource, 60)
+        glossarized_resource = socrata_glossarizer.glossarize_nontable(resource, 20)
         assert glossarized_resource[0].keys() == nontable_glossary_keys
 
-#         # resource = socrata_glossarizer.resourcify(toi_metadata, domain="data.cityofnewyork.us", endpoint_type="blob")
-#         # TODO: glossarized_non_table tests for all three cases: links, blobs, and geospatial datasets.
-#         # TODO: run all of the cases, make sure that everything works as expected.
-#         # TODO: see if it's possible to fix the table detection problem.
-#         # TODO: refactor ckan_glossarizer.py.
-#         # TODO: write the tests for ckan_glossarizer.py.
-#         # TODO: rewrite all of the docstrings.
-#         # TODO: write a using-this-api guide.
-#         # TODO: write a developing-with-this-api guide.
-#         # TODO: delete all the temp files and generally clean up this repo.
-#         pass
+    def test_glossarize_nontable_geospatial_dataset(self):
+        with open("data/example_metadata-ghq4-ydq4.json", "r") as fp:
+            resource = socrata_glossarizer.resourcify(json.load(fp), "data.cityofnewyork.us", "geospatial dataset")
+
+        glossarized_resource = socrata_glossarizer.glossarize_nontable(resource, 20)
+        assert glossarized_resource[0].keys() == nontable_glossary_keys
+
+    def test_glossarize_link(self):
+        # For generating a new metadata entry for testing:
+        # links = socrata_glossarizer.get_portal_metadata("data.cityofnewyork.us",
+        #                                                 "../../../auth/nyc-open-data.json",
+        #                                                 "links")
+        # ...
+        with open("data/example_metadata-rnnj-5mmi.json", "r") as fp:
+            resource = socrata_glossarizer.resourcify(json.load(fp), "data.cityofnewyork.us", "link")
+
+        glossarized_resource = socrata_glossarizer.glossarize_nontable(resource, 20)
+        assert glossarized_resource[0].keys() == nontable_glossary_keys
+
+
+# TODO: run all of the cases, make sure that everything works as expected.
+# TODO: see if it's possible to fix the table detection problem.
+# TODO: refactor ckan_glossarizer.py.
+# TODO: write the tests for ckan_glossarizer.py.
+# TODO: rewrite all of the docstrings.
+# TODO: write a using-this-api guide.
+# TODO: write a developing-with-this-api guide.
+# TODO: delete all the temp files and generally clean up this repo.

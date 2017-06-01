@@ -1,0 +1,57 @@
+{
+	"resource": {
+		"columns_field_name": [],
+		"name": "Digital Media Stewardship Activity",
+		"description": "Record of tree stewardship activity as of March 1st, 2017. \n\nThis dataset can be joined to the Forestry Tree Points dataset by joining the TreeId from Digital Media Stewardship Activity to OBJECTID from Forestry Tree Points.",
+		"parent_fxf": null,
+		"columns_description": [],
+		"id": "rnnj-5mmi",
+		"page_views": {
+			"page_views_last_month": 0,
+			"page_views_last_week": 0,
+			"page_views_last_week_log": 0.0,
+			"page_views_last_month_log": 0.0,
+			"page_views_total_log": 4.247927513443585,
+			"page_views_total": 18
+		},
+		"download_count": 0,
+		"type": "href",
+		"updatedAt": "2017-03-08T14:59:29.000Z",
+		"createdAt": "2017-03-06T23:02:32.000Z",
+		"columns_name": [],
+		"view_count": {
+			"page_views_last_month": 0,
+			"page_views_last_week": 0,
+			"page_views_last_week_log": 0.0,
+			"page_views_last_month_log": 0.0,
+			"page_views_total_log": 4.247927513443585,
+			"page_views_total": 18
+		},
+		"attribution": null,
+		"provenance": "official"
+	},
+	"link": "https://data.cityofnewyork.us/Environment/Digital-Media-Stewardship-Activity/rnnj-5mmi",
+	"classification": {
+		"domain_category": "Environment",
+		"tags": [],
+		"domain_metadata": [{
+			"key": "Update_Automation",
+			"value": "No"
+		}, {
+			"key": "Update_Date-Made-Public",
+			"value": ""
+		}, {
+			"key": "Update_Update-Frequency",
+			"value": "As needed"
+		}, {
+			"key": "Dataset-Information_Agency",
+			"value": "Department of Parks and Recreation (DPR)"
+		}],
+		"domain_tags": [],
+		"categories": ["infrastructure", "environment"]
+	},
+	"metadata": {
+		"domain": "data.cityofnewyork.us"
+	},
+	"permalink": "https://data.cityofnewyork.us/d/rnnj-5mmi"
+}

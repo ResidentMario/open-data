@@ -44,7 +44,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import TimeoutException  # WebDriverException
 
 
 driver = webdriver.PhantomJS()
@@ -64,8 +64,28 @@ def page_socrata(domain, uri, condition=EC.presence_of_element_located((By.CLASS
     # load occurs if that page load includes the conditioned element but not the targeted element. See further the
     # note in socrata_glossarizer.py.
 
-    # TODO: Repair this wait issue.
+    # TODO: Implement this?
+    # def is_alive(driver):
+    #     from selenium.webdriver.remote.command import Command
+    #     import socket
+    #     import http.client
+    #     """
+    #     Helper function to check whether or not the driver is still open.
+    #     From: https://stackoverflow.com/questions/28934533/python-selenium-how-to-check-whether-the-webdriver-did-quit
+    #     """
+    #     try:
+    #         driver.execute(Command.STATUS)
+    #         return True
+    #     except (socket.error, http.client.CannotSendRequest):
+    #         return False
+    #
+    # try:
+    #     driver.get(uri)
+    # except WebDriverException:
+    #     driver = webdriver.PhantomJS()
+    #     driver.get(uri)
     driver.get(uri)
+
     try:
         # Make sure that the endpoint hasn't been deleted.
         if driver.current_url == "https://" + domain + "/":

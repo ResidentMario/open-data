@@ -187,7 +187,6 @@ def get_sizings(uri, q, timeout=60):
     This method utilizes limited_process and datafy facilities, these are two small modules written for the purposes of
     this project maintained as separate modules.
     """
-    import limited_process
     import datafy
     import sys
 
@@ -215,6 +214,8 @@ def get_sizings(uri, q, timeout=60):
           throwing its own error? Heavens knows.
 
         * It's UNIX-only.
+
+        * It only allows timeouts in integers...amusingly.
 
         * It's very dangerous. XXX.
 
@@ -259,6 +260,8 @@ def get_sizings(uri, q, timeout=60):
 
 def glossarize_nontable(resource, timeout, q=None):
     import limited_process
+    # TODO: Remove limited_process non-dependency.
+
     import zipfile
     from requests.exceptions import ChunkedEncodingError
 
@@ -356,7 +359,7 @@ def get_glossary(resource_list, glossary, domain='opendata.cityofnewyork.us', en
 
             for resource in tqdm(resource_list):
                 glossarized_resource = glossarize_table(resource, domain, driver=driver)
-                glossary.append(glossarized_resource)
+                glossary += glossarized_resource
 
                 # Update the resource list to make note of the fact that this job has been processed.
                 resource['flags'].append("processed")
@@ -369,7 +372,7 @@ def get_glossary(resource_list, glossary, domain='opendata.cityofnewyork.us', en
 
             for resource in tqdm(list(resource_list)):
                 glossarized_resource = glossarize_nontable(resource, timeout, q=q)
-                glossary.append(glossarized_resource)
+                glossary += glossarized_resource
 
                 # Update the resource list to make note of the fact that this job has been processed.
                 if 'processed' not in resource['flags']:

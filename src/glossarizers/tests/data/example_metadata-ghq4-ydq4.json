@@ -1,0 +1,57 @@
+{
+	"resource": {
+		"type": "map",
+		"download_count": 17,
+		"columns_field_name": [],
+		"name": "2017-2018 School Zones",
+		"page_views": {
+			"page_views_last_week": 18,
+			"page_views_total": 117,
+			"page_views_total_log": 6.882643049361842,
+			"page_views_last_month": 117,
+			"page_views_last_month_log": 6.882643049361842,
+			"page_views_last_week_log": 4.247927513443585
+		},
+		"view_count": {
+			"page_views_last_week": 18,
+			"page_views_total": 117,
+			"page_views_total_log": 6.882643049361842,
+			"page_views_last_month": 117,
+			"page_views_last_month_log": 6.882643049361842,
+			"page_views_last_week_log": 4.247927513443585
+		},
+		"provenance": "official",
+		"columns_description": [],
+		"id": "ghq4-ydq4",
+		"createdAt": "2017-05-01T21:27:51.000Z",
+		"columns_name": [],
+		"description": "2017-2018 School Zones (as of April 24, 2017). Files are in a GIS Shapefile format. They are broken down by elementary school zones (NYC_E) and middle school zones (NYC_M)",
+		"updatedAt": "2017-05-01T21:34:37.000Z",
+		"attribution": "Department of Education (DOE)",
+		"parent_fxf": null
+	},
+	"classification": {
+		"domain_category": "Education",
+		"domain_tags": ["school zones", "elementary school", "middle school", "maps", "education", "doe", "shapefile"],
+		"categories": ["education"],
+		"tags": [],
+		"domain_metadata": [{
+			"value": "No",
+			"key": "Update_Automation"
+		}, {
+			"value": "",
+			"key": "Update_Date-Made-Public"
+		}, {
+			"value": "Annually",
+			"key": "Update_Update-Frequency"
+		}, {
+			"value": "Department of Education (DOE)",
+			"key": "Dataset-Information_Agency"
+		}]
+	},
+	"link": "https://data.cityofnewyork.us/Education/2017-2018-School-Zones/ghq4-ydq4",
+	"permalink": "https://data.cityofnewyork.us/d/ghq4-ydq4",
+	"metadata": {
+		"domain": "data.cityofnewyork.us"
+	}
+}
