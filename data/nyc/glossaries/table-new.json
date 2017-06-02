@@ -1,0 +1,491 @@
+[
+    {
+        "columns": 3,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "preferred_format": "csv",
+        "protocol": "https",
+        "landing_page": "https://data.cityofnewyork.us/d/9cw8-7heb",
+        "name": ".nyc Domain Registrations",
+        "preferred_mimetype": "text/csv",
+        "keywords_provided": [
+            "web",
+            "internet",
+            ".nyc",
+            "registration",
+            "page",
+            "webpage",
+            "website",
+            "site",
+            "domain"
+        ],
+        "column_names": [
+            "Domain Registration Date ",
+            "Domain Name ",
+            "Nexus Category"
+        ],
+        "flags": [],
+        "topics_provided": [
+            "Business"
+        ],
+        "resource": "https://data.cityofnewyork.us/api/views/9cw8-7heb/rows.csv?accessType=DOWNLOAD",
+        "last_updated": "2017-05-31 21:08:56+00:00",
+        "dataset": ".",
+        "description": "A list of all .nyc domains registered along with the registration date and registrant type. This list is updated daily.",
+        "rows": 73900,
+        "created": "2015-07-13 18:48:56+00:00",
+        "page_views": 1521
+    },
+    {
+        "columns": 5,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "sources": [
+            "Department of Education (DOE)"
+        ],
+        "preferred_format": "csv",
+        "protocol": "https",
+        "landing_page": "https://data.cityofnewyork.us/d/madj-gkhr",
+        "name": "Attendance 4PM Report",
+        "preferred_mimetype": "text/csv",
+        "keywords_provided": [
+            "attendance",
+            "schools",
+            "doe",
+            "education"
+        ],
+        "column_names": [
+            "%_OF_ATTD_TAKEN",
+            "SCHOOL_YEAR",
+            "DATE",
+            "SCHOOL_DBN",
+            "REGISTER"
+        ],
+        "flags": [],
+        "topics_provided": [
+            "Education"
+        ],
+        "resource": "https://data.cityofnewyork.us/api/views/madj-gkhr/rows.csv?accessType=DOWNLOAD",
+        "last_updated": "2017-05-31 21:08:58+00:00",
+        "dataset": ".",
+        "description": "Statistical report that provides daily school wide attendance each day for all schools at 4:00pm. Attendance figures are \"accurate\" as of 4:00pm, but not final as schools continue to submit data after preliminary report is generated.",
+        "rows": 501000,
+        "created": "2015-12-31 18:03:16+00:00",
+        "page_views": 452
+    },
+    {
+        "columns": 9,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "sources": [
+            "Department of Citywide Administrative Services (DCAS)"
+        ],
+        "preferred_format": "csv",
+        "protocol": "https",
+        "landing_page": "https://data.cityofnewyork.us/d/mqdy-gu73",
+        "name": "City Store - The Official Store of the City of New York",
+        "preferred_mimetype": "text/csv",
+        "keywords_provided": [],
+        "column_names": [
+            "Product Name",
+            "CityStore Exclusive",
+            "Description",
+            "Style",
+            "Category Name",
+            "Size",
+            "Color",
+            "Unit Price",
+            "Item Number"
+        ],
+        "flags": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "resource": "https://data.cityofnewyork.us/api/views/mqdy-gu73/rows.csv?accessType=DOWNLOAD",
+        "last_updated": "2017-05-31 20:29:49+00:00",
+        "dataset": ".",
+        "description": "Information on City Store \u2013 the\r\nOfficial Story of the City of New York",
+        "rows": 1826,
+        "created": "2015-05-07 14:03:53+00:00",
+        "page_views": 563
+    },
+    {
+        "columns": 23,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "sources": [
+            "Department of Citywide Administrative Services (DCAS)"
+        ],
+        "preferred_format": "csv",
+        "protocol": "https",
+        "landing_page": "https://data.cityofnewyork.us/d/mdcw-n682",
+        "name": "Greenbook",
+        "preferred_mimetype": "text/csv",
+        "keywords_provided": [
+            "greenbook",
+            "green",
+            "dcas",
+            "book"
+        ],
+        "column_names": [
+            "Phone 2",
+            "Grand Parent Division",
+            "Great Grand Parent Division",
+            "Address",
+            "City",
+            "State",
+            "Agency Primary Phone",
+            "Division Primary Phone",
+            "Section",
+            "Phone 1",
+            "Agency Website",
+            "Agency Acronym",
+            "Agency Name",
+            "Last Name",
+            "Middle Initial",
+            "Fax 1",
+            "Name Suffix",
+            "Office Title",
+            "Division Name",
+            "Parent Division",
+            "Zip Code",
+            "First Name",
+            "Fax 2"
+        ],
+        "flags": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "resource": "https://data.cityofnewyork.us/api/views/mdcw-n682/rows.csv?accessType=DOWNLOAD",
+        "last_updated": "2017-05-31 20:29:15+00:00",
+        "dataset": ".",
+        "description": "The Green Book Online is a fully searchable database which gives New Yorkers the opportunity to search for the agencies, offices, boards and commissions that keep our City running. It includes listings for New York City, County, Courts, and New York State government offices.",
+        "rows": 4861,
+        "created": "2015-04-27 21:26:31+00:00",
+        "page_views": 5255
+    },
+    {
+        "columns": 8,
+        "keywords_provided": [
+            "dob",
+            "buildings",
+            "stalled construction sites"
+        ],
+        "sources": [
+            "Department of Buildings (DOB)"
+        ],
+        "preferred_format": "csv",
+        "protocol": "https",
+        "dataset": ".",
+        "landing_page": "https://data.cityofnewyork.us/d/i296-73x5",
+        "name": "DOB Stalled Construction Sites",
+        "preferred_mimetype": "text/csv",
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "flags": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "resource": "https://data.cityofnewyork.us/api/views/i296-73x5/rows.csv?accessType=DOWNLOAD",
+        "last_updated": "2017-05-31 20:28:29+00:00",
+        "description": "An overview of sites across the five boroughs where construction activity has come to an abrupt halt. Prior weekly reports are archived at DOB and are not available on NYC Open Data.",
+        "column_names": [
+            "DOBRunDate",
+            "Date Complaint Received",
+            "Complaint Number",
+            "Street Name",
+            "House Number",
+            "BIN",
+            "Community Board",
+            "Borough Name"
+        ],
+        "rows": 708000,
+        "created": "2013-04-18 15:19:09+00:00",
+        "page_views": 1976
+    },
+    {
+        "columns": 72,
+        "keywords_provided": [
+            "signs",
+            "dob",
+            "buildings"
+        ],
+        "sources": [
+            "Department of Buildings (DOB)"
+        ],
+        "preferred_format": "csv",
+        "protocol": "https",
+        "dataset": ".",
+        "landing_page": "https://data.cityofnewyork.us/d/nyis-y4yr",
+        "name": "DOB Sign Application Filings",
+        "preferred_mimetype": "text/csv",
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "flags": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "resource": "https://data.cityofnewyork.us/api/views/nyis-y4yr/rows.csv?accessType=DOWNLOAD",
+        "last_updated": "2017-05-31 20:24:41+00:00",
+        "description": "A list of sign applications filed for a particular day and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.",
+        "column_names": [
+            "Sign Illumination Type",
+            "DOBRunDate",
+            "Job Description",
+            "Special Dist Name",
+            "Zoning Distr 3",
+            "Zoning Distr 2",
+            "Job #",
+            "Doc #",
+            "Borough",
+            "House #",
+            "Street Name",
+            "Block",
+            "Lot",
+            "Bin #",
+            "Job Type",
+            "Job Status",
+            "Job Status Descrp",
+            "Latest Action Date",
+            "Building Type",
+            "Community - Board",
+            "Landmarked",
+            "Adult Estab",
+            "Property City Owned",
+            "Little e",
+            "eFiling Filed",
+            "Equipment",
+            "Other",
+            "Other Description",
+            "Applicant's First Name",
+            "Applicant's Last Name",
+            "Applicant Professional Title",
+            "Applicant License #",
+            "Professional Cert",
+            "Pre- Filing Date",
+            "Paid",
+            "Fully Paid",
+            "Plan Assigned Date",
+            "Approved",
+            "Fully Permitted",
+            "Initial Cost",
+            "Total Est. Fee",
+            "Fee Status",
+            "Sign Illumination",
+            "Sign Type",
+            "Sign Height Roof",
+            "Sign Height Curb",
+            "Sign Weight",
+            "Sign Projection",
+            "Sign SQ Footage",
+            "Sign Const Type",
+            "Inside Building Line",
+            "Sign Non-Conforming",
+            "Sign Advertising",
+            "Sign Changeable Copy",
+            "Sign Near Park",
+            "Sign Near Highway",
+            "Sign Dist from Highway",
+            "Sign Dist from Park",
+            "Sign OAC No",
+            "Sign OAC Registration",
+            "Text on Sign",
+            "Owner Type",
+            "Non-Profit",
+            "Owner's First Name",
+            "Owner's Last Name",
+            "Owner's  House #",
+            "Owner's  House Street",
+            "City",
+            "State",
+            "Zip Code",
+            "Owner's  Phone #",
+            "Zoning Distr 1"
+        ],
+        "rows": 13700,
+        "created": "2013-04-18 15:18:57+00:00",
+        "page_views": 1328
+    },
+    {
+        "columns": 54,
+        "keywords_provided": [
+            "buildings",
+            "dob",
+            "permit"
+        ],
+        "sources": [
+            "Department of Buildings (DOB)"
+        ],
+        "preferred_format": "csv",
+        "protocol": "https",
+        "dataset": ".",
+        "landing_page": "https://data.cityofnewyork.us/d/ipu4-2q9a",
+        "name": "DOB Permit Issuance",
+        "preferred_mimetype": "text/csv",
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "flags": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "resource": "https://data.cityofnewyork.us/api/views/ipu4-2q9a/rows.csv?accessType=DOWNLOAD",
+        "last_updated": "2017-05-31 20:40:32+00:00",
+        "description": "A list of permits issued for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+        "column_names": [
+            "Site Safety Mgr's First Name",
+            "HIC License",
+            "Permittee's Other Title",
+            "Act as Superintendent",
+            "Permittee's License #",
+            "Permittee's License Type",
+            "Permittee's Phone #",
+            "Site Safety Mgr Business Name",
+            "Owner's First Name",
+            "Superintendent First & Last Name",
+            "Permittee's Business Name",
+            "Expiration Date",
+            "Issuance Date",
+            "BOROUGH",
+            "Bin #",
+            "House #",
+            "Street Name",
+            "Job #",
+            "Job doc. #",
+            "Job Type",
+            "Self_Cert",
+            "Block",
+            "Lot",
+            "Community Board",
+            "Zip Code",
+            "Bldg Type",
+            "Residential",
+            "Special District 1",
+            "Special District 2",
+            "Work Type",
+            "Permit Status",
+            "Filing Status",
+            "Permit Type",
+            "Permit Sequence #",
+            "Permit Subtype",
+            "Oil Gas",
+            "Site Fill",
+            "Filing Date",
+            "Owner's Business Name",
+            "DOBRunDate",
+            "Owner's Phone #",
+            "Owner\u2019s House Zip Code",
+            "Owner\u2019s House State",
+            "Owner\u2019s House City",
+            "Owner's House Street Name",
+            "Owner's House #",
+            "Owner's Last Name",
+            "Superintendent Business Name",
+            "Owner's Business Type",
+            "Non-Profit",
+            "Permittee's Last Name",
+            "Permittee's First Name",
+            "Job Start Date",
+            "Site Safety Mgr's Last Name"
+        ],
+        "rows": 741000,
+        "created": "2013-04-18 15:18:56+00:00",
+        "page_views": 82666
+    },
+    {
+        "columns": 15,
+        "keywords_provided": [
+            "complaints",
+            "buildings",
+            "dob"
+        ],
+        "sources": [
+            "Department of Buildings (DOB)"
+        ],
+        "preferred_format": "csv",
+        "protocol": "https",
+        "dataset": ".",
+        "landing_page": "https://data.cityofnewyork.us/d/eabe-havv",
+        "name": "DOB Complaints Received",
+        "preferred_mimetype": "text/csv",
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "flags": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "resource": "https://data.cityofnewyork.us/api/views/eabe-havv/rows.csv?accessType=DOWNLOAD",
+        "last_updated": "2017-05-31 20:27:06+00:00",
+        "description": "A list of complaints received and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.",
+        "column_names": [
+            "Status",
+            "Complaint Number",
+            "DOBRunDate",
+            "Inspection Date",
+            "Disposition Code",
+            "Disposition Date",
+            "Unit",
+            "Complaint Category",
+            "Special District",
+            "Community Board",
+            "BIN",
+            "House Street",
+            "ZIP Code",
+            "House Number",
+            "Date Entered"
+        ],
+        "rows": 1010000,
+        "created": "2013-04-18 15:19:10+00:00",
+        "page_views": 10709
+    }
+]

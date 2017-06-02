@@ -139,10 +139,8 @@ class TestGlossarizeNonTable(unittest.TestCase):
 
 
 # TODO: run all of the cases, make sure that everything works as expected.
-# TODO: see if it's possible to fix the table detection problem.
 # TODO: refactor ckan_glossarizer.py.
 # TODO: write the tests for ckan_glossarizer.py.
 # TODO: rewrite all of the docstrings.
 # TODO: write a using-this-api guide.
 # TODO: write a developing-with-this-api guide.
-# TODO: delete all the temp files and generally clean up this repo.

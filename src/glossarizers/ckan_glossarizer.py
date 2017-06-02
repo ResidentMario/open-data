@@ -71,32 +71,20 @@ def write_resource_representation(domain="data.gov.sg", folder_slug="singapore",
             if multiple_datasets:
                 for dataset in metadata['result']['resources']:
                     roi_repr.append({
-                        'id': {
-                            'landing_page': landing_page,
-                            'resource': dataset['url'],
-                            'protocol': 'https',
-                            'name': "{0} - {1}".format(name, dataset['title']),  # composite name.
-                            'description': description,
-                        },
-                        'provenance': {
-                            'publisher': publisher,
-                            'sources': sources
-                        },
-                        'usage': {
-                            'last_updated': last_updated,
-                            'update_frequency': update_frequency
-                        },
-                        'tags': {
-                            'tags_provided': keywords,
-                            'topics_provided': topics
-                        },
-                        'format': {
-                            'available_formats': [dataset['format'].lower()],
-                            'preferred_format': dataset['format'].lower()
-                        },
-                        'external': {
-                            'license': license
-                        },
+                        'landing_page': landing_page,
+                        'resource': dataset['url'],
+                        'protocol': 'https',
+                        'name': "{0} - {1}".format(name, dataset['title']),  # composite name.
+                        'description': description,
+                        'publisher': publisher,
+                        'sources': sources,
+                        'last_updated': last_updated,
+                        'update_frequency': update_frequency,
+                        'tags_provided': keywords,
+                        'topics_provided': topics,
+                        'available_formats': [dataset['format'].lower()],
+                        'preferred_format': dataset['format'].lower(),
+                        'license': license,
                         'flags': []
                     })
 
@@ -104,32 +92,20 @@ def write_resource_representation(domain="data.gov.sg", folder_slug="singapore",
                 available_formats = [m['format'].lower() for m in metadata['result']['resources']]
 
                 roi_repr.append({
-                    'id': {
-                        'landing_page': landing_page,
-                        'resource': slug,
-                        'protocol': 'https',
-                        'name': name,
-                        'description': description,
-                    },
-                    'provenance': {
-                        'publisher': publisher,
-                        'sources': sources
-                    },
-                    'usage': {
-                        'last_updated': last_updated,
-                        'update_frequency': update_frequency
-                    },
-                    'tags': {
-                        'tags_provided': keywords,
-                        'topics_provided': topics
-                    },
-                    'format': {
-                        'available_formats': available_formats,
-                        'preferred_format': preferred_format
-                    },
-                    'external': {
-                        'license': license
-                    },
+                    'landing_page': landing_page,
+                    'resource': slug,
+                    'protocol': 'https',
+                    'name': name,
+                    'description': description,
+                    'publisher': publisher,
+                    'sources': sources,
+                    'last_updated': last_updated,
+                    'update_frequency': update_frequency,
+                    'tags_provided': keywords,
+                    'topics_provided': topics,
+                    'available_formats': available_formats,
+                    'preferred_format': preferred_format,
+                    'license': license,
                     'flags': []
                 })
 
@@ -155,26 +131,20 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
 
             # Get the sizing information.
             # If the resource is its own dataset, this is provided in the content header. Sometimes it is not.
-            headers = requests.head(resource['id']['resource']).headers
-            glossarized_resource['format']['preferred_mimetype'] = headers['content-type']
+            headers = requests.head(resource['resource']).headers
+            glossarized_resource['preferred_mimetype'] = headers['content-type']
 
             try:
-                glossarized_resource['sizing'] = {
-                    'filesize': headers['content-length']
-                }
+                glossarized_resource['filesize'] = headers['content-length']
                 glossarized_resource['id']['dataset'] = '.'
                 succeeded = True
 
             # If we error out, this is a packaged/gzipped file. Do sizing the basic way, with a GET request.
             except KeyError:
-                repr = limited_requests.limited_get(resource['id']['resource'], q)
+                repr = limited_requests.limited_get(resource['resource'], q)
                 try:
-                    glossarized_resource['sizing'] = {
-                        'filesize': repr[0]['filesize']
-                    }
-                    glossarized_resource['dataset'] = {
-                        'dataset': repr[0]['dataset']
-                    }
+                    glossarized_resource['filesize'] = repr[0]['filesize']
+                    glossarized_resource['dataset'] = repr[0]['dataset']
                     succeeded = True
                 except TypeError:
                     # Transient failure.
