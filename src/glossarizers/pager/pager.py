@@ -130,7 +130,7 @@ def page_socrata_for_endpoint_size(domain, uri, timeout=10):
 
     # Socrata portals appear to heavily throttle page requests, even 10-second intervals are insufficient at times.
     import time
-    for i in range(0, 20):
+    for i in range(0, 100):
         if len(metadata_pairs) < 2:
             time.sleep(0.1)
         else:

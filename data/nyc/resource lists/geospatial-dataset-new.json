@@ -1,0 +1,4335 @@
+[
+    {
+        "description": "2017-2018 School Zones (as of April 24, 2017). Files are in a GIS Shapefile format. They are broken down by elementary school zones (NYC_E) and middle school zones (NYC_M)",
+        "landing_page": "https://data.cityofnewyork.us/d/ghq4-ydq4",
+        "sources": [
+            "Department of Education (DOE)"
+        ],
+        "name": "2017-2018 School Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ghq4-ydq4?method=export&format=GeoJSON",
+        "page_views": 117,
+        "flags": [],
+        "last_updated": "2017-05-01 21:34:37+00:00",
+        "created": "2017-05-01 21:27:51+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Education"
+        ],
+        "keywords_provided": [
+            "school zones",
+            "elementary school",
+            "middle school",
+            "maps",
+            "education",
+            "doe",
+            "shapefile"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Locations of bike lanes and routes throughout the City",
+        "landing_page": "https://data.cityofnewyork.us/d/7vsa-caz7",
+        "sources": [
+            "Department of Transportation (DOT)"
+        ],
+        "name": "Bike Routes",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7vsa-caz7?method=export&format=GeoJSON",
+        "page_views": 340,
+        "flags": [],
+        "last_updated": "2017-04-14 19:23:46+00:00",
+        "created": "2017-04-13 20:31:54+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "The Mandatory Inclusionary Housing program was adopted in 2016 to encourage the creation of housing for families at a range of incomes in areas planned for housing growth. When actions of the Commission significantly increase residential density, the City Planning Commission and the City Council will apply one or more options to require affordable housing as part of new residential construction.",
+        "landing_page": "https://data.cityofnewyork.us/d/bw8v-wzdr",
+        "sources": [
+            "Department of City Planning"
+        ],
+        "name": "Mandatory Inclusionary Housing (MIH)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/bw8v-wzdr?method=export&format=GeoJSON",
+        "page_views": 111,
+        "flags": [],
+        "last_updated": "2017-05-02 17:08:56+00:00",
+        "created": "2017-03-13 19:05:13+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "City subway lines.",
+        "landing_page": "https://data.cityofnewyork.us/d/3qz8-muuu",
+        "sources": [
+            "Metropolitan Transportation Authority (MTA)"
+        ],
+        "name": "Subway Lines",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/3qz8-muuu?method=export&format=GeoJSON",
+        "page_views": 1060,
+        "flags": [],
+        "last_updated": "2017-01-05 17:09:50+00:00",
+        "created": "2017-01-05 17:05:00+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "train",
+            "transportation",
+            "transit",
+            "basemap",
+            "cartography",
+            "map",
+            "location",
+            "doitt gis",
+            "doittgis",
+            "transfer",
+            "station",
+            "line",
+            "travel",
+            "subway"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "The NYC Street Centerline (CSCL) is a road-bed representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types. Please use this dataset to determine what physicalid maps to the physicalid street segment in the <a href=\"https://data.cityofnewyork.us/dataset/DSNY-PlowNYC-Data/34hf-h2fw\">DSNY PlowNYC dataset for the 2016/2017 winter season<a/>. For a current version of CSCL, please use <a href=\"https://data.cityofnewyork.us/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b\">this dataset <a/>",
+        "landing_page": "https://data.cityofnewyork.us/d/uxpt-rzip",
+        "sources": [
+            "Department of Information Technology and Telecommunications (DOITT)"
+        ],
+        "name": "NYC Street Centerline (CSCL) for PlowNYC Winter 2016/17",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uxpt-rzip?method=export&format=GeoJSON",
+        "page_views": 171,
+        "flags": [],
+        "last_updated": "2017-02-06 16:51:47+00:00",
+        "created": "2016-12-07 20:31:08+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Visual display of the Stealth Fiber Map kmz file found in the Broadband Data Dig dataset.\n\n(https://data.cityofnewyork.us/dataset/Broadband-Data-Dig-Datasets/ft4n-yqee)",
+        "landing_page": "https://data.cityofnewyork.us/d/u6su-4fpt",
+        "sources": [
+            null
+        ],
+        "name": "Stealth Fiber Map",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/u6su-4fpt?method=export&format=GeoJSON",
+        "page_views": 83,
+        "flags": [],
+        "last_updated": "2016-11-19 14:00:11+00:00",
+        "created": "2016-11-18 23:29:09+00:00",
+        "column_names": [],
+        "topics_provided": [
+            ""
+        ],
+        "keywords_provided": [
+            "broadband",
+            "broadband data dig",
+            "cable franchise areas",
+            "digital divide",
+            "internet"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Visual display of the cable franchise areas shapefiles found in the Broadband Data Dig dataset.  (https://data.cityofnewyork.us/dataset/Broadband-Data-Dig-Datasets/ft4n-yqee)",
+        "landing_page": "https://data.cityofnewyork.us/d/fw3w-apxs",
+        "sources": [
+            null
+        ],
+        "name": "Cable Franchise Areas",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/fw3w-apxs?method=export&format=GeoJSON",
+        "page_views": 67,
+        "flags": [],
+        "last_updated": "2016-11-19 13:58:37+00:00",
+        "created": "2016-11-18 23:25:05+00:00",
+        "column_names": [],
+        "topics_provided": [
+            ""
+        ],
+        "keywords_provided": [
+            "digital divide",
+            "broadband",
+            "cable franchise areas",
+            "broadband data dig",
+            "internet"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "The Transportation Division of the New York City Department of City Planning (NYCDCP) has performed annual bike counts in Manhattan since 1999. The counts have been conducted along designated bicycle routes at 10 on-street and 5 off-street locations during the fall season. These locations have remained generally consistent. The data collected includes cyclist/user volumes, helmet usage, use of bike lane, gender, etc. The bike counts data can offer insights into the overall trends in user demographics and travel patterns over time.",
+        "landing_page": "https://data.cityofnewyork.us/d/xiyt-f6tz",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "NYCDCP Manhattan Bike Count Locations",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xiyt-f6tz?method=export&format=GeoJSON",
+        "page_views": 284,
+        "flags": [],
+        "last_updated": "2017-01-20 19:43:43+00:00",
+        "created": "2016-09-12 19:47:13+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "bicycle",
+            "dcp",
+            "bike"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Shapefile of zoning section map index, grid to determine which zoning section map relates to specific areas of NYC.",
+        "landing_page": "https://data.cityofnewyork.us/d/bpt7-i8t8",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Zoning Map Index: Section",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/bpt7-i8t8?method=export&format=GeoJSON",
+        "page_views": 84,
+        "flags": [],
+        "last_updated": "2016-09-12 21:46:38+00:00",
+        "created": "2016-09-12 19:21:09+00:00",
+        "column_names": [],
+        "topics_provided": [
+            ""
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Shapefile of zoning quartersection map index. Grid to determine which zoning quartersection map relates to specific areas of NYC.",
+        "landing_page": "https://data.cityofnewyork.us/d/58k2-kgtb",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Zoning Map Index: Quartersection",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/58k2-kgtb?method=export&format=GeoJSON",
+        "page_views": 100,
+        "flags": [],
+        "last_updated": "2016-09-12 21:46:34+00:00",
+        "created": "2016-09-12 19:21:07+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "city planning",
+            "dcp",
+            "map",
+            "zoning"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Wi-Fi Provider: LinkNYC - CityBridge, LLC (Free): LinkNYC 1 gigabyte (GB), Free Wi-Fi Internet Kiosks, Free Nation Wide Phone Locals.",
+        "landing_page": "https://data.cityofnewyork.us/d/7b32-6xny",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "LinkNYC Locations Shapefile",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7b32-6xny?method=export&format=GeoJSON",
+        "page_views": 227,
+        "flags": [],
+        "last_updated": "2017-05-24 21:02:04+00:00",
+        "created": "2016-09-08 17:49:44+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "hotspot",
+            "internet",
+            "link nyc locations",
+            "kiosk",
+            "wifi",
+            "wi-fi"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "The Points Of Interest points are a compilation of what the different city agencies consider to be a Common Place or Place/Point of Interest.",
+        "landing_page": "https://data.cityofnewyork.us/d/rxuy-2muj",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DOITT)"
+        ],
+        "name": "Points Of Interest",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/rxuy-2muj?method=export&format=GeoJSON",
+        "page_views": 274,
+        "flags": [],
+        "last_updated": "2017-05-25 18:47:45+00:00",
+        "created": "2016-08-30 17:54:57+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "places",
+            "doitt gis",
+            "gis",
+            "common",
+            "doitt",
+            "interest"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Shapefile of city-owned and leased properties and uses.",
+        "landing_page": "https://data.cityofnewyork.us/d/2mhq-um7h",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "City Owned and Leased Property (COLP)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2mhq-um7h?method=export&format=GeoJSON",
+        "page_views": 517,
+        "flags": [],
+        "last_updated": "2016-11-22 16:07:53+00:00",
+        "created": "2016-07-11 14:12:01+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "property",
+            "colp"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Shapefile of Transit Zone boundaries where parking requirements are eliminated or reduced for a range of affordable and senior housing units.",
+        "landing_page": "https://data.cityofnewyork.us/d/cpcf-tcxs",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Transit Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/cpcf-tcxs?method=export&format=GeoJSON",
+        "page_views": 331,
+        "flags": [],
+        "last_updated": "2017-01-20 16:28:18+00:00",
+        "created": "2016-07-05 18:24:30+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Street tree data from the TreesCount! 2015 Street Tree Census, conducted by volunteers and staff organized by NYC Parks & Recreation and partner organizations. Tree data collected includes tree species, diameter and perception of health. Accompanying blockface data is available indicating status of data collection and data release citywide.",
+        "landing_page": "https://data.cityofnewyork.us/d/pi5s-9p35",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "2015 Street Tree Census - Tree Data",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pi5s-9p35?method=export&format=GeoJSON",
+        "page_views": 3379,
+        "flags": [],
+        "last_updated": "2017-02-17 19:40:12+00:00",
+        "created": "2016-06-03 12:10:29+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "census",
+            "dpr",
+            "trees",
+            "parks",
+            "treescount"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Blockface data from the TreesCount! 2015 Street Tree Census, conducted by volunteers and staff organized by NYC Parks & Recreation and partner organizations. Blockface data includes tree counts and data collection status by block. Accompanying street tree data is available, indicating tree-level details such as tree species, size and other characteristics.",
+        "landing_page": "https://data.cityofnewyork.us/d/2cd9-59fr",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "2015 Street Tree Census - Blockface Data",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2cd9-59fr?method=export&format=GeoJSON",
+        "page_views": 564,
+        "flags": [],
+        "last_updated": "2017-01-26 20:06:09+00:00",
+        "created": "2016-06-03 12:03:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "treescount",
+            "parks",
+            "dpr",
+            "census",
+            "trees"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Citywide street tree data from the 2005 Street Tree Census, conducted partly by volunteers organized by NYC Parks & Recreation.  Trees were inventoried by address, and were collected from 2005-2006.  Data collected includes tree species, diameter, condition.",
+        "landing_page": "https://data.cityofnewyork.us/d/ye4j-rp7z",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "2005 Street Tree Census",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ye4j-rp7z?method=export&format=GeoJSON",
+        "page_views": 371,
+        "flags": [],
+        "last_updated": "2016-08-27 18:40:58+00:00",
+        "created": "2016-06-01 19:56:58+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "recreation",
+            "dpr",
+            "parks",
+            "trees",
+            "census"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Shapefile of footprint outlines of buildings in New York City. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/nqwf-w8eh",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Building Footprints",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/nqwf-w8eh?method=export&format=GeoJSON",
+        "page_views": 10735,
+        "flags": [],
+        "last_updated": "2017-05-08 14:46:46+00:00",
+        "created": "2016-05-03 14:15:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "2016-2017 School Zones. Files are in a GIS Shapefile format. They are broken down by elementary school zones (ES_Zones), middle school zones (MS_Zones) and high school zones (HS_Zones).",
+        "landing_page": "https://data.cityofnewyork.us/d/ux7j-iww6",
+        "sources": [
+            "Department of Education (DOE)"
+        ],
+        "name": "2016-2017 School Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ux7j-iww6?method=export&format=GeoJSON",
+        "page_views": 696,
+        "flags": [],
+        "last_updated": "2016-08-27 18:42:35+00:00",
+        "created": "2016-04-18 21:02:28+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Education"
+        ],
+        "keywords_provided": [
+            "middle school",
+            "elementary school",
+            "high school",
+            "doe",
+            "2016-2017 school zones",
+            "education"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "2015-2016 School Zones. Files are in a GIS Shapefile format. They are broken down by elementary school zones (ES_Zones), middle school zones (MS_Zones) and high school zones (HS_Zones).",
+        "landing_page": "https://data.cityofnewyork.us/d/8ztn-rmii",
+        "sources": [
+            "Department of Education (DOE)"
+        ],
+        "name": "2015-2016 School Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/8ztn-rmii?method=export&format=GeoJSON",
+        "page_views": 158,
+        "flags": [],
+        "last_updated": "2016-08-27 18:40:31+00:00",
+        "created": "2016-04-18 20:50:00+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Education"
+        ],
+        "keywords_provided": [
+            "high school",
+            "doe",
+            "education",
+            "elementary school",
+            "es",
+            "hs",
+            "middle school",
+            "ms",
+            "school zones 2015-2016"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Shapefile of historical footprint outlines of buildings in New York City. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/s5zg-yzea",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Building Footprints Historical Shape",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/s5zg-yzea?method=export&format=GeoJSON",
+        "page_views": 492,
+        "flags": [],
+        "last_updated": "2017-05-10 16:32:58+00:00",
+        "created": "2016-04-04 15:59:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Cooling towers are structures typically found on the roofs of large buildings that enclose large fans used for ventilation and cooling. Only cooling towers greater than 4ft in diameter were captured. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/miz8-534t",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Cooling Tower",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/miz8-534t?method=export&format=GeoJSON",
+        "page_views": 517,
+        "flags": [],
+        "last_updated": "2016-08-27 18:19:02+00:00",
+        "created": "2016-03-25 19:39:15+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "doitt",
+            "planimetrics",
+            "gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Retaining Wall. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/uvgd-xsc8",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Retaining Wall",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uvgd-xsc8?method=export&format=GeoJSON",
+        "page_views": 100,
+        "flags": [],
+        "last_updated": "2016-08-27 18:34:42+00:00",
+        "created": "2016-03-15 14:29:58+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "retaining wall",
+            "doitgis",
+            "doitt gis",
+            "planimetrics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/27b5-th78",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Median",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/27b5-th78?method=export&format=GeoJSON",
+        "page_views": 219,
+        "flags": [],
+        "last_updated": "2016-08-27 18:37:16+00:00",
+        "created": "2016-03-14 21:46:43+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "planimetrics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Elevation points. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/szwg-xci6",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Elevation points",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/szwg-xci6?method=export&format=GeoJSON",
+        "page_views": 882,
+        "flags": [],
+        "last_updated": "2016-08-27 18:38:27+00:00",
+        "created": "2016-03-14 21:37:15+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "planimetrics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/ikvd-dex8",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Curbs",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ikvd-dex8?method=export&format=GeoJSON",
+        "page_views": 491,
+        "flags": [],
+        "last_updated": "2016-08-27 18:39:50+00:00",
+        "created": "2016-03-14 21:14:52+00:00",
+        "column_names": [],
+        "topics_provided": [
+            ""
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "planimetrics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/j7ww-5ipv",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Swimming Pools",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/j7ww-5ipv?method=export&format=GeoJSON",
+        "page_views": 203,
+        "flags": [],
+        "last_updated": "2016-08-27 18:39:44+00:00",
+        "created": "2016-03-14 21:09:34+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "planimetrics",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/a9xv-vek9",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Sidewalk Centerline",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/a9xv-vek9?method=export&format=GeoJSON",
+        "page_views": 169,
+        "flags": [],
+        "last_updated": "2016-08-27 18:36:48+00:00",
+        "created": "2016-03-14 21:09:33+00:00",
+        "column_names": [],
+        "topics_provided": [
+            ""
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "planimetrics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/m4mp-ji5y",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Plazas",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/m4mp-ji5y?method=export&format=GeoJSON",
+        "page_views": 352,
+        "flags": [],
+        "last_updated": "2016-08-27 18:34:01+00:00",
+        "created": "2016-03-14 21:09:20+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "planimetrics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Miscellaneous structures. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/7acq-q3tq",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Miscellaneous Structures",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7acq-q3tq?method=export&format=GeoJSON",
+        "page_views": 217,
+        "flags": [],
+        "last_updated": "2016-08-27 18:39:25+00:00",
+        "created": "2016-03-14 21:09:13+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "gis",
+            "doitt",
+            "planimetrics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Worst case hurricane surge inundation areas for category 1 through 4 hurricanes, based on the bearing of the storm. The bearing is the direction towards which the storm is moving. These inundation areas are based on the National Hurricane Center's 2010 SLOSH (Sea Lake and Overland Surge from Hurricanes) Model for the NY3 basin.  The zones are created with the assumption that the storm surge will hit at high tide, which is assumed to be 2 feet for the entire region.",
+        "landing_page": "https://data.cityofnewyork.us/d/6jek-z9ge",
+        "sources": [
+            "Office of Emergency Management (OEM)"
+        ],
+        "name": "Hurricane Inundation Zones NE",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/6jek-z9ge?method=export&format=GeoJSON",
+        "page_views": 69,
+        "flags": [],
+        "last_updated": "2016-08-27 18:33:16+00:00",
+        "created": "2016-01-15 15:39:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Worst case hurricane surge inundation areas for category 1 through 4 hurricanes, based on the bearing of the storm. The bearing is the direction towards which the storm is moving. These inundation areas are based on the National Hurricane Center's 2010 SLOSH (Sea Lake and Overland Surge from Hurricanes) Model for the NY3 basin.  The zones are created with the assumption that the storm surge will hit at high tide, which is assumed to be 2 feet for the entire region.",
+        "landing_page": "https://data.cityofnewyork.us/d/uhb2-uqfs",
+        "sources": [
+            "Office of Emergency Management (OEM)"
+        ],
+        "name": "Hurricane Inundation Zones NNE",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uhb2-uqfs?method=export&format=GeoJSON",
+        "page_views": 71,
+        "flags": [],
+        "last_updated": "2016-08-27 18:33:33+00:00",
+        "created": "2016-01-15 15:38:15+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Worst case hurricane surge inundation areas for category 1 through 4 hurricanes, based on the bearing of the storm. The bearing is the direction towards which the storm is moving. These inundation areas are based on the National Hurricane Center's 2010 SLOSH (Sea Lake and Overland Surge from Hurricanes) Model for the NY3 basin.  The zones are created with the assumption that the storm surge will hit at high tide, which is assumed to be 2 feet for the entire region.",
+        "landing_page": "https://data.cityofnewyork.us/d/tpix-uwie",
+        "sources": [
+            "Office of Emergency Management (OEM)"
+        ],
+        "name": "Hurricane Inundation Zones NW",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tpix-uwie?method=export&format=GeoJSON",
+        "page_views": 69,
+        "flags": [],
+        "last_updated": "2016-08-27 18:33:11+00:00",
+        "created": "2016-01-15 15:37:04+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Worst case hurricane surge inundation areas for category 1 through 4 hurricanes, based on the bearing of the storm. The bearing is the direction towards which the storm is moving. These inundation areas are based on the National Hurricane Center's 2010 SLOSH (Sea Lake and Overland Surge from Hurricanes) Model for the NY3 basin.  The zones are created with the assumption that the storm surge will hit at high tide, which is assumed to be 2 feet for the entire region.",
+        "landing_page": "https://data.cityofnewyork.us/d/7vu2-3skk",
+        "sources": [
+            "Office of Emergency Management (OEM)"
+        ],
+        "name": "Hurricane Inundation Zones WNW",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7vu2-3skk?method=export&format=GeoJSON",
+        "page_views": 57,
+        "flags": [],
+        "last_updated": "2016-08-27 18:33:36+00:00",
+        "created": "2016-01-15 15:37:01+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Worst case hurricane surge inundation areas for category 1 through 4 hurricanes, based on the bearing of the storm. The bearing is the direction towards which the storm is moving. These inundation areas are based on the National Hurricane Center's 2010 SLOSH (Sea Lake and Overland Surge from Hurricanes) Model for the NY3 basin.  The zones are created with the assumption that the storm surge will hit at high tide, which is assumed to be 2 feet for the entire region.",
+        "landing_page": "https://data.cityofnewyork.us/d/2jj7-gj6x",
+        "sources": [
+            "Office of Emergency Management (OEM)"
+        ],
+        "name": "Hurricane Inundation Zones NNW",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2jj7-gj6x?method=export&format=GeoJSON",
+        "page_views": 64,
+        "flags": [],
+        "last_updated": "2016-08-27 18:33:51+00:00",
+        "created": "2016-01-15 15:36:58+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Worst case hurricane surge inundation areas for category 1 through 4 hurricanes, based on the bearing of the storm. The bearing is the direction towards which the storm is moving. These inundation areas are based on the National Hurricane Center's 2010 SLOSH (Sea Lake and Overland Surge from Hurricanes) Model for the NY3 basin.  The zones are created with the assumption that the storm surge will hit at high tide, which is assumed to be 2 feet for the entire region.",
+        "landing_page": "https://data.cityofnewyork.us/d/pask-bcmz",
+        "sources": [
+            "Office of Emergency Management (OEM)"
+        ],
+        "name": "Hurricane Inundation Zones N",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pask-bcmz?method=export&format=GeoJSON",
+        "page_views": 155,
+        "flags": [],
+        "last_updated": "2016-08-27 18:33:12+00:00",
+        "created": "2016-01-15 15:36:57+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "An index of pedestrian volumes tracking the long-term trends of neighborhood commercial corridors. Data is collected at 114 locations, including 100 on-street locations (primarily retail corridors), 13 East River and Harlem River bridge locations, and the Hudson River Greenway. Screenline sampling is conducted during May and September on the sidewalk, mid-block (or mid-bridge) on both sides of street where applicable. Pedestrian volumes at 50 sample locations around the City are combined to create the Pedestrian Volume Index for the Mayor\u2019s Management Report.\r\n\r\n\r\nClick here for metadata - http://www.nyc.gov/html/dot/downloads/pdf/bi-annual-ped-count-readme.pdf",
+        "landing_page": "https://data.cityofnewyork.us/d/2de2-6x2h",
+        "sources": [
+            "Department of Transportation (DOT)"
+        ],
+        "name": "Bi-Annual Pedestrian Counts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2de2-6x2h?method=export&format=GeoJSON",
+        "page_views": 1333,
+        "flags": [],
+        "last_updated": "2017-01-20 22:17:37+00:00",
+        "created": "2015-12-29 22:44:36+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Atomic polygons serve as a set of basic building blocks for generating the polygons of many of the district types represented in the CSCL database. Feature classes such as election district, school district, census block, FDNY administrative company, and community district can be dissolved by combining the appropriate fields in atomic polygons.",
+        "landing_page": "https://data.cityofnewyork.us/d/djze-f4qi",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Atomic Polygons",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/djze-f4qi?method=export&format=GeoJSON",
+        "page_views": 280,
+        "flags": [],
+        "last_updated": "2017-03-09 15:37:35+00:00",
+        "created": "2015-03-04 17:48:52+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "atomic polygons"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Department of Parks and Recreation (DPR) athletic facilities.",
+        "landing_page": "https://data.cityofnewyork.us/d/yann-8etk",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Athletic Facilities",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/yann-8etk?method=export&format=GeoJSON",
+        "page_views": 598,
+        "flags": [],
+        "last_updated": "2016-08-27 18:19:21+00:00",
+        "created": "2013-11-25 17:29:03+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "parks",
+            "dpr",
+            "athletic facilities"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Railroad Structure. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/5dic-xnxs",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Railroad Structure",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/5dic-xnxs?method=export&format=GeoJSON",
+        "page_views": 549,
+        "flags": [],
+        "last_updated": "2016-08-27 18:19:21+00:00",
+        "created": "2014-11-18 00:46:34+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "doittgis",
+            "doitt gis",
+            "railroad",
+            "planimetrics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Airport Point",
+        "landing_page": "https://data.cityofnewyork.us/d/f6st-pb23",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Airport Point",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/f6st-pb23?method=export&format=GeoJSON",
+        "page_views": 232,
+        "flags": [],
+        "last_updated": "2016-08-27 18:30:58+00:00",
+        "created": "2014-11-18 00:24:33+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "airport point",
+            "doittgis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Planimetric basemap layer containing pavement edge features. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/x9uq-u3qs",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Pavement Edge",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/x9uq-u3qs?method=export&format=GeoJSON",
+        "page_views": 2119,
+        "flags": [],
+        "last_updated": "2016-08-27 18:28:24+00:00",
+        "created": "2014-06-25 17:33:26+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "edge",
+            "planimetrics",
+            "pavement",
+            "nyc",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Planimetric basemap layer containing the roadbed. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/xgwd-7vhd",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Roadbed",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xgwd-7vhd?method=export&format=GeoJSON",
+        "page_views": 1887,
+        "flags": [],
+        "last_updated": "2016-08-27 18:29:24+00:00",
+        "created": "2014-06-25 18:43:35+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "planimetrics",
+            "nyc",
+            "doitt",
+            "gis",
+            "roadbed"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "The NYC Street Centerline (CSCL) is a road-bed representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types",
+        "landing_page": "https://data.cityofnewyork.us/d/exjm-f27b",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "NYC Street Centerline (CSCL)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/exjm-f27b?method=export&format=GeoJSON",
+        "page_views": 4704,
+        "flags": [],
+        "last_updated": "2017-05-25 18:51:01+00:00",
+        "created": "2014-06-19 18:48:48+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "pub",
+            "centerline",
+            "streets",
+            "doittgis",
+            "cscl"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Planimetric basemap layer containing hydrography. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/drh3-e2fd",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Hydrography",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/drh3-e2fd?method=export&format=GeoJSON",
+        "page_views": 1791,
+        "flags": [],
+        "last_updated": "2016-08-27 18:28:49+00:00",
+        "created": "2014-06-25 18:31:24+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "nyc",
+            "hydrography",
+            "planimetrics",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Post Office",
+        "landing_page": "https://data.cityofnewyork.us/d/gpxw-bq7a",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Post Office",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/gpxw-bq7a?method=export&format=GeoJSON",
+        "page_views": 295,
+        "flags": [],
+        "last_updated": "2016-08-27 18:29:48+00:00",
+        "created": "2014-11-18 00:44:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "doittgis",
+            "post office"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Schoolyard to playground conversions",
+        "landing_page": "https://data.cityofnewyork.us/d/urxm-vzzk",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Schoolyards To Playgrounds",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/urxm-vzzk?method=export&format=GeoJSON",
+        "page_views": 480,
+        "flags": [],
+        "last_updated": "2016-08-27 18:31:11+00:00",
+        "created": "2013-11-25 18:44:37+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "dpr",
+            "parks",
+            "schoolyards to playgrounds"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This is the 500-Year Floodplain for the 2020s based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (11 inches).  Please see the Disclaimer PDF for more information. Data Provided by the Mayor's Office of Long-Term Planning and Sustainability (OLTPS) on behalf of CUNY Institute for Sustainable Cities (CISC) and the New York Panel on Climate Change (NPCC).",
+        "landing_page": "https://data.cityofnewyork.us/d/ajyu-7sgg",
+        "sources": [
+            "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)"
+        ],
+        "name": "Sea Level Rise Maps (2020s 500-year Floodplain)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ajyu-7sgg?method=export&format=GeoJSON",
+        "page_views": 819,
+        "flags": [],
+        "last_updated": "2016-08-27 18:26:08+00:00",
+        "created": "2013-07-23 21:20:10+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "sea level rise maps (2020s 500-year floodplain)",
+            "maps",
+            "ocean",
+            "oltps"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This data tracks the blocks that have been planted through NYC Parks\u2019 street tree block planting program, a major component of the MillionTreesNYC initiative.  When a block planting is completed for specific street segment, all available and appropriate locations for street tree installation have been planted.  This dataset is based on the Citywide Street Centerline data.",
+        "landing_page": "https://data.cityofnewyork.us/d/vr8g-vfny",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "MillionTreesNYC Block Planting Locations",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/vr8g-vfny?method=export&format=GeoJSON",
+        "page_views": 540,
+        "flags": [],
+        "last_updated": "2016-12-20 22:32:07+00:00",
+        "created": "2015-10-20 13:56:11+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "nycopendata",
+            "trees",
+            "parks",
+            "nature",
+            "milliontreesnyc"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of City Council Districts",
+        "landing_page": "https://data.cityofnewyork.us/d/yusd-j4xi",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "City Council Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/yusd-j4xi?method=export&format=GeoJSON",
+        "page_views": 2069,
+        "flags": [],
+        "last_updated": "2017-03-09 17:01:19+00:00",
+        "created": "2013-01-29 22:33:42+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "boundary",
+            "cartography",
+            "map",
+            "location",
+            "voting",
+            "dcp",
+            "city council districts",
+            "election",
+            "geographic",
+            "city council",
+            "elect",
+            "council"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Boroughs (water areas excluded)",
+        "landing_page": "https://data.cityofnewyork.us/d/tqmj-j8zm",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Borough Boundaries",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tqmj-j8zm?method=export&format=GeoJSON",
+        "page_views": 12880,
+        "flags": [],
+        "last_updated": "2017-03-08 21:56:12+00:00",
+        "created": "2013-01-29 23:04:59+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "water areas",
+            "borough boundaries",
+            "data",
+            "dcp"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data:  A specified area in which the Inclusionary Housing Program is applicable. The program modifies the floor area ratio (FAR) and offers a bonus for developments that provide affordable housing.",
+        "landing_page": "https://data.cityofnewyork.us/d/w83z-2kf9",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Inclusionary Housing Designated Areas",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/w83z-2kf9?method=export&format=GeoJSON",
+        "page_views": 677,
+        "flags": [],
+        "last_updated": "2017-01-20 16:25:52+00:00",
+        "created": "2013-01-29 18:25:36+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "dcp",
+            "inclusionary housing designated areas",
+            "city planning"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Empower Zones",
+        "landing_page": "https://data.cityofnewyork.us/d/khkb-h6hx",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Empower Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/khkb-h6hx?method=export&format=GeoJSON",
+        "page_views": 656,
+        "flags": [],
+        "last_updated": "2016-08-27 18:26:21+00:00",
+        "created": "2013-04-05 19:56:32+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "cartography",
+            "empower",
+            "zone",
+            "map",
+            "location",
+            "geographic",
+            "basemap"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of 2010 Census Blocks (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/v9xd-tt3e",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "2010 Census Blocks (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/v9xd-tt3e?method=export&format=GeoJSON",
+        "page_views": 376,
+        "flags": [],
+        "last_updated": "2017-03-09 15:30:07+00:00",
+        "created": "2013-01-23 22:36:26+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "city planning",
+            "census",
+            "water areas",
+            "dcp",
+            "2010 census blocks (water areas included)"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Planimetric basemap layer containing railroad lines. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/i7a5-bsik",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Railroad Line",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/i7a5-bsik?method=export&format=GeoJSON",
+        "page_views": 1551,
+        "flags": [],
+        "last_updated": "2016-08-27 18:29:16+00:00",
+        "created": "2014-06-25 16:52:02+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "rail road",
+            "nyc",
+            "planimetrics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Geographic boundaries of NYPD sectors.",
+        "landing_page": "https://data.cityofnewyork.us/d/eizi-ujye",
+        "sources": [
+            "NYPD"
+        ],
+        "name": "NYPD Sectors",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/eizi-ujye?method=export&format=GeoJSON",
+        "page_views": 238,
+        "flags": [],
+        "last_updated": "2016-11-16 19:54:06+00:00",
+        "created": "2015-09-01 18:37:09+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [
+            "boundary",
+            "sector",
+            "precinct",
+            "police",
+            "nypd"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "The polygons in this dataset show mapped forest restoration planting polygons. These polygons depict areas where invasive plants were removed and native trees and/or shrubs were planted under the purview of NYC Parks? Natural Resources Group as part of the MillionTreesNYC initiative on property under the jurisdiction of NYC Parks. Spring plantings occur between January 1 and June 30, while Fall plantings occur between July 1 and December 31 of any year. Older restoration polygons were mapped via heads-up digitizing while the location of newer polygons have been collected using a high-accuracy GPS device.",
+        "landing_page": "https://data.cityofnewyork.us/d/pn7c-bqri",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "MillionTreesNYC Forest Restoration Planting Sites",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pn7c-bqri?method=export&format=GeoJSON",
+        "page_views": 267,
+        "flags": [],
+        "last_updated": "2016-08-27 18:29:14+00:00",
+        "created": "2015-09-29 17:27:21+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "department of parks and recreation",
+            "environment",
+            "parks",
+            "trees"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Locations of the Community Operations facilities as of September 2015.",
+        "landing_page": "https://data.cityofnewyork.us/d/pv8j-5ywy",
+        "sources": [
+            "New York City Housing Authority (NYCHA)"
+        ],
+        "name": "Map of NYCHA Community Facilities",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pv8j-5ywy?method=export&format=GeoJSON",
+        "page_views": 648,
+        "flags": [],
+        "last_updated": "2016-08-27 18:29:18+00:00",
+        "created": "2013-03-29 13:52:38+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "community center",
+            "building sizes",
+            "nycha",
+            "senior center",
+            "nyc housing",
+            "gis",
+            "facilities"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Runaway and Homeless Youth Services",
+        "landing_page": "https://data.cityofnewyork.us/d/h682-ywyg",
+        "sources": [
+            "Department of Youth and Community Development (DYCD)"
+        ],
+        "name": "DYCD RHY (Runaway and Homeless Youth) Services",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h682-ywyg?method=export&format=GeoJSON",
+        "page_views": 650,
+        "flags": [],
+        "last_updated": "2016-08-27 18:29:51+00:00",
+        "created": "2013-04-05 19:46:12+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "geographic",
+            "cartography",
+            "basemap",
+            "runaway",
+            "run",
+            "rhy",
+            "map",
+            "youth",
+            "location",
+            "homeless"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "CPI Zones are neighborhoods where NYC Parks will pursue a combination of capital investment and/or targeted physical improvements, enhanced programming, and public outreach efforts through the Community Parks Initiative launched in 2014.  CPI Zones are boundaries based on the NYC Department of City Planning's Neighborhood Tabulation Areas. These NTAs were selected as they capture neighborhoods that met several criteria for the initiative. They are densely populated and growing neighborhoods where there are higher-than-average concentrations of poverty as measured through the 2010 US Census, and they contain parks that are suitable for recreational redevelopment and received less than $250,000 in capital investment from 1992-2013.",
+        "landing_page": "https://data.cityofnewyork.us/d/vvdx-b56i",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Community Parks Initiative Zone Boundaries",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/vvdx-b56i?method=export&format=GeoJSON",
+        "page_views": 377,
+        "flags": [],
+        "last_updated": "2016-08-27 18:30:07+00:00",
+        "created": "2015-08-20 20:51:44+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Parking Lots",
+        "landing_page": "https://data.cityofnewyork.us/d/e2f7-cs7i",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Parking Lots",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/e2f7-cs7i?method=export&format=GeoJSON",
+        "page_views": 1587,
+        "flags": [],
+        "last_updated": "2016-08-27 18:27:33+00:00",
+        "created": "2013-11-25 18:17:45+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "dpr",
+            "parking lots",
+            "parks"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Summer Youth Employment",
+        "landing_page": "https://data.cityofnewyork.us/d/yqz9-aduk",
+        "sources": [
+            "Department of Youth and Community Development (DYCD)"
+        ],
+        "name": "DYCD SYEP (Summer Youth Employment)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/yqz9-aduk?method=export&format=GeoJSON",
+        "page_views": 783,
+        "flags": [],
+        "last_updated": "2016-08-27 18:30:11+00:00",
+        "created": "2013-04-05 19:48:05+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "syep",
+            "youth",
+            "young",
+            "work",
+            "basemap",
+            "bigapps",
+            "big apps",
+            "cartography",
+            "#centerfordebtoreducation",
+            "#education",
+            "employ",
+            "employment",
+            "geographic",
+            "job",
+            "location",
+            "map",
+            "#socialservices"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This dataset contains information on all items designated or under consideration for designation (i.e. calendared) by the New York City Landmarks Preservation Commission (LPC), including items that may have been denied designation or overturned. The dataset contains records for each individual, scenic, or interior landmark, as well as properties or sites located within the boundaries of historic districts. Please note that points in this dataset represent individual buildings in addition to non-building sites (such as vacant lots or monuments) regulated by LPC. It is possible for a single property to have multiple designations (such as individual and interior designations, or individual and historic district). For this reason, it is not uncommon to see multiple points on a single tax lot and multiple records for a single property within the database. Please pay close attention to the \"MOST_CURRENT,\" \"BBL_STATUS and \"LAST_ACTION_ON_LP\" fields, which together denote the designation status of a site/property (see Attribute Definitions for more information). The geographic locations of the points in this dataset are derived primarily from the Department of City Planning's PLUTO data in combination with the Department of Information Technology & Telecommunication's building footprint information. Because this dataset is not automatically updated when changes occur in the underlying dataset, BIN numbers and tax lot information are potentially out of date. Please pay close attention to the field descriptions present in the file's metadata to understand how to use this data set.",
+        "landing_page": "https://data.cityofnewyork.us/d/ch5p-r223",
+        "sources": [
+            "Landmarks Preservation Commission (LPC)"
+        ],
+        "name": "Individual Landmarks",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ch5p-r223?method=export&format=GeoJSON",
+        "page_views": 2208,
+        "flags": [],
+        "last_updated": "2016-12-22 00:24:20+00:00",
+        "created": "2015-03-11 21:42:34+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "Planimetric basemap layer containing open spaces (Excluding Parks). Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/pckb-8r2z",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Open Space (Other)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pckb-8r2z?method=export&format=GeoJSON",
+        "page_views": 1591,
+        "flags": [],
+        "last_updated": "2016-08-27 18:29:57+00:00",
+        "created": "2014-06-17 20:15:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [
+            "open spaces",
+            "planimetrics",
+            "doittgis",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of 2000 Census Tracts",
+        "landing_page": "https://data.cityofnewyork.us/d/ysjj-vb9j",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "2000 Census Tracts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ysjj-vb9j?method=export&format=GeoJSON",
+        "page_views": 418,
+        "flags": [],
+        "last_updated": "2017-03-09 15:36:11+00:00",
+        "created": "2013-01-28 17:14:17+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "geographic",
+            "2000 census tracts",
+            "dcp",
+            "census",
+            "location",
+            "map",
+            "cartography",
+            "boundary",
+            "tract",
+            "survey",
+            "poll"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Primary Zoning by lot Based on PLUTO 2005",
+        "landing_page": "https://data.cityofnewyork.us/d/ieyi-rqsn",
+        "sources": [
+            "Economic Development Corporation (EDC)"
+        ],
+        "name": "Primary Residential Zoning by lot",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ieyi-rqsn?method=export&format=GeoJSON",
+        "page_views": 2308,
+        "flags": [],
+        "last_updated": "2016-08-27 18:30:33+00:00",
+        "created": "2013-04-10 15:27:08+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "keywords_provided": [
+            "edc",
+            "geographic",
+            "location",
+            "lot",
+            "map",
+            "pluto",
+            "property",
+            "residence",
+            "residential",
+            "zone",
+            "zoning",
+            "2005",
+            "business",
+            "cartography",
+            "development",
+            "economic",
+            "economic development corporation"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "City Subway Stations",
+        "landing_page": "https://data.cityofnewyork.us/d/arq3-7z49",
+        "sources": [
+            "Metropolitan Transportation Authority (MTA)"
+        ],
+        "name": "Subway Stations",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/arq3-7z49?method=export&format=GeoJSON",
+        "page_views": 12877,
+        "flags": [],
+        "last_updated": "2017-01-05 16:54:16+00:00",
+        "created": "2013-04-10 17:52:37+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "transfer",
+            "basemap",
+            "doitt gis",
+            "doittgis",
+            "location",
+            "cartography",
+            "station",
+            "map",
+            "entrance",
+            "travel",
+            "subway",
+            "train",
+            "transportation",
+            "transit"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Police Service Areas boundaries.",
+        "landing_page": "https://data.cityofnewyork.us/d/72wx-vdjr",
+        "sources": [
+            "New York City Housing Authority (NYCHA)"
+        ],
+        "name": "NYCHA PSA (Police Service Areas)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/72wx-vdjr?method=export&format=GeoJSON",
+        "page_views": 1648,
+        "flags": [],
+        "last_updated": "2016-09-15 21:58:46+00:00",
+        "created": "2013-04-09 17:38:53+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "keywords_provided": [
+            "location",
+            "cartography",
+            "basemap",
+            "map",
+            "police",
+            "police service area",
+            "public safety",
+            "safety",
+            "crime"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Model Aircraft Fields",
+        "landing_page": "https://data.cityofnewyork.us/d/asbw-cwm7",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Model Aircraft Fields",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/asbw-cwm7?method=export&format=GeoJSON",
+        "page_views": 146,
+        "flags": [],
+        "last_updated": "2016-08-27 18:30:39+00:00",
+        "created": "2013-11-25 18:10:36+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "model aircraft fields"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Fire Battalions",
+        "landing_page": "https://data.cityofnewyork.us/d/uh7r-6nya",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Fire Battalions",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uh7r-6nya?method=export&format=GeoJSON",
+        "page_views": 701,
+        "flags": [],
+        "last_updated": "2017-03-09 16:48:16+00:00",
+        "created": "2013-01-29 21:19:50+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [
+            "fire battalions",
+            "dcp",
+            "public safety",
+            "fdny"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Locations of New York City Museums",
+        "landing_page": "https://data.cityofnewyork.us/d/ekax-ky3z",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "New York City Museums",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ekax-ky3z?method=export&format=GeoJSON",
+        "page_views": 1373,
+        "flags": [],
+        "last_updated": "2016-08-27 18:30:44+00:00",
+        "created": "2014-06-17 16:37:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [
+            "museo",
+            "doittgis",
+            "culture",
+            "art",
+            "museums",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of State Assembly Districts (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/qh62-9utz",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "State Assembly Districts (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qh62-9utz?method=export&format=GeoJSON",
+        "page_views": 178,
+        "flags": [],
+        "last_updated": "2017-03-09 17:39:52+00:00",
+        "created": "2013-04-18 18:32:37+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "maps",
+            "gis",
+            "dcp",
+            "state assembly districts (water areas included)",
+            "city planning"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS Map of Soccer and Football Fields in New York City Department of Parks & Recreation properties.",
+        "landing_page": "https://data.cityofnewyork.us/d/qqsi-vm9f",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Map of Soccer and Football Fields",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qqsi-vm9f?method=export&format=GeoJSON",
+        "page_views": 3365,
+        "flags": [],
+        "last_updated": "2016-08-27 18:24:49+00:00",
+        "created": "2013-04-09 15:05:10+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [
+            "game",
+            "map",
+            "location",
+            "recreation",
+            "parks",
+            "healthy living",
+            "park",
+            "nature",
+            "nyc parks",
+            "cartography",
+            "soccer",
+            "geographic",
+            "dpr",
+            "sports",
+            "field",
+            "football"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: A waterfront access plan (WAP) is a specific plan, set forth in the Zoning Resolution that tailors waterfront bulk regulations and public access requirements to the specific conditions of a particular waterfront area.",
+        "landing_page": "https://data.cityofnewyork.us/d/d9z4-v86m",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Waterfront Access Plans",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/d9z4-v86m?method=export&format=GeoJSON",
+        "page_views": 1778,
+        "flags": [],
+        "last_updated": "2017-01-20 16:44:56+00:00",
+        "created": "2013-04-10 18:00:09+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "location",
+            "dcp",
+            "private",
+            "status",
+            "construction",
+            "jurisdiction",
+            "paws",
+            "edge",
+            "parkland",
+            "park",
+            "cartography",
+            "map",
+            "geographic",
+            "accessible",
+            "public",
+            "waterfront",
+            "water",
+            "facilities",
+            "facility",
+            "land use",
+            "open space",
+            "site",
+            "parks",
+            "recreation",
+            "zoning",
+            "zone",
+            "water's edge",
+            "upland"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Spray Showers",
+        "landing_page": "https://data.cityofnewyork.us/d/im58-6hb9",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Spray Showers",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/im58-6hb9?method=export&format=GeoJSON",
+        "page_views": 202,
+        "flags": [],
+        "last_updated": "2016-08-27 18:21:32+00:00",
+        "created": "2013-11-25 18:47:40+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "spray showers",
+            "dpr",
+            "aprks"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This dataset contains boundaries and associated attribute information for all designated historic districts or areas under consideration for historic district designation (i.e. calendared) by the New York City Landmarks Preservation Commission (LPC), including items that may have been denied designation or overturned. Please note that some areas may have multiple records in the database if different actions were taken over time. Please pay close attention to the \"CURRENT\" and \"LAST_ACTION_ON_BOUNDARY\" fields to determine the status of a particular area. The geographic locations of the polygons in this dataset are derived primarily from the Department of City Planning's PLUTO dataset, and therefore discrepancies may arise where the LPC dataset has not been updated with information from the most recent PLUTO releases. Please pay close attention to the field descriptions present in the file's metadata to understand how to use this dataset. And please contact LPC if there are questions or concerns",
+        "landing_page": "https://data.cityofnewyork.us/d/xbvj-gfnw",
+        "sources": [
+            "Landmarks Preservation Commission (LPC)"
+        ],
+        "name": "Historic Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xbvj-gfnw?method=export&format=GeoJSON",
+        "page_views": 1372,
+        "flags": [],
+        "last_updated": "2016-12-22 00:23:17+00:00",
+        "created": "2015-03-11 19:57:44+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "DYCD Beacon",
+        "landing_page": "https://data.cityofnewyork.us/d/n3et-mfjw",
+        "sources": [
+            "Department of Youth and Community Development (DYCD)"
+        ],
+        "name": "DYCD Beacon",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/n3et-mfjw?method=export&format=GeoJSON",
+        "page_views": 387,
+        "flags": [],
+        "last_updated": "2016-08-27 18:27:48+00:00",
+        "created": "2013-04-05 18:46:22+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "location",
+            "basemap",
+            "geographic",
+            "map",
+            "youth",
+            "cartography",
+            "beacon"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: This data set consists of 6 classes of zoning features: zoning districts, special purpose districts, special purpose district subdistricts, limited height districts, commercial overlay districts,  and zoning map amendments.",
+        "landing_page": "https://data.cityofnewyork.us/d/kdig-pewd",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Zoning GIS Data: Shapefile",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/kdig-pewd?method=export&format=GeoJSON",
+        "page_views": 5578,
+        "flags": [],
+        "last_updated": "2017-05-08 21:14:53+00:00",
+        "created": "2013-01-29 18:17:25+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "map",
+            "commercial",
+            "district",
+            "zone",
+            "cartography",
+            "location",
+            "geographic",
+            "zoning",
+            "dcp"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "data: Boundaries of Neighborhood Tabulation Areas as created by the NYC Department of City Planning using whole census tracts from the 2010 Census as building blocks.  These aggregations of census tracts are subsets of New York City's 55 Public Use Microdata Areas (PUMAs).",
+        "landing_page": "https://data.cityofnewyork.us/d/cpf4-rkhq",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Neighborhood Tabulation Areas",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/cpf4-rkhq?method=export&format=GeoJSON",
+        "page_views": 9849,
+        "flags": [],
+        "last_updated": "2017-03-09 15:31:06+00:00",
+        "created": "2013-01-29 23:22:02+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "neighborhood tabulation areas",
+            "city planning",
+            "community",
+            "dcp",
+            "area"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Health Areas",
+        "landing_page": "https://data.cityofnewyork.us/d/5p78-k3zm",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Health Areas",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/5p78-k3zm?method=export&format=GeoJSON",
+        "page_views": 1867,
+        "flags": [],
+        "last_updated": "2017-03-09 16:58:11+00:00",
+        "created": "2013-01-29 22:14:37+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Health"
+        ],
+        "keywords_provided": [
+            "health areas",
+            "dcp",
+            "health",
+            "city planning"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Fire Companies",
+        "landing_page": "https://data.cityofnewyork.us/d/iiv7-jaj9",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Fire Companies",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/iiv7-jaj9?method=export&format=GeoJSON",
+        "page_views": 507,
+        "flags": [],
+        "last_updated": "2017-03-09 16:41:34+00:00",
+        "created": "2013-01-29 20:54:29+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [
+            "geographic",
+            "location",
+            "fire",
+            "safety",
+            "flame",
+            "boundary",
+            "fireman",
+            "map",
+            "fire companies",
+            "cartography",
+            "dcp"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of State Assembly Districts",
+        "landing_page": "https://data.cityofnewyork.us/d/pf5b-73bw",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "State Assembly Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pf5b-73bw?method=export&format=GeoJSON",
+        "page_views": 464,
+        "flags": [],
+        "last_updated": "2017-03-09 16:33:22+00:00",
+        "created": "2013-04-04 20:21:40+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "boundaries",
+            "dcp",
+            "city planning",
+            "politics",
+            "gis data: state assembly districts",
+            "boundary"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Airport Polygon",
+        "landing_page": "https://data.cityofnewyork.us/d/xfhz-rhsk",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Airport Polygon",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xfhz-rhsk?method=export&format=GeoJSON",
+        "page_views": 459,
+        "flags": [],
+        "last_updated": "2016-08-27 18:21:46+00:00",
+        "created": "2014-11-18 00:36:00+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "airport polygon",
+            "doittgis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Functional Parkland",
+        "landing_page": "https://data.cityofnewyork.us/d/e3uq-vht9",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Functional Parkland",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/e3uq-vht9?method=export&format=GeoJSON",
+        "page_views": 461,
+        "flags": [],
+        "last_updated": "2016-08-27 18:19:29+00:00",
+        "created": "2013-11-25 17:50:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "functional parkland",
+            "dpr",
+            "parks"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Young Adult Internship Programs",
+        "landing_page": "https://data.cityofnewyork.us/d/s2d8-h5fg",
+        "sources": [
+            "Department of Youth and Community Development (DYCD)"
+        ],
+        "name": "DYCD YAIP (Young Adult Internship Programs)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/s2d8-h5fg?method=export&format=GeoJSON",
+        "page_views": 1270,
+        "flags": [],
+        "last_updated": "2016-08-27 18:27:59+00:00",
+        "created": "2013-04-05 19:49:38+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "adult",
+            "cartography",
+            "program",
+            "geographic",
+            "intern",
+            "internship",
+            "basemap",
+            "job",
+            "yaip",
+            "location",
+            "youth",
+            "work",
+            "employ",
+            "young",
+            "employment",
+            "map"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: 2010 Census Blocks",
+        "landing_page": "https://data.cityofnewyork.us/d/v2h8-6mxf",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "2010 Census Blocks",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/v2h8-6mxf?method=export&format=GeoJSON",
+        "page_views": 3263,
+        "flags": [],
+        "last_updated": "2017-03-09 15:23:51+00:00",
+        "created": "2013-01-23 22:26:23+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "2010",
+            "dcp",
+            "2010 census blocks",
+            "map",
+            "gis",
+            "census"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "2014-2015 School Zones (as of March 5th, 2015). Files are in a GIS Shapefile format. They are broken down by elementary school zones (ES_Zones), middle school zones (MS_Zones) and high school zones (HS_Zones).",
+        "landing_page": "https://data.cityofnewyork.us/d/mshx-yvwq",
+        "sources": [
+            "Department of Education (DOE)"
+        ],
+        "name": "2014-2015 School Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/mshx-yvwq?method=export&format=GeoJSON",
+        "page_views": 836,
+        "flags": [],
+        "last_updated": "2016-08-27 18:28:22+00:00",
+        "created": "2015-03-09 15:45:53+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Education"
+        ],
+        "keywords_provided": [
+            "location",
+            "high school",
+            "education",
+            "school zones 2014-2015",
+            "escuela",
+            "elementary",
+            "middle school"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of 2000 Census Blocks",
+        "landing_page": "https://data.cityofnewyork.us/d/xphm-ebrs",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "2000 Census Blocks",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/xphm-ebrs?method=export&format=GeoJSON",
+        "page_views": 383,
+        "flags": [],
+        "last_updated": "2017-03-09 15:44:10+00:00",
+        "created": "2013-01-28 20:18:14+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "block",
+            "survey",
+            "cartography",
+            "map",
+            "location",
+            "geographic",
+            "census",
+            "dcp",
+            "2000 census blocks",
+            "poll",
+            "2000 census blocks & tracts gis: 2000 census blocks",
+            "boundary"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Congressional Districts",
+        "landing_page": "https://data.cityofnewyork.us/d/qd3c-zuu7",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Congressional Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qd3c-zuu7?method=export&format=GeoJSON",
+        "page_views": 445,
+        "flags": [],
+        "last_updated": "2017-03-09 17:04:14+00:00",
+        "created": "2013-01-29 22:28:05+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "voting",
+            "congress",
+            "district",
+            "cartography",
+            "map",
+            "location",
+            "geographic",
+            "dcp",
+            "congressional districts",
+            "election",
+            "elect",
+            "boundary",
+            "congressional"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Business Improvement Districts",
+        "landing_page": "https://data.cityofnewyork.us/d/ejxk-d93y",
+        "sources": [
+            "Department of Small Business Services (SBS)"
+        ],
+        "name": "Business Improvement Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ejxk-d93y?method=export&format=GeoJSON",
+        "page_views": 1515,
+        "flags": [],
+        "last_updated": "2016-08-27 18:29:43+00:00",
+        "created": "2014-11-18 19:04:07+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Business"
+        ],
+        "keywords_provided": [
+            "business improvement districts",
+            "doitt gis",
+            "doittgis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Community Districts  (Water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/mzpm-a6vd",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Community Districts (Water Areas Included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/mzpm-a6vd?method=export&format=GeoJSON",
+        "page_views": 272,
+        "flags": [],
+        "last_updated": "2017-03-09 15:49:02+00:00",
+        "created": "2014-06-20 15:37:15+00:00",
+        "column_names": [],
+        "topics_provided": [
+            ""
+        ],
+        "keywords_provided": [
+            "location",
+            "geographic",
+            "dcp",
+            "community districts (water areas included)",
+            "water",
+            "boundaries",
+            "community",
+            "cartography",
+            "map"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This is the 100-Year Floodplain for the 2050s based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (31 inches).  Please see the Disclaimer PDF for more information. Data Provided by the Mayor's Office of Long-Term Planning and Sustainability (OLTPS) on behalf of CUNY Institute for Sustainable Cities (CISC) and the New York Panel on Climate Change (NPCC).",
+        "landing_page": "https://data.cityofnewyork.us/d/hbw8-2bah",
+        "sources": [
+            "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)"
+        ],
+        "name": "Sea Level Rise Maps (2050s 100-year Floodplain)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/hbw8-2bah?method=export&format=GeoJSON",
+        "page_views": 1943,
+        "flags": [],
+        "last_updated": "2016-08-27 18:26:41+00:00",
+        "created": "2013-07-23 21:49:33+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "sea",
+            "sea level",
+            "sea level rise maps (2025s 100-year floodplain)",
+            "flood",
+            "ocean",
+            "oltps"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Police Precincts",
+        "landing_page": "https://data.cityofnewyork.us/d/78dh-3ptz",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Police Precincts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/78dh-3ptz?method=export&format=GeoJSON",
+        "page_views": 15519,
+        "flags": [],
+        "last_updated": "2017-03-09 16:38:51+00:00",
+        "created": "2013-01-29 20:32:31+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [
+            "precincts",
+            "cop",
+            "policeman",
+            "police",
+            "boundary",
+            "jurisdiction",
+            "division",
+            "school",
+            "health",
+            "fire & police gis: police precincts",
+            "gis",
+            "crime",
+            "safety",
+            "cartography",
+            "map",
+            "location",
+            "precinct",
+            "geographic",
+            "dcp",
+            "police precincts"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Public Pay Telephone NYC Free Public Wi-Fi locations, Advertising Locations and Zoning Information (the zoning information should be compared with the dates of most recent zoning changes found on the NYC Planning website)  http://www.nyc.gov/html/dcp/home.html\r\n\r\nDisclaimer\r\nThe Zoning Reference provides only general zoning information and is not meant to serve as a substitute for the actual regulations which are to be found in the Zoning Resolution.",
+        "landing_page": "https://data.cityofnewyork.us/d/t7sx-id53",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Public Pay Telephone Locations",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/t7sx-id53?method=export&format=GeoJSON",
+        "page_views": 23513,
+        "flags": [],
+        "last_updated": "2016-08-27 18:20:16+00:00",
+        "created": "2013-01-29 18:57:33+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "reinvent payphones",
+            "ppt",
+            "payphones",
+            "nyc",
+            "public pay telephones",
+            "wifi hotspot"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Play Areas",
+        "landing_page": "https://data.cityofnewyork.us/d/8fhn-c4v3",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Play Areas",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/8fhn-c4v3?method=export&format=GeoJSON",
+        "page_views": 434,
+        "flags": [],
+        "last_updated": "2016-08-27 18:27:26+00:00",
+        "created": "2013-11-25 18:39:52+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "dpr",
+            "play areas",
+            "parks"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "NYC Address Points",
+        "landing_page": "https://data.cityofnewyork.us/d/g6pj-hd8k",
+        "sources": [
+            "Department of Information Technology and Telecommunications (DoITT)"
+        ],
+        "name": "NYC Address Points",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/g6pj-hd8k?method=export&format=GeoJSON",
+        "page_views": 1286,
+        "flags": [],
+        "last_updated": "2017-05-25 19:15:22+00:00",
+        "created": "2015-04-27 20:54:35+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "map",
+            "doitt",
+            "yc address points",
+            "gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This data identifies City property under the jurisdiction of NYC Parks, which may be managed partially or solely by the Agency. This data has been produced in whole or part using secondary data. Data accuracy is limited by the scale and accuracy of the original sources. Site specific conditions should be field-verified. For legal accuracy, refer to the maps that established parks and acquisition maps.",
+        "landing_page": "https://data.cityofnewyork.us/d/rjaj-zgq7",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Parks Properties",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/rjaj-zgq7?method=export&format=GeoJSON",
+        "page_views": 7319,
+        "flags": [],
+        "last_updated": "2016-08-27 18:20:17+00:00",
+        "created": "2013-11-25 18:20:14+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "parks",
+            "parks properties",
+            "dpr"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This is the 500-Year Floodplain for the 2050s based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (31 inches).  Please see the Disclaimer PDF for more information. Data Provided by the Mayor's Office of Long-Term Planning and Sustainability (OLTPS) on behalf of CUNY Institute for Sustainable Cities (CISC) and the New York Panel on Climate Change (NPCC).",
+        "landing_page": "https://data.cityofnewyork.us/d/qwca-zqw3",
+        "sources": [
+            "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)"
+        ],
+        "name": "Sea Level Rise Maps (2050s 500-year Floodplain)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qwca-zqw3?method=export&format=GeoJSON",
+        "page_views": 2787,
+        "flags": [],
+        "last_updated": "2016-08-27 18:24:58+00:00",
+        "created": "2013-07-23 21:56:45+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "sea level rise maps (2050s 500-year floodplain)",
+            "sea",
+            "ocean",
+            "floodplain",
+            "flood"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Fire Divisions",
+        "landing_page": "https://data.cityofnewyork.us/d/hkpx-aaxc",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Fire Divisions",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/hkpx-aaxc?method=export&format=GeoJSON",
+        "page_views": 388,
+        "flags": [],
+        "last_updated": "2017-03-09 16:44:45+00:00",
+        "created": "2013-01-29 21:12:49+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [
+            "cartography",
+            "fire divisions",
+            "dcp",
+            "geographic",
+            "location",
+            "map",
+            "safety",
+            "fire",
+            "flame",
+            "boundary",
+            "fireman",
+            "firemen",
+            "division"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Municipal Court Districts (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/k2bb-k6p8",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Municipal Court Districts (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/k2bb-k6p8?method=export&format=GeoJSON",
+        "page_views": 146,
+        "flags": [],
+        "last_updated": "2017-03-09 16:28:14+00:00",
+        "created": "2013-04-18 18:36:59+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "dcp",
+            "map",
+            "gis",
+            "city planning",
+            "municipal court districts (water areas included)"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Location of City Agency Service Centers with descriptive information on the programs.",
+        "landing_page": "https://data.cityofnewyork.us/d/nn5y-wmuj",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Agency Service Center",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/nn5y-wmuj?method=export&format=GeoJSON",
+        "page_views": 623,
+        "flags": [],
+        "last_updated": "2016-08-27 18:27:07+00:00",
+        "created": "2013-04-05 16:00:09+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "location",
+            "jobs and economic mobility",
+            "geographic",
+            "services",
+            "center",
+            "map",
+            "agencies",
+            "agency",
+            "cartography"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Department of Parks and Recreation (DPR) beaches.",
+        "landing_page": "https://data.cityofnewyork.us/d/qvtg-k2hn",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Beaches",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qvtg-k2hn?method=export&format=GeoJSON",
+        "page_views": 418,
+        "flags": [],
+        "last_updated": "2016-08-27 18:19:39+00:00",
+        "created": "2013-11-25 17:44:16+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "parks",
+            "beaches",
+            "dpr"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This dataset contains boundaries and associated attribute information for all designated scenic landmarks or areas under consideration for scenic landmark designation (i.e. calendared) by the New York City Landmarks Preservation Commission (LPC). The geographic locations of the polygons in this dataset are derived primarily from the Department of City Planning's PLUTO dataset, and therefore discrepancies may arise where the LPC dataset has not been updated with information from the most recent PLUTO releases. Please pay close attention to the field descriptions present in the file's metadata to understand how to use this dataset. More information on these records may be found in the Landmark List shapefile (points). Please contact LPC if there are questions or concerns.",
+        "landing_page": "https://data.cityofnewyork.us/d/gi7d-8gt5",
+        "sources": [
+            "Landmarks Preservation Commission (LPC)"
+        ],
+        "name": "Scenic Landmarks",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/gi7d-8gt5?method=export&format=GeoJSON",
+        "page_views": 761,
+        "flags": [],
+        "last_updated": "2016-12-22 00:23:14+00:00",
+        "created": "2015-03-11 21:45:23+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of School Districts",
+        "landing_page": "https://data.cityofnewyork.us/d/r8nu-ymqj",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "School Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/r8nu-ymqj?method=export&format=GeoJSON",
+        "page_views": 9945,
+        "flags": [],
+        "last_updated": "2017-03-09 16:51:56+00:00",
+        "created": "2013-01-29 21:24:51+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Education"
+        ],
+        "keywords_provided": [
+            "school districts",
+            "city planning",
+            "education",
+            "maps",
+            "dcp"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Locations of the public housing developments of the New York City Housing Authority as of July 2016.",
+        "landing_page": "https://data.cityofnewyork.us/d/i9rv-hdr5",
+        "sources": [
+            "New York City Housing Authority (NYCHA)"
+        ],
+        "name": "Map of NYCHA Developments",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/i9rv-hdr5?method=export&format=GeoJSON",
+        "page_views": 27343,
+        "flags": [],
+        "last_updated": "2016-09-15 21:40:32+00:00",
+        "created": "2013-03-29 13:43:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "keywords_provided": [
+            "gis",
+            "nyc housing",
+            "facilities",
+            "map of nycha developments",
+            "residential",
+            "nycha",
+            "building sizes"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Library",
+        "landing_page": "https://data.cityofnewyork.us/d/p4pf-fyc4",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Library",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/p4pf-fyc4?method=export&format=GeoJSON",
+        "page_views": 1393,
+        "flags": [],
+        "last_updated": "2016-08-27 18:22:40+00:00",
+        "created": "2014-11-18 19:52:18+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Business"
+        ],
+        "keywords_provided": [
+            "library",
+            "doittgis",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Botanical Gardens",
+        "landing_page": "https://data.cityofnewyork.us/d/hrii-hezj",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Botanical Gardens",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/hrii-hezj?method=export&format=GeoJSON",
+        "page_views": 1260,
+        "flags": [],
+        "last_updated": "2016-08-27 18:26:57+00:00",
+        "created": "2013-04-05 16:42:57+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "location",
+            "doitt gis",
+            "cartography",
+            "botany",
+            "botanical",
+            "basemap",
+            "recreation",
+            "site",
+            "park",
+            "nature",
+            "map",
+            "geographic",
+            "garden"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Listing of NYC theaters",
+        "landing_page": "https://data.cityofnewyork.us/d/kdu2-865w",
+        "sources": [
+            "Broadway Theater"
+        ],
+        "name": "Theaters",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/kdu2-865w?method=export&format=GeoJSON",
+        "page_views": 5163,
+        "flags": [],
+        "last_updated": "2016-08-27 18:22:38+00:00",
+        "created": "2013-04-10 17:54:42+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [
+            "entertainment",
+            "show",
+            "theater",
+            "play",
+            "cinema",
+            "movie",
+            "screen"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Current ratings of the conditions of streets throughout the 5 boroughs.",
+        "landing_page": "https://data.cityofnewyork.us/d/2cav-chmn",
+        "sources": [
+            "Department of Transportation (DOT)"
+        ],
+        "name": "Street Pavement Rating",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2cav-chmn?method=export&format=GeoJSON",
+        "page_views": 1361,
+        "flags": [],
+        "last_updated": "2017-05-31 16:03:30+00:00",
+        "created": "2015-07-14 22:54:37+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "street assessment",
+            "dot",
+            "five boroughs",
+            "transportation",
+            "conditions",
+            "street pavement rating"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This is a polygon shapefile of publicly accessible waterfront spaces in NYC containing jurisdictional and construction status information. The majority of these spaces were constructed in conjunction with private waterfront developments, pursuant to the NYC Zoning Resolution.\u00a0 This feature class also includes spaces that are under construction (in progress), or have been approved through ULURP (Uniform Land Use Review Procedure) but construction of the waterfront spaces has not commenced.\u00a0 The publicly owned spaces in this database do not include parks or open spaces under the jurisdiction of NYC Department of Parks and Recreation, NYS Office of Parks, Recreation & Historic Preservation, or the National Park Service.\u00a0 This shapefile was used to create the City Waterfront Interactive Maps at http://www.nyc.gov/html/dcp/html/cwp/cw.shtml .",
+        "landing_page": "https://data.cityofnewyork.us/d/388s-pnvc",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Publicly Accessible Waterfront Spaces (PAWS)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/388s-pnvc?method=export&format=GeoJSON",
+        "page_views": 1337,
+        "flags": [],
+        "last_updated": "2017-01-20 16:39:40+00:00",
+        "created": "2013-04-10 15:31:45+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "zoning",
+            "land use",
+            "land",
+            "ulurp",
+            "zone",
+            "private",
+            "status",
+            "construction",
+            "dcp",
+            "jurisdiction",
+            "paws",
+            "accessible",
+            "public",
+            "waterfront",
+            "water",
+            "cartography",
+            "map",
+            "location",
+            "geographic"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "PATH Line",
+        "landing_page": "https://data.cityofnewyork.us/d/d7n3-sf2d",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "PATH Line",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/d7n3-sf2d?method=export&format=GeoJSON",
+        "page_views": 562,
+        "flags": [],
+        "last_updated": "2016-08-27 18:22:58+00:00",
+        "created": "2014-11-18 20:15:41+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Business"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "doittgis",
+            "path line"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Landfills",
+        "landing_page": "https://data.cityofnewyork.us/d/6gvx-hydd",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Landfills",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/6gvx-hydd?method=export&format=GeoJSON",
+        "page_views": 490,
+        "flags": [],
+        "last_updated": "2016-08-27 18:19:38+00:00",
+        "created": "2013-11-25 18:07:33+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "dpr",
+            "landfills",
+            "parks"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Map of NYC Subway Entrances",
+        "landing_page": "https://data.cityofnewyork.us/d/drex-xx56",
+        "sources": [
+            "Metropolitan Transportation Authority (MTA)"
+        ],
+        "name": "Subway Entrances",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/drex-xx56?method=export&format=GeoJSON",
+        "page_views": 117243,
+        "flags": [],
+        "last_updated": "2017-01-05 16:56:04+00:00",
+        "created": "2013-04-10 17:49:46+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Transportation"
+        ],
+        "keywords_provided": [
+            "transportation",
+            "station",
+            "map",
+            "jobs and economic mobility",
+            "location",
+            "train",
+            "cartography",
+            "subway",
+            "travel",
+            "entrance",
+            "mta",
+            "metropolitan transportation authority",
+            "basemap",
+            "transit"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Election Districts",
+        "landing_page": "https://data.cityofnewyork.us/d/h2n3-98hq",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Election Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h2n3-98hq?method=export&format=GeoJSON",
+        "page_views": 1672,
+        "flags": [],
+        "last_updated": "2017-03-09 17:06:40+00:00",
+        "created": "2013-01-29 22:24:59+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "location",
+            "political & election districts gis: election districts",
+            "election",
+            "voting",
+            "map",
+            "geographic",
+            "dcp",
+            "cartography",
+            "district",
+            "boundary",
+            "elect"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "2010 Census Tracts - by Department of City Planning",
+        "landing_page": "https://data.cityofnewyork.us/d/fxpq-c8ku",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "2010 Census Tracts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/fxpq-c8ku?method=export&format=GeoJSON",
+        "page_views": 1668,
+        "flags": [],
+        "last_updated": "2017-03-09 15:09:31+00:00",
+        "created": "2014-06-20 15:43:32+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "2010 census tracts"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: FRESH boundaries where zoning and discretionary tax incentives are available for the development, expansion and renovation of full line grocery stores and supermarkets.",
+        "landing_page": "https://data.cityofnewyork.us/d/w9uz-8epq",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "FRESH Food Stores Zoning Boundaries",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/w9uz-8epq?method=export&format=GeoJSON",
+        "page_views": 1616,
+        "flags": [],
+        "last_updated": "2017-01-20 16:20:32+00:00",
+        "created": "2013-04-08 18:22:35+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Business"
+        ],
+        "keywords_provided": [
+            "zoning",
+            "dcp",
+            "geographic",
+            "location",
+            "map",
+            "cartography",
+            "zone",
+            "boundary",
+            "incentive",
+            "development",
+            "grocery",
+            "supermarket",
+            "promote",
+            "promotion"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "JFK Airtrain",
+        "landing_page": "https://data.cityofnewyork.us/d/3w3r-v568",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "JFK Airtrain",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/3w3r-v568?method=export&format=GeoJSON",
+        "page_views": 264,
+        "flags": [],
+        "last_updated": "2016-08-27 18:22:51+00:00",
+        "created": "2014-11-18 18:51:38+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "jfk airtrain",
+            "doittgis",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Out-of-School Youth",
+        "landing_page": "https://data.cityofnewyork.us/d/2n64-63dq",
+        "sources": [
+            "Department of Youth and Community Development (DYCD)"
+        ],
+        "name": "DYCD OSY (Out-of-School Youth)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2n64-63dq?method=export&format=GeoJSON",
+        "page_views": 544,
+        "flags": [],
+        "last_updated": "2016-08-27 18:26:58+00:00",
+        "created": "2013-04-05 19:44:33+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "cartography",
+            "basemap",
+            "osy",
+            "out of school",
+            "out-of-school",
+            "school",
+            "youth",
+            "map",
+            "location",
+            "geographic",
+            "education"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Classical Music",
+        "landing_page": "https://data.cityofnewyork.us/d/txxa-5nhg",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "DOITT CLASSICAL MUSIC",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/txxa-5nhg?method=export&format=GeoJSON",
+        "page_views": 1002,
+        "flags": [],
+        "last_updated": "2016-08-27 18:27:00+00:00",
+        "created": "2013-04-05 18:08:33+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [
+            "map",
+            "music",
+            "classic",
+            "cartography",
+            "basemap",
+            "location",
+            "site",
+            "historic",
+            "geographic",
+            "doitt gis",
+            "history",
+            "doittgis",
+            "culture",
+            "classical"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Hydrography Structures. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/53au-zf7x",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Hydrography Structures",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/53au-zf7x?method=export&format=GeoJSON",
+        "page_views": 641,
+        "flags": [],
+        "last_updated": "2016-08-27 18:23:12+00:00",
+        "created": "2014-11-18 00:03:40+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "planimetrics",
+            "doittgis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Boundaries of 15 geographic zones to ensure public housing neighborhoods have access to self-empowerment services",
+        "landing_page": "https://data.cityofnewyork.us/d/4p5v-sqmv",
+        "sources": [
+            "New York City Housing Authority (NYCHA)"
+        ],
+        "name": "Map of NYCHA Community Engagement & Partnership Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/4p5v-sqmv?method=export&format=GeoJSON",
+        "page_views": 440,
+        "flags": [],
+        "last_updated": "2016-09-15 22:21:48+00:00",
+        "created": "2013-03-29 13:56:06+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "nycha rees zones",
+            "nycha"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of 2000 Census Tracts (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/bmax-4kci",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "2000 Census Tracts (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/bmax-4kci?method=export&format=GeoJSON",
+        "page_views": 104,
+        "flags": [],
+        "last_updated": "2017-03-09 15:39:37+00:00",
+        "created": "2015-03-04 17:37:13+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "map",
+            "cartography",
+            "boundary",
+            "water",
+            "poll",
+            "survey",
+            "block",
+            "2000 census tracts (water areas included)",
+            "water area",
+            "geographic",
+            "location",
+            "census",
+            "dcp"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Colleges and Universities",
+        "landing_page": "https://data.cityofnewyork.us/d/4kym-4xw5",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Colleges and Universities",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/4kym-4xw5?method=export&format=GeoJSON",
+        "page_views": 1280,
+        "flags": [],
+        "last_updated": "2016-08-27 18:23:26+00:00",
+        "created": "2014-11-18 01:29:58+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Education"
+        ],
+        "keywords_provided": [
+            "colleges and universities",
+            "doitt gis",
+            "doittgis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "MINY Vendors",
+        "landing_page": "https://data.cityofnewyork.us/d/79z8-9mcf",
+        "sources": [
+            "Made in New York (MINY)"
+        ],
+        "name": "MINY Vendors",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/79z8-9mcf?method=export&format=GeoJSON",
+        "page_views": 1848,
+        "flags": [],
+        "last_updated": "2016-08-27 18:28:19+00:00",
+        "created": "2013-04-09 16:02:26+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Business"
+        ],
+        "keywords_provided": [
+            "vendor",
+            "program",
+            "cartography",
+            "development",
+            "economic",
+            "economy",
+            "incentive",
+            "location",
+            "made in ny incentive program",
+            "map",
+            "miny",
+            "basemap"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Adult and Continuing Education Sites",
+        "landing_page": "https://data.cityofnewyork.us/d/4u36-44pe",
+        "sources": [
+            "Office of Adult and Continuing Education (OACE)"
+        ],
+        "name": "OACE (Office of Adult and Continuing Education) Sites",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/4u36-44pe?method=export&format=GeoJSON",
+        "page_views": 1064,
+        "flags": [],
+        "last_updated": "2016-08-27 18:27:09+00:00",
+        "created": "2013-04-09 19:46:34+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "location",
+            "education",
+            "continuing",
+            "cartography",
+            "adult",
+            "site",
+            "school",
+            "basemap",
+            "oace",
+            "map",
+            "jobs and economic development"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Primary Zoning by lot Based on PLUTO 2005",
+        "landing_page": "https://data.cityofnewyork.us/d/pwhj-ikym",
+        "sources": [
+            "Economic Development Corporation (EDC)"
+        ],
+        "name": "Primary Commercial Zoning by lot",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pwhj-ikym?method=export&format=GeoJSON",
+        "page_views": 1642,
+        "flags": [],
+        "last_updated": "2016-08-27 18:28:37+00:00",
+        "created": "2013-04-10 14:49:08+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Business"
+        ],
+        "keywords_provided": [
+            "development",
+            "2005",
+            "business geographic",
+            "cartography",
+            "commerce",
+            "commercial",
+            "economic",
+            "economic development corporation",
+            "edc",
+            "location",
+            "lot",
+            "map",
+            "pluto",
+            "property",
+            "zone",
+            "zoning"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Universal Pre-K",
+        "landing_page": "https://data.cityofnewyork.us/d/rm4p-5usz",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Universal Pre-K",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/rm4p-5usz?method=export&format=GeoJSON",
+        "page_views": 303,
+        "flags": [],
+        "last_updated": "2016-08-27 18:28:26+00:00",
+        "created": "2014-11-18 00:53:53+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "2013-2014 School Zones (as of May 8, 2013).  Files are in a GIS Shapefile format.  They are broken down by elementary school zones (ES_Zones), middle school zones (MS_Zones) and high school zones (HS_Zones).",
+        "landing_page": "https://data.cityofnewyork.us/d/pp5b-95kq",
+        "sources": [
+            "Department of Education (DOE)"
+        ],
+        "name": "2013-2014 School Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/pp5b-95kq?method=export&format=GeoJSON",
+        "page_views": 1723,
+        "flags": [],
+        "last_updated": "2016-08-27 18:28:23+00:00",
+        "created": "2013-05-09 20:56:07+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Education"
+        ],
+        "keywords_provided": [
+            "gis",
+            "ed",
+            "2013-2014 school zones",
+            "board of ed",
+            "doe",
+            "education",
+            "maps"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "New Jersey Transit Station",
+        "landing_page": "https://data.cityofnewyork.us/d/tar7-vww3",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "New Jersey Transit Station",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tar7-vww3?method=export&format=GeoJSON",
+        "page_views": 175,
+        "flags": [],
+        "last_updated": "2016-08-27 18:23:17+00:00",
+        "created": "2014-11-18 00:39:01+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "doittgis",
+            "new jersey transit station"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "The polygons in this dataset represent boundaries of New York City business districts under\r\nThe New York State Empire Zone (EZ) Program which offers a wide array of incentives\r\nincluding tax credits and utility discounts.\r\nThis dataset originates from the NYS GIS clearinghouse and is processed for use within New\r\nYork City.\r\nhttps://gis.ny.gov/gisdata/inventories/details.cfm?DSID=895",
+        "landing_page": "https://data.cityofnewyork.us/d/3aim-ipk8",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Empire Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/3aim-ipk8?method=export&format=GeoJSON",
+        "page_views": 701,
+        "flags": [],
+        "last_updated": "2017-02-06 15:22:02+00:00",
+        "created": "2013-04-05 19:54:32+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "zone",
+            "location",
+            "map",
+            "empire",
+            "basemap",
+            "geographic",
+            "development",
+            "cartography"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Planimetric basemap polygon layer containing parking lot features. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/h7zy-iq3d",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Parking Lot",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h7zy-iq3d?method=export&format=GeoJSON",
+        "page_views": 1107,
+        "flags": [],
+        "last_updated": "2016-08-27 18:23:22+00:00",
+        "created": "2014-10-07 22:27:15+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "meter",
+            "park",
+            "planimetrics",
+            "map",
+            "cars",
+            "doitt gis",
+            "doittgis",
+            "lot",
+            "parking",
+            "parking lot features",
+            "geographic",
+            "location",
+            "cartography"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Planimetric basemap line layer containing shoreline features. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/2qj2-cctx",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Shoreline",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2qj2-cctx?method=export&format=GeoJSON",
+        "page_views": 904,
+        "flags": [],
+        "last_updated": "2016-08-27 18:23:43+00:00",
+        "created": "2014-06-18 14:59:28+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "shoreline",
+            "planimetrics",
+            "nyc",
+            "doittgis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of State Senate Districts (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/7equ-j2vi",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "State Senate Districts (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7equ-j2vi?method=export&format=GeoJSON",
+        "page_views": 152,
+        "flags": [],
+        "last_updated": "2017-03-09 16:31:38+00:00",
+        "created": "2013-04-18 18:34:49+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "state senate districts (water areas included)",
+            "maps",
+            "dcp",
+            "city planning",
+            "gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Municipal Court Districts",
+        "landing_page": "https://data.cityofnewyork.us/d/7vpq-4bh4",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Municipal Court Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/7vpq-4bh4?method=export&format=GeoJSON",
+        "page_views": 296,
+        "flags": [],
+        "last_updated": "2017-03-09 15:58:16+00:00",
+        "created": "2013-01-29 22:58:23+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "law",
+            "judge",
+            "judicial",
+            "city planning",
+            "dcp",
+            "municipal court districts"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Congressional Districts (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/62dw-nwnq",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Congressional Districts (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/62dw-nwnq?method=export&format=GeoJSON",
+        "page_views": 172,
+        "flags": [],
+        "last_updated": "2017-03-09 17:07:29+00:00",
+        "created": "2013-04-18 18:19:05+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "gis",
+            "dcp",
+            "congressional districts (water areas included)",
+            "congress",
+            "maps"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "The City Planning Facilities Database (FacDB) aggregates information about 35,000+ public and private facilities and program sites that are owned, operated, funded, licensed or certified by a City, State, or Federal agency in the City of New York. It captures facilities that generally help to shape quality of life in the city\u2019s neighborhoods, including schools, day cares, parks, libraries, public safety services, youth programs, community centers, health clinics, workforce development programs, transitional housing, and solid waste and transportation infrastructure sites. To facilitate analysis and mapping, the data is available in coma-separated values (CSV) file format, ESRI Shapefile, and GeoJSon. The data is also complemented with a new interactive web map that enables users to easily filter the data for their needs. Users are strongly encouraged to read the database documentation, particularly with regard to analytical limitations.",
+        "landing_page": "https://data.cityofnewyork.us/d/2fpa-bnsx",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Facilities Database - Shapefile",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/2fpa-bnsx?method=export&format=GeoJSON",
+        "page_views": 2058,
+        "flags": [],
+        "last_updated": "2017-05-24 16:03:25+00:00",
+        "created": "2015-07-14 17:30:29+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "park",
+            "service",
+            "services",
+            "property",
+            "facility",
+            "selected facilities and program sites: text",
+            "dcp",
+            "facilities",
+            "community",
+            "program",
+            "school",
+            "library",
+            "day care",
+            "foster care",
+            "special needs",
+            "mental health",
+            "housing"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "DYCD Literacy",
+        "landing_page": "https://data.cityofnewyork.us/d/ty8z-v9d2",
+        "sources": [
+            "Department of Youth and Community Development (DYCD)"
+        ],
+        "name": "DYCD Literacy",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ty8z-v9d2?method=export&format=GeoJSON",
+        "page_views": 2027,
+        "flags": [],
+        "last_updated": "2016-08-27 18:27:34+00:00",
+        "created": "2013-04-05 19:33:42+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Education"
+        ],
+        "keywords_provided": [
+            "literacy",
+            "map",
+            "cartography",
+            "basemap",
+            "youth",
+            "location",
+            "geographic"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Golf Courses",
+        "landing_page": "https://data.cityofnewyork.us/d/rjqi-t95z",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Golf Courses",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/rjqi-t95z?method=export&format=GeoJSON",
+        "page_views": 277,
+        "flags": [],
+        "last_updated": "2016-08-27 18:25:39+00:00",
+        "created": "2013-11-25 18:04:53+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "parks",
+            "dpr",
+            "golf courses"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This feature class is a spatial representation of the Sidewalk Cafe regulations in the New York City Zoning Resolution, Chapter 1, Article 4.\u201d",
+        "landing_page": "https://data.cityofnewyork.us/d/qsuf-mgjh",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Sidewalk Caf\u00e9 Regulations GIS: Shapefile",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/qsuf-mgjh?method=export&format=GeoJSON",
+        "page_views": 504,
+        "flags": [],
+        "last_updated": "2017-05-08 21:04:24+00:00",
+        "created": "2015-03-04 17:32:37+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "department of city planning (dcp)",
+            "dcp",
+            "sidewalk caf\u00e9 regulations gis: shapefile",
+            "cafe",
+            "restaurant",
+            "food"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and represent varying threat levels of coastal flooding resulting from storm surge. Hurricane evacuation zones should not be confused with flood insurance risk zones, which are designated by FEMA and available in the form of Flood Insurance Rate Maps (FIRMs).",
+        "landing_page": "https://data.cityofnewyork.us/d/uihr-hn7s",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Hurricane Evacuation Zones",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uihr-hn7s?method=export&format=GeoJSON",
+        "page_views": 1337,
+        "flags": [],
+        "last_updated": "2017-03-09 15:46:32+00:00",
+        "created": "2015-07-14 17:33:42+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of 2010 Census Tracts (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/gx7x-82rk",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "2010 Census Tracts (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/gx7x-82rk?method=export&format=GeoJSON",
+        "page_views": 631,
+        "flags": [],
+        "last_updated": "2017-03-09 15:15:34+00:00",
+        "created": "2013-01-23 22:21:45+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "water areas",
+            "dcp",
+            "2010 census tracts (water areas included)",
+            "city planning",
+            "census"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "DSNY Special Waste",
+        "landing_page": "https://data.cityofnewyork.us/d/q6ei-tvmg",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "DSNY Special Waste",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/q6ei-tvmg?method=export&format=GeoJSON",
+        "page_views": 397,
+        "flags": [],
+        "last_updated": "2016-08-27 18:23:53+00:00",
+        "created": "2014-11-18 19:05:54+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Business"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "doittgis",
+            "dsny special waste"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Description:  Planimetric basemap polygon layer containing open space features, such as courts, tracks, etc. including Parks. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/g84h-jbjm",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Open Space (Parks)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/g84h-jbjm?method=export&format=GeoJSON",
+        "page_views": 5941,
+        "flags": [],
+        "last_updated": "2016-08-27 18:26:10+00:00",
+        "created": "2014-06-17 20:34:32+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [
+            "open spaces",
+            "gis",
+            "doitt gis",
+            "doitt",
+            "planimetrics",
+            "parks"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Primary Zoning by lot Based on PLUTO 2005",
+        "landing_page": "https://data.cityofnewyork.us/d/kxg8-856s",
+        "sources": [
+            "Economic Development Corporation (EDC)"
+        ],
+        "name": "Primary Manufacturing Zoning by lot",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/kxg8-856s?method=export&format=GeoJSON",
+        "page_views": 1066,
+        "flags": [],
+        "last_updated": "2016-08-27 18:24:08+00:00",
+        "created": "2013-04-10 15:22:02+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Business"
+        ],
+        "keywords_provided": [
+            "lot",
+            "manufacture",
+            "business",
+            "economic development",
+            "cartography",
+            "manufacturing",
+            "map",
+            "pluto",
+            "property",
+            "zone",
+            "zoning",
+            "2005",
+            "economic development corporation",
+            "edc",
+            "geographic",
+            "location"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Day Care Center",
+        "landing_page": "https://data.cityofnewyork.us/d/3nxf-gbay",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Day Care Center",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/3nxf-gbay?method=export&format=GeoJSON",
+        "page_views": 546,
+        "flags": [],
+        "last_updated": "2016-08-27 18:24:17+00:00",
+        "created": "2014-11-18 00:37:42+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "day care center",
+            "doittgis",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "NYC Wi-Fi Hotspot Locations\r\nWi-Fi Providers: \r\nCityBridge, LLC (Free Beta): LinkNYC 1 gigabyte (GB), Free Wi-Fi Internet Kiosks \r\nAT&T (Free): Wi-Fi access is free for all users at all times. \r\nPartners: In several parks, the NYC partner organizations provide publicly accessible Wi-Fi. Visit these parks to learn more information about their Wi-Fi service and how to connect. \r\nCable (Limited-Free): In NYC Parks provided by NYC DoITT Cable television franchisees. \r\nALTICEUSA previously known as \u201cCablevision\u201d and SPECTRUM previously known as \u201cTime Warner Cable\u201d (Limited Free) Connect for 3 free 10 minute sessions every 30 days or purchase a 99 cent day pass through midnight. Wi-Fi service is free at all times to Cablevision\u2019s Optimum Online and Time Warner Cable broadband subscribers. \r\nWi-Fi Provider: Chelsea Wi-Fi (Free) Wi-Fi access is free for all users at all times. \r\nChelsea Improvement Company has partnered with Google to provide Wi-Fi a free wireless Internet zone, a broadband region bounded by West 19th Street, Gansevoort Street, Eighth Avenue and the High Line Park. \r\nWi-Fi Provider: Downtown Brooklyn Wi-Fi (Free) \r\nThe Downtown Brooklyn Partnership - the New York City Economic Development Corporation to provide Wi-Fi to the area bordered by Schermerhorn Street, Cadman Plaza West, Flatbush Avenue, and Tillary Street, along with select public spaces in the NYCHA Ingersoll and Whitman Houses. \r\nWi-Fi Provider: Manhattan Downtown Alliance Wi-Fi (Free) \r\nLower Manhattan Several public spaces all along Water Street, Front Street and the East River Esplanade south of Fulton Street and in several other locations throughout Lower Manhattan. \r\nWi-Fi Provider: Harlem Wi-Fi (Free) \r\nNetwork will extend 95 city blocks, from 110th to 138th Streets between Frederick Douglass Boulevard and Madison Avenue is free outdoor public wireless network. \r\nWi-Fi Provider: Transit Wireless (Free) \r\nWi-Fi Services in the New York City subway system are available in certain underground stations. For more information visit http://www.transitwireless.com/stations/. \r\nWi-Fi Provider: Public Pay Telephone Franchisees (Free) \r\nUsing existing payphone infrastructure, the City of New York has teamed up with private partners to provide free Wi-Fi service at public payphone kiosks across the five boroughs at no cost to taxpayers. \r\nWi-Fi Provider: New York Public Library \r\nUsing Wireless Internet Access (Wi-Fi): All Library locations offer free wireless access (Wi-Fi) in public areas at all times the libraries are open. \r\nConnecting to the Library's Wireless Network \r\n\u2022You must have a computer or other device equipped with an 802.11b-compatible wireless card. \r\n\u2022Using your computer's network utilities, look for the wireless network named \"NYPL.\" \r\n\u2022The \"NYPL\" wireless network does not require a password to connect. \r\nLimitations and Disclaimers Regarding Wireless Access \r\n\u2022The Library's wireless network is not secure. Information sent from or to your laptop can be captured by anyone else with a wireless device and the appropriate software, within three hundred feet. \r\n\u2022Library staff is not able to provide technical assistance and no guarantee can be provided that you will be able to make a wireless connection. \r\n\u2022The Library assumes no responsibility for the safety of equipment or for laptop configurations, security, or data files resulting from connection to the Library's network.",
+        "landing_page": "https://data.cityofnewyork.us/d/a9we-mtpn",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "NYC Wi-Fi Hotspot Locations",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/a9we-mtpn?method=export&format=GeoJSON",
+        "page_views": 15499,
+        "flags": [],
+        "last_updated": "2017-05-11 19:20:15+00:00",
+        "created": "2014-09-12 19:01:12+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "mifi",
+            "www",
+            "wifi",
+            "nyc wi-fi hotspot locations",
+            "wi-fi",
+            "world wide web",
+            "nycopendata",
+            "connectivity",
+            "websites",
+            "mobile",
+            "doitt",
+            "internet",
+            "web",
+            "parks",
+            "optics"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This dataset shows hurricane evacuation centers. Persons requiring shelter during a hurricane are processed at a\r\nhurricane evacuation center and then transported to a hurricane shelter. In the event of a hurricane, the status of these hurricane evacuation centers should be confirmed at www.nyc.gov or by calling 311.",
+        "landing_page": "https://data.cityofnewyork.us/d/ayer-cga7",
+        "sources": [
+            "Office of Emergency Management (OEM)"
+        ],
+        "name": "Hurricane Evacuation Centers",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ayer-cga7?method=export&format=GeoJSON",
+        "page_views": 2636,
+        "flags": [],
+        "last_updated": "2016-08-27 18:26:16+00:00",
+        "created": "2013-05-21 18:44:39+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [
+            "hurricane evacuation centers",
+            "2013",
+            "oem",
+            "storm",
+            "emergency management"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Path Station Locations",
+        "landing_page": "https://data.cityofnewyork.us/d/acxp-7ep7",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Path Station Locations",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/acxp-7ep7?method=export&format=GeoJSON",
+        "page_views": 262,
+        "flags": [],
+        "last_updated": "2016-08-27 18:25:10+00:00",
+        "created": "2014-11-18 00:42:28+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "path station",
+            "doitt gis",
+            "doittgis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Boroughs (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/tv64-9x69",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Borough Boundaries (Water Areas Included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tv64-9x69?method=export&format=GeoJSON",
+        "page_views": 1245,
+        "flags": [],
+        "last_updated": "2017-03-09 15:53:37+00:00",
+        "created": "2013-01-29 23:15:20+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "borough",
+            "borough boundaries (water areas included)",
+            "dcp",
+            "geographic",
+            "location",
+            "map",
+            "cartography",
+            "boundary",
+            "water"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Transportation Structures. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/h9sf-7bej",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Transportation Structures",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h9sf-7bej?method=export&format=GeoJSON",
+        "page_views": 987,
+        "flags": [],
+        "last_updated": "2016-08-27 18:31:53+00:00",
+        "created": "2014-11-18 00:51:39+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "planimetrics",
+            "transportation structures",
+            "doittgis",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Boardwalks along beachfront. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/htur-iwux",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Boardwalk",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/htur-iwux?method=export&format=GeoJSON",
+        "page_views": 332,
+        "flags": [],
+        "last_updated": "2016-08-27 18:31:58+00:00",
+        "created": "2014-11-17 23:34:02+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "planimetrics",
+            "doitt gis",
+            "doitt boardwalk",
+            "doittgis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Shapefile of NYC Public Use Microdata Areas (PUMAs). PUMAs are statistical geographic areas defined for the dissemination of Public Use Microdata Sample (PUMS) data. PUMAs have a minimum population of 100,000, are aggregated from census tracts, and approximate Community Districts (CDs), or combinations of CDs (There are 59 CDs and only 55 NYC PUMAs because of such combinations). This geography is also used for disseminating American Community Survey (ACS) estimates.",
+        "landing_page": "https://data.cityofnewyork.us/d/cwiz-gcty",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Public Use Microdata Areas (PUMA)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/cwiz-gcty?method=export&format=GeoJSON",
+        "page_views": 990,
+        "flags": [],
+        "last_updated": "2017-03-08 22:24:16+00:00",
+        "created": "2015-07-14 17:23:58+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of City Council Districts (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/jgqm-ccbd",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "City Council Districts (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/jgqm-ccbd?method=export&format=GeoJSON",
+        "page_views": 387,
+        "flags": [],
+        "last_updated": "2017-03-09 17:01:55+00:00",
+        "created": "2013-04-18 18:26:44+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "gis",
+            "map",
+            "dcp",
+            "city council districts (water areas included)"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: neighborhood labels as depicted in New York City: A City of Neighborhoods",
+        "landing_page": "https://data.cityofnewyork.us/d/99bc-9p23",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Neighborhood Names GIS",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/99bc-9p23?method=export&format=GeoJSON",
+        "page_views": 7732,
+        "flags": [],
+        "last_updated": "2017-01-20 19:52:25+00:00",
+        "created": "2013-04-09 17:20:10+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "cartography",
+            "dcp",
+            "location",
+            "geographic",
+            "area of interest",
+            "gis",
+            "interest",
+            "scenic",
+            "historic",
+            "neighborhood",
+            "city planning",
+            "neighborhood names",
+            "map",
+            "areas of interest"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory Pools",
+        "landing_page": "https://data.cityofnewyork.us/d/3vjv-6tf5",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Pools",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/3vjv-6tf5?method=export&format=GeoJSON",
+        "page_views": 397,
+        "flags": [],
+        "last_updated": "2016-08-27 18:32:26+00:00",
+        "created": "2013-11-25 18:43:10+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "pools",
+            "dpr",
+            "parks"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of 2000 Census Blocks (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/6cne-um3h",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "2000 Census Blocks (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/6cne-um3h?method=export&format=GeoJSON",
+        "page_views": 189,
+        "flags": [],
+        "last_updated": "2017-03-09 15:48:39+00:00",
+        "created": "2013-01-28 20:37:42+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "block",
+            "boundary",
+            "water",
+            "2000 census blocks (water areas included)",
+            "census",
+            "geographic",
+            "location",
+            "map",
+            "cartography",
+            "poll",
+            "water area",
+            "dcp",
+            "survey"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "This is the 100-Year Floodplain for the 2020s based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (11 inches).  Please see the Disclaimer PDF for more information. Data Provided by the Mayor's Office of Long-Term Planning and Sustainability (OLTPS) on behalf of CUNY Institute for Sustainable Cities (CISC) and the New York Panel on Climate Change (NPCC).",
+        "landing_page": "https://data.cityofnewyork.us/d/ezfn-5dsb",
+        "sources": [
+            "Mayor's Office of Long Term Planning and Sustainability (OLTPS)"
+        ],
+        "name": "Sea Level Rise Maps (2020s 100-year Floodplain)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/ezfn-5dsb?method=export&format=GeoJSON",
+        "page_views": 3962,
+        "flags": [],
+        "last_updated": "2016-08-27 18:32:45+00:00",
+        "created": "2013-07-23 21:05:21+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [
+            "flood",
+            "ocean",
+            "oltps",
+            "sea",
+            "sea level rise maps (2020s 100-year floodplain)"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Election Districts (water areas included)",
+        "landing_page": "https://data.cityofnewyork.us/d/wue3-68ab",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Election Districts (water areas included)",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/wue3-68ab?method=export&format=GeoJSON",
+        "page_views": 239,
+        "flags": [],
+        "last_updated": "2017-03-09 17:10:50+00:00",
+        "created": "2013-04-18 18:14:39+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "election districts (water areas included)",
+            "dcp",
+            "politics",
+            "map",
+            "gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "After-School Programs",
+        "landing_page": "https://data.cityofnewyork.us/d/6ej9-7qyi",
+        "sources": [
+            "Department of Youth and Community Development (DYCD)"
+        ],
+        "name": "After-School Programs",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/6ej9-7qyi?method=export&format=GeoJSON",
+        "page_views": 5039,
+        "flags": [],
+        "last_updated": "2016-08-27 18:24:34+00:00",
+        "created": "2013-04-05 15:26:04+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Social Services"
+        ],
+        "keywords_provided": [
+            "geographic",
+            "education",
+            "map",
+            "school",
+            "services",
+            "after school",
+            "after-school",
+            "program",
+            "cartography",
+            "location",
+            "jobs and economic mobility"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of Community Districts",
+        "landing_page": "https://data.cityofnewyork.us/d/yfnk-k7r4",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Community Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/yfnk-k7r4?method=export&format=GeoJSON",
+        "page_views": 4499,
+        "flags": [],
+        "last_updated": "2017-03-09 15:54:50+00:00",
+        "created": "2013-01-29 23:18:58+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "community districts",
+            "boundaries",
+            "dcp",
+            "gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Boundaries of State Senate Districts",
+        "landing_page": "https://data.cityofnewyork.us/d/h4i2-acfi",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "State Senate Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h4i2-acfi?method=export&format=GeoJSON",
+        "page_views": 372,
+        "flags": [],
+        "last_updated": "2017-03-09 16:30:03+00:00",
+        "created": "2013-01-29 22:52:40+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "senate",
+            "state",
+            "cartography",
+            "district",
+            "map",
+            "location",
+            "voting",
+            "geographic",
+            "dcp",
+            "state senate districts",
+            "boundary"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Worst case storm surge inundation areas.  These are the SLOSH MOM zones.",
+        "landing_page": "https://data.cityofnewyork.us/d/h3ke-x25q",
+        "sources": [
+            "Office of Emergency Management (OEM)"
+        ],
+        "name": "Hurricane Inundation Zones - Worst Case",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/h3ke-x25q?method=export&format=GeoJSON",
+        "page_views": 697,
+        "flags": [],
+        "last_updated": "2016-08-27 18:32:51+00:00",
+        "created": "2014-05-29 22:32:59+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "keywords_provided": [
+            "hurricane inundation zones - worst case",
+            "surge",
+            "office of emergency management (oem)"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Planimetric basemap polygon layer containing sidewalk features. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+        "landing_page": "https://data.cityofnewyork.us/d/vfx9-tbb6",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "Sidewalk",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/vfx9-tbb6?method=export&format=GeoJSON",
+        "page_views": 2552,
+        "flags": [],
+        "last_updated": "2016-08-27 18:32:51+00:00",
+        "created": "2014-07-07 19:06:07+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "map",
+            "cartography",
+            "location",
+            "geographic",
+            "planimetrics",
+            "sidewalk",
+            "doitt gis"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Health Center Districts - by Department of City Planning",
+        "landing_page": "https://data.cityofnewyork.us/d/b55q-34ps",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Health Center Districts",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/b55q-34ps?method=export&format=GeoJSON",
+        "page_views": 530,
+        "flags": [],
+        "last_updated": "2017-03-09 17:01:04+00:00",
+        "created": "2014-06-20 15:35:54+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Health"
+        ],
+        "keywords_provided": [
+            "gis data: boundaries of health districts"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "GIS data: Areas of interest labels as depicted in New York : A City of Neighborhoods",
+        "landing_page": "https://data.cityofnewyork.us/d/mzbd-kucq",
+        "sources": [
+            "Department of City Planning (DCP)"
+        ],
+        "name": "Areas of Interest GIS",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/mzbd-kucq?method=export&format=GeoJSON",
+        "page_views": 4105,
+        "flags": [],
+        "last_updated": "2017-01-20 19:53:39+00:00",
+        "created": "2013-04-05 16:13:56+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Health"
+        ],
+        "keywords_provided": [
+            "areas of interest gis",
+            "dcp",
+            "geographic",
+            "location",
+            "areas of interest",
+            "area of interest",
+            "interest",
+            "scenic",
+            "historic",
+            "neighborhood",
+            "cartography",
+            "map"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Location of New York City Art Galleries",
+        "landing_page": "https://data.cityofnewyork.us/d/tgyc-r5jh",
+        "sources": [
+            "Department of Information Technology & Telecommunications (DoITT)"
+        ],
+        "name": "New York City Art Galleries",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/tgyc-r5jh?method=export&format=GeoJSON",
+        "page_views": 6518,
+        "flags": [],
+        "last_updated": "2016-08-27 18:19:52+00:00",
+        "created": "2014-06-17 16:50:41+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Recreation"
+        ],
+        "keywords_provided": [
+            "doitt gis",
+            "galleries",
+            "art",
+            "culture"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Directory of Skateparks",
+        "landing_page": "https://data.cityofnewyork.us/d/kjtf-e6kp",
+        "sources": [
+            "Department of Parks and Recreation (DPR)"
+        ],
+        "name": "Skateparks",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/kjtf-e6kp?method=export&format=GeoJSON",
+        "page_views": 611,
+        "flags": [],
+        "last_updated": "2016-08-27 18:24:43+00:00",
+        "created": "2013-11-25 18:46:01+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "City Government"
+        ],
+        "keywords_provided": [
+            "parks",
+            "dpr",
+            "skateparks"
+        ],
+        "protocol": "https"
+    },
+    {
+        "description": "Areas of New York City that were flooded as a result of Hurricane Sandy.",
+        "landing_page": "https://data.cityofnewyork.us/d/uyj8-7rv5",
+        "sources": [
+            "Department of Small Business Services (SBS)"
+        ],
+        "name": "Sandy Inundation Zone",
+        "resource": "https://data.cityofnewyork.us/api/geospatial/uyj8-7rv5?method=export&format=GeoJSON",
+        "page_views": 1117,
+        "flags": [],
+        "last_updated": "2016-08-27 18:37:41+00:00",
+        "created": "2015-11-09 23:21:21+00:00",
+        "column_names": [],
+        "topics_provided": [
+            "Environment"
+        ],
+        "keywords_provided": [],
+        "protocol": "https"
+    }
+]

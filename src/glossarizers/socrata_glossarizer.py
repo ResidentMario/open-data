@@ -135,7 +135,7 @@ def write_resource_representation(domain="data.cityofnewyork.us", out="nyc-table
     write_resource_file(roi_repr, out)
 
 
-def glossarize_table(resource, domain, driver=None):
+def glossarize_table(resource, domain, driver=None, timeout=60):
     from .pager import page_socrata_for_endpoint_size, DeletedEndpointException
 
     # If a PhantomJS driver has not been initialized (via import), initialize it now.
@@ -146,15 +146,15 @@ def glossarize_table(resource, domain, driver=None):
         from .pager import driver
 
     try:
-        rowcol = page_socrata_for_endpoint_size(domain, resource['landing_page'], timeout=10)
+        rowcol = page_socrata_for_endpoint_size(domain, resource['landing_page'], timeout=timeout)
     except DeletedEndpointException:
         print("WARNING: the '{0}' endpoint was deleted.".format(resource['landing_page']))
         resource['flags'].append('removed')
-        return None
+        return []
     except TimeoutException:
         print("WARNING: the '{0}' endpoint could not be processed.".format(resource['landing_page']))
         resource['flags'].append('removed')
-        return None
+        return []
 
     # Remove the "processed" flag from the resource going into the glossary, if one exists.
     glossarized_resource = resource.copy()
@@ -416,9 +416,11 @@ def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
     resource_list, glossary = load_glossary_todo(resource_filename, glossary_filename, use_cache)
 
     # Generate the glossary.
-    resource_list, glossary = get_glossary(resource_list, glossary, domain=domain, endpoint_type=endpoint_type,
-                                           timeout=timeout)
+    try:
+        resource_list, glossary = get_glossary(resource_list, glossary, domain=domain, endpoint_type=endpoint_type,
+                                               timeout=timeout)
 
     # Save output.
-    write_resource_file(resource_list, resource_filename)
-    write_glossary_file(glossary, glossary_filename)
+    finally:
+        write_resource_file(resource_list, resource_filename)
+        write_glossary_file(glossary, glossary_filename)
