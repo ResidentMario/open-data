@@ -6,13 +6,14 @@ from .generic import (preexisting_cache, load_glossary_todo,
                       write_resource_file, write_glossary_file)
 
 
-def write_resource_representation(domain="data.gov.sg", folder_slug="singapore", use_cache=True,
-                                  endpoint_type="resources"):
+def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True):
+    import pdb; pdb.set_trace()
+
     # If the file already exists and we specify `use_cache=True`, simply return.
-    if preexisting_cache(folder_slug, use_cache):
+    if preexisting_cache(out, use_cache):
         return
 
-    package_list_slug = "{0}/api/3/action/package_list".format(domain)
+    package_list_slug = "https://{0}/api/3/action/package_list".format(domain)
     package_list = requests.get(package_list_slug).json()
 
     if 'success' not in package_list or package_list['success'] != True:
@@ -111,17 +112,18 @@ def write_resource_representation(domain="data.gov.sg", folder_slug="singapore",
 
     finally:
         # Write to file and exit.
-        write_resource_file(folder_slug, endpoint_type, roi_repr)
+        write_resource_file(roi_repr, out)
 
 
-def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type="resources", use_cache=True,
-                   timeout=60):
+def write_glossary(domain="data.gov.sg", resource_filename=None, glossary_filename=None,
+                   use_cache=True, timeout=60):
     import src.glossarizers.limited_requests as limited_requests
 
     q = limited_requests.q()
 
-    resource_list, resource_filename, glossary, glossary_filename = load_glossary_todo(folder_slug, endpoint_type,
-                                                                                       use_cache)
+    resource_list, resource_filename, glossary, glossary_filename = load_glossary_todo(resource_filename,
+                                                                                       glossary_filename,
+                                                                                       use_cache=use_cache)
 
     # Whether we succeed or fail, we'll want to save the data we have at the end with a try-finally block.
     try:
@@ -141,7 +143,8 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
 
             # If we error out, this is a packaged/gzipped file. Do sizing the basic way, with a GET request.
             except KeyError:
-                repr = limited_requests.limited_get(resource['resource'], q)
+                # TODO: Replace limited_requests as a dependency.
+                repr = limited_requests.limited_get(resource['resource'], q, timeout=timeout)
                 try:
                     glossarized_resource['filesize'] = repr[0]['filesize']
                     glossarized_resource['dataset'] = repr[0]['dataset']
@@ -163,6 +166,6 @@ def write_glossary(domain="data.gov.sg", folder_slug="singapore", endpoint_type=
     # Whether we succeeded or got caught on a fatal error, in either case clean up.
     finally:
         # Save output.
-        write_resource_file(folder_slug, endpoint_type, resource_list)
-        write_glossary_file(folder_slug, endpoint_type, glossary)
+        write_resource_file(resource_list, resource_filename)
+        write_glossary_file(glossary, glossary_filename)
 
