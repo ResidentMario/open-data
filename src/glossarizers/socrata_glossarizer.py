@@ -116,14 +116,6 @@ def write_resource_representation(domain="data.cityofnewyork.us", out="nyc-table
     """
     Fetches a resource representation for a single resource type from a Socrata portal. Simple I/O wrapper around
     get_resource_representation, using some utilities from generic.py.
-
-    Parameters
-    ----------
-    TODO
-
-    Returns
-    -------
-    Nothing; writes to a file.
     """
     # If the file already exists and we specify `use_cache=True`, simply return.
     if preexisting_cache(out, use_cache):
@@ -136,6 +128,10 @@ def write_resource_representation(domain="data.cityofnewyork.us", out="nyc-table
 
 
 def glossarize_table(resource, domain, driver=None, timeout=60):
+    """
+    Given an individual resource (as would be loaded from the resource list) and a domain, and optionally a
+    PhantomJS driver (recommended), creates a glossary entry for that resource.
+    """
     from .pager import page_socrata_for_endpoint_size, DeletedEndpointException
 
     # If a PhantomJS driver has not been initialized (via import), initialize it now.
@@ -259,6 +255,9 @@ def get_sizings(uri, q, timeout=60):
 
 
 def glossarize_nontable(resource, timeout, q=None):
+    """
+    Same as `glossarize_table`, but for the non-table resource types.
+    """
     import limited_process
     # TODO: Remove limited_process non-dependency.
 
@@ -405,21 +404,19 @@ def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
     Parameters
     ----------
     domain: str, default "opendata.cityofnewyork.us"
-        The open data portal landing page URI. This is distinct from the subpage slug...
-    folder_slug: str, default "nyc"
-        The subfolder of the "data" directory into which the resource glossary will be placed.
+        The open data portal landing page URI.
     use_cache: bool, default True
         If a glossary already exists, whether to simply exit out or blow it away and create a new one (overwriting the
         old one).
     endpoint_type: str, default "table"
-        The resource type to build a glossary for.
+        The resource type to build a glossary for. Options are "table", "blob", "geospatial dataset", and "link".
     timeout: int, default 60
         The maximum amount of time to spend downloading data before killing the process. This is implemented so that
         occasional very large datasets do not crash the process.
-
-    Returns
-    -------
-    Nothing; writes to a file.
+    resource_filename: str
+        The name of the resource file to read the jobs from.
+    glossary_filename: str
+        The name of the glossary file to write the output to.
     """
 
     # Begin by loading in the data that we have.
