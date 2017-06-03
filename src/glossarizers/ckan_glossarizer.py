@@ -3,7 +3,7 @@ from tqdm import tqdm
 import requests
 import warnings
 from .generic import (preexisting_cache, load_glossary_todo,
-                      write_resource_file, write_glossary_file)
+                      write_resource_file, write_glossary_file, timeout_process)
 
 
 def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True):
@@ -117,13 +117,26 @@ def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True
 
 def write_glossary(domain="data.gov.sg", resource_filename=None, glossary_filename=None,
                    use_cache=True, timeout=60):
-    import src.glossarizers.limited_requests as limited_requests
+    # import limited_process
+    # q = limited_process.q()
 
-    q = limited_requests.q()
+    resource_list, glossary = load_glossary_todo(resource_filename, glossary_filename, use_cache=use_cache)
 
-    resource_list, resource_filename, glossary, glossary_filename = load_glossary_todo(resource_filename,
-                                                                                       glossary_filename,
-                                                                                       use_cache=use_cache)
+    @timeout_process(timeout)
+    def _size_up(uri):
+        import sys
+        import datafy
+
+        resource = datafy.get(uri)
+        thing_log = []
+        for thing in resource:
+            thing_log.append({
+                'filesize': sys.getsizeof(thing['data'].content) / 1024,
+                'dataset': thing['filepath'],
+                'mimetype': thing['mimetype'],
+                'extension': thing['extension']
+            })
+        return thing_log
 
     # Whether we succeed or fail, we'll want to save the data we have at the end with a try-finally block.
     try:
@@ -138,23 +151,22 @@ def write_glossary(domain="data.gov.sg", resource_filename=None, glossary_filena
 
             try:
                 glossarized_resource['filesize'] = headers['content-length']
-                glossarized_resource['id']['dataset'] = '.'
+                glossarized_resource['dataset'] = '.'
                 succeeded = True
 
             # If we error out, this is a packaged/gzipped file. Do sizing the basic way, with a GET request.
             except KeyError:
-                # TODO: Replace limited_requests as a dependency.
-                repr = limited_requests.limited_get(resource['resource'], q, timeout=timeout)
+                dataset_repr = _size_up(resource['resource'])
                 try:
-                    glossarized_resource['filesize'] = repr[0]['filesize']
-                    glossarized_resource['dataset'] = repr[0]['dataset']
+                    glossarized_resource['filesize'] = dataset_repr[0]['filesize']
+                    glossarized_resource['dataset'] = dataset_repr[0]['dataset']
                     succeeded = True
                 except TypeError:
                     # Transient failure.
                     succeeded = False
                     warnings.warn(
                         "Couldn't parse the URI {0} due to a transient network failure."\
-                            .format(resource['id']['resource'])
+                            .format(resource['resource'])
                     )
 
             # Update the resource list to make note of the fact that this job has been processed.
