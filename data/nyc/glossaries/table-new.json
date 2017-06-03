@@ -1,22 +1,15 @@
 [
     {
         "columns": 3,
-        "available_formats": [
-            "csv",
-            "json",
-            "rdf",
-            "rss",
-            "tsv",
-            "xml"
-        ],
+        "last_updated": "2017-05-31 21:08:56+00:00",
         "sources": [
             "Department of Information Technology & Telecommunications (DoITT)"
         ],
-        "preferred_format": "csv",
-        "protocol": "https",
-        "landing_page": "https://data.cityofnewyork.us/d/9cw8-7heb",
         "name": ".nyc Domain Registrations",
+        "description": "A list of all .nyc domains registered along with the registration date and registrant type. This list is updated daily.",
+        "preferred_format": "csv",
         "preferred_mimetype": "text/csv",
+        "protocol": "https",
         "keywords_provided": [
             "web",
             "internet",
@@ -28,25 +21,6 @@
             "site",
             "domain"
         ],
-        "column_names": [
-            "Domain Registration Date ",
-            "Domain Name ",
-            "Nexus Category"
-        ],
-        "flags": [],
-        "topics_provided": [
-            "Business"
-        ],
-        "resource": "https://data.cityofnewyork.us/api/views/9cw8-7heb/rows.csv?accessType=DOWNLOAD",
-        "last_updated": "2017-05-31 21:08:56+00:00",
-        "dataset": ".",
-        "description": "A list of all .nyc domains registered along with the registration date and registrant type. This list is updated daily.",
-        "rows": 73900,
-        "created": "2015-07-13 18:48:56+00:00",
-        "page_views": 1521
-    },
-    {
-        "columns": 5,
         "available_formats": [
             "csv",
             "json",
@@ -55,20 +29,48 @@
             "tsv",
             "xml"
         ],
+        "dataset": ".",
+        "column_names": [
+            "Domain Registration Date ",
+            "Domain Name ",
+            "Nexus Category"
+        ],
+        "resource": "https://data.cityofnewyork.us/api/views/9cw8-7heb/rows.csv?accessType=DOWNLOAD",
+        "flags": [],
+        "page_views": 1521,
+        "created": "2015-07-13 18:48:56+00:00",
+        "rows": 73900,
+        "landing_page": "https://data.cityofnewyork.us/d/9cw8-7heb",
+        "topics_provided": [
+            "Business"
+        ]
+    },
+    {
+        "columns": 5,
+        "last_updated": "2017-05-31 21:08:58+00:00",
         "sources": [
             "Department of Education (DOE)"
         ],
-        "preferred_format": "csv",
-        "protocol": "https",
-        "landing_page": "https://data.cityofnewyork.us/d/madj-gkhr",
         "name": "Attendance 4PM Report",
+        "description": "Statistical report that provides daily school wide attendance each day for all schools at 4:00pm. Attendance figures are \"accurate\" as of 4:00pm, but not final as schools continue to submit data after preliminary report is generated.",
+        "preferred_format": "csv",
         "preferred_mimetype": "text/csv",
+        "protocol": "https",
         "keywords_provided": [
             "attendance",
             "schools",
             "doe",
             "education"
         ],
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
         "column_names": [
             "%_OF_ATTD_TAKEN",
             "SCHOOL_YEAR",
@@ -76,20 +78,28 @@
             "SCHOOL_DBN",
             "REGISTER"
         ],
+        "resource": "https://data.cityofnewyork.us/api/views/madj-gkhr/rows.csv?accessType=DOWNLOAD",
         "flags": [],
+        "page_views": 452,
+        "created": "2015-12-31 18:03:16+00:00",
+        "rows": 501000,
+        "landing_page": "https://data.cityofnewyork.us/d/madj-gkhr",
         "topics_provided": [
             "Education"
-        ],
-        "resource": "https://data.cityofnewyork.us/api/views/madj-gkhr/rows.csv?accessType=DOWNLOAD",
-        "last_updated": "2017-05-31 21:08:58+00:00",
-        "dataset": ".",
-        "description": "Statistical report that provides daily school wide attendance each day for all schools at 4:00pm. Attendance figures are \"accurate\" as of 4:00pm, but not final as schools continue to submit data after preliminary report is generated.",
-        "rows": 501000,
-        "created": "2015-12-31 18:03:16+00:00",
-        "page_views": 452
+        ]
     },
     {
         "columns": 9,
+        "last_updated": "2017-05-31 20:29:49+00:00",
+        "sources": [
+            "Department of Citywide Administrative Services (DCAS)"
+        ],
+        "name": "City Store - The Official Store of the City of New York",
+        "description": "Information on City Store \u2013 the\r\nOfficial Story of the City of New York",
+        "preferred_format": "csv",
+        "preferred_mimetype": "text/csv",
+        "protocol": "https",
+        "keywords_provided": [],
         "available_formats": [
             "csv",
             "json",
@@ -98,15 +108,7 @@
             "tsv",
             "xml"
         ],
-        "sources": [
-            "Department of Citywide Administrative Services (DCAS)"
-        ],
-        "preferred_format": "csv",
-        "protocol": "https",
-        "landing_page": "https://data.cityofnewyork.us/d/mqdy-gu73",
-        "name": "City Store - The Official Store of the City of New York",
-        "preferred_mimetype": "text/csv",
-        "keywords_provided": [],
+        "dataset": ".",
         "column_names": [
             "Product Name",
             "CityStore Exclusive",
@@ -118,20 +120,33 @@
             "Unit Price",
             "Item Number"
         ],
+        "resource": "https://data.cityofnewyork.us/api/views/mqdy-gu73/rows.csv?accessType=DOWNLOAD",
         "flags": [],
+        "page_views": 563,
+        "created": "2015-05-07 14:03:53+00:00",
+        "rows": 1826,
+        "landing_page": "https://data.cityofnewyork.us/d/mqdy-gu73",
         "topics_provided": [
             "City Government"
-        ],
-        "resource": "https://data.cityofnewyork.us/api/views/mqdy-gu73/rows.csv?accessType=DOWNLOAD",
-        "last_updated": "2017-05-31 20:29:49+00:00",
-        "dataset": ".",
-        "description": "Information on City Store \u2013 the\r\nOfficial Story of the City of New York",
-        "rows": 1826,
-        "created": "2015-05-07 14:03:53+00:00",
-        "page_views": 563
+        ]
     },
     {
         "columns": 23,
+        "last_updated": "2017-05-31 20:29:15+00:00",
+        "sources": [
+            "Department of Citywide Administrative Services (DCAS)"
+        ],
+        "name": "Greenbook",
+        "description": "The Green Book Online is a fully searchable database which gives New Yorkers the opportunity to search for the agencies, offices, boards and commissions that keep our City running. It includes listings for New York City, County, Courts, and New York State government offices.",
+        "preferred_format": "csv",
+        "preferred_mimetype": "text/csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "greenbook",
+            "green",
+            "dcas",
+            "book"
+        ],
         "available_formats": [
             "csv",
             "json",
@@ -140,20 +155,7 @@
             "tsv",
             "xml"
         ],
-        "sources": [
-            "Department of Citywide Administrative Services (DCAS)"
-        ],
-        "preferred_format": "csv",
-        "protocol": "https",
-        "landing_page": "https://data.cityofnewyork.us/d/mdcw-n682",
-        "name": "Greenbook",
-        "preferred_mimetype": "text/csv",
-        "keywords_provided": [
-            "greenbook",
-            "green",
-            "dcas",
-            "book"
-        ],
+        "dataset": ".",
         "column_names": [
             "Phone 2",
             "Grand Parent Division",
@@ -179,34 +181,31 @@
             "First Name",
             "Fax 2"
         ],
+        "resource": "https://data.cityofnewyork.us/api/views/mdcw-n682/rows.csv?accessType=DOWNLOAD",
         "flags": [],
+        "page_views": 5255,
+        "created": "2015-04-27 21:26:31+00:00",
+        "rows": 4861,
+        "landing_page": "https://data.cityofnewyork.us/d/mdcw-n682",
         "topics_provided": [
             "City Government"
-        ],
-        "resource": "https://data.cityofnewyork.us/api/views/mdcw-n682/rows.csv?accessType=DOWNLOAD",
-        "last_updated": "2017-05-31 20:29:15+00:00",
-        "dataset": ".",
-        "description": "The Green Book Online is a fully searchable database which gives New Yorkers the opportunity to search for the agencies, offices, boards and commissions that keep our City running. It includes listings for New York City, County, Courts, and New York State government offices.",
-        "rows": 4861,
-        "created": "2015-04-27 21:26:31+00:00",
-        "page_views": 5255
+        ]
     },
     {
-        "columns": 8,
+        "last_updated": "2017-05-31 20:28:29+00:00",
+        "sources": [
+            "Department of Buildings (DOB)"
+        ],
+        "description": "An overview of sites across the five boroughs where construction activity has come to an abrupt halt. Prior weekly reports are archived at DOB and are not available on NYC Open Data.",
+        "preferred_format": "csv",
+        "preferred_mimetype": "text/csv",
+        "protocol": "https",
         "keywords_provided": [
             "dob",
             "buildings",
             "stalled construction sites"
         ],
-        "sources": [
-            "Department of Buildings (DOB)"
-        ],
-        "preferred_format": "csv",
-        "protocol": "https",
-        "dataset": ".",
-        "landing_page": "https://data.cityofnewyork.us/d/i296-73x5",
         "name": "DOB Stalled Construction Sites",
-        "preferred_mimetype": "text/csv",
         "available_formats": [
             "csv",
             "json",
@@ -215,13 +214,10 @@
             "tsv",
             "xml"
         ],
-        "flags": [],
+        "dataset": ".",
         "topics_provided": [
             "Housing & Development"
         ],
-        "resource": "https://data.cityofnewyork.us/api/views/i296-73x5/rows.csv?accessType=DOWNLOAD",
-        "last_updated": "2017-05-31 20:28:29+00:00",
-        "description": "An overview of sites across the five boroughs where construction activity has come to an abrupt halt. Prior weekly reports are archived at DOB and are not available on NYC Open Data.",
         "column_names": [
             "DOBRunDate",
             "Date Complaint Received",
@@ -232,26 +228,29 @@
             "Community Board",
             "Borough Name"
         ],
-        "rows": 708000,
+        "resource": "https://data.cityofnewyork.us/api/views/i296-73x5/rows.csv?accessType=DOWNLOAD",
+        "flags": [],
+        "page_views": 1976,
         "created": "2013-04-18 15:19:09+00:00",
-        "page_views": 1976
+        "rows": 708000,
+        "landing_page": "https://data.cityofnewyork.us/d/i296-73x5",
+        "columns": 8
     },
     {
-        "columns": 72,
+        "last_updated": "2017-05-31 20:24:41+00:00",
+        "sources": [
+            "Department of Buildings (DOB)"
+        ],
+        "description": "A list of sign applications filed for a particular day and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.",
+        "preferred_format": "csv",
+        "preferred_mimetype": "text/csv",
+        "protocol": "https",
         "keywords_provided": [
             "signs",
             "dob",
             "buildings"
         ],
-        "sources": [
-            "Department of Buildings (DOB)"
-        ],
-        "preferred_format": "csv",
-        "protocol": "https",
-        "dataset": ".",
-        "landing_page": "https://data.cityofnewyork.us/d/nyis-y4yr",
         "name": "DOB Sign Application Filings",
-        "preferred_mimetype": "text/csv",
         "available_formats": [
             "csv",
             "json",
@@ -260,13 +259,10 @@
             "tsv",
             "xml"
         ],
-        "flags": [],
+        "dataset": ".",
         "topics_provided": [
             "Housing & Development"
         ],
-        "resource": "https://data.cityofnewyork.us/api/views/nyis-y4yr/rows.csv?accessType=DOWNLOAD",
-        "last_updated": "2017-05-31 20:24:41+00:00",
-        "description": "A list of sign applications filed for a particular day and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.",
         "column_names": [
             "Sign Illumination Type",
             "DOBRunDate",
@@ -341,26 +337,29 @@
             "Owner's  Phone #",
             "Zoning Distr 1"
         ],
-        "rows": 13700,
+        "resource": "https://data.cityofnewyork.us/api/views/nyis-y4yr/rows.csv?accessType=DOWNLOAD",
+        "flags": [],
+        "page_views": 1328,
         "created": "2013-04-18 15:18:57+00:00",
-        "page_views": 1328
+        "rows": 13700,
+        "landing_page": "https://data.cityofnewyork.us/d/nyis-y4yr",
+        "columns": 72
     },
     {
-        "columns": 54,
+        "last_updated": "2017-05-31 20:40:32+00:00",
+        "sources": [
+            "Department of Buildings (DOB)"
+        ],
+        "description": "A list of permits issued for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+        "preferred_format": "csv",
+        "preferred_mimetype": "text/csv",
+        "protocol": "https",
         "keywords_provided": [
             "buildings",
             "dob",
             "permit"
         ],
-        "sources": [
-            "Department of Buildings (DOB)"
-        ],
-        "preferred_format": "csv",
-        "protocol": "https",
-        "dataset": ".",
-        "landing_page": "https://data.cityofnewyork.us/d/ipu4-2q9a",
         "name": "DOB Permit Issuance",
-        "preferred_mimetype": "text/csv",
         "available_formats": [
             "csv",
             "json",
@@ -369,13 +368,10 @@
             "tsv",
             "xml"
         ],
-        "flags": [],
+        "dataset": ".",
         "topics_provided": [
             "Housing & Development"
         ],
-        "resource": "https://data.cityofnewyork.us/api/views/ipu4-2q9a/rows.csv?accessType=DOWNLOAD",
-        "last_updated": "2017-05-31 20:40:32+00:00",
-        "description": "A list of permits issued for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
         "column_names": [
             "Site Safety Mgr's First Name",
             "HIC License",
@@ -432,26 +428,29 @@
             "Job Start Date",
             "Site Safety Mgr's Last Name"
         ],
-        "rows": 741000,
+        "resource": "https://data.cityofnewyork.us/api/views/ipu4-2q9a/rows.csv?accessType=DOWNLOAD",
+        "flags": [],
+        "page_views": 82666,
         "created": "2013-04-18 15:18:56+00:00",
-        "page_views": 82666
+        "rows": 741000,
+        "landing_page": "https://data.cityofnewyork.us/d/ipu4-2q9a",
+        "columns": 54
     },
     {
-        "columns": 15,
+        "last_updated": "2017-05-31 20:27:06+00:00",
+        "sources": [
+            "Department of Buildings (DOB)"
+        ],
+        "description": "A list of complaints received and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.",
+        "preferred_format": "csv",
+        "preferred_mimetype": "text/csv",
+        "protocol": "https",
         "keywords_provided": [
             "complaints",
             "buildings",
             "dob"
         ],
-        "sources": [
-            "Department of Buildings (DOB)"
-        ],
-        "preferred_format": "csv",
-        "protocol": "https",
-        "dataset": ".",
-        "landing_page": "https://data.cityofnewyork.us/d/eabe-havv",
         "name": "DOB Complaints Received",
-        "preferred_mimetype": "text/csv",
         "available_formats": [
             "csv",
             "json",
@@ -460,13 +459,10 @@
             "tsv",
             "xml"
         ],
-        "flags": [],
+        "dataset": ".",
         "topics_provided": [
             "Housing & Development"
         ],
-        "resource": "https://data.cityofnewyork.us/api/views/eabe-havv/rows.csv?accessType=DOWNLOAD",
-        "last_updated": "2017-05-31 20:27:06+00:00",
-        "description": "A list of complaints received and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.",
         "column_names": [
             "Status",
             "Complaint Number",
@@ -484,8 +480,765 @@
             "House Number",
             "Date Entered"
         ],
-        "rows": 1010000,
+        "resource": "https://data.cityofnewyork.us/api/views/eabe-havv/rows.csv?accessType=DOWNLOAD",
+        "flags": [],
+        "page_views": 10709,
         "created": "2013-04-18 15:19:10+00:00",
-        "page_views": 10709
+        "rows": 1010000,
+        "landing_page": "https://data.cityofnewyork.us/d/eabe-havv",
+        "columns": 15
+    },
+    {
+        "last_updated": "2017-05-31 20:22:44+00:00",
+        "sources": [
+            "Department of Buildings (DOB)"
+        ],
+        "description": "A list of cellular antenna filings and associated data. Prior weekly reports are archived at DOB and are not available on NYC Open Data.",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "buildings",
+            "cellular antenna",
+            "dob"
+        ],
+        "name": "DOB Cellular Antenna Filings",
+        "rows": 5406,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "Housing & Development"
+        ],
+        "columns": 55,
+        "created": "2013-04-18 15:19:14+00:00",
+        "flags": [],
+        "page_views": 892,
+        "resource": "https://data.cityofnewyork.us/api/views/iz2q-9x8d/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/iz2q-9x8d",
+        "column_names": [
+            "Approved",
+            "Initial Cost",
+            "Total Est. Fee",
+            "Fee Status",
+            "Existing Occupancy",
+            "Proposed Occupancy",
+            "Zoning Distr 1",
+            "Zoning Distr 2",
+            "Zoning Distr 3",
+            "Special Distr 1",
+            "Special Distr 2 ",
+            "Owner Type",
+            "Owner Type Description",
+            "Non-Profit",
+            "Owner's First Name",
+            "Owner's Last Name",
+            "Owner's Business Name",
+            "Owner's  House #",
+            "Owner's  House Street",
+            "City",
+            "State",
+            "Zip Code",
+            "Owner's  Phone #",
+            "First Permit  Date",
+            "Job Description",
+            "DOBRunDate",
+            "Job #",
+            "Doc #",
+            "Borough",
+            "House #",
+            "Street Name",
+            "Block",
+            "Lot",
+            "Bin #",
+            "Job Type",
+            "Job Status",
+            "Job Status Descrp",
+            "Latest Action Date",
+            "Building Type",
+            "Community - Board",
+            "Landmarked",
+            "Little e",
+            "PC Filed",
+            "Other",
+            "Other Description",
+            "Applicant's First Name",
+            "Applicant's Last Name",
+            "Applicant Professional Title",
+            "Applicant License #",
+            "Professional Cert",
+            "Pre- Filing Date",
+            "Paid",
+            "Fully Paid",
+            "Assigned",
+            "Fully Permitted"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 20:08:27+00:00",
+        "sources": [
+            "Taxi and Limousine Commission (TLC)"
+        ],
+        "description": "This is a list of NYC TLC authorized Street Hail Livery Permits. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields. For inquiries about the contents of this dataset, please email licensinginquiries@tlc.nyc.gov.  Reason Code: G \u2013 Good Standing, A \u2013 Problem with Permit, B \u2013 Problem with Base and C \u2013 Problem with Vehicle.",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "street hail livery",
+            "green taxi",
+            "shl",
+            "green cab"
+        ],
+        "name": "Street Hail Livery (SHL) Permits",
+        "rows": 8340,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "Transportation"
+        ],
+        "columns": 20,
+        "created": "2014-10-29 17:42:50+00:00",
+        "flags": [],
+        "page_views": 40788,
+        "resource": "https://data.cityofnewyork.us/api/views/yhuu-4pt3/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/yhuu-4pt3",
+        "column_names": [
+            "Last Time Updated",
+            "Suspension Date",
+            "Reason",
+            "Base Address",
+            "Base Website",
+            "Base Telephone Number",
+            "Base Name",
+            "Base Number",
+            "Vehicle Year",
+            "Hack Up Date",
+            "Certification Date",
+            "Vehicle License Number",
+            "Expiration Date",
+            "Name",
+            "Permit License Number",
+            "Active",
+            "Vehicle Type",
+            "Vehicle VIN Number",
+            "DMV License Plate Number",
+            "Last Date Updated"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 20:07:48+00:00",
+        "sources": [
+            "Office of Emergency Management (OEM)"
+        ],
+        "description": "Messages sent with information about emergency events and important City services",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "oem",
+            "emergency",
+            "notifications"
+        ],
+        "name": "OEM Emergency Notifications",
+        "rows": 8946,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "Public Safety"
+        ],
+        "columns": 5,
+        "created": "2014-10-29 18:20:32+00:00",
+        "flags": [],
+        "page_views": 1780,
+        "resource": "https://data.cityofnewyork.us/api/views/8vv7-7wx3/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/8vv7-7wx3",
+        "column_names": [
+            "Record ID",
+            "Email Body",
+            "Notification Title",
+            "NotificationType",
+            "Date and Time"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 20:07:19+00:00",
+        "sources": [
+            "Business Integrity Commission"
+        ],
+        "description": "\"The following companies have been issued Class 1 self-hauler registrations by the Business Integrity Commission. They are authorized to remove, collect or dispose of trade waste that is generated in the course of operation\r\nof such person's business. (Companies removing, collecting or disposing of construction and demolition debris must apply for Exemption from Licensing Requirements, otherwise known as Class 2 Construction and\r\nDemolition Registration).\"",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "cl1",
+            "class 1",
+            "self-hauler",
+            "nycbic",
+            "bic",
+            "landscaper",
+            "waste",
+            "registrant"
+        ],
+        "name": "Self Hauler Registrants",
+        "rows": 27000,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "City Government"
+        ],
+        "columns": 19,
+        "created": "2017-03-10 21:05:31+00:00",
+        "flags": [],
+        "page_views": 173,
+        "resource": "https://data.cityofnewyork.us/api/views/a8wp-rerh/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/a8wp-rerh",
+        "column_names": [
+            "TRADE NAME",
+            "NTA",
+            "BBL",
+            "BIN",
+            "CENSUS_TRACT",
+            "COUNCIL_DISTRICT",
+            "COMMUNITY_BOARD",
+            "LONGITUDE",
+            "LATITUDE",
+            "EXPORT DATE",
+            "APPLICATION TYPE",
+            "PHONE",
+            "POSTCODE",
+            "STATE",
+            "CITY",
+            "ADDRESS",
+            "CREATED",
+            "BIC NUMBER",
+            "ACCOUNT NAME"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 20:06:40+00:00",
+        "sources": [
+            "Business Integrity Commission"
+        ],
+        "description": "\"The following companies have been issued trade waste broker's registrations by the Business Integrity Commission. They are authorized to broker agreements between business customers and trade waste removal\r\ncompanies and/or to conduct evaluations of the customers' waste stream in order to recommend cost efficient means of waste disposal or other changes.\"",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "registrant",
+            "nycbic",
+            "bic",
+            "brokers",
+            "cl2-broker",
+            "trade waste broker",
+            "trade waste"
+        ],
+        "name": "Trade Waste Broker Registrants",
+        "rows": 2942,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "City Government"
+        ],
+        "columns": 19,
+        "created": "2017-03-28 18:10:06+00:00",
+        "flags": [],
+        "page_views": 171,
+        "resource": "https://data.cityofnewyork.us/api/views/krx7-u82t/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/krx7-u82t",
+        "column_names": [
+            "PHONE",
+            "CREATED",
+            "BIC_NUMBER",
+            "ACCOUNT NAME",
+            "TRADE NAME",
+            "ADDRESS",
+            "CITY",
+            "COUNCIL_DISTRICT",
+            "STATE",
+            "POSTCODE",
+            "APPLICATION TYPE",
+            "EXPORT DATE",
+            "LATITUDE",
+            "LONGITUDE",
+            "COMMUNITY_BOARD",
+            "NTA",
+            "BBL",
+            "BIN",
+            "CENSUS_TRACT"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 20:06:20+00:00",
+        "sources": [
+            "Business Integrity Commission"
+        ],
+        "description": "The following companies have been issued trade waste removal licenses by the Business Integrity Commission and, therefore, are authorized to collect and remove all types of trade waste covered by Local Law 42 of 1996.\r\n\r\n\"This data is collected on the entities that apply with the commission to operate as Licensees. \r\n\r\nEach record represents an entity that is approved to operate in the City of New York by the Commission. \r\n\r\nThe  Application Type field denotes the class of application 'License'  noting the type of applicant which is a Licensee. They are able to pickup all trade waste from various businesses throughout the city.\r\n\r\nThe BIC Number field is unique to every company that applies to the Commission. \"",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "garbage",
+            "trade waste",
+            "nycbic",
+            "bic",
+            "licensee",
+            "waste",
+            "license"
+        ],
+        "name": "Trade Waste Hauler Licensees",
+        "rows": 11800,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "City Government"
+        ],
+        "columns": 19,
+        "created": "2017-03-09 22:33:41+00:00",
+        "flags": [],
+        "page_views": 572,
+        "resource": "https://data.cityofnewyork.us/api/views/867j-5pgi/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/867j-5pgi",
+        "column_names": [
+            "EXPORT DATE",
+            "TRADE NAME",
+            "LONGITUDE",
+            "LATITUDE",
+            "COMMUNITY_BOARD",
+            "APPLICATION TYPE",
+            "PHONE",
+            "CREATED",
+            "BIN",
+            "BBL",
+            "POSTCODE",
+            "STATE",
+            "CITY",
+            "ADDRESS",
+            "COUNCIL_DISTRICT",
+            "CENSUS_TRACT",
+            "NTA",
+            "ACCOUNT NAME",
+            "BIC NUMBER"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 20:05:54+00:00",
+        "sources": [
+            "Business Integrity Commission (BIC)"
+        ],
+        "description": "Dataset notating the approved wholesale market companies in the various markets BIC regulates.\r\nThis data is collected on the entities that apply with the Commission to operate as wholesale market companies throughout the City of New York\r\n\r\nEach record represents an entity that is approved to operate in the City of New York by the Commission. \r\n\r\nThe BIC Number field is unique to every company that applies to the Commission. For wholesale market companies, the beginning letters indicate the market for which the company is located:\r\n\r\nHPA - Hunts Point Adjacent Area\r\nHPP - Hunts Point Product Market\r\nHPM - Hunts Point Meat Market\r\nFFM - Hunts Point Fulton Fish Market \r\nGMM - Gansevoort Meat Market",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "gansevoort",
+            "hunts point",
+            "fish",
+            "produce",
+            "business integrity commission",
+            "meat",
+            "brooklyn",
+            "bic",
+            "nycbic",
+            "wholesale markets"
+        ],
+        "name": "Wholesale Markets",
+        "rows": 10100,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "City Government"
+        ],
+        "columns": 20,
+        "created": "2017-03-10 21:14:47+00:00",
+        "flags": [],
+        "page_views": 118,
+        "resource": "https://data.cityofnewyork.us/api/views/87fx-28ei/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/87fx-28ei",
+        "column_names": [
+            "PHONE",
+            "LATITUDE",
+            "APPLICATION TYPE",
+            "CENSUS_TRACT",
+            "CITY",
+            "STATE",
+            "EXPORT DATE",
+            "BIN",
+            "BBL",
+            "POSTCODE",
+            "COUNCIL_DISTRICT",
+            "CREATED",
+            "ACCOUNT NAME",
+            "TRADE NAME",
+            "ADDRESS",
+            "COMMUNITY_BOARD",
+            "LONGITUDE",
+            "NTA",
+            "MARKET",
+            "BIC NUMBER"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 20:05:25+00:00",
+        "sources": [
+            "Taxi and Limousine Commission (TLC)"
+        ],
+        "description": "This list contains lost item contact information on  bases that are affiliated with TLC SHL/Boro and Yellow Medallion Taxicabs. For inquiries about the contents of this dataset, please email licensinginquiries@tlc.nyc.gov.",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "medallion",
+            "green cabs",
+            "green taxi",
+            "taxi",
+            "yellow cab",
+            "shl",
+            "boro taxi"
+        ],
+        "name": "Lost Property Contact Information",
+        "rows": 19900,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "Transportation"
+        ],
+        "columns": 11,
+        "created": "2014-01-09 20:43:07+00:00",
+        "flags": [],
+        "page_views": 3393,
+        "resource": "https://data.cityofnewyork.us/api/views/dg7a-jiz2/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/dg7a-jiz2",
+        "column_names": [
+            "Base License Number",
+            "Base Website",
+            "Last Updated Date",
+            "Last Updated Time",
+            "Name",
+            "License Number",
+            "Base Phone Number",
+            "Base Address",
+            "Type",
+            "DMV Plate Number",
+            "Base Name"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 20:00:49+00:00",
+        "sources": [
+            "Office of Citywide Event Coordination and Management (CECM)"
+        ],
+        "description": "This list contains information on approved event applications that will occur within the next month. Please note that Permitted Film Events only reflect those permits which will impact one or more streets for at least five days.",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "otm",
+            "park",
+            "activity",
+            "nyc permitted event information",
+            "festival",
+            "block party",
+            "event",
+            "to do",
+            "office of the mayor"
+        ],
+        "name": "NYC Permitted Event Information",
+        "rows": 5342,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "City Government"
+        ],
+        "columns": 12,
+        "created": "2013-11-06 18:26:59+00:00",
+        "flags": [],
+        "page_views": 4052,
+        "resource": "https://data.cityofnewyork.us/api/views/tvpp-9vvx/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/tvpp-9vvx",
+        "column_names": [
+            "Start Date/Time",
+            "Event Agency",
+            "Police Precinct",
+            "Community Board",
+            "Event Location",
+            "Street Closure Type",
+            "Event Street Side",
+            "Event Type",
+            "Event Borough",
+            "End Date/Time",
+            "Event ID",
+            "Event Name"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 19:47:56+00:00",
+        "sources": [
+            "Taxi and Limousine Commission (TLC)"
+        ],
+        "description": "NYC TLC Licensed FHV drivers that are currently active and in good standing. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields. For inquiries about the contents of this dataset, please email licensinginquiries@tlc.nyc.gov.",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "fhv",
+            "drivers",
+            "for-hire-vehicles",
+            "for-hire",
+            "for hire",
+            "active",
+            "taxi"
+        ],
+        "name": "For Hire Vehicles (FHV) - Active Drivers",
+        "rows": 159000,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "Transportation"
+        ],
+        "columns": 7,
+        "created": "2015-07-16 17:24:02+00:00",
+        "flags": [],
+        "page_views": 310809,
+        "resource": "https://data.cityofnewyork.us/api/views/xjfq-wh2d/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/xjfq-wh2d",
+        "column_names": [
+            "Type",
+            "Last Time Updated",
+            "Last Date Updated",
+            "Wheelchair Accessible Trained",
+            "Expiration Date",
+            "Name",
+            "License Number"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 19:55:01+00:00",
+        "sources": [
+            "Taxi and Limousine Commission (TLC)"
+        ],
+        "description": "TLC authorized For-Hire vehicles that are active or inactive. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields. For inquiries about the contents of this dataset, please email licensinginquiries@tlc.nyc.gov.",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "fhv",
+            "inactive",
+            "active",
+            "for-hire",
+            "taxi",
+            "drivers",
+            "for-hire-vehicles",
+            "for hire"
+        ],
+        "name": "For Hire Vehicles (FHV) - Active and Inactive Vehicles",
+        "rows": 94000,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "Transportation"
+        ],
+        "columns": 23,
+        "created": "2015-07-16 17:33:32+00:00",
+        "flags": [],
+        "page_views": 306991,
+        "resource": "https://data.cityofnewyork.us/api/views/8wbx-tsch/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/8wbx-tsch",
+        "column_names": [
+            "Expiration Date",
+            "Last Time Updated",
+            "Last Date Updated",
+            "Order Date",
+            "Reason",
+            "Base Address",
+            "Website",
+            "Base Telephone Number",
+            "VEH",
+            "Base Type",
+            "Base Name",
+            "Base Number",
+            "Vehicle Year",
+            "Hack Up Date",
+            "Certification Date",
+            "Wheelchair Accessible",
+            "Vehicle VIN Number",
+            "DMV License Plate Number",
+            "Active",
+            "Vehicle License Number",
+            "Name",
+            "License Type",
+            "Permit License Number"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 19:45:00+00:00",
+        "sources": [
+            "Taxi and Limousine Commission (TLC)"
+        ],
+        "description": "NYC TLC licensed drivers that are currently active, in good standing and authorized to operate Street Hail Livery (SHL) vehicles. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields. For inquiries about the contents of this dataset, please email licensinginquiries@tlc.nyc.gov.",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "drivers authorized",
+            "drivers active",
+            "shl",
+            "green cabs",
+            "boro taxi",
+            "green taxi",
+            "street hail livery"
+        ],
+        "name": "Street Hail Livery (SHL) Drivers - Active",
+        "rows": 161000,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "Transportation"
+        ],
+        "columns": 7,
+        "created": "2014-08-18 18:33:15+00:00",
+        "flags": [],
+        "page_views": 31363,
+        "resource": "https://data.cityofnewyork.us/api/views/5tub-eh45/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/5tub-eh45",
+        "column_names": [
+            "Name",
+            "License Number",
+            "Last Time Updated",
+            "Expiration Date",
+            "Status Description",
+            "Status Code",
+            "Last Date Updated"
+        ]
+    },
+    {
+        "last_updated": "2017-05-31 19:42:25+00:00",
+        "sources": [
+            "Taxi and Limousine Commission (TLC)"
+        ],
+        "description": "This list contains the most recently published active  medallion drivers list. This is a list of licensees who are currently authorized to operate NYC TLC licensed Taxicabs. The old data set is no longer being updated but can be accessed from the link given below to access data from 03/07/2013 through 01/04/2014 https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/n776-dsqy. A new Change Log containing changes in status from 10/28/2013 onwards can be found at https://data.cityofnewyork.us/Transportation/TLC-MEDALLION-ACTIVE-Historical-Data/sjfe-fppp. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields. For inquiries about the contents of this dataset, please email licensinginquiries@tlc.nyc.gov.",
+        "preferred_format": "csv",
+        "protocol": "https",
+        "keywords_provided": [
+            "taxi license",
+            "taxi",
+            "taxicab",
+            "tlc",
+            "limousine",
+            "taxi driver",
+            "medallion",
+            "driver"
+        ],
+        "name": "Medallion Drivers - Active",
+        "rows": 158000,
+        "available_formats": [
+            "csv",
+            "json",
+            "rdf",
+            "rss",
+            "tsv",
+            "xml"
+        ],
+        "dataset": ".",
+        "topics_provided": [
+            "Transportation"
+        ],
+        "columns": 6,
+        "created": "2013-12-26 19:23:30+00:00",
+        "flags": [],
+        "page_views": 167483,
+        "resource": "https://data.cityofnewyork.us/api/views/jb3k-j3gp/rows.csv?accessType=DOWNLOAD",
+        "preferred_mimetype": "text/csv",
+        "landing_page": "https://data.cityofnewyork.us/d/jb3k-j3gp",
+        "column_names": [
+            "Last Time Updated",
+            "Type",
+            "Name",
+            "License Number",
+            "Last Date Updated",
+            "Expiration Date"
+        ]
     }
 ]

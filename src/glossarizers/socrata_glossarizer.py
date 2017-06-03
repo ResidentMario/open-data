@@ -276,11 +276,21 @@ def glossarize_nontable(resource, timeout, q=None):
     except zipfile.BadZipfile:
         # cf. https://github.com/ResidentMario/datafy/issues/2
         print("WARNING: the '{0}' endpoint is either misformatted or contains multiple levels of "
-              "archiving which failed to process.".format(resource['id']['landing_page']))
+              "archiving which failed to process.".format(resource['landing_page']))
         resource['flags'].append('error')
-        return None
+        return []
+    # This error is raised when the process takes too long.
     except ChunkedEncodingError:
-        print("HELLO")
+        print("WARNING: the '{0}' endpoint took longer than the {1} second timeout to process.".format(
+            resource['landing_page'], timeout))
+        return []
+    except:
+        # External links may point anywhere, including HTML pages which don't exist or which raise errors when you
+        # try to visit them. During testing this occurred with e.g. https://data.cityofnewyork.us/d/sah3-jw2y. It's
+        # impossible to exclude everything; best we can do is raise a warning.
+        print("WARNING: an error was raised while processing the '{0}' endpoint.".format(resource['landing_page']))
+        resource['flags'].append('error')
+        return []
 
     # If successful, append the result to the glossary...
     if sizings:
@@ -405,7 +415,7 @@ def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
         The resource type to build a glossary for.
     timeout: int, default 60
         The maximum amount of time to spend downloading data before killing the process. This is implemented so that
-        occassional very large datasets do not crash the process.
+        occasional very large datasets do not crash the process.
 
     Returns
     -------
