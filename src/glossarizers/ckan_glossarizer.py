@@ -6,14 +6,14 @@ from .generic import (preexisting_cache, load_glossary_todo,
                       write_resource_file, write_glossary_file, timeout_process)
 
 
-def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True):
+def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True, protocol='https'):
     import pdb; pdb.set_trace()
 
     # If the file already exists and we specify `use_cache=True`, simply return.
     if preexisting_cache(out, use_cache):
         return
 
-    package_list_slug = "https://{0}/api/3/action/package_list".format(domain)
+    package_list_slug = "{0}://{1}/api/3/action/package_list".format(protocol, domain)
     package_list = requests.get(package_list_slug).json()
 
     if 'success' not in package_list or package_list['success'] != True:
@@ -25,10 +25,15 @@ def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True
 
     try:
         for resource in tqdm(resources):
-            metadata = requests.get("https://{0}/api/3/action/package_metadata_show?id={1}".format(domain,
-                                                                                                   resource)).json()
+            # package_metadata_show vs. package_show?
+            metadata = requests.get("{0}://{1}/api/3/action/package_show?id={2}".format(protocol,
+                                                                                        domain,
+                                                                                        resource)).json()
 
-            license = metadata['result']['license']
+            try:
+                license = metadata['result']['license']
+            except KeyError:
+                license = metadata['result']['license_title']
             publisher = metadata['result']['publisher']['name']
             keywords = metadata['result']['keywords']
             description = metadata['result']['description']
