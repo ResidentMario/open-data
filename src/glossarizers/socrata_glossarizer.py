@@ -130,7 +130,7 @@ def write_resource_representation(domain="data.cityofnewyork.us", out="nyc-table
 def glossarize_table(resource, domain, driver=None, timeout=60):
     """
     Given an individual resource (as would be loaded from the resource list) and a domain, and optionally a
-    PhantomJS driver (recommended), creates a glossary entry for that resource.
+    PhantomJS driver (recommended), creates a glossaries entry for that resource.
     """
     from .pager import page_socrata_for_endpoint_size, DeletedEndpointException
 
@@ -152,7 +152,7 @@ def glossarize_table(resource, domain, driver=None, timeout=60):
         resource['flags'].append('removed')
         return []
 
-    # Remove the "processed" flag from the resource going into the glossary, if one exists.
+    # Remove the "processed" flag from the resource going into the glossaries, if one exists.
     glossarized_resource = resource.copy()
     glossarized_resource['flags'] = [flag for flag in glossarized_resource['flags'] if flag != 'processed']
 
@@ -240,7 +240,7 @@ def glossarize_nontable(resource, timeout, q=None):
         resource['flags'].append('error')
         return []
 
-    # If successful, append the result to the glossary...
+    # If successful, append the result to the glossaries...
     if sizings:
         glossarized_resource = []
 
@@ -261,7 +261,7 @@ def glossarize_nontable(resource, timeout, q=None):
             # However, realistically there would need to be some kind of secondary list mechanism that's
             # maintained by hand for excluding specific pages. That, however, is a TODO.
             if sizing['extension'] != "htm" and sizing['extension'] != "html":
-                # Remove the "processed" flag from the resource going into the glossary, if one exists.
+                # Remove the "processed" flag from the resource going into the glossaries, if one exists.
                 glossarized_resource_element = resource.copy()
                 glossarized_resource_element['flags'] = [flag for flag in glossarized_resource_element['flags'] if
                                                          flag != 'processed']
@@ -284,7 +284,7 @@ def glossarize_nontable(resource, timeout, q=None):
 
         return glossarized_resource
 
-    # If unsuccessful, append a signal result to the glossary.
+    # If unsuccessful, append a signal result to the glossaries.
     else:
         glossarized_resource = resource.copy()
 
@@ -355,23 +355,23 @@ def write_glossary(domain='opendata.cityofnewyork.us', use_cache=True,
     domain: str, default "opendata.cityofnewyork.us"
         The open data portal landing page URI.
     use_cache: bool, default True
-        If a glossary already exists, whether to simply exit out or blow it away and create a new one (overwriting the
+        If a glossaries already exists, whether to simply exit out or blow it away and create a new one (overwriting the
         old one).
     endpoint_type: str, default "table"
-        The resource type to build a glossary for. Options are "table", "blob", "geospatial dataset", and "link".
+        The resource type to build a glossaries for. Options are "table", "blob", "geospatial dataset", and "link".
     timeout: int, default 60
         The maximum amount of time to spend downloading data before killing the process. This is implemented so that
         occasional very large datasets do not crash the process.
     resource_filename: str
         The name of the resource file to read the jobs from.
     glossary_filename: str
-        The name of the glossary file to write the output to.
+        The name of the glossaries file to write the output to.
     """
 
     # Begin by loading in the data that we have.
     resource_list, glossary = load_glossary_todo(resource_filename, glossary_filename, use_cache)
 
-    # Generate the glossary.
+    # Generate the glossaries.
     try:
         resource_list, glossary = get_glossary(resource_list, glossary, domain=domain, endpoint_type=endpoint_type,
                                                timeout=timeout)

@@ -7,8 +7,6 @@ from .generic import (preexisting_cache, load_glossary_todo,
 
 
 def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True, protocol='https'):
-    import pdb; pdb.set_trace()
-
     # If the file already exists and we specify `use_cache=True`, simply return.
     if preexisting_cache(out, use_cache):
         return
@@ -25,33 +23,67 @@ def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True
 
     try:
         for resource in tqdm(resources):
+            # import pdb; pdb.set_trace()
             # package_metadata_show vs. package_show?
             metadata = requests.get("{0}://{1}/api/3/action/package_show?id={2}".format(protocol,
                                                                                         domain,
                                                                                         resource)).json()
 
-            try:
+            # Individual fields vary between providers.
+            if domain == "data.gov.sg":
                 license = metadata['result']['license']
-            except KeyError:
+                publisher = metadata['result']['publisher']['name']
+                keywords = metadata['result']['keywords']
+                description = metadata['result']['description']
+                topics = metadata['result']['topics']
+                name = metadata['result']['title']
+                sources = metadata['result']['sources']
+                update_frequency = metadata['result']['frequency']
+
+                created = None
+                last_updated = str(pd.Timestamp(metadata['result']['last_updated']))
+
+            elif domain == "catalog.data.ug":
+                # Note: Organization sometimes left blank.
+
                 license = metadata['result']['license_title']
-            publisher = metadata['result']['publisher']['name']
-            keywords = metadata['result']['keywords']
-            description = metadata['result']['description']
-            topics = metadata['result']['topics']
-            name = metadata['result']['title']
-            sources = metadata['result']['sources']
-            update_frequency = metadata['result']['frequency']
+                publisher = metadata['result']['organization']['title'] if metadata['result']['organization'] else None
+                keywords = []
+                description = metadata['result']['notes']
+                topics = [tag['name'] for tag in metadata['result']['tags']]
+                name = metadata['result']['title']
+                sources = metadata['result']['organization']['title'] if metadata['result']['organization'] else None
+                update_frequency = None
 
-            last_updated = str(pd.Timestamp(metadata['result']['last_updated']))
+                created = str(pd.Timestamp(metadata['result']['metadata_created']))
+                last_updated = str(pd.Timestamp(metadata['result']['metadata_modified']))
 
-            canonical = metadata['result']['resources'][0]
+            try:
+                # It is possible to have a dataset with no data in it.
+                # Example: http://catalog.data.ug/dataset/nema
+                # This is distinct from what would transpire on e.g. Socrata, where you could have a 0-entity
+                # dataset, but it's still a dataset.
+                # No-data nodes can safely be skipped.
+                canonical = metadata['result']['resources'][0]
+            except:
+                continue
+
             preferred_format = canonical['format'].lower()
             slug = canonical['url']
 
-            # Slug: "https://storage.data.gov.sg/3g-public-cellular-mobile-telephone-services/[...]"
-            # We need: "3g-public-cellular-mobile-telephone-services"
-            # Because landing page is: "https://data.gov.sg/dataset/3g-public-cellular-mobile-telephone-services"
-            landing_page = "{0}/dataset/{1}".format(domain, slug.split("/")[3])
+            if domain == "data.gov.sg":
+                # Slug: "https://storage.data.gov.sg/3g-public-cellular-mobile-telephone-services/[...]"
+                # We need: "3g-public-cellular-mobile-telephone-services"
+                # Because landing page is: "https://data.gov.sg/dataset/3g-public-cellular-mobile-telephone-services"
+                landing_page = "{0}/dataset/{1}".format(domain, slug.split("/")[3])
+            elif domain == "catalog.data.ug":
+                # We need the id: "f72b9932-52a1-4014-987e-047a370c3d96".
+                # Because landing page is: "http://catalog.data.ug/dataset/f72b9932-52a1-4014-987e-047a370c3d96"
+                # The "human-readable" landing page is "http://catalog.data.ug/dataset/2014-census"
+                # But there's no way to back that URL out of the metadata, surprisingly, because the "URL" parameter
+                # is often left empty.
+                # landing_page = "{0}/dataset/{1}".format(domain, metadata['result']['url'].lower().replace(" ", "-"))
+                landing_page = "{0}/dataset/{1}".format(domain, metadata['result']['id'])
 
             # CKAN treats resources as resources. A single endpoint may host a few different datasets, differentiated
             # in the interface by a tab menu, or it may host the same dataset in multiple formats (in which case you
@@ -76,14 +108,21 @@ def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True
 
             if multiple_datasets:
                 for dataset in metadata['result']['resources']:
+                    # Composite names, but the key name depends on the domain.
+                    if domain == "data.gov.sg":
+                        name = "{0} - {1}".format(name, dataset['title'])
+                    elif domain == "catalog.data.ug":
+                        name = "{0} - {1}".format(name, dataset['name'])
+
                     roi_repr.append({
                         'landing_page': landing_page,
                         'resource': dataset['url'],
-                        'protocol': 'https',
-                        'name': "{0} - {1}".format(name, dataset['title']),  # composite name.
+                        'protocol': protocol,
+                        'name': name,
                         'description': description,
                         'publisher': publisher,
                         'sources': sources,
+                        'created': created,
                         'last_updated': last_updated,
                         'update_frequency': update_frequency,
                         'tags_provided': keywords,
@@ -100,11 +139,12 @@ def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True
                 roi_repr.append({
                     'landing_page': landing_page,
                     'resource': slug,
-                    'protocol': 'https',
+                    'protocol': protocol,
                     'name': name,
                     'description': description,
                     'publisher': publisher,
                     'sources': sources,
+                    'created': created,
                     'last_updated': last_updated,
                     'update_frequency': update_frequency,
                     'tags_provided': keywords,
@@ -114,7 +154,6 @@ def write_resource_representation(domain="data.gov.sg", out=None, use_cache=True
                     'license': license,
                     'flags': []
                 })
-
     finally:
         # Write to file and exit.
         write_resource_file(roi_repr, out)
@@ -131,6 +170,11 @@ def write_glossary(domain="data.gov.sg", resource_filename=None, glossary_filena
     def _size_up(uri):
         import sys
         import datafy
+
+        # Couldn't determine meaning of the application/CDFV2-unknown content-type associated with the URI
+        # http://maps.data.ug/geoserver/wfs?typename=geonode%3Aaveragepovertygap&outputFormat=excel&version=1.0.0&request=GetFeature&service=WFS
+        # To whit: this is an issue with XLS/Word XML format documents that occassionally crops up in file format
+        # detectors, cf. https://www.google.com/search?q=CDFV2-unknown&oq=CDFV2-unknown&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8
 
         resource = datafy.get(uri)
         thing_log = []
@@ -152,7 +196,13 @@ def write_glossary(domain="data.gov.sg", resource_filename=None, glossary_filena
             # Get the sizing information.
             # If the resource is its own dataset, this is provided in the content header. Sometimes it is not.
             headers = requests.head(resource['resource']).headers
-            glossarized_resource['preferred_mimetype'] = headers['content-type']
+
+            try:
+                glossarized_resource['preferred_mimetype'] = headers['content-type']
+            except KeyError:
+                import pdb; pdb.set_trace()
+                # HTTP error that occurs when.
+                continue
 
             try:
                 glossarized_resource['filesize'] = headers['content-length']

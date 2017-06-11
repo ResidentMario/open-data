@@ -60,7 +60,7 @@ table_glossary_keys = {'available_formats', 'resource', 'page_views', 'sources',
 class TestGlossarizeTable(unittest.TestCase):
     def test_glossarize_table(self):
         """
-        Test that the resource-to-glossary method works in isolation and that the glossary schema is what we
+        Test that the resource-to-glossaries method works in isolation and that the glossaries schema is what we
         expected it to be.
         """
         with open("data/example_metadata-f4rp-2kvy.json", "r") as fp:
@@ -103,7 +103,7 @@ nontable_glossary_keys = {'resource', 'column_names', 'created', 'page_views', '
 
 class TestGlossarizeNonTable(unittest.TestCase):
     """
-    Test that the resource-to-glossary method works in isolation and that the glossary schema is what we
+    Test that the resource-to-glossaries method works in isolation and that the glossaries schema is what we
     expected it to be.
     """
 

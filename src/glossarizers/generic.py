@@ -37,7 +37,7 @@ def load_glossary_todo(resource_filename, glossary_filename, use_cache=True):
     else:
         resource_list = [r for r in resource_list if "ignore" not in r['flags']]
 
-    # Check whether or not the glossary file exists.
+    # Check whether or not the glossaries file exists.
     preexisting = os.path.isfile(glossary_filename)
 
     # If it does, load it. Otherwise, load an empty list.
@@ -81,7 +81,8 @@ def timeout_process(seconds=10, error_message=os.strerror(errno.ETIME)):
     """
     import signal
     from functools import wraps
-    # TODO: Study this problem and find some way to improve on this. Maybe a new module idea?
+    # TODO: Use https://github.com/pnpnpn/timeout-decorator/blob/master/timeout_decorator/timeout_decorator.py instead.
+
     def decorator(func):
         def _handle_timeout(signum, frame):
             raise TimeoutError(error_message)
